@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-11-06T20:49:56.569461+00:00",
+  "target_host": "liekkas",
+  "target_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "input_hashes": {
+    "protocol/approved_plan.md": "3549187964b3d8bfe156664a47c323ff7924c3f3b4d96f3caa57eaa40740497c",
+    "protocol/EXECUTION_AMENDMENT.md": "1e8b376fbfb7e15da2b553073d09ce7f3e1a901a3937b850d5d6e4dc6184cc10",
+    "protocol/analysis_plan.json": "fcc53481a5e033b4ace7c02b27ad6db91305a490fbae3cff73b0add3ee76d914",
+    "protocol/backend.json": "3d685d8bca690473500d6985d45193935988c5760324ec42ed0b8076073c29ac",
+    "protocol/frozen.json": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+    "protocol/prompts.json": "8a175f0e50bc2454485755f3b46253988ffd99485c1cf3982fe53aebb3baaf01",
+    "protocol/output_schema.json": "1a2b74b964b6dfdb059d54a4383f4e75d4f076f4c767840f13acd734f7a75f9b",
+    "protocol/runtime_identity.json": "1c5d162beb3abe2fcf160a0ddbe38ae1a2e7a0d0d464de60ab05eadecf1fdc71",
+    "prompts/dev_items.json": "3a72be003659919adf426cd2a446650cef3071d9b97908cd8843ba0b14da75be",
+    "keys/dev_keys.json": "66229f9ffc772ecef6aa9dc6fbcad32bed43013ed3798b151fa40935708c3099",
+    "cases/factual_truth_tables.json": "97f72da7e4021cf2991e0711136dc0650f3005c6e875216623224d66db423922",
+    "harness/runner.py": "bf818b09bcb17f3b02983a7f71c4b4680ef6eef083392fca60132fac7e2be94a",
+    "harness/evaluate.py": "2290303e3e05ff1ba147f9872bae67eb2d87645f56e556de50c449beb73adc69",
+    "runs/dev/plan.csv": "28618c71eff9dc09d329d26448872d8241e97c278e9acec5c3148e5639fe44a2",
+    "runs/dev/manifest_identity.json": "1fe6a35cfc6fe20909eea05bd6391f0a5c4b5f1bac2a280794ae0156f27cf4a6"
+  },
+  "output_hashes": {
+    "audits/independent_final_audit.py": "4a2c3e6e5468f57b50e97ff91c56ae32c1c4c8e8ba752a969ac77980dea12b83",
+    "audits/AUDIT_PREPARATION.md": "68d10e17abc3da991d653177459c9c4a131870e4c35e79aa522de7d71f330e88"
+  },
+  "checks": {
+    "prepare_check": "PREPARATION_ONLY; frozen source hashes and 80 independent public rule oracles verified",
+    "offline_probes": "syntax, usage unknowns, JSON schema boundary, one real raw provenance attempt, in-memory denominator/NA and family interaction mechanics; no synthetic result files written",
+    "final_guard_probe": "Rejected before scoring: 709 of 800 terminal records absent at the single probe; four original analysis artifacts absent. No final report written.",
+    "archive_mode_probe": "Explicit archive mode on the original evidence path verified prepared inputs with CLI checks disabled; no file copy substituted, no model call, no final result.",
+    "final_syntax_raw_probe": "Final source syntax, default original-target freeze check, huge invalid JSON confidence handling, and one real raw attempt rechecked after service-event classifier addition. First direct function probe used a relative attempt path and correctly failed relative_to; probe rerun with canonical absolute path succeeded. The production audit already supplies absolute paths."
+  },
+  "model_calls": 0,
+  "frozen_or_raw_mutations": false,
+  "waiting_or_polling_for_completion": false
+}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2a3-68f8-7bb2-9392-04692b142e70"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"C7唯一中断为08:10至11:00，共2小时50分，未达三小时应急门槛。核对工单源于重复行校验，同标题同期限不构成应急触发依据。恢复时间已明确，应保持在线、完成去重修正并保留合法申请。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18755,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":323,"reasoning_output_tokens":202}}

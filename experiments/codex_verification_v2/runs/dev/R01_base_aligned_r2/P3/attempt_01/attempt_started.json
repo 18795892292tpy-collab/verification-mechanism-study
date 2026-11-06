@@ -1,0 +1,14 @@
+{
+  "group_id": "R01_base_aligned_r2",
+  "item_id": "R01_base_aligned",
+  "procedure": "P3",
+  "repeat": 2,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": "c84b7774290701a1b706f89a2749a07903f198aadfa890d0fc592b0a52fef30c",
+  "attempt": 1,
+  "started_utc": "2026-11-06T22:05:38.805221+00:00",
+  "prompt_sha256": "ae0aa3d2583e898d6f02442fe6f1eb9d2d57df9c9c5cf50f3718cf847107cb72",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

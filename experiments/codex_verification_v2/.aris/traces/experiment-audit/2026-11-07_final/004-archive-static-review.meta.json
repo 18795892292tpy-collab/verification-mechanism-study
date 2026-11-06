@@ -1,0 +1,14 @@
+{
+  "call_number": 4,
+  "purpose": "archive-patch-static-review",
+  "timestamp": "2026-11-06T22:42:22.174407+00:00",
+  "agent_id": "/root/v2_final_audit/archive_patch_review",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "completed",
+  "deterministic_integrity": "PASS",
+  "overall_verdict": "WARN",
+  "model": "exact identity not independently exposed",
+  "original_sealed_review_preserved": true,
+  "scope": "Static review only; no independent full execution"
+}

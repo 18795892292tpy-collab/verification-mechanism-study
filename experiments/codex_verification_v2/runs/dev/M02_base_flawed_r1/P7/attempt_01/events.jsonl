@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2e1-58be-7a21-a002-931bf5d00d75"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"B\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"保留B。本案适用周末外部活动规则；W6覆盖签署日及活动日，档案无替代版本，授权仅限L1、L2。委员会决议仍要求逐单签署，不能与周主任意见合并扩权。场地独立可分割、安全核验通过，申请接受缩减，满足逐处放行条件。附件及必要字段齐全，不触发补件暂停，应剔除L3。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19243,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":540,"reasoning_output_tokens":384}}

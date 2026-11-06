@@ -1,0 +1,14 @@
+{
+  "group_id": "M02_missing_aligned_r1",
+  "item_id": "M02_missing_aligned",
+  "procedure": "P8",
+  "repeat": 1,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": "f401ad82dc47f9b8befc8c05b1aa96434b02c415c134da6758763c95cdcd25ea",
+  "attempt": 1,
+  "started_utc": "2026-11-06T21:22:34.000937+00:00",
+  "prompt_sha256": "64199e5203d06e9b86cf54d1c56bba2674cc7da8f40dd28b1572e0daf68fdbd9",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

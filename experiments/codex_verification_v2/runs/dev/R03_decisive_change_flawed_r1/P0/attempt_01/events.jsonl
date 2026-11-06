@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2a3-6b22-7cc3-9ee1-8cc342e877a8"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S6\",\"S8\"],\"brief_justification\":\"有权审批员已将唯一关联事件I63签署为N1，标题中的“紧急”不产生E3效力。预约仅提前四小时，不满足普通维修二十四小时要求；身份和陪同齐备不能豁免时限。分类证据完整，无须暂停补件，应拒绝原时点入校并另约符合时限的时间。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18888,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":240,"reasoning_output_tokens":107}}

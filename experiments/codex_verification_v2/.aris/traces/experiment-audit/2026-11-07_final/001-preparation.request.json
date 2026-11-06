@@ -1,0 +1,29 @@
+{
+  "call_number": 1,
+  "purpose": "independent-final-audit-preparation",
+  "timestamp": "2026-11-06T20:49:56.569461+00:00",
+  "tool": "spawn_agent",
+  "model": "inherited; exact not exposed",
+  "files_referenced": [
+    "protocol/approved_plan.md",
+    "protocol/EXECUTION_AMENDMENT.md",
+    "protocol/analysis_plan.json",
+    "protocol/backend.json",
+    "protocol/frozen.json",
+    "protocol/prompts.json",
+    "protocol/output_schema.json",
+    "protocol/runtime_identity.json",
+    "prompts/dev_items.json",
+    "keys/dev_keys.json",
+    "cases/factual_truth_tables.json",
+    "harness/runner.py",
+    "harness/evaluate.py",
+    "runs/dev/plan.csv",
+    "runs/dev/manifest_identity.json"
+  ],
+  "prompt": "作为独立实验审计员，读取一手文件准备最终完整性复算，不接受执行者结果摘要。本机liekkas，唯一目标V2=/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2。应用 /home/grf/.codex/skills/experiment-audit/SKILL.md 和 reviewer-independence 协议，same-family provisional。正式批次正在运行，目前不能出最终PASS/实验结论。\n直接审查V2/protocol/（冻结计划、分析方案、backend、frozen）、prompts/dev_items.json、keys/dev_keys.json、cases/factual_truth_tables.json、harness/runner.py/evaluate.py、runs/dev/，以及后续analysis/dev/summary.json、scored_runs.csv、family_results.csv、integrity_audit.json。先编写独立审计脚本 audits/independent_final_audit.py，逻辑不要import/reuse evaluate.summarize或scorer作为审查依据；可直接实现规则oracle和逐条raw重建评分/usage/家族对比。核对800计划/160P0共享/800终态/尝试与session唯一/无工具污染/逐次源hash与final/未知usage不伪零/无错误重抽/全目录无额外未计记录/评分分母与I78 I73及NA、保留失败真实日志。按协议依据明确虚构规则独立复核键，不能用模型答案生成GT。最终报告应对未独立专家验证、n=4/type、simulation_only作明确范围限定。\n现在只准备脚本和audits/AUDIT_PREPARATION.md，源码可做临时offline探针但不写假结果。不可修改冻结文件、已运行records、协议、其他作者scripts；不触发任何模型。不要轮询长等800完成，准备完结束，我会用同一reviewer followup最终真实审计。完整trace写V2/.aris/traces/experiment-audit/2026-11-07_final/。可参考V1 independent_audit.py结构，但必须按V2真实结构独立检查，不继承v1结果。",
+  "followup_messages": [
+    "补充出版可复核性要求：冻结runner/evaluate会严格核对原主机/绝对路径/CLI二进制，GitHub下载归档不能冒充原运行环境。你的独立只读审计脚本应能在明确指定的archive root复算原始记录和冻结内容哈希，不要求安装同一CLI，更不调用模型；若支持--root，明确报告被审路径，区分‘核验归档证据’与‘恢复真实实验运行’，不能把副本当用户原目标的运行成功。默认仍审V2原路径，原始冻结记录里的runtime identity只作为历史证据验证未变。请在AUDIT_PREPARATION说明便携只读复算方式。",
+    "运行持续进行中，暂不用追踪结果或对未完成矩阵给结论。请准备完独立审计脚本后结束并列CLI用法/输出要求，之后root在800任务结束时followup你实际运行与最终人工复核。已知frozen runner strict身份用于原环境resume，发布archive的只读审计可--root显式接受归档路径。"
+  ]
+}

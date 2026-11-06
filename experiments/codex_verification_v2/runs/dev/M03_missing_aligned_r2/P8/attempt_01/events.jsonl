@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2f3-cea6-7a72-9e97-ac0cf135adba"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"本轮规程适用于T9，档案未载替代版本；预算与使用许可覆盖试用及年度合同，但不能替代证据匹配。R7仅一项独立研究，N层不合格、E层合格；T9资格代码未归档，课程名称不能代填。依S1、S8应暂停并向人事室补取代码。先前决定及建议无影响结论的遗漏或矛盾，保留A。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19147,"cached_input_tokens":18944,"cache_write_input_tokens":0,"output_tokens":856,"reasoning_output_tokens":696}}

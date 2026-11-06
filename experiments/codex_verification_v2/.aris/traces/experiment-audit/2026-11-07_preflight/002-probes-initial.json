@@ -1,0 +1,62 @@
+[
+  {
+    "probe": "empty_usage",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 0,
+    "sum_input_tokens": 0,
+    "sum_output_tokens": 0,
+    "unique_sessions": 1,
+    "actual_cli_attempts": 1
+  },
+  {
+    "probe": "partial_usage",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 0,
+    "sum_input_tokens": 17,
+    "sum_output_tokens": 0,
+    "unique_sessions": 1,
+    "actual_cli_attempts": 1
+  },
+  {
+    "probe": "missing_session",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 0,
+    "sum_input_tokens": 17,
+    "sum_output_tokens": 9,
+    "unique_sessions": 0,
+    "actual_cli_attempts": 1
+  },
+  {
+    "probe": "unplanned_raw_record",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 0,
+    "sum_input_tokens": 17,
+    "sum_output_tokens": 9,
+    "unique_sessions": 1,
+    "actual_cli_attempts": 1
+  },
+  {
+    "probe": "repeated_turn_completed",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 0,
+    "sum_input_tokens": 2,
+    "sum_output_tokens": 1,
+    "unique_sessions": 1,
+    "actual_cli_attempts": 1
+  }
+]

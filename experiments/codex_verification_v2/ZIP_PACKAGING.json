@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-06T22:44:25.154061+00:00",
+  "archive": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/Codex_Verification_v2_800_2026-11-07.zip",
+  "bytes": 11183487,
+  "sha256": "b459865ea389b0d71da5254d4098e71fbecd9123c76919bf1856f8559ced468b",
+  "payload_files": 5748,
+  "archive_entries": 5749,
+  "crc_and_payload_hashes": "passed",
+  "github_policy": "Unpacked files only; no duplicate zip blob."
+}

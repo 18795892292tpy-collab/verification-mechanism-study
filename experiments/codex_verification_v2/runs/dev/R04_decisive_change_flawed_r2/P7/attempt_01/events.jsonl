@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2d1-f778-7231-af04-cf6a8b3cde2b"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S6\",\"S8\"],\"brief_justification\":\"维持A。现档规则适用于本校A14，未载替代版本；本截点U1、U2、U3有效确认率为100%、90%、90%，均达含90%的门槛。U4不属本批，无豁免。批准仅限原清单学习用品整批发放，不涉及金额，数量足够。必要字段齐全，不触发补取或未达标退回条件，应本轮处理。备忘录误将门槛理解为须超过90%。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19182,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":777,"reasoning_output_tokens":611}}

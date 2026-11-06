@@ -1,0 +1,17 @@
+{
+  "probe": "legitimate_no_final_network_resume",
+  "subject_calls": 0,
+  "first_status": "paused_service",
+  "second_status": "complete",
+  "evaluation_error": "Integrity audit failed",
+  "lifecycle_errors": [
+    {
+      "group_id": "F04_irrelevant_aligned_r1",
+      "procedure": "P0",
+      "attempt": 1,
+      "errors": [
+        "Expected exactly one ordered thread.started / turn.started / turn.completed lifecycle"
+      ]
+    }
+  ]
+}

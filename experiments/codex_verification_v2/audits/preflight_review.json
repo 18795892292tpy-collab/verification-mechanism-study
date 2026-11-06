@@ -1,0 +1,305 @@
+{
+  "audit_skill": "experiment-audit",
+  "phase": "preflight_round_2_final",
+  "verdict": "PASS",
+  "overall_verdict": "pass",
+  "integrity_status": "pass",
+  "reason_code": "all_identified_preflight_findings_resolved",
+  "summary": "67 independent offline tests pass; original five probes and additional recovery probe close PF-01 through PF-04. No unresolved preflight integrity blocker in audited scope.",
+  "host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "generated_at": "2026-11-06T20:38:22.641314+00:00",
+  "date": "2026-11-07",
+  "agent_id": "/root/v2_preflight_audit",
+  "verdict_id": "/root/v2_preflight_audit:2026-11-07_preflight:round2",
+  "reviewer_model": "Codex inherited model; exact model identifier not exposed to reviewer",
+  "reviewer_family": "openai",
+  "executor_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "evaluation_type": "simulation_only",
+  "external_education_expert_validation": false,
+  "actual_subject_calls_by_auditor": 0,
+  "read_experiment_results": false,
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_preflight",
+  "audited_input_hashes": {
+    "protocol/analysis_plan.json": "sha256:fcc53481a5e033b4ace7c02b27ad6db91305a490fbae3cff73b0add3ee76d914",
+    "protocol/EXECUTION_AMENDMENT.md": "sha256:1e8b376fbfb7e15da2b553073d09ce7f3e1a901a3937b850d5d6e4dc6184cc10",
+    "protocol/runtime_identity.json": "sha256:1c5d162beb3abe2fcf160a0ddbe38ae1a2e7a0d0d464de60ab05eadecf1fdc71",
+    "harness/runner.py": "sha256:bf818b09bcb17f3b02983a7f71c4b4680ef6eef083392fca60132fac7e2be94a",
+    "harness/integrity.py": "sha256:00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/evaluate.py": "sha256:2290303e3e05ff1ba147f9872bae67eb2d87645f56e556de50c449beb73adc69",
+    "harness/offline_audit.py": "sha256:9249e94d4379b8dfa84f00b88bc1fa4e045e28405d292ed2294179b22a753922",
+    "analysis/progress.py": "sha256:e690ee295011f74d2fdd30b6317dba35ba8c1023f11b2307fb05c8dd8e18214f",
+    "tests/test_v2.py": "sha256:684b788293358aeaf3dec8b1e7d45e96867a62274dc029c1af4174aac5dd0629",
+    "tests/test_evaluate.py": "sha256:bf16f57e3441d459510eb1934bb20ff7d3fcd8da0bc79f9a323db31e331804d1",
+    "tests/test_integrity.py": "sha256:51e795ecd82e6c8bc2ab6093e3608083df6f57b9166798ff336b0f8de1079faf",
+    "tests/test_runner_offline.py": "sha256:57b87d0e94b191f79ac24861155a87cfb3d1e163e5e4e4855c98f3ba87bfebdb",
+    "cases/CASE_SPEC.md": "sha256:af0aa83a3ef326b0af464f56c25dc9b153568670755855eea5caddc2cede3df6",
+    "cases/AUTHORING_REVIEW.md": "sha256:e6403acf57619ea6a606c2584911ef3297aabfead0acbdec3206ab527447c888",
+    "cases/build_cases.py": "sha256:16433093082c6d0f854adfed1268fe1044d998ce96d5510a441f666bf47920fc",
+    "prompts/dev_items.json": "sha256:3a72be003659919adf426cd2a446650cef3071d9b97908cd8843ba0b14da75be",
+    "keys/dev_keys.json": "sha256:66229f9ffc772ecef6aa9dc6fbcad32bed43013ed3798b151fa40935708c3099",
+    "audits/integrity_tests.json": "sha256:c2f6a3661cbca3593ee07571598bdb363b43cd2fb07abb35c2600e369dce7eb5",
+    "audits/case_review.json": "sha256:8d24246de58bdf6b3b995b42a6f93a13a5ec8bc1a6b804be0ab5bba26a5c5127",
+    "audits/blind_review_answers.json": "sha256:e5364fc9ad0ca03704d782abccf84424493c57144a046f48b24f6c0235e62381",
+    "audits/blind_packet.json": "sha256:5fcdbf43b5f9ba36c153f7ce308dbb3f26d18e9c4d03d2f865e9460455a2f77c",
+    "keys/blind_mapping.json": "sha256:7e9dae0c762d54393faf1f97ae83a7d793cfc26c3d98c3cf5aec1fdcdd9708c9",
+    "audits/blind_review_round1/blind_packet.json": "sha256:08a1fa51b49e4969f0ac2440deca8547bc12f6dcf45891f929b0bd8250bf7029",
+    "audits/blind_review_round1/blind_review_answers.json": "sha256:0d32a94d1e09f335a7f01d08c10b8a7e6e50ca2c6ff503756eee042d7f10f74b",
+    "audits/blind_revision_packet.json": "sha256:eefac34529a8fb15016ab5a117ed9d468e855bd6f8f7fd4e7397d1276a2e43f1",
+    "audits/blind_review_revision_answers.json": "sha256:3d14daa582cd2bd69744c89cb756a0fa055598892567fd5517dde169bb777106"
+  },
+  "checks": {
+    "target_identity": {
+      "status": "pass",
+      "evidence": [
+        "hostname=liekkas",
+        "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+        "CLI resolves to /home/grf/.local/lib/node_modules/@openai/codex/bin/codex.js"
+      ]
+    },
+    "fixed_matrix": {
+      "status": "pass",
+      "details": "实际公开题80，键覆盖完全，8家族各10题，material/rule各40题即4家族；build_schedule产出160组、每程序160任务，共800。",
+      "evidence": [
+        "harness/runner.py:111",
+        "protocol/analysis_plan.json:5",
+        "tests/test_v2.py:98"
+      ]
+    },
+    "shared_first_and_no_selection": {
+      "status": "pass",
+      "details": "先160 P0全部terminal后才复核；四程序使用同一raw_final及first_sha256；parse_failure也复核原文，不按correctness重采样；配额后无final可限2次恢复。",
+      "evidence": [
+        "harness/runner.py:209",
+        "harness/runner.py:257",
+        "harness/runner.py:347",
+        "harness/runner.py:382",
+        "harness/runner.py:407"
+      ]
+    },
+    "lock_manifest_runtime": {
+      "status": "pass",
+      "details": "POSIX跨进程flock；write-once原始记录；源文件哈希、计划、运行参数、主机/目录/CLI及依赖哈希、manifest pin均有验证。测试覆盖锁竞争、源/参数/计划/CLI变化与manifest时间戳变化。",
+      "evidence": [
+        "harness/integrity.py:73",
+        "harness/integrity.py:100",
+        "harness/runner.py:90",
+        "harness/runner.py:144",
+        "tests/test_integrity.py:65",
+        "tests/test_v2.py:116"
+      ]
+    },
+    "pause_resume": {
+      "status": "pass",
+      "details": "认证/配额/网络断路器保留已开始调用、暂停新调度；已封口无final可继续第二次；存在final即使CLI失败也不得重采样；未封口中断显式拒绝自动重试。测试通过。",
+      "evidence": [
+        "harness/runner.py:170",
+        "harness/runner.py:237",
+        "harness/runner.py:303",
+        "tests/test_v2.py:152",
+        "tests/test_v2.py:190",
+        "tests/test_runner_offline.py:63"
+      ],
+      "additional_verification": "002-extended-final.json; PF-04 resolved"
+    },
+    "gt_provenance": {
+      "status": "pass",
+      "details": "限定构造情景：评分键来自预先作者编写的事实oracle和语义映射，不读取被试输出；仅核对来源/结构，不替代另行80题匿名语义审查。",
+      "evidence": [
+        "cases/CASE_SPEC.md:37",
+        "cases/build_cases.py:657",
+        "cases/build_cases.py:684",
+        "harness/evaluate.py:152",
+        "harness/evaluate.py:196"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "按计划逐任务保留，缺失/技术失败/解析失败correct=0，accuracy分母160/程序；不用预测最大值归一化。修复率仅complete且证据齐全的P0自然错误；分母0为null。",
+      "evidence": [
+        "harness/evaluate.py:19",
+        "harness/evaluate.py:76",
+        "harness/evaluate.py:87",
+        "harness/evaluate.py:204",
+        "tests/test_evaluate.py:53",
+        "tests/test_evaluate.py:66"
+      ]
+    },
+    "family_contrasts": {
+      "status": "pass",
+      "details": "P7−P8先在家族内配对平均，再类型内家族等权，rule减material；I73及P3−P1方向与计划一致。完整配对敏感性另报实际家族数；不将重复或变体当独立家族。",
+      "evidence": [
+        "harness/evaluate.py:33",
+        "harness/evaluate.py:109",
+        "tests/test_evaluate.py:34",
+        "tests/test_evaluate.py:45"
+      ]
+    },
+    "result_existence": {
+      "status": "not_applicable",
+      "details": "本轮为执行前预审，未读取真实实验results或runs记录；没有验证任何实验性能数字，也不声称已完成800次。"
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "run调用summarize并把family/contrast/diagnostic写入派生分析；58离线测试含800模拟任务及零新增调用恢复。integrity.py历史RunLedger/legacy选择函数不是V2执行入口，未据此声称真实结果。",
+      "evidence": [
+        "harness/evaluate.py:211",
+        "harness/evaluate.py:227",
+        "tests/test_v2.py:284"
+      ]
+    },
+    "scope": {
+      "status": "pass",
+      "details": "明确仅4家族/类型、描述性开发模拟；无确认性p值/总体优越性/等效性/真实学校效果或教育专家验证声称。天花板不能证明机制，仍保留800固定矩阵。",
+      "evidence": [
+        "protocol/analysis_plan.json:35",
+        "protocol/analysis_plan.json:44",
+        "protocol/EXECUTION_AMENDMENT.md:10",
+        "cases/CASE_SPEC.md:79"
+      ]
+    },
+    "usage": {
+      "status": "pass",
+      "finding_ids": [
+        "PF-01",
+        "PF-02"
+      ],
+      "resolved_in_round": 2
+    },
+    "event_provenance": {
+      "status": "pass",
+      "finding_ids": [
+        "PF-02"
+      ],
+      "resolved_in_round": 2
+    },
+    "raw_inventory": {
+      "status": "pass",
+      "finding_ids": [
+        "PF-03"
+      ],
+      "resolved_in_round": 2
+    },
+    "eval_type": "simulation_only",
+    "source_audit_freshness": {
+      "status": "pass",
+      "evidence": "002-final-source-check.json",
+      "details": "All 9 recorded source/test hashes match current files; own 67-test rerun also passes."
+    },
+    "blind_review_source_chain": {
+      "status": "pass",
+      "scope": "provenance and aggregation only, not new semantic blind review",
+      "evidence": "002-case-provenance-check.json"
+    }
+  },
+  "findings": [
+    {
+      "id": "PF-01",
+      "severity": "major",
+      "status": "resolved",
+      "blocks_freeze": false,
+      "title": "缺失或部分 usage 被报告为已知零",
+      "evidence": [
+        "harness/evaluate.py:201",
+        "harness/evaluate.py:208",
+        "harness/evaluate.py:217",
+        "harness/runner.py:198"
+      ],
+      "reproduction": "empty_usage 与 partial_usage 探针：usage={} 得 usage_missing_attempts=0、两类token=0；仅input_tokens=17得output_tokens=0。均passed_integrity=true。",
+      "recommendation": "逐字段验证非bool非负整数；缺失字段保留null/空，完整总计含缺失时为null；另报明确命名的已知小计及各字段缺失次数。不得从空对象推导已知零。",
+      "resolution": {
+        "evidence": [
+          "harness/evaluate.py:27",
+          "harness/evaluate.py:37",
+          "harness/evaluate.py:51"
+        ],
+        "verification": "002-probes-final.json: empty_usage and partial_usage"
+      }
+    },
+    {
+      "id": "PF-02",
+      "severity": "major",
+      "status": "resolved",
+      "blocks_freeze": false,
+      "title": "会话/turn生命周期未校验，重复完成事件覆盖用量",
+      "evidence": [
+        "harness/runner.py:184",
+        "harness/runner.py:197",
+        "harness/runner.py:198",
+        "harness/runner.py:245",
+        "harness/evaluate.py:210",
+        "harness/evaluate.py:224"
+      ],
+      "reproduction": "missing_session探针无thread.started仍complete、unique_sessions=0且passed_integrity=true；repeated_turn_completed探针两次完成用量17/9及2/1只报告最后2/1且通过。",
+      "recommendation": "对成功响应要求唯一非空session及单一预期turn生命周期；重复/冲突事件不得静默选最后一个。将不完整或重复生命周期明确记为完整性/协议失败并禁止重采样；保留全部原始事件。无final技术失败可按既定规则暂停/重试，不应因正常失败没有成功生命周期而伪造完整证据。",
+      "resolution": {
+        "evidence": [
+          "harness/runner.py:184",
+          "harness/runner.py:208",
+          "harness/runner.py:258"
+        ],
+        "verification": "002-probes-final.json: missing_session and repeated_turn_completed rejected"
+      }
+    },
+    {
+      "id": "PF-03",
+      "severity": "major",
+      "status": "resolved",
+      "blocks_freeze": false,
+      "title": "计划外原始记录未进入完整性盘点",
+      "evidence": [
+        "harness/evaluate.py:156",
+        "harness/evaluate.py:214",
+        "harness/evaluate.py:224",
+        "analysis/progress.py:9"
+      ],
+      "reproduction": "unplanned_raw_record探针在临时fixture放入runs/dev/unplanned_group/P0/record.json，evaluate仍passed_integrity=true且actual_cli_attempts仅计计划内1次；计划外记录静默消失。",
+      "recommendation": "独立盘点runs/dev下所有task/attempt/record路径并与800计划逐一对应，发现计划外原始文件显式拒绝/审计，不得直接忽略。报告进度仅为未校验派生计数，不能充当该校验。",
+      "resolution": {
+        "evidence": [
+          "harness/evaluate.py:65",
+          "harness/evaluate.py:239"
+        ],
+        "verification": "002-probes-final.json: unplanned_raw_record rejected"
+      }
+    },
+    {
+      "id": "PF-04",
+      "severity": "major",
+      "status": "resolved",
+      "blocks_freeze": false,
+      "title": "Second-round lifecycle fix misattributed terminal final to earlier no-final failure",
+      "first_observed_evidence": "harness/evaluate.py:287 before follow-up fix",
+      "reproduction": "002-resume-regression.json",
+      "resolution": {
+        "evidence": [
+          "harness/evaluate.py:284",
+          "harness/evaluate.py:293"
+        ],
+        "verification": "002-extended-final.json: immutable first attempt, successful resume/evaluation, no duplicate final call, unknown totals retained"
+      }
+    }
+  ],
+  "verification": {
+    "unittest": {
+      "tests": 67,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 9.519,
+      "log": "002-unit-final.log"
+    },
+    "original_independent_probes": "002-probes-final.json",
+    "additional_recovery_probe": "002-extended-final.json",
+    "current_source_hash_check": "002-final-source-check.json",
+    "blind_review_provenance_only": "002-case-provenance-check.json"
+  },
+  "required_next_step": "Freeze reviewed inputs and execute authorized fixed800 matrix; preserve raw failures and perform post-run audit.",
+  "freeze_performed_by_auditor": false,
+  "freeze_run_recommendation": "May proceed with the already-authorized fixed800 protocol; no unresolved integrity blockers found in current audited scope.",
+  "open_findings": [],
+  "prior_verdict_trace": "001-preflight.response.json",
+  "intermediate_regression_trace": "002-intermediate-findings.json",
+  "review_scope_limit": "same reviewer follow-up; same-family provisional; no new anonymous case semantics review; no external education expert; no live backend or real result audit"
+}

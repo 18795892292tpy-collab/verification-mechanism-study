@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "action",
+    "cited_sources",
+    "brief_justification",
+    "confidence"
+  ],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "cited_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "brief_justification": {
+      "type": "string",
+      "maxLength": 180
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    }
+  }
+}

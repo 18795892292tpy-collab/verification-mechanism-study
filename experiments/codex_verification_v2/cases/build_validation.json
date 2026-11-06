@@ -1,0 +1,1595 @@
+{
+  "status": "author_checks_passed_pending_fresh_blind_review",
+  "set_type": "synthetic_development_fixed_bank",
+  "n_items": 80,
+  "n_families": 8,
+  "n_material_families": 4,
+  "n_rule_families": 4,
+  "state_counts": {
+    "base": 16,
+    "decisive_change": 16,
+    "irrelevant": 16,
+    "paraphrase": 16,
+    "missing": 16
+  },
+  "advice_counts": {
+    "aligned": 40,
+    "flawed": 40
+  },
+  "key_letter_counts": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20
+  },
+  "source_count_range": [
+    8,
+    8
+  ],
+  "chinese_character_range": [
+    1228,
+    1434
+  ],
+  "memo_max_pair_length_ratio": 1.087719298245614,
+  "oracle_boundary_tests_passed": 32,
+  "state_mutation_checks_passed": 24,
+  "shortcuts": {
+    "always_follow_memo_accuracy": 0.5,
+    "always_pause_accuracy": 0.2,
+    "best_constant_letter_accuracy": 0.25
+  },
+  "missing_decisive_quote_checks_passed": 16,
+  "public_label_scan_passed": true,
+  "external_education_expert_review": "not_available_not_claimed",
+  "fresh_blind_review": "pending_parent_review",
+  "freeze_status": "not_frozen",
+  "limitations": [
+    "Author-coded oracle and source renderer share an author; these checks are not independent semantic validation.",
+    "Missing-state exact-quote scan cannot establish absence of all semantic leakage; human/agent blind reading remains required.",
+    "No claim of real-school validity, empirical difficulty or procedure benefit; no outcome-dependent item selection."
+  ],
+  "items": [
+    {
+      "item_id": "M01_base_aligned",
+      "unicode_characters": 1717,
+      "chinese_characters": 1427,
+      "source_count": 8,
+      "memo_chinese_characters": 66,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_base_flawed",
+      "unicode_characters": 1716,
+      "chinese_characters": 1426,
+      "source_count": 8,
+      "memo_chinese_characters": 65,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_decisive_change_aligned",
+      "unicode_characters": 1713,
+      "chinese_characters": 1423,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_decisive_change_flawed",
+      "unicode_characters": 1717,
+      "chinese_characters": 1427,
+      "source_count": 8,
+      "memo_chinese_characters": 66,
+      "memo_citations": [
+        "S1",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_irrelevant_aligned",
+      "unicode_characters": 1717,
+      "chinese_characters": 1427,
+      "source_count": 8,
+      "memo_chinese_characters": 66,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_irrelevant_flawed",
+      "unicode_characters": 1716,
+      "chinese_characters": 1426,
+      "source_count": 8,
+      "memo_chinese_characters": 65,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_paraphrase_aligned",
+      "unicode_characters": 1635,
+      "chinese_characters": 1353,
+      "source_count": 8,
+      "memo_chinese_characters": 80,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_paraphrase_flawed",
+      "unicode_characters": 1635,
+      "chinese_characters": 1353,
+      "source_count": 8,
+      "memo_chinese_characters": 80,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_missing_aligned",
+      "unicode_characters": 1710,
+      "chinese_characters": 1432,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M01_missing_flawed",
+      "unicode_characters": 1712,
+      "chinese_characters": 1434,
+      "source_count": 8,
+      "memo_chinese_characters": 64,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_base_aligned",
+      "unicode_characters": 1709,
+      "chinese_characters": 1399,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_base_flawed",
+      "unicode_characters": 1710,
+      "chinese_characters": 1403,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S3",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_decisive_change_aligned",
+      "unicode_characters": 1712,
+      "chinese_characters": 1399,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_decisive_change_flawed",
+      "unicode_characters": 1713,
+      "chinese_characters": 1403,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S2",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_irrelevant_aligned",
+      "unicode_characters": 1712,
+      "chinese_characters": 1402,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_irrelevant_flawed",
+      "unicode_characters": 1713,
+      "chinese_characters": 1406,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S3",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_paraphrase_aligned",
+      "unicode_characters": 1581,
+      "chinese_characters": 1269,
+      "source_count": 8,
+      "memo_chinese_characters": 74,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_paraphrase_flawed",
+      "unicode_characters": 1581,
+      "chinese_characters": 1272,
+      "source_count": 8,
+      "memo_chinese_characters": 77,
+      "memo_citations": [
+        "S3",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_missing_aligned",
+      "unicode_characters": 1718,
+      "chinese_characters": 1412,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M02_missing_flawed",
+      "unicode_characters": 1716,
+      "chinese_characters": 1414,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S3",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_base_aligned",
+      "unicode_characters": 1688,
+      "chinese_characters": 1422,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_base_flawed",
+      "unicode_characters": 1687,
+      "chinese_characters": 1425,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_decisive_change_aligned",
+      "unicode_characters": 1686,
+      "chinese_characters": 1423,
+      "source_count": 8,
+      "memo_chinese_characters": 60,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_decisive_change_flawed",
+      "unicode_characters": 1690,
+      "chinese_characters": 1425,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_irrelevant_aligned",
+      "unicode_characters": 1690,
+      "chinese_characters": 1424,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_irrelevant_flawed",
+      "unicode_characters": 1689,
+      "chinese_characters": 1427,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_paraphrase_aligned",
+      "unicode_characters": 1583,
+      "chinese_characters": 1317,
+      "source_count": 8,
+      "memo_chinese_characters": 74,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_paraphrase_flawed",
+      "unicode_characters": 1582,
+      "chinese_characters": 1320,
+      "source_count": 8,
+      "memo_chinese_characters": 77,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_missing_aligned",
+      "unicode_characters": 1691,
+      "chinese_characters": 1431,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M03_missing_flawed",
+      "unicode_characters": 1692,
+      "chinese_characters": 1432,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_base_aligned",
+      "unicode_characters": 1639,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_base_flawed",
+      "unicode_characters": 1639,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S2",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_decisive_change_aligned",
+      "unicode_characters": 1641,
+      "chinese_characters": 1417,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_decisive_change_flawed",
+      "unicode_characters": 1639,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S2",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_irrelevant_aligned",
+      "unicode_characters": 1640,
+      "chinese_characters": 1417,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_irrelevant_flawed",
+      "unicode_characters": 1640,
+      "chinese_characters": 1417,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S2",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_paraphrase_aligned",
+      "unicode_characters": 1513,
+      "chinese_characters": 1284,
+      "source_count": 8,
+      "memo_chinese_characters": 76,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_paraphrase_flawed",
+      "unicode_characters": 1513,
+      "chinese_characters": 1284,
+      "source_count": 8,
+      "memo_chinese_characters": 76,
+      "memo_citations": [
+        "S2",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_missing_aligned",
+      "unicode_characters": 1646,
+      "chinese_characters": 1423,
+      "source_count": 8,
+      "memo_chinese_characters": 57,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "M04_missing_flawed",
+      "unicode_characters": 1651,
+      "chinese_characters": 1428,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S2",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_base_aligned",
+      "unicode_characters": 1638,
+      "chinese_characters": 1379,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_base_flawed",
+      "unicode_characters": 1643,
+      "chinese_characters": 1384,
+      "source_count": 8,
+      "memo_chinese_characters": 64,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_decisive_change_aligned",
+      "unicode_characters": 1641,
+      "chinese_characters": 1382,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_decisive_change_flawed",
+      "unicode_characters": 1641,
+      "chinese_characters": 1382,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_irrelevant_aligned",
+      "unicode_characters": 1639,
+      "chinese_characters": 1380,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_irrelevant_flawed",
+      "unicode_characters": 1644,
+      "chinese_characters": 1385,
+      "source_count": 8,
+      "memo_chinese_characters": 64,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_paraphrase_aligned",
+      "unicode_characters": 1486,
+      "chinese_characters": 1232,
+      "source_count": 8,
+      "memo_chinese_characters": 74,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_paraphrase_flawed",
+      "unicode_characters": 1490,
+      "chinese_characters": 1236,
+      "source_count": 8,
+      "memo_chinese_characters": 78,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_missing_aligned",
+      "unicode_characters": 1640,
+      "chinese_characters": 1386,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R01_missing_flawed",
+      "unicode_characters": 1645,
+      "chinese_characters": 1391,
+      "source_count": 8,
+      "memo_chinese_characters": 64,
+      "memo_citations": [
+        "S1",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_base_aligned",
+      "unicode_characters": 1647,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_base_flawed",
+      "unicode_characters": 1647,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S2",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_decisive_change_aligned",
+      "unicode_characters": 1645,
+      "chinese_characters": 1413,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_decisive_change_flawed",
+      "unicode_characters": 1644,
+      "chinese_characters": 1413,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S1",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_irrelevant_aligned",
+      "unicode_characters": 1647,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_irrelevant_flawed",
+      "unicode_characters": 1647,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S2",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_paraphrase_aligned",
+      "unicode_characters": 1495,
+      "chinese_characters": 1268,
+      "source_count": 8,
+      "memo_chinese_characters": 78,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_paraphrase_flawed",
+      "unicode_characters": 1495,
+      "chinese_characters": 1268,
+      "source_count": 8,
+      "memo_chinese_characters": 78,
+      "memo_citations": [
+        "S2",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_missing_aligned",
+      "unicode_characters": 1650,
+      "chinese_characters": 1419,
+      "source_count": 8,
+      "memo_chinese_characters": 60,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R02_missing_flawed",
+      "unicode_characters": 1649,
+      "chinese_characters": 1418,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S2",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_base_aligned",
+      "unicode_characters": 1667,
+      "chinese_characters": 1409,
+      "source_count": 8,
+      "memo_chinese_characters": 58,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_base_flawed",
+      "unicode_characters": 1666,
+      "chinese_characters": 1412,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S1",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_decisive_change_aligned",
+      "unicode_characters": 1666,
+      "chinese_characters": 1412,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_decisive_change_flawed",
+      "unicode_characters": 1666,
+      "chinese_characters": 1412,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S3",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_irrelevant_aligned",
+      "unicode_characters": 1671,
+      "chinese_characters": 1413,
+      "source_count": 8,
+      "memo_chinese_characters": 58,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_irrelevant_flawed",
+      "unicode_characters": 1670,
+      "chinese_characters": 1416,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S1",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_paraphrase_aligned",
+      "unicode_characters": 1514,
+      "chinese_characters": 1256,
+      "source_count": 8,
+      "memo_chinese_characters": 73,
+      "memo_citations": [
+        "S3",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_paraphrase_flawed",
+      "unicode_characters": 1513,
+      "chinese_characters": 1259,
+      "source_count": 8,
+      "memo_chinese_characters": 76,
+      "memo_citations": [
+        "S1",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_missing_aligned",
+      "unicode_characters": 1672,
+      "chinese_characters": 1420,
+      "source_count": 8,
+      "memo_chinese_characters": 60,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R03_missing_flawed",
+      "unicode_characters": 1674,
+      "chinese_characters": 1422,
+      "source_count": 8,
+      "memo_chinese_characters": 62,
+      "memo_citations": [
+        "S1",
+        "S3"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_base_aligned",
+      "unicode_characters": 1613,
+      "chinese_characters": 1355,
+      "source_count": 8,
+      "memo_chinese_characters": 60,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_base_flawed",
+      "unicode_characters": 1614,
+      "chinese_characters": 1356,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_decisive_change_aligned",
+      "unicode_characters": 1613,
+      "chinese_characters": 1355,
+      "source_count": 8,
+      "memo_chinese_characters": 60,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_decisive_change_flawed",
+      "unicode_characters": 1615,
+      "chinese_characters": 1358,
+      "source_count": 8,
+      "memo_chinese_characters": 63,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_irrelevant_aligned",
+      "unicode_characters": 1613,
+      "chinese_characters": 1355,
+      "source_count": 8,
+      "memo_chinese_characters": 60,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_irrelevant_flawed",
+      "unicode_characters": 1614,
+      "chinese_characters": 1356,
+      "source_count": 8,
+      "memo_chinese_characters": 61,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_paraphrase_aligned",
+      "unicode_characters": 1479,
+      "chinese_characters": 1228,
+      "source_count": 8,
+      "memo_chinese_characters": 75,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_paraphrase_flawed",
+      "unicode_characters": 1479,
+      "chinese_characters": 1228,
+      "source_count": 8,
+      "memo_chinese_characters": 75,
+      "memo_citations": [
+        "S4",
+        "S5"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_missing_aligned",
+      "unicode_characters": 1621,
+      "chinese_characters": 1359,
+      "source_count": 8,
+      "memo_chinese_characters": 56,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    },
+    {
+      "item_id": "R04_missing_flawed",
+      "unicode_characters": 1620,
+      "chinese_characters": 1362,
+      "source_count": 8,
+      "memo_chinese_characters": 59,
+      "memo_citations": [
+        "S2",
+        "S4"
+      ],
+      "missing_decisive_quote_absent": true
+    }
+  ],
+  "memo_pair_checks": [
+    {
+      "item_pair": "M01_base",
+      "length_ratio": 1.0153846153846153
+    },
+    {
+      "item_pair": "M01_decisive_change",
+      "length_ratio": 1.064516129032258
+    },
+    {
+      "item_pair": "M01_irrelevant",
+      "length_ratio": 1.0153846153846153
+    },
+    {
+      "item_pair": "M01_paraphrase",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "M01_missing",
+      "length_ratio": 1.032258064516129
+    },
+    {
+      "item_pair": "M02_base",
+      "length_ratio": 1.0677966101694916
+    },
+    {
+      "item_pair": "M02_decisive_change",
+      "length_ratio": 1.0677966101694916
+    },
+    {
+      "item_pair": "M02_irrelevant",
+      "length_ratio": 1.0677966101694916
+    },
+    {
+      "item_pair": "M02_paraphrase",
+      "length_ratio": 1.0405405405405406
+    },
+    {
+      "item_pair": "M02_missing",
+      "length_ratio": 1.0338983050847457
+    },
+    {
+      "item_pair": "M03_base",
+      "length_ratio": 1.0508474576271187
+    },
+    {
+      "item_pair": "M03_decisive_change",
+      "length_ratio": 1.0333333333333334
+    },
+    {
+      "item_pair": "M03_irrelevant",
+      "length_ratio": 1.0508474576271187
+    },
+    {
+      "item_pair": "M03_paraphrase",
+      "length_ratio": 1.0405405405405406
+    },
+    {
+      "item_pair": "M03_missing",
+      "length_ratio": 1.0163934426229508
+    },
+    {
+      "item_pair": "M04_base",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "M04_decisive_change",
+      "length_ratio": 1.0161290322580645
+    },
+    {
+      "item_pair": "M04_irrelevant",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "M04_paraphrase",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "M04_missing",
+      "length_ratio": 1.087719298245614
+    },
+    {
+      "item_pair": "R01_base",
+      "length_ratio": 1.0847457627118644
+    },
+    {
+      "item_pair": "R01_decisive_change",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R01_irrelevant",
+      "length_ratio": 1.0847457627118644
+    },
+    {
+      "item_pair": "R01_paraphrase",
+      "length_ratio": 1.054054054054054
+    },
+    {
+      "item_pair": "R01_missing",
+      "length_ratio": 1.0847457627118644
+    },
+    {
+      "item_pair": "R02_base",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R02_decisive_change",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R02_irrelevant",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R02_paraphrase",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R02_missing",
+      "length_ratio": 1.0169491525423728
+    },
+    {
+      "item_pair": "R03_base",
+      "length_ratio": 1.0517241379310345
+    },
+    {
+      "item_pair": "R03_decisive_change",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R03_irrelevant",
+      "length_ratio": 1.0517241379310345
+    },
+    {
+      "item_pair": "R03_paraphrase",
+      "length_ratio": 1.0410958904109588
+    },
+    {
+      "item_pair": "R03_missing",
+      "length_ratio": 1.0333333333333334
+    },
+    {
+      "item_pair": "R04_base",
+      "length_ratio": 1.0166666666666666
+    },
+    {
+      "item_pair": "R04_decisive_change",
+      "length_ratio": 1.05
+    },
+    {
+      "item_pair": "R04_irrelevant",
+      "length_ratio": 1.0166666666666666
+    },
+    {
+      "item_pair": "R04_paraphrase",
+      "length_ratio": 1.0
+    },
+    {
+      "item_pair": "R04_missing",
+      "length_ratio": 1.0535714285714286
+    }
+  ],
+  "oracle_tests": [
+    {
+      "family_id": "M01",
+      "test": "生效前一分钟",
+      "expected": "direct",
+      "actual": "direct",
+      "pass": true
+    },
+    {
+      "family_id": "M01",
+      "test": "生效边界含零时",
+      "expected": "joint",
+      "actual": "joint",
+      "pass": true
+    },
+    {
+      "family_id": "M01",
+      "test": "旧版金额恰达界线",
+      "expected": "joint",
+      "actual": "joint",
+      "pass": true
+    },
+    {
+      "family_id": "M01",
+      "test": "受理时间缺失",
+      "expected": "pause",
+      "actual": "pause",
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "test": "有效授权交集为空",
+      "expected": "reject",
+      "actual": "reject",
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "test": "部分覆盖可分割",
+      "expected": "limited",
+      "actual": "limited",
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "test": "全部覆盖",
+      "expected": "full",
+      "actual": "full",
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "test": "未知与空集合不同",
+      "expected": "pause",
+      "actual": "pause",
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "test": "一项匹配研究",
+      "expected": "pilot",
+      "actual": "pilot",
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "test": "两项匹配研究",
+      "expected": "full",
+      "actual": "full",
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "test": "两项阈值均取等号",
+      "expected": "pilot",
+      "actual": "pilot",
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "test": "完成率合取条件不足",
+      "expected": "retain",
+      "actual": "retain",
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "test": "原始分母低于92",
+      "expected": "comprehensive",
+      "actual": "comprehensive",
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "test": "免到分母760",
+      "expected": "targeted",
+      "actual": "targeted",
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "test": "免到分母750恰为96",
+      "expected": "routine",
+      "actual": "routine",
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "test": "恰为92进入定向",
+      "expected": "targeted",
+      "actual": "targeted",
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "test": "179分钟不触发",
+      "expected": "normal",
+      "actual": "normal",
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "test": "180分钟触发",
+      "expected": "manual",
+      "actual": "manual",
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "test": "后果存在不逆推条件",
+      "expected": "normal",
+      "actual": "normal",
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "test": "端点缺失",
+      "expected": "pause",
+      "actual": "pause",
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "test": "所有合取条件成立",
+      "expected": "depart",
+      "actual": "depart",
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "test": "比例够但最低人数不够",
+      "expected": "postpone",
+      "actual": "postpone",
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "test": "同意书条件独立必要",
+      "expected": "postpone",
+      "actual": "postpone",
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "test": "人数比例超界",
+      "expected": "postpone",
+      "actual": "postpone",
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "test": "例外覆盖普通提前量",
+      "expected": "escort",
+      "actual": "escort",
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "test": "无例外则普通时限",
+      "expected": "deny",
+      "actual": "deny",
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "test": "例外仍要求陪同",
+      "expected": "deny",
+      "actual": "deny",
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "test": "标题不能代替分类",
+      "expected": "pause",
+      "actual": "pause",
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "test": "总体达标但一班不达标",
+      "expected": "complete",
+      "actual": "complete",
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "test": "所有班级至少90含边界",
+      "expected": "release",
+      "actual": "release",
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "test": "其他班完整不能补缺失班",
+      "expected": "pause",
+      "actual": "pause",
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "test": "所有班恰达边界",
+      "expected": "release",
+      "actual": "release",
+      "pass": true
+    }
+  ],
+  "mutation_checks": [
+    {
+      "family_id": "M01",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M01",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M01",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M02",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S3"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M03",
+      "state": "missing",
+      "changed_sources": [
+        "S3"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "M04",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R01",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R02",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R03",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "state": "decisive_change",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "state": "irrelevant",
+      "changed_sources": [
+        "S7"
+      ],
+      "pass": true
+    },
+    {
+      "family_id": "R04",
+      "state": "missing",
+      "changed_sources": [
+        "S4"
+      ],
+      "pass": true
+    }
+  ]
+}

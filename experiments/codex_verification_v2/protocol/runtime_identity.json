@@ -1,0 +1,16 @@
+{
+  "prepared_utc": "2026-11-06T19:55:25.021845+00:00",
+  "host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "cli_path": "/home/grf/.local/bin/codex",
+  "cli_version": "0.166.0",
+  "cli_auth_status": "Logged in using ChatGPT",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra",
+  "provider_requested": "openai",
+  "backend": "same-host Codex CLI; fresh ephemeral context per response",
+  "hidden_weight_snapshot": null,
+  "sampling_seed": null,
+  "temperature": null,
+  "identity_limit": "Explicit request and actual CLI session/events are recorded; hidden weights and equality with desktop prompts are not claimed. Credentials are never copied."
+}

@@ -1,0 +1,72 @@
+{
+  "audit_skill": "experiment-audit",
+  "purpose": "during-run concurrency-only amendment review",
+  "verdict": "PASS",
+  "integrity_status": "pass",
+  "open_findings": [],
+  "generated_at": "2026-11-06T22:17:54.311381+00:00",
+  "host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "reviewer": "/root/v2_preflight_audit",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "external_expert": false,
+  "subject_calls_by_auditor": 0,
+  "real_records_modified": false,
+  "frozen_files_modified": false,
+  "recommendation": "May start authorized remaining tasks at 12 concurrent workers under the reviewed amendment.",
+  "audited_sha256": {
+    "harness/run_concurrency_override.py": "15adc3074c13d6322c1e1373701488502335a9fc9745a3a022ed3d61fb12d41c",
+    "harness/runner.py": "bf818b09bcb17f3b02983a7f71c4b4680ef6eef083392fca60132fac7e2be94a",
+    "harness/integrity.py": "00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/evaluate.py": "2290303e3e05ff1ba147f9872bae67eb2d87645f56e556de50c449beb73adc69",
+    "protocol/frozen.json": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+    "protocol/CONCURRENCY_AMENDMENT_2026-11-07.json": "db685add1b3f1467816e4c5e72d58bab66e92d938678a624204918ac1cfd448c",
+    "audits/concurrency_override_tests.json": "e4e86163590ecf486253ae45d66bafee2c45ab48328b441bd1c55071ec30936b"
+  },
+  "baseline_workers": 3,
+  "new_actual_workers": 12,
+  "six_worker_phase_executed": false,
+  "canonical_check": {
+    "baseline_verify": "PASS",
+    "amendment_check": "PASS",
+    "prior_terminal_records": 667,
+    "amendment_sha256": "db685add1b3f1467816e4c5e72d58bab66e92d938678a624204918ac1cfd448c",
+    "driver_sha256": "15adc3074c13d6322c1e1373701488502335a9fc9745a3a022ed3d61fb12d41c",
+    "baseline_frozen_sha256": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+    "baseline_max_workers": 3,
+    "subject_calls": 0
+  },
+  "independent_resume_probe": {
+    "prior_records": 667,
+    "new_mock_calls": 133,
+    "peak_simultaneous_mock_calls": 12,
+    "finished": true,
+    "resume_finished": true,
+    "resume_new_mock_calls": 0,
+    "prior_records_changed": 0,
+    "frozen_hash_unchanged": true,
+    "baseline_max_workers": 3,
+    "baseline_execution_config_max_workers": 3,
+    "competing_lock_rejected": true,
+    "applied_amendment_replacement_rejected": true,
+    "complete_tasks": 800,
+    "passed_integrity": true,
+    "unique_sessions": 800,
+    "subject_calls": 0
+  },
+  "rerun_tests": {
+    "count": 5,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 2.043,
+    "log": "001-independent-test-rerun.log"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_concurrency",
+  "limitations": [
+    "Same-family provisional review; no external expert",
+    "During-run concurrency amendment after 667 terminal records; original scientific inputs retain baseline freeze",
+    "An invocation record indicates a dispatch invocation, not proof all remaining real tasks have completed",
+    "Resource and latency summaries combine concurrency phases"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "probe": "no_final_network_resume_and_usage_provenance",
+  "subject_calls": 0,
+  "mock_calls_first": 1,
+  "mock_calls_second": 1,
+  "mock_calls_final_resume": 0,
+  "first_status": "paused_service",
+  "second_status": "complete",
+  "same_final_record": true,
+  "attempt1_preserved": true,
+  "evaluation_error": null,
+  "lifecycle_errors": [],
+  "passed_integrity": true,
+  "actual_cli_attempts": 2,
+  "sum_input_tokens": null,
+  "sum_output_tokens": null,
+  "known_input_tokens": 10,
+  "known_output_tokens": 5,
+  "usage_missing_attempts": 1
+}

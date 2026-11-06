@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b298-71b4-77d2-aabf-330f830782ed"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"B\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"周主任的委托权限仅覆盖L1、L2，委员会开放决议不能扩张其签署权限，故L3未获有效签署。场地可分割，申请接受缩减且安全核验通过，应签发L1、L2凭单并剔除L3。委托附件清单已归档，不适用补件暂停。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18955,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":347,"reasoning_output_tokens":212}}

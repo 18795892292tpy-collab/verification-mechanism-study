@@ -43,3 +43,8 @@ venv/
 
 # Historical snapshot duplicates can be restored locally from pinned Git objects.
 /experiments/codex_verification_v1/audits/legacy_snapshot/
+
+# Authorized fixed-800 v2 batch, separate from v1 and historical DeepSeek.
+!/experiments/codex_verification_v2/
+!/experiments/codex_verification_v2/figures/*.pdf
+/experiments/codex_verification_v2/**/.integrity.lock

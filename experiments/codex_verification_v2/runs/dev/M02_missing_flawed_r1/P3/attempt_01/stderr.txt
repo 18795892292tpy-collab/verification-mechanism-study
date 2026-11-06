@@ -1,0 +1,1 @@
+2026-11-06T22:02:31.309001Z  WARN codex_http_client::native_roots: encountered errors while loading native root certificates native_root_error_count=2

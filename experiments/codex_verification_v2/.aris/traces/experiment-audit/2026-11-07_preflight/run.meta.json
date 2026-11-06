@@ -1,0 +1,13 @@
+{
+  "skill": "experiment-audit",
+  "run_id": "2026-11-07_preflight",
+  "recorded_at": "2026-11-06T20:27:56.895512+00:00",
+  "executor": "codex",
+  "reviewer": "/root/v2_preflight_audit",
+  "executor_family": "openai",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "project_dir": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "host": "liekkas"
+}

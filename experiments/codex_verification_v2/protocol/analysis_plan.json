@@ -1,0 +1,48 @@
+{
+  "version": "development-v2-fixed800",
+  "set_before_any_model_response": true,
+  "evaluation_type": "simulation_only",
+  "family_count": 8,
+  "material_families": 4,
+  "rule_families": 4,
+  "items": 80,
+  "repeats": 2,
+  "procedures": [
+    "P0",
+    "P1",
+    "P3",
+    "P7",
+    "P8"
+  ],
+  "planned_p0": 160,
+  "planned_reviews": 640,
+  "planned_tasks": 800,
+  "additional_model_screening": 0,
+  "primary_unit": "case_family",
+  "primary_population": "evidence-present flawed-advice items, family equal weight",
+  "primary_outcome": "planned final correct (nonresponse/parse failure=0)",
+  "primary_contrast": "I78 = mean_family(P7-P8 | rule,present,flawed) - mean_family(P7-P8 | material,present,flawed)",
+  "secondary_contrasts": [
+    "I73 = mean_family(P7-P3 | rule,present,flawed) - mean_family(P7-P3 | material,present,flawed)",
+    "P7-P3 and P7-P8 within each type",
+    "P3-P1 within each type",
+    "all-item, aligned-advice and missing-evidence accuracy strata"
+  ],
+  "pairing": "All review programs share exact same P0 text per item/repeat; complete-pair sensitivity reported separately from planned denominator.",
+  "repair": "fraction correct after review among same-group incorrect evidence-present P0; denominator zero => null/NA",
+  "damage": "fraction incorrect after review among same-group correct evidence-present P0; denominator zero => null/NA",
+  "ceiling": "Always finish fixed800; accuracy interactions remain arithmetically computable at ceiling but do not establish mechanism isolation. Conditional repair is undefined when no P0 errors.",
+  "difficulty_diagnostics_only": {
+    "rule_present_flawed_P0_count": 32,
+    "errors_suggested_min": 8,
+    "error_families_suggested_min": 3,
+    "correct_suggested_min": 16,
+    "aligned_correct_suggested_min": 24,
+    "missing_correct_suggested_min": 12,
+    "selection_or_stopping": false
+  },
+  "inference": "Descriptive development experiment with 4 families/type; no population superiority, equivalence or human-school outcome claim. No confirmatory p-value or power claim.",
+  "case_screening": "Anonymous internal same-family review before freeze, no external expert.",
+  "resource_reporting": "Actual subject usage across attempts separated from 800 planned tasks; authoring/review/management overhead unknown and excluded with explicit label; cost NA unless billed/priced usage verified.",
+  "no_post_outcome_changes": true
+}

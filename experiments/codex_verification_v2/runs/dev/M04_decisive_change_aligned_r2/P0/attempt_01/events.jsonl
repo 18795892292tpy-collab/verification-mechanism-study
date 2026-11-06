@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b298-3419-7792-b69e-e7e7be8cb72e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"核准E类免到为10×5＝50人日，应评价人日为800－50＝750。评价出勤率为720÷750＝96%，达到常规跟踪界线。所需字段齐全，无须暂停补件，登记为常规跟踪，本月不启动额外出勤支持。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18903,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":288,"reasoning_output_tokens":167}}

@@ -1,0 +1,31 @@
+{
+  "offline_audit_tests": 67,
+  "offline_audit_passed": true,
+  "offline_source_hashes_match": {
+    "harness/evaluate.py": true,
+    "harness/integrity.py": true,
+    "harness/offline_audit.py": true,
+    "harness/runner.py": true,
+    "tests/test_evaluate.py": true,
+    "tests/test_integrity.py": true,
+    "tests/test_runner_offline.py": true,
+    "tests/test_v2.py": true,
+    "analysis/progress.py": true
+  },
+  "items": 80,
+  "families": 8,
+  "key_error_type_counts": {
+    "material": 40,
+    "rule": 40
+  },
+  "jobs": 800,
+  "groups": 160,
+  "procedure_counts": {
+    "P7": 160,
+    "P1": 160,
+    "P3": 160,
+    "P0": 160,
+    "P8": 160
+  },
+  "subject_calls": 0
+}

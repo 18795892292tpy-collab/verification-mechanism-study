@@ -1,0 +1,14 @@
+{
+  "group_id": "R03_irrelevant_aligned_r2",
+  "item_id": "R03_irrelevant_aligned",
+  "procedure": "P0",
+  "repeat": 2,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": null,
+  "attempt": 1,
+  "started_utc": "2026-11-06T20:51:17.241461+00:00",
+  "prompt_sha256": "7ea3f45621f1cae9690884baf70344d1b71ad3e23d2cdcaf251d7dd3d0ebef84",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

@@ -1,0 +1,125 @@
+{
+  "reviewed_utc": "2026-11-06T22:28:21.193379+00:00",
+  "status": "passed",
+  "reviewer": "Codex assistant; not an independent human or external expert",
+  "method": "Actual functions.view_image inspection of each final PNG after final regeneration; high-detail tool preview at 2048px width.",
+  "reviewed_pngs": [
+    {
+      "path": "figures/fig1_design.png",
+      "sha256": "49eb7d19c37d4c014eeab59faf6bf0235fe5ebc874e76bba7d6c4f3f5fafde52",
+      "width": 4026,
+      "height": 1904,
+      "status": "passed",
+      "observation": "Planned/observed counts are separated. All box borders, labels and arrows are visible; the initially clipped left border was fixed. 80 items, 160 P0 and four sets of 160 reviews agree with the design and actual 800 records."
+    },
+    {
+      "path": "figures/fig2_family_accuracy.png",
+      "sha256": "d008ef461fe7d7ccfab0607de6bb2eaa8da00be4f6069af4645906e1310141c0",
+      "width": 4340,
+      "height": 2316,
+      "status": "passed",
+      "observation": "All eight family labels, five procedure labels, count annotations and colorbars are legible. Each all-item cell is 20/20 and each present_flawed cell is 8/8, matching scored records. No clipping or overlap observed."
+    },
+    {
+      "path": "figures/fig3_family_contrasts.png",
+      "sha256": "a7a017557b482ff715eca505836b5adc059001296c294fcbcb2016a99b488ebf",
+      "width": 4412,
+      "height": 2041,
+      "status": "passed",
+      "observation": "Eight family dots are separately visible in each panel after moving the mean diamonds. All observed differences and both interactions equal zero. Zero-width min–max ranges are explicitly described; ranges are not CI. No point-label occlusion remains."
+    },
+    {
+      "path": "figures/fig4_resources.png",
+      "sha256": "388f5281423b2a8267a1369a4cd441d6fad3a31dc2d92cd59e0d12203a12b2d6",
+      "width": 4026,
+      "height": 1959,
+      "status": "passed",
+      "observation": "Token/count labels, duration labels, known/actual denominators and four footer lines are legible. Values match scored CSV and raw-validated summary. Footer discloses 3-to-12 concurrency after 667 tasks, remaining 133, no six-worker stage, and excludes causal speedup/cost claims."
+    }
+  ],
+  "other_formats": "SVG XML and PDF signatures verified; SVG/PDF exported from the same Figure objects, not independently visually rendered.",
+  "all_figure_output_sha256": {
+    "fig1_design.svg": "8be350edc198d1738bb9788b39af2545d659fb48e3fe426851276f9adad23489",
+    "fig1_design.png": "49eb7d19c37d4c014eeab59faf6bf0235fe5ebc874e76bba7d6c4f3f5fafde52",
+    "fig1_design.pdf": "6c379186fb5015f2eb1ccdc0801733d3acff859e20ba79393d90e396b35ef8ad",
+    "fig2_family_accuracy.svg": "fc196a0c0eb98858dae6a77fe33c28ded4cc056988f9fe89aa5246f105e9f877",
+    "fig2_family_accuracy.png": "d008ef461fe7d7ccfab0607de6bb2eaa8da00be4f6069af4645906e1310141c0",
+    "fig2_family_accuracy.pdf": "d035b34da14fb4aee19cad6f5bcd41e03774a6d6d9edffd6fa189e43e40f1c32",
+    "fig3_family_contrasts.svg": "dca32f777ec7868b68c83f4a776a619ee60f6160011715882360edb650cbb8c4",
+    "fig3_family_contrasts.png": "a7a017557b482ff715eca505836b5adc059001296c294fcbcb2016a99b488ebf",
+    "fig3_family_contrasts.pdf": "22c75f8476fa9408cea325fbf5e1d507b316cbb79eabcd132348fe88907a4aab",
+    "fig4_resources.svg": "b7a273b2f9ebea4b193263f88e043662ff0d9d87f74364a07dadb122a6ada85d",
+    "fig4_resources.png": "388f5281423b2a8267a1369a4cd441d6fad3a31dc2d92cd59e0d12203a12b2d6",
+    "fig4_resources.pdf": "ab8a6dd3e0bacc8720d066288517f4052462b9f787b6b7908cea3f7b75b3c1a4"
+  },
+  "source_summary_sha256": "5e3979b22f9dfab36d491c6984f52a8bb5e22240791d208b63bf75901f1c9fa9",
+  "source_csv_sha256": "e51a255f998c3fd5ec927bea9f20b193b61d830d6f8bc35bd54f98d7204a724f",
+  "report_sha256": "32c997eb7bb3739c726f45bc2fb21ca7d95f8df91cf46208cd37050eca98f6a6",
+  "source_files_rechecked": 5642,
+  "source_hashes_unchanged": true,
+  "data_checks": {
+    "terminal_tasks": 800,
+    "status_counts": {
+      "complete": 800
+    },
+    "actual_attempts": 800,
+    "by_procedure": {
+      "P0": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "attempts": 160,
+        "input_tokens": 3021700,
+        "output_tokens": 49232,
+        "seconds": 2743.313630564837
+      },
+      "P1": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "attempts": 160,
+        "input_tokens": 3047700,
+        "output_tokens": 51903,
+        "seconds": 2905.3587570332456
+      },
+      "P3": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "attempts": 160,
+        "input_tokens": 3059380,
+        "output_tokens": 105664,
+        "seconds": 4583.745296290843
+      },
+      "P7": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "attempts": 160,
+        "input_tokens": 3065140,
+        "output_tokens": 114261,
+        "seconds": 4820.420430243947
+      },
+      "P8": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "attempts": 160,
+        "input_tokens": 3064980,
+        "output_tokens": 117832,
+        "seconds": 4953.611143432325
+      }
+    },
+    "natural_first_errors": 0,
+    "I78": 0.0,
+    "I73": 0.0,
+    "usage_missing_attempts": 0
+  },
+  "fixed_visual_issues": [
+    "Expanded diagram x limits to preserve complete left box border.",
+    "Separated type-mean diamonds from family dots; added zero-width range explanation.",
+    "Moved interaction labels above footer for clear separation."
+  ],
+  "editorial_correction": "Report now states near length matching, with frozen prompt body counts P7=43 and P8=44; no claim of equal hidden computation.",
+  "remaining_visual_issues": []
+}

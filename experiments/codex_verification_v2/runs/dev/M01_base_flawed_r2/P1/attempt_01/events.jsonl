@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2c6-8278-72c1-b5aa-d801ebb11789"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"E47确认Q26于9月14日16:40受理，适用原办法八万元界线。含税总额七万二千元且无禁购标记，应由设备处单部门办理。修订后询价及尚未成交均不改变适用版本，故不选联合会签；必要字段齐全，无须补件暂停，也无撤销依据。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19090,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":263,"reasoning_output_tokens":127}}

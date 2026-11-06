@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b29e-34bf-74f3-95b6-b0243900c97a"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S3\",\"S4\",\"S8\"],\"brief_justification\":\"T9资格代码未归档，而R7不同资格层的结果对应不同处置，现有课程名称不能确定匹配层。依S1及S8，应暂停方案选择，向人事室补取资格代码后再进行证据匹配。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18894,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":290,"reasoning_output_tokens":189}}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2d8-4658-7162-9688-488ad8117974"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"本轮规程适用，未载替代版本。T9资格E已归档；R7同定义同量表E层增幅7分、完成率94%，满足门槛。三份材料属同一次研究，恰一项合格证据触发试用，不满足长期采用、保留现行或补件暂停条件。试用对象、用途、一轮使用权限及现有预算均有支持，必要字段齐全，保留D并于试用后按计划评估。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19164,"cached_input_tokens":18688,"cache_write_input_tokens":0,"output_tokens":649,"reasoning_output_tokens":482}}

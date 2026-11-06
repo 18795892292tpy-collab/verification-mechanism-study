@@ -1,0 +1,43 @@
+{
+  "call_number": 2,
+  "purpose": "during-run-concurrency-amendment-preparation",
+  "timestamp": "2026-11-06T22:21:40.981034+00:00",
+  "agent_id": "/root/v2_final_audit",
+  "reviewer_model": "inherited Codex model; exact identity not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "preparation_complete_no_final_verdict",
+  "final_audit_complete": false,
+  "model_calls": 0,
+  "target_host": "liekkas",
+  "target_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "input_snapshot_hashes": {
+    "protocol/CONCURRENCY_AMENDMENT_2026-11-07.json": "db685add1b3f1467816e4c5e72d58bab66e92d938678a624204918ac1cfd448c",
+    "harness/run_concurrency_override.py": "15adc3074c13d6322c1e1373701488502335a9fc9745a3a022ed3d61fb12d41c",
+    "audits/concurrency_override_tests.json": "e4e86163590ecf486253ae45d66bafee2c45ab48328b441bd1c55071ec30936b",
+    "audits/concurrency_stop_request.json": "30987fd01119d1607b28e6ca3ad87150c75346a60dea1fcea4058fbfa39b776b",
+    "audits/concurrency_amendment_applied.json": "95b78c2d8c1c22bfecd3606edc920690c67a6e50ce558a18fa97738029c10248",
+    "runs/dev/progress.jsonl": "036e87e07e9314b8b0a2b65a139d4b0a23c719260951d09850dda32e179c0826",
+    "audits/concurrency_invocations/4f5cc41e23394094aac9a613a1f11990.json": "3cf4bfd150efe2b53f4de065f4cc52ac1052e92eedefa61f3b4e54fae3446cb1"
+  },
+  "output_hashes": {
+    "audits/independent_final_audit.py": "9693bb90682be2f76475cde4ae571b67b470136a7b0ecb428c863ec67c0e5ddb",
+    "audits/AUDIT_PREPARATION.md": "fb50f293ce35adb43a7e11b172f76e76f845f721a2f03b4c23e79567e0e2454a"
+  },
+  "checks": [
+    "Original 28 frozen source hashes unchanged",
+    "667 prior terminal hashes and all 160 P0 snapshot membership",
+    "Applied amendment and exact invocation/progress linkage read directly",
+    "Independent raw timestamp phase and overlap checks (preparation mode, active work permitted)",
+    "Original 119354-byte progress prefix pinned; exactly three SIGINT in-flight omissions disclosed",
+    "In-memory changed-applied-hash and post-stop/pre-amendment-start probes rejected",
+    "No external expert or cross-family claim; no final performance or integrity verdict"
+  ],
+  "limitations": [
+    "Author offline test report/source inspected and pinned, not rerun as independent evidence",
+    "Live progress hash is only this trace snapshot; final audit will require stable evidence",
+    "Operational speedup is not causally inferred"
+  ],
+  "final_report_written": false
+}

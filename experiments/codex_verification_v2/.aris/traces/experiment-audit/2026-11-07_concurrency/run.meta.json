@@ -1,0 +1,14 @@
+{
+  "skill": "experiment-audit",
+  "run_id": "2026-11-07_concurrency",
+  "timestamp": "2026-11-06T22:17:54.311381+00:00",
+  "agent_id": "/root/v2_preflight_audit",
+  "model": "inherited Codex; precise model identifier not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "completed",
+  "verdict": "PASS",
+  "project_dir": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "subject_calls": 0
+}

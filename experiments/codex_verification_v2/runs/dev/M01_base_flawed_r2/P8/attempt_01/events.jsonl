@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2af-2476-7ae1-92a5-f8cc1db79cb9"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"复核保留A：制度适用于Q26整套实训设备及含税总额。E47于9月14日16:40确认受理，依衔接条款沿用原办法八万元界线。七万二千元未达界线，单部门路径覆盖本单对象、金额和用途。询价日期及未成交状态不改变版本，备忘录建议B的依据不成立。必需字段齐全，无禁购或安全专项审批要求；先前回答无实质遗漏或矛盾。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19198,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":615,"reasoning_output_tokens":445}}

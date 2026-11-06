@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2dd-4625-7050-857f-bb57113a2a9b"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"材料适用于本校V8及唯一关联事件I63，无失效或替代版本记载。有权审批员签署E3，覆盖本次入校，不涉及金额授权。身份已核验、陪同已到位，本轮可签限定路线凭单，必要字段齐全。保留C；备忘录忽略E3优先于普通提前时限的例外，D不适用。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19160,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":578,"reasoning_output_tokens":436}}

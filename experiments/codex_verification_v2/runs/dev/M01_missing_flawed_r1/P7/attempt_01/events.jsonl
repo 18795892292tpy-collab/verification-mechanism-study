@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2e1-b846-7421-bf31-599823817ecc"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"保留C。Q26属制度覆盖的实训设备采购，含税7.2万元，旧版走单部门，新版须会签。适用版本取决于E47受理确认时间，该必需字段未归档，触发S8暂停补取条件。建号、询价日期和现行标准不能替代，未成交不重置受理，预算预留不生成审批；无禁购标记，不应因金额界线变化撤销。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19187,"cached_input_tokens":18688,"cache_write_input_tokens":0,"output_tokens":820,"reasoning_output_tokens":661}}

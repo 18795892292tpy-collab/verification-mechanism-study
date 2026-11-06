@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2a9-6972-7840-9eb9-7365f7311b62"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"材料覆盖本月本班及评价用途，代码未换版，核准对象与用途相符。E类免到10×5＝50人日，应评价800－50＝750人日，720÷750＝96%，达到常规跟踪界线。A不涉及额外支持开支，未超出制度范围。必要字段齐全，先前回答及建议与原文一致，无影响决定的遗漏或矛盾，保留A。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19176,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":910,"reasoning_output_tokens":756}}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "target": "file:///home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/viewer.html",
+  "title": "Codex 核验实验 · 原始作答回放",
+  "items": 80,
+  "checked_responses": 800,
+  "console_errors": [],
+  "external_requests": [],
+  "mobile_overflow": false,
+  "browser": "Existing Chrome binary, new isolated headless profile for this new local artifact; no user tab/profile modified",
+  "created_utc": "2026-11-06T22:28:10.591Z"
+}

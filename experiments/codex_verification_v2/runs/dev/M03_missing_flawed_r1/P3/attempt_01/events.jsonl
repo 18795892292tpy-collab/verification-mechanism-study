@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2bb-cbf6-7eb2-9040-399a01063ddd"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"本轮规程适用于T9，档案未载替代版本；S6的实施、预算及提供方意愿不能补足资格字段。S3明确代码未归档，无法匹配研究层；S4合并增幅不得替代匹配结果，S5三份材料仅属一项研究，故备忘录不足以支持D。依S1、S8须暂停并向人事室补取代码，保留A。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19111,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":671,"reasoning_output_tokens":516}}

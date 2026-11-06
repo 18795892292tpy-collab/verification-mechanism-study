@@ -1,0 +1,14 @@
+{
+  "group_id": "M03_paraphrase_aligned_r1",
+  "item_id": "M03_paraphrase_aligned",
+  "procedure": "P0",
+  "repeat": 1,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": null,
+  "attempt": 1,
+  "started_utc": "2026-11-06T20:41:39.319513+00:00",
+  "prompt_sha256": "1a87a490b799b0f2ef25f111d8ac5466f367cf199007183c6c55e3130b4fb7c6",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

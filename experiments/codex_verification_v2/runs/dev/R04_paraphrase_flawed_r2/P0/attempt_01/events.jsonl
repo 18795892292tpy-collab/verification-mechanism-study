@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b297-79c1-7fe0-98f6-0ea50a128d08"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S4\",\"S8\"],\"brief_justification\":\"A14须逐班达到九成有效确认。U1为100%，U2为90%，U3仅17/20，即85%。计数已齐备，整体达标不能抵补单班缺口，且禁止拆批，故应整批退回补齐，暂不发放。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18783,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":293,"reasoning_output_tokens":183}}

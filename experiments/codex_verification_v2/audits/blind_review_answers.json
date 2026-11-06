@@ -1,0 +1,583 @@
+{
+  "reviewer_class": "fresh-context same-family provisional review of 80 initial items plus same-reviewer targeted re-review of 10 pre-execution revisions",
+  "input_sha256": "5fcdbf43b5f9ba36c153f7ce308dbb3f26d18e9c4d03d2f865e9460455a2f77c",
+  "aggregation": "70 unchanged public items retain original independent answers; 10 revised public items use targeted revision answers; no answer-key edits to reviewer responses",
+  "source_sha256": {
+    "audits/blind_review_round1/blind_packet.json": "08a1fa51b49e4969f0ac2440deca8547bc12f6dcf45891f929b0bd8250bf7029",
+    "audits/blind_review_round1/blind_review_answers.json": "0d32a94d1e09f335a7f01d08c10b8a7e6e50ca2c6ff503756eee042d7f10f74b",
+    "audits/blind_revision_packet.json": "eefac34529a8fb15016ab5a117ed9d468e855bd6f8f7fd4e7397d1276a2e43f1",
+    "audits/blind_review_revision_answers.json": "3d14daa582cd2bd69744c89cb756a0fa055598892567fd5517dde169bb777106"
+  },
+  "answers": [
+    {
+      "blind_id": "B001",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S2每班20人；S4的U3为17/20=85%，低于S1九成门槛且禁止拆批，故整批退回。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B002",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4缺U3有效确认数，S5未给总体数可倒算；S1、S8要求补取必需计数，不能由其他班达标推定。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B003",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4有效签署E3，S5核验与陪同到位；按S1优先例外签限定凭单陪同入校。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B004",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4两名教师证书均有效，S2同意书齐全，30/2=15且至少两名，满足S1。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B005",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S3资格E对应S4增幅91−84=7分且完成率94%，S5仅一项独立研究；修订S1明确恰有一项必须试用，排除保留现行及长期采用，S2提供方许可不覆盖学校规则。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B006",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S3签名仅据W6，S4只授权L1、L2；S1、S2要求对可分割且安全合格部分分别放行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B007",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4缺认证节点恢复时间；S5工单源于重复行，S3打印站维护独立，均不能推出S1三小时触发条件。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B008",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S3签名为受托签署，S4仅含L1、L2，S2、S6允许且具备逐处分割开放条件，依S1剔除L3。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B009",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S1需扣核准免到人日；S4缺块数，S3原始90%不能作正式等级，其他材料未补出块数。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B010",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4缺分类代码，S2说明标题“紧急”无分类效力；S5只能证明核验和陪同，需依S8补分类再选路径。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B011",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4连续不可用08:10—11:00为2小时50分，未满足S1三小时；S5重复行工单依S2常规修正。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B012",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4中断2小时50分，S1未触发应急；S5工单来源是重复行，S7预计完成周次不改变模式触发条件。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B013",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S2各班20人，S4 U3仅17份为85%；S1逐班九成且不能拆批，合计达九成不能抵补。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B014",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4有权签署E3，S5身份及陪同俱备，S1例外适用且仍须路线凭单、全程陪同。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B015",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4缺恢复端点，不能判断S1连续三小时；S2、S5表明重复行核对时限不能补出节点中断时长。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B016",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4 08:10—11:20连续中断3小时10分，触发S1应急；S1明确恢复后仍履行暂记和回填。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B017",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4中断3小时10分已达到S1触发条件，当前恢复不撤销历史触发路径；S5去重责任仍保留。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B018",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4 E47受理为9月14日16:40，S2适用旧版；S3含税7.2万元低于S1旧门槛8万元，走单部门。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B019",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4确认事件早于9月15日，按S2延续旧版；S1旧门槛8万元，S3为7.2万元，S5询价日期无权改变版本。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B020",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S3资格N对应S4增幅84−82=2分，低于S1五分门槛；匹配资料完整但无合格证据，S1要求保留现行，S5同编号三份载体不构成额外研究。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B021",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S3明确N层，S4匹配增幅2分不足S1五分，完成率94%不能单独构成合格证据；S5无独立复现，依S1维持现行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B022",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S2每班20人；S4依次20、18、18份，即100%、90%、90%，全部满足S1含等号门槛。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B023",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4缺有效分类，S2排除标题推断；四小时提前量不能在分类未知时直接套普通规则，依S8补分类。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B024",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4受理为9月15日16:40，依S2用新版；S3 7.2万元达到S1新门槛6万元，应联合会签。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B025",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4 E3有权签署使S1预约例外适用，S5身份与陪同满足，须签凭单全程陪同。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B026",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4吴证已过期未续，S3无替补，有效仅1人且30:1；S1不满足最低两人及比例，应延期且不得删减学生。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B027",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4认证节点中断08:10—11:00为170分钟，未达到S1三小时；S5重复行按常规校验修正。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B028",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4核准免到8×5=40人日，S2、S3正式率720/(800−40)=94.7368%，属S1定向区间。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B029",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S3缺资格代码且课程名称为宣传资料，S4 N、E层分别增2、7分，合并值不能替代；S1、S8要求先补资格码，其他公开材料无法补出。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B030",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4 U3有效17/20=85%，S1需逐班至少90%且不允许拆批；S5总体比例不能抵补。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B031",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4免到8块×5=40；S1正式率按S2、S3算720/760≈94.74%，在92%至96%间，应定向支持。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B032",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4委托覆盖L1、L2、L3；S5逐单签署三处、S6安全通过，依S1全部签发。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B033",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4吴老师证书过期未续，S3无替补，只有1名有效带队者；S1规定已知不足延期，不可用S5成人比替代。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B034",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S2计划800、S3实到720、S4免到40，按S1得720/760≈94.74%，须定向支持。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B035",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4只有陈老师有效持证，S1所需至少两人及每人不超15均不满足；证书状态明确，不适用补证据暂停。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B036",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4 U3仅17份，按S2为17/20=85%不足S1九成，不能以整体数抵补，整批退回补齐。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B037",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S3指定C7，S4中断170分钟不足S1三小时，S5重复行工单按S2常规在线修正。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B038",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4八块共40免到人日，S2、S3给800、720，S1评价率720/(800−40)≈94.74%，为定向支持。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B039",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S3目标N，S4对应增幅2分低于S1五分，S5只有一次研究且匹配数据完整；修订S1无合格证据时明确保留现行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B040",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S3是受托而非委员会签署，S4范围仅L1、L2，S5越权同意L3不生效；依S1分割放行有效部分。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B041",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4缺吴证有效状态，S3成人名册及S5比率未核有效持证；依S1、S8先补状态，不能直接认定不足或齐全。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B042",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4缺委托场地清单，S3委员会本身权限及S5越界与否未明的签名不能补授权范围，S8要求补清单。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B043",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S3权限只来源W6，S4缺范围附件；S5签名同意不证明受托权限，依S8补场地清单再签发。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B044",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4核准免到40人日，S2、S3正式率720/(800−40)≈94.74%，按S1登记定向支持。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B045",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4 W6仅授权L1、L2；S3签名性质为受托，S1按有效范围逐处放行，S2和S6具备分割及安全条件。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B046",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4吴证到期且续证未过，S3仅两人无替补，实际有效持证仅1人；S1强制延期，S5成人比例不能替代资格。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B047",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4分类N1，S2普通维修；S3仅提前4小时未满S1的24小时，陪同准备不构成E3例外。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B048",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S3目标E对应S4增幅7分且完成率94%，S5恰有一次独立研究；S1现明确必须试用，C不再获规则支持，备忘录误用N层也不能改变目标匹配。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B049",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S2每班20人，S4 U3有效17份为85%，S1规定任一班不足则整批退回，不可拆批或用合计抵补。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B050",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4 E47于9月14日确认受理，S2用旧版；S3 7.2万低于S1旧版8万，应单部门采购。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B051",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4有权签署E3，S5核验及陪同俱备，S1例外优先但须凭单与全程陪同，故选C。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B052",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4免到10×5=50人日；S1按S2、S3得720/(800−50)=96%，恰达常规跟踪边界。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B053",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4确认受理9月14日，S2据此沿用旧版；S3 7.2万元未达S1旧界线8万元，S5询价新版提示不改版本。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B054",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S3给N，S4 N层增2分，虽完成率94%仍不满足S1合格证据的合取门槛；S5无其他独立研究，必须保留现行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B055",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4吴证明确失效且未续，有效持证仅陈一人，S1最低人数与30:1比例均不满足，须整班延期。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B056",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4八块免到=40，依S1用S2、S3算720/760≈94.74%，非原始90%，应定向支持。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B057",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4明确受托场地为L1、L2、L3，S5已逐单同意且S6安全通过；S1逐处放行要求全部签发。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B058",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S3人员资格N已确定，S4 N层84−82=2分不合格；修订S1明确完整数据无合格证据则维持现行，摘要合并五分不可替代。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B059",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S2每班20人，S4 U3仅17人确认；S1逐班九成且不可拆批，故退回整批补齐。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B060",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4有权签署E3，S5身份、陪同均齐备，S1明文须开路线凭单全程陪同放行，无须普通24小时提前量。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B061",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4 08:10至11:00为2小时50分，不达S1三小时触发条件；S5核对来自重复行，按S2常规在线修正。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B062",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4吴证有效状态未归档，S3、S5未证明有效持证人数；S1、S8要求补资格记录再判断出发。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B063",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S2只认受理事件，S4 E47为9月15日16:40，适用新版6万门槛；S3 7.2万须会签，建号日不决定版本。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B064",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4吴证已到期未通过续期，S3无替补，1名有效持证不足S1两名且30:1超比例，应延期。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B065",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4缺受理确认时间，S2以该时点定版本；S3建号及S5询价无法确定衔接前后，需按S8补时间。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B066",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S3受托签名链接W6，S4仅列L1、L2，S1要求逐处放行有效覆盖部分；S5同意三处不扩张权限。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B067",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4两证在出发日均有效，S2同意书齐全；S1至少两人且30/2=15均达标，规则并未要求第三名机动人员。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B068",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4缺免到块数，只知每块5人日；S3原始90%不能确定S1扣免到后的区间，须补块数。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B069",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4连续认证中断170分钟未达S1三小时；S5重复行引起同标题工单，按S2在线去重修正。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B070",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4 10块×5=50免到人日，S1正式率720/(800−50)=96%，包含等号应常规跟踪。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B071",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S3目标N，S4匹配改善仅2分而S1要求至少5分且完成率85%；S5只有同一研究多载体，故无合格独立证据，依S1保留现行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B072",
+      "action": "D",
+      "unique_answer": true,
+      "reason": "S4 N1属S2普通维修，S3仅4小时提前量不达S1 24小时；须另约，身份陪同不豁免提前量。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B073",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S3实际签名来自W6受托权限，S4只列L1、L2；S1允许并要求分割放行有效部分，L3越界不批准。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B074",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4签署E3，S1规定其提前量例外优先；S5身份与陪同满足，须签路线凭单并陪同放行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B075",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4确认9月14日，S2沿用旧版；S3 7.2万未达S1旧界线8万，应设备处单部门执行。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B076",
+      "action": "C",
+      "unique_answer": true,
+      "reason": "S4受理确认时间未归档，S2须以受理时点选版；S3建号和S5询价均不能替代，依S8补确认时间。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B077",
+      "action": "B",
+      "unique_answer": true,
+      "reason": "S4缺U3有效计数，S5只有统计说明无已知合计可反推；S1、S8须先补计数再判断整批达标。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B078",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S3未归档目标资格码，课名、楼层和其他安排不反映任教年限；S4 N、E层会触发不同路径，S1、S8须补代码后决定，缺证不能从旁文补出。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B079",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4三班有效20、18、18，按S2每班20人均达到S1至少90%且含等号，整批可发放。",
+      "concerns": []
+    },
+    {
+      "blind_id": "B080",
+      "action": "A",
+      "unique_answer": true,
+      "reason": "S4受理9月14日16:40在S2衔接点前，按S1旧版8万界线；S3 7.2万应单部门，S7课程日期不影响版本。",
+      "concerns": []
+    }
+  ],
+  "general_concerns": [
+    "B005、B048的S1以“允许一轮试用”表达一项合格研究的效果，未把试用写成必须执行的唯一路径，也未排除保留现行方案。两题的D均有明确支持，但严格唯一性不足；不能因备忘录支持C的理由有误就认定C的行动本身违规。建议规则明确规定满足该条件时本轮应开展一轮试用，或明确本轮如何在许可行动间选择。",
+    "公开包中可直接观察到同一情境及同一行动字母顺序被多次复用，有些仅改备忘录或无关段落。80条不能天然视作80个相互独立的新情境；若同一作答者顺次看全包，会接触近重复题，这影响后续解释。此项仅基于公共材料观察，未查阅实验协议。",
+    "这是同模型家族、独立上下文的临时内部文字审查，不构成外部教育专家审查、真实学校验证或真实业务法规判断。逐题结论仅依据所列虚构规则；除B005、B048的许可措辞外，未发现意外的必要证据漏项，明确标记缺失的决策字段也未能由各题其他公开文字补出。"
+  ],
+  "revision_general_concerns": [
+    "本次十题逐题复审未发现尚未解决的行动唯一性问题或意外必要证据遗漏。B005、B048的S1已从许可改为必须执行的数量对应规则，明确排除了合格单项研究下继续现行方案的读法；S2仅陈述提供方商业许可，不与校方强制规则冲突。",
+    "B029、B078所缺目标资格代码仍无法由课程名称、培训楼层、研究合并值或其他公开文字补出；补件暂停是唯一有依据的当前行动。",
+    "本次由首轮同一审阅者进行针对性修订复审，具有首轮审查历史，不应称作又一轮独立新上下文验证；仍是同模型家族的临时内部审查，不是外部教育专家或真实学校验证。本结论只覆盖所提供的十题修订公开材料。"
+  ]
+}

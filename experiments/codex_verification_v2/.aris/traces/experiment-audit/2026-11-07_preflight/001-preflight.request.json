@@ -1,0 +1,32 @@
+{
+  "call_number": 1,
+  "purpose": "independent-preflight",
+  "timestamp": "2026-11-06T20:27:56.895512+00:00",
+  "tool": "spawn_agent",
+  "model": "inherited, exact identifier not exposed",
+  "files_referenced": [
+    "protocol/analysis_plan.json",
+    "protocol/EXECUTION_AMENDMENT.md",
+    "protocol/runtime_identity.json",
+    "harness/runner.py",
+    "harness/integrity.py",
+    "harness/evaluate.py",
+    "harness/offline_audit.py",
+    "analysis/progress.py",
+    "tests/test_v2.py",
+    "tests/test_evaluate.py",
+    "tests/test_integrity.py",
+    "tests/test_runner_offline.py",
+    "cases/CASE_SPEC.md",
+    "cases/AUTHORING_REVIEW.md",
+    "cases/build_cases.py",
+    "prompts/dev_items.json",
+    "keys/dev_keys.json"
+  ],
+  "prompt": "作为独立的实验完整性预审员，直接读一手代码/协议，不调用任何被试模型、不修改原始/冻结输入、不联网、不推GitHub。主机 liekkas；V2 唯一目标 /home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2。阅读 /home/grf/.codex/skills/experiment-audit/SKILL.md 以及它的独立审查规则。审查文件：V2/protocol/analysis_plan.json, EXECUTION_AMENDMENT.md, runtime_identity.json；V2/harness/{runner.py,integrity.py,evaluate.py}；V2/tests/；V2/analysis/progress.py。注意作者v2_harness正在最后完善测试，发现问题先发给root，root协调修改。审查固定800矩阵、首轮共享、无结果驱动重采样、跨进程锁/manifest/source/runtime identity、技术失败/配额网络暂停可恢复且拒绝重复final、解析与评分分母、家族层面contrast、无伪造usage。可独立跑离线测试或额外临时mock。独立发现写 V2/audits/PREFLIGHT_REVIEW.md 和 preflight_review.json，并在V2/.aris/traces/experiment-audit/2026-11-07_preflight保存完整审查路径/步骤/结论trace。标签 same-family provisional，不声称外部教育专家验证。不要读实验results（目前不应存在）；不写casereview文件。输出具体缺陷/阻塞及建议，或无问题的检查证据。",
+  "followup_messages_received": [
+    "题库已最终交付并开始fresh匿名80题审（与你的工具链预审独立）。新增待冻结证明材料 cases/factual_truth_tables.json、CASE_SPEC.md、AUTHORING_REVIEW.md 已存在。我将把这3个文件加入runner.FROZEN_FILES（现有列表已包含公开题/键/构建器），随后重跑offline_audit。请审查时留意此小改；不影响protocol提示或统计逻辑。",
+    "收到usage缺失假0问题。root将按字段验证type int且非bool非负；每项未知空白，总total含缺失则null，另给known_input_tokens/known_output_tokens小计，input/output_usage_missing_attempts+combinedmissing。先完成剩余检查，我负责代码修复你复核。",
+    "这3项我都接受作为冻结前必须修复。请先写当前preflight_review.json/MD及探针trace，然后结束本轮，以腾出槽位给harness作者修复。我会随后复用你的reviewer上下文复查新文件及探针，不改你的原始发现；暂不freeze/run。"
+  ]
+}

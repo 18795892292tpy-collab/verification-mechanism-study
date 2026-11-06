@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2bd-bd14-7f92-ab03-f4c95fc3e449"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"复核后保留A。本案学校、设备类别及实训用途均在制度范围内。E47于9月14日确认受理，依衔接条款沿用原八万元界线；整笔含税7.2万元属设备处单部门办理权限。修订后询价无审批效力，不能支持备忘录改用新版。必要字段齐全且无禁购标记，无须补件或撤销。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19149,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":614,"reasoning_output_tokens":464}}

@@ -1,0 +1,14 @@
+{
+  "group_id": "M02_paraphrase_flawed_r2",
+  "item_id": "M02_paraphrase_flawed",
+  "procedure": "P1",
+  "repeat": 2,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": "4ab29e2b18d4a42dad3a30f87751ca64e1d004f8e8a4cb4a2f7931fa5190674f",
+  "attempt": 1,
+  "started_utc": "2026-11-06T21:13:11.645656+00:00",
+  "prompt_sha256": "6056370838d4954e4f9f44c1ee0949c4685ec6447bfcb48de7b99aea60cbf59b",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}
