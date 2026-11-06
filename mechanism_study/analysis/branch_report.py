@@ -43,13 +43,33 @@ def wilson(k, n, z=1.96):
 
 
 def sign_test(a, b):
-    """Exact two-sided binomial test of a successes vs b failures among discordant pairs."""
+    """Exact two-sided sign test; undefined without a discordant pair."""
     n = a + b
     if n == 0:
-        return 1.0
+        return float("nan")
     k = min(a, b)
     p = sum(math.comb(n, i) for i in range(k + 1)) / 2 ** n
     return min(1.0, 2 * p)
+
+
+def number(value, digits=3, signed=False):
+    """Do not display missing estimates as zero or a numerical p-value."""
+    return format(value, f"{'+' if signed else ''}.{digits}f") if math.isfinite(value) else "NA"
+
+
+def count(k, n):
+    return f"{k}/{n}" + (" (NA)" if n == 0 else "")
+
+
+def rate(k, n):
+    return number(k / n, 2) if n else "NA"
+
+
+def rate_interval(k, n):
+    if not n:
+        return "NA"
+    low, high = wilson(k, n)
+    return f"{rate(k, n)} [{low:.2f}, {high:.2f}]"
 
 
 def main():
@@ -77,6 +97,9 @@ def main():
     w(f"# Branching analysis: {Path(args.scored).parent.name}\n")
     w(f"Families: {', '.join(sorted({k[0] for k in first}))}; shared first answers: {len(first)}; "
       f"review procedures: {', '.join(procs)}\n")
+    w("NA means not estimable: a rate needs a nonzero denominator and a sign test needs "
+      "at least one discordant pair. No incorrect first answers means repair effects cannot "
+      "be estimated; it is not evidence of no benefit or equivalence.\n")
 
     present = [k for k, r in first.items() if r["evidence"] == "present"]
     fw = [k for k in present if first[k]["correct"] == "0"]
@@ -91,7 +114,7 @@ def main():
         else:
             kinds["other substantive action"] += 1
     w("## First answers (P0), evidence present\n")
-    w(f"- correct {len(fr)}/{len(present)}; incorrect {len(fw)}: " + "; ".join(f"{k} {v}" for k, v in kinds.items()))
+    w(f"- correct {count(len(fr), len(present))}; incorrect {len(fw)}: " + "; ".join(f"{k} {v}" for k, v in kinds.items()))
     by_fam = Counter(k[0] for k in fw)
     w("- incorrect first answers by family: " + ", ".join(f"{f} {n}" for f, n in sorted(by_fam.items())) + "\n")
 
@@ -101,21 +124,22 @@ def main():
     for p in procs:
         rep = sum(review[p][k]["correct"] == "1" for k in fw)
         dam = sum(review[p][k]["correct"] == "0" for k in fr)
-        rl, rh = wilson(rep, len(fw))
-        dl, dh = wilson(dam, len(fr))
-        w(f"| {p} | {rep}/{len(fw)} | {rep / max(1, len(fw)):.2f} [{rl:.2f}, {rh:.2f}] | {dam}/{len(fr)} | "
-          f"{dam / max(1, len(fr)):.2f} [{dl:.2f}, {dh:.2f}] |")
+        w(f"| {p} | {rep}/{len(fw)} | {rate_interval(rep, len(fw))} | {dam}/{len(fr)} | "
+          f"{rate_interval(dam, len(fr))} |")
     w("")
     w("## Repairs by family\n")
     fams_with_errors = sorted(by_fam)
-    w("| procedure | " + " | ".join(fams_with_errors) + " |")
-    w("|---|" + "---|" * len(fams_with_errors))
-    for p in procs:
-        cells = []
-        for f in fams_with_errors:
-            ks = [k for k in fw if k[0] == f]
-            cells.append(f"{sum(review[p][k]['correct'] == '1' for k in ks)}/{len(ks)}")
-        w(f"| {p} | " + " | ".join(cells) + " |")
+    if not fams_with_errors:
+        w("NA: no family has an incorrect evidence-present first answer.\n")
+    if fams_with_errors:
+        w("| procedure | " + " | ".join(fams_with_errors) + " |")
+        w("|---|" + "---|" * len(fams_with_errors))
+        for p in procs:
+            cells = []
+            for f in fams_with_errors:
+                ks = [k for k in fw if k[0] == f]
+                cells.append(f"{sum(review[p][k]['correct'] == '1' for k in ks)}/{len(ks)}")
+            w(f"| {p} | " + " | ".join(cells) + " |")
     w("")
     w("## Paired contrasts on the same incorrect first answers\n")
     w("| contrast | meaning | only A repairs | only B repairs | both | neither | sign test p | families A > B / A < B |")
@@ -134,12 +158,12 @@ def main():
             rb = sum(review[b][k]["correct"] == "1" for k in ks)
             fa += ra > rb
             fb += ra < rb
-        w(f"| {a} vs {b} | {meaning} | {oa} | {ob} | {both} | {nei} | {sign_test(oa, ob):.3f} | {fa} / {fb} |")
+        w(f"| {a} vs {b} | {meaning} | {oa} | {ob} | {both} | {nei} | {number(sign_test(oa, ob))} | {fa} / {fb} |")
     w("")
     miss = [k for k, r in first.items() if r["state"] == "missing"]
     w("## Missing-evidence state (key = escalate)\n")
-    w(f"- P0 correct {sum(first[k]['correct'] == '1' for k in miss)}/{len(miss)}; after review: " +
-      ", ".join(f"{p} {sum(review[p][k]['correct'] == '1' for k in miss)}/{len(miss)}" for p in procs))
+    w(f"- P0 correct {count(sum(first[k]['correct'] == '1' for k in miss), len(miss))}; after review: " +
+      ", ".join(f"{p} {count(sum(review[p][k]['correct'] == '1' for k in miss), len(miss))}" for p in procs))
     w("")
     w("Note: small numbers of incorrect first answers make every contrast imprecise; treat development "
       "results as leads for the frozen confirmation set, not as tests of H1.")

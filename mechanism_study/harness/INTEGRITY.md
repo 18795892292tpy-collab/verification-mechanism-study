@@ -28,6 +28,12 @@ in branching reports. Pooling checks model/request/procedure conditions and
 rejects repeated copies of the same raw data. Overlapping planned groups across
 folders are refused so exported CSVs cannot confuse independent repeat batches.
 
+Reports show `NA` for a rate with a zero denominator or a repair effect with no
+incorrect first answers. A sign test without discordant pairs and a Wilcoxon
+test with no nonzero differences are also `NA`. Equal observed repair rates are
+still reported when defined, and valid numerical p-values remain visible when
+there are informative pairs. None of these empty-data cases implies equivalence.
+
 ## Resume and process locking
 
 The runner acquires `.runner.lock` before any plan, manifest or response write.
@@ -70,3 +76,7 @@ The executable tests use only `Mock`, cover complete/partial/retried branches,
 same-action different-text contamination, exact review replay, malformed tails,
 parameter and plan conflicts, legacy manifests/CSVs, cost availability, and two
 independent processes competing for the output lock.
+With scipy installed, five additional CLI integration regressions execute both
+report entry points on deterministic mock fixtures, including zero-error and
+missing-evidence-only runs. These tests explicitly skip if scipy is unavailable;
+the full validated environment uses Python 3.12.13 and SciPy 1.18.1.
