@@ -1,0 +1,14 @@
+{
+  "group_id": "R02_irrelevant_flawed_r2",
+  "item_id": "R02_irrelevant_flawed",
+  "procedure": "P7",
+  "repeat": 2,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": "6907cfac60ea6b832d9964de661d60e6fd78e0031788f9bffac46df0f24b2376",
+  "attempt": 1,
+  "started_utc": "2026-11-06T22:00:40.508072+00:00",
+  "prompt_sha256": "4383ca306533484e1ec769a1b188b1c5eb6acea66126944609c96a6928d9e06a",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

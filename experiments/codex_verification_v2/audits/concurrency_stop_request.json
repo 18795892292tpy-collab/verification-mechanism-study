@@ -1,0 +1,20 @@
+{
+  "requested_utc": "2026-11-06T22:10:22.330855+00:00",
+  "host": "liekkas",
+  "root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "pid": 2641787,
+  "command": [
+    "python",
+    "-u",
+    "harness/runner.py",
+    "--phase",
+    "dev",
+    "--part",
+    "all",
+    "--workers",
+    "3"
+  ],
+  "reason": "User requested increased concurrency from 3 to 6",
+  "signal": "SIGINT to Python parent only; no child/process-group signal",
+  "expected_behavior": "stop dispatch, ThreadPoolExecutor waits for in-flight response_task threads to seal their calls, then releases lock; existing final answers will never be resampled"
+}

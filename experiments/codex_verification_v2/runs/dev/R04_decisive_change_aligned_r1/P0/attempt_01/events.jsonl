@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2a2-ee5c-70d0-9aeb-c4a125d27d9f"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S8\"],\"brief_justification\":\"A14仅含U1、U2、U3，三班有效确认率分别为100%、90%、90%，均达到含等号的90%门槛。U3计数已归档，所需依据齐全，应批准按原清单整批发放。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18900,"cached_input_tokens":18688,"cache_write_input_tokens":0,"output_tokens":317,"reasoning_output_tokens":208}}

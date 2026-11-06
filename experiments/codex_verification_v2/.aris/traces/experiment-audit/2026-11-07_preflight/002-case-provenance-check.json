@@ -1,0 +1,26 @@
+{
+  "kind": "read_only_provenance_and_aggregation_check_not_semantic_rereview",
+  "hash_checks": {
+    "prompts/dev_items.json": true,
+    "keys/dev_keys.json": true,
+    "audits/blind_packet.json": true,
+    "keys/blind_mapping.json": true,
+    "audits/blind_review_answers.json": true
+  },
+  "review_source_hash_checks": {
+    "audits/blind_review_round1/blind_packet.json": true,
+    "audits/blind_review_round1/blind_review_answers.json": true,
+    "audits/blind_revision_packet.json": true,
+    "audits/blind_review_revision_answers.json": true
+  },
+  "packet_hash_matches_answer_input": true,
+  "unique_ids": true,
+  "public_text_matches_mapped_final_input": true,
+  "final_answers_exact_preserved_source_objects": true,
+  "revised_ids_count": 10,
+  "unchanged_ids_count": 70,
+  "answer_key_agreement_count": 80,
+  "unique_answer_true_count": 80,
+  "external_expert": false,
+  "subject_calls": 0
+}

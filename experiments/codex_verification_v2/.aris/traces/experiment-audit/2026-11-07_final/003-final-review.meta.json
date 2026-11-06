@@ -1,0 +1,14 @@
+{
+  "call_number": 3,
+  "purpose": "final-raw-semantic-claims-review",
+  "timestamp": "2026-11-06T22:36:36.027425+00:00",
+  "agent_id": "/root/v2_final_audit",
+  "model": "not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "completed",
+  "verdict": "WARN",
+  "deterministic_integrity": "PASS",
+  "final_audit_complete": true
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "step": 1,
+    "action": "Verify exact host and V2 cwd again",
+    "result": "liekkas / requested absolute target"
+  },
+  {
+    "step": 2,
+    "action": "Read revised runner/events/classifier and evaluate/usage/inventory/scoring directly; read new tests and source hashes",
+    "result": "Original three fixes identified in source"
+  },
+  {
+    "step": 3,
+    "action": "Run same unmodified five independent probes and whole unit suite",
+    "result": "Original findings resolved; 66 tests pass / 9.264 s",
+    "evidence": [
+      "002-probes-followup.json",
+      "002-unit-followup.log"
+    ]
+  },
+  {
+    "step": 4,
+    "action": "Independently exercise technical pause then successful recovery through evaluator",
+    "result": "New PF-04 regression reproduced; reported immediately to root",
+    "evidence": [
+      "002-resume-regression.json",
+      "002-intermediate-findings.json"
+    ]
+  },
+  {
+    "step": 5,
+    "action": "Check case-review hashes, anonymous-to-public mapping and exact 70+10 answer aggregation",
+    "result": "All checks pass; no semantic re-review",
+    "evidence": "002-case-provenance-check.json"
+  },
+  {
+    "step": 6,
+    "action": "Read PF-04 follow-up source; run 67-test suite and both original/extended independent probes",
+    "result": "67 tests / 0 failures / 0 errors / 9.519 s; recovered record evaluates cleanly and stays immutable",
+    "evidence": [
+      "002-unit-final.log",
+      "002-probes-final.json",
+      "002-extended-final.json"
+    ]
+  },
+  {
+    "step": 7,
+    "action": "Verify current offline_audit source hashes and actual fixed input/schedule counts",
+    "result": "9/9 source hashes match; 80 items, 8 families, 160 groups, 800 tasks",
+    "evidence": "002-final-source-check.json"
+  },
+  {
+    "step": 8,
+    "action": "Preserve first round and intermediate failure evidence; publish second-round report and hashes",
+    "result": "PASS, same-family/provisional; no unresolved integrity blocker in audited scope"
+  }
+]

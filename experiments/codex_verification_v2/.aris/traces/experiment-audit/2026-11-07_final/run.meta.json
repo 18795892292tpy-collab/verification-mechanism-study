@@ -1,0 +1,21 @@
+{
+  "skill": "experiment-audit",
+  "run_id": "2026-11-07_final",
+  "started_at": "2026-11-06T20:49:56.569461+00:00",
+  "executor": "codex",
+  "executor_model": "not independently exposed",
+  "executor_family": "openai",
+  "reviewer_model": "inherited Codex model; exact identity not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "project_dir": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "status": "completed",
+  "final_audit_complete": true,
+  "agent_id": "/root/v2_final_audit",
+  "last_followup_at": "2026-11-06T22:36:36.027425+00:00",
+  "last_status": "completed",
+  "finished_at": "2026-11-06T22:36:36.027425+00:00",
+  "verdict": "WARN",
+  "deterministic_integrity": "PASS"
+}

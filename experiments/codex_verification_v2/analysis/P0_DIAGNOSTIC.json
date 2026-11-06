@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-11-06T20:55:40.661282+00:00",
+  "scope": "160 sealed P0 only; descriptive diagnostic, not selection or stopping",
+  "planned": 160,
+  "complete": 160,
+  "correct": 160,
+  "by_type": {
+    "material": {
+      "present_flawed": {
+        "n": 32,
+        "correct": 32
+      },
+      "present_aligned": {
+        "n": 32,
+        "correct": 32
+      },
+      "missing": {
+        "n": 16,
+        "correct": 16
+      }
+    },
+    "rule": {
+      "present_flawed": {
+        "n": 32,
+        "correct": 32
+      },
+      "present_aligned": {
+        "n": 32,
+        "correct": 32
+      },
+      "missing": {
+        "n": 16,
+        "correct": 16
+      }
+    }
+  },
+  "no_case_changes_or_extra_sampling": true,
+  "freeze_sha256": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "incorrect_items": []
+}

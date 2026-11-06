@@ -1,0 +1,143 @@
+{
+  "audit_skill": "experiment-audit",
+  "kind": "post_seal_archive_portability_correction",
+  "generated_utc": "2026-11-06T22:42:22.174407+00:00",
+  "agent_id": "/root/v2_final_audit",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "deterministic_validation": "PASS",
+  "original_overall_verdict": "WARN",
+  "scientific_results_changed": false,
+  "original_target": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "archive_target": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/github_publish/verification-mechanism-study/experiments/codex_verification_v2",
+  "target_host": "liekkas",
+  "reason": "Archive deliberately omits the runtime process lock; original saved inventory includes it.",
+  "independent_path_comparison": {
+    "original": 7365,
+    "archive": 7364,
+    "only_original": [
+      "runs/dev/.integrity.lock"
+    ],
+    "only_archive": []
+  },
+  "declared_archive_omissions": [
+    "runs/dev/.integrity.lock"
+  ],
+  "historical_lock_sha256": "857c533135a969367cec11b653fe426ec36002735befa1138891bea1959bc45c",
+  "implementation_constraints": [
+    "Only explicit --archive-root can reconcile an absent lock; original-target inventory remains exact.",
+    "Pinned unchanged original INDEPENDENT_FINAL_AUDIT.json supplies full historical runs file identities and hashes.",
+    "Historical/current file difference must be exactly the declared lock, with no added files.",
+    "All retained runs bytes must equal pinned historical hashes; existing unknown-artifact/symlink scan unchanged.",
+    "Only expected observed_paths decreases by one; actual observed inventory and original analysis are never altered.",
+    "Stdout declares actual root, target_mode, restored_experiment_execution=false and reconciliation details."
+  ],
+  "revised_file": "audits/independent_final_audit.py",
+  "previous_sha256": "e83d2a0c1d7328f4501f5c2552334ca564b5a0905746608ba94dcb8a7c89382d",
+  "revised_sha256": "958af4fe752d6f0583667de413fcd9ec34e77621eb789229742683d467751c20",
+  "historical_audit_hash_semantics": "The sealed EXPERIMENT_AUDIT.json and 003 trace continue to describe the exact pre-correction script. This supplement records the later script version; do not rewrite the old audit's source hashes.",
+  "old_sealed_hashes_unchanged": {
+    "EXPERIMENT_AUDIT.json": "69e067e0dcd8da2f3b839bd6a7b115bb20454f64ec5bf988028357e9f1f7c8e4",
+    "EXPERIMENT_AUDIT.md": "30009506ea4cbc7b94d962eea7769cd77a4b9cee1241bd2b10fe04b2fbb657f0",
+    "audits/INDEPENDENT_FINAL_AUDIT.json": "24905c6012661ac485a037d8dea216b3d183adf8cce343adcf2b35f961f7bd3a"
+  },
+  "frozen_files_unchanged": 28,
+  "commands": [
+    {
+      "command": "python /home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/audits/independent_final_audit.py --archive-root /home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/github_publish/verification-mechanism-study/experiments/codex_verification_v2 --final",
+      "exit_code": 0,
+      "stdout": "{\"audit_status\": \"completed\", \"overall_verdict\": \"WARN\", \"deterministic_integrity\": \"PASS\", \"review_independence\": \"same-family\", \"acceptance_status\": \"provisional\", \"root\": \"/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/github_publish/verification-mechanism-study/experiments/codex_verification_v2\", \"target_mode\": \"archive_evidence_only\", \"restored_experiment_execution\": false, \"archive_inventory_reconciliation\": {\"status\": \"verified_declared_runtime_lock_omission\", \"declaration\": \"Only runs/dev/.integrity.lock may be absent in explicit archive mode\", \"omitted_paths\": [\"runs/dev/.integrity.lock\"], \"historical_omitted_sha256\": \"857c533135a969367cec11b653fe426ec36002735befa1138891bea1959bc45c\", \"historical_observed_paths\": 7365, \"archive_observed_paths\": 7364, \"historical_run_files\": 5604, \"archive_run_files\": 5603, \"reference_manifest\": \"audits/INDEPENDENT_FINAL_AUDIT.json\", \"reference_manifest_sha256\": \"24905c6012661ac485a037d8dea216b3d183adf8cce343adcf2b35f961f7bd3a\", \"restored_experiment_execution\": false}}\n",
+      "parsed_stdout": {
+        "audit_status": "completed",
+        "overall_verdict": "WARN",
+        "deterministic_integrity": "PASS",
+        "review_independence": "same-family",
+        "acceptance_status": "provisional",
+        "root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/github_publish/verification-mechanism-study/experiments/codex_verification_v2",
+        "target_mode": "archive_evidence_only",
+        "restored_experiment_execution": false,
+        "archive_inventory_reconciliation": {
+          "status": "verified_declared_runtime_lock_omission",
+          "declaration": "Only runs/dev/.integrity.lock may be absent in explicit archive mode",
+          "omitted_paths": [
+            "runs/dev/.integrity.lock"
+          ],
+          "historical_omitted_sha256": "857c533135a969367cec11b653fe426ec36002735befa1138891bea1959bc45c",
+          "historical_observed_paths": 7365,
+          "archive_observed_paths": 7364,
+          "historical_run_files": 5604,
+          "archive_run_files": 5603,
+          "reference_manifest": "audits/INDEPENDENT_FINAL_AUDIT.json",
+          "reference_manifest_sha256": "24905c6012661ac485a037d8dea216b3d183adf8cce343adcf2b35f961f7bd3a",
+          "restored_experiment_execution": false
+        }
+      }
+    },
+    {
+      "command": "python /home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/audits/independent_final_audit.py --final",
+      "exit_code": 0,
+      "stdout": "{\"audit_status\": \"completed\", \"overall_verdict\": \"WARN\", \"deterministic_integrity\": \"PASS\", \"review_independence\": \"same-family\", \"acceptance_status\": \"provisional\", \"root\": \"/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2\", \"target_mode\": \"original_target_read_only\", \"restored_experiment_execution\": false, \"archive_inventory_reconciliation\": null}\n",
+      "parsed_stdout": {
+        "audit_status": "completed",
+        "overall_verdict": "WARN",
+        "deterministic_integrity": "PASS",
+        "review_independence": "same-family",
+        "acceptance_status": "provisional",
+        "root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+        "target_mode": "original_target_read_only",
+        "restored_experiment_execution": false,
+        "archive_inventory_reconciliation": null
+      }
+    }
+  ],
+  "negative_probes": {
+    "scope": "in-memory negative probes of audit helper; no raw or archive mutations",
+    "tests": [
+      {
+        "test": "original_mode_does_not_allow_missing_lock",
+        "status": "rejected_as_expected",
+        "reason": "integrity.run_inventory.observed_paths: mismatch (7364, 7365)"
+      },
+      {
+        "test": "additional_inventory_path_gap",
+        "status": "rejected_as_expected",
+        "reason": "archive.run_inventory_excluding_declared_lock.observed_paths: mismatch (7363, 7364)"
+      },
+      {
+        "test": "additional_missing_historical_file",
+        "status": "rejected_as_expected",
+        "reason": "Archive omissions/additions differ from the sole declared process lock"
+      },
+      {
+        "test": "unexpected_current_file",
+        "status": "rejected_as_expected",
+        "reason": "Archive omissions/additions differ from the sole declared process lock"
+      },
+      {
+        "test": "changed_current_file_bytes",
+        "status": "rejected_as_expected",
+        "reason": "Archive runs bytes differ from pinned historical evidence"
+      },
+      {
+        "test": "unpinned_historical_audit",
+        "status": "rejected_as_expected",
+        "reason": "Archive lock omission requires the unchanged pinned original final audit"
+      }
+    ],
+    "count": 6
+  },
+  "static_review": {
+    "agent_id": "/root/v2_final_audit/archive_patch_review",
+    "scope": "Read-only static source review, no complete rerun; same-family provisional",
+    "result": "No blocking issue found"
+  },
+  "modifications": {
+    "frozen_files": 0,
+    "raw_records": 0,
+    "original_final_audit_files": 0,
+    "publication_files": 0,
+    "subject_model_calls": 0
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_final",
+  "publication_instruction": "Synchronize revised auditor and supplemental artifacts, then regenerate packaging manifests. Archived CLI proof used canonical revised script with explicit archive target; G was not modified by reviewer."
+}

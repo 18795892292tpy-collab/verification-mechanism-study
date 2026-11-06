@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2c3-c583-7663-beb0-46fa99314661"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"材料适用于B17本批合法申请及C7认证监控；本批规则有效，未载替代版本，在线办理及修正在规则授权范围内，不涉及金额审批。唯一中断08:10至11:00共2小时50分，未达应急门槛；通知源于重复行校验。必需字段齐备，应维持在线流程并去重，无须补件或取消申请。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18986,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":537,"reasoning_output_tokens":393}}

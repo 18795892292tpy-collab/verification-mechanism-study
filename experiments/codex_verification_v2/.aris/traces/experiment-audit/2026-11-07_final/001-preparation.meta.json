@@ -1,0 +1,19 @@
+{
+  "skill": "experiment-audit",
+  "run_id": "2026-11-07_final",
+  "started_at": "2026-11-06T20:49:56.569461+00:00",
+  "executor": "codex",
+  "executor_model": "not independently exposed",
+  "executor_family": "openai",
+  "reviewer_model": "inherited Codex model; exact identity not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "project_dir": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "status": "preparation_complete_no_final_verdict",
+  "final_audit_complete": false,
+  "agent_id": "/root/v2_final_audit",
+  "call_number": 1,
+  "purpose": "independent-final-audit-preparation",
+  "timestamp": "2026-11-06T20:49:56.569461+00:00"
+}

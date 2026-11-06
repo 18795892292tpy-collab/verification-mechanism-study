@@ -1,0 +1,1830 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "WARN",
+  "integrity_status": "warn",
+  "deterministic_integrity": "PASS",
+  "reason_code": "qualified_simulation_ceiling_same_family_and_operational_amendment",
+  "summary": "Deterministic reconstruction passes. Qualified descriptive claims match; no unresolved required fixes. Scientific interpretation remains limited by simulation, four families per type, ceiling, same-family review and mixed concurrency phases.",
+  "agent_id": "/root/v2_final_audit",
+  "verdict_id": "/root/v2_final_audit/2026-11-07_final",
+  "executor_model": "not independently exposed",
+  "executor_family": "openai",
+  "reviewer_model": "inherited Codex model; exact identity not independently exposed",
+  "reviewer_reasoning": "not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-06T22:36:36.027425+00:00",
+  "date": "2026-11-07",
+  "auditor": "fresh Codex reviewer /root/v2_final_audit",
+  "target": {
+    "root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+    "hostname": "liekkas",
+    "mode": "original_target_read_only",
+    "local_cli_byte_identity_checked": true,
+    "restored_experiment_execution": false
+  },
+  "evaluation_type": "simulation_only",
+  "checks": {
+    "gt_provenance": {
+      "status": "PASS",
+      "details": "Public fictional rules independently solved for all 80 items; no subject-output-derived keys. No external administrative expert validation.",
+      "evidence": [
+        "cases/build_cases.py:451",
+        "cases/build_cases.py:656",
+        "audits/independent_final_audit.py:103",
+        "cases/AUTHORING_REVIEW.md:65"
+      ]
+    },
+    "score_normalization": {
+      "status": "PASS",
+      "details": "Fixed planned denominators, equal family weighting, all scored rows and family/summary fields independently reconstructed; zero eligible natural first errors yields null repair rate.",
+      "evidence": [
+        "protocol/analysis_plan.json:21",
+        "harness/evaluate.py:117",
+        "harness/evaluate.py:160",
+        "audits/independent_final_audit.py:628"
+      ]
+    },
+    "result_existence": {
+      "status": "PASS",
+      "details": "800 raw tasks, attempts and unique sessions, all complete. Full source/final hashes and shared 160 P0 checked; no uncounted run records or tool events.",
+      "evidence": [
+        "audits/INDEPENDENT_FINAL_AUDIT.json",
+        "audits/independent_final_audit.py:414",
+        "audits/independent_final_audit.py:519"
+      ]
+    },
+    "dead_code": {
+      "status": "PASS",
+      "details": "Scoring and summary pipeline calls inspected; reported statistics appear in real saved outputs and independently match.",
+      "evidence": [
+        "harness/evaluate.py:307",
+        "harness/evaluate.py:315",
+        "harness/evaluate.py:330",
+        "harness/evaluate.py:335"
+      ]
+    },
+    "scope": {
+      "status": "WARN",
+      "details": "n=4 designed families per type; ceiling in P0, same-family provisional review, no human or external expert validation. Final claims retain these limits.",
+      "evidence": [
+        "report/DEV_REPORT.md:70",
+        "report/DEV_REPORT.md:127",
+        "protocol/analysis_plan.json:44"
+      ]
+    },
+    "eval_type": "simulation_only",
+    "operational_amendment": {
+      "status": "WARN",
+      "evidence_integrity": "PASS",
+      "details": "667 attempts under max workers 3, 133 under 12. Exactly three post-SIGINT sealed original tasks lack old progress task_result; preserved raw and prefix checked, no fabricated historical events. Timing mixes phases.",
+      "evidence": [
+        "audits/INDEPENDENT_FINAL_AUDIT.json",
+        "audits/concurrency_stop_request.json",
+        "protocol/CONCURRENCY_AMENDMENT_2026-11-07.json"
+      ]
+    },
+    "runtime_context": {
+      "status": "WARN",
+      "details": "Three diagnostic categories each present in 800 attempts; no observed tool events does not certify hidden service context or weight snapshot.",
+      "evidence": [
+        "audits/INDEPENDENT_FINAL_AUDIT.json"
+      ]
+    },
+    "report_figures_and_publication_claims": {
+      "status": "PASS",
+      "details": "Final report, four final PNGs and publication diff agree with raw evidence; both 5642-source manifests and report plus 12 figure output hashes verified. SVG/PDF not independently rendered.",
+      "evidence": [
+        "report/DEV_REPORT.md",
+        "figures/figure_manifest.json",
+        "figures/visual_review.json",
+        ".aris/traces/experiment-audit/2026-11-07_final/003-publication_review.diff"
+      ]
+    }
+  },
+  "scope_limits": [
+    "simulation_only: author-constructed closed fictional school rules, not human behavior or policy effectiveness.",
+    "Four designed families per type (n=4/type); repeats and transformations are not independent families.",
+    "No independent education-administration expert validation; same-family semantic checks remain provisional.",
+    "Requested gpt-6-astra/ultra and CLI/events are observable; hidden weight snapshot and desktop-context equality are not.",
+    "No observed tool events is an observable-log claim; service-side hidden context cannot be certified by these artifacts.",
+    "Usage covers subject CLI attempts only; authoring/review/management overhead and verified billed cost are unknown."
+  ],
+  "data_snapshot": {
+    "planned_tasks": 800,
+    "actual_cli_attempts": 800,
+    "unique_sessions": 800,
+    "complete_tasks": 800,
+    "status_counts": {
+      "complete": 800
+    },
+    "sum_input_tokens": 15258900,
+    "known_input_tokens": 15258900,
+    "input_usage_missing_attempts": 0,
+    "sum_output_tokens": 438892,
+    "known_output_tokens": 438892,
+    "output_usage_missing_attempts": 0,
+    "usage_missing_attempts": 0,
+    "usage_known_tasks": 800,
+    "procedures": {
+      "P0": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "accuracy": 1.0,
+        "present_flawed_correct": 64,
+        "present_flawed_n": 64,
+        "missing_correct": 32,
+        "missing_n": 32,
+        "natural_first_errors": 0,
+        "families_with_first_errors": [],
+        "repaired": null,
+        "repair_rate": null,
+        "first_correct_present": 128,
+        "damaged": null,
+        "damage_rate": null,
+        "sum_input_tokens": 3021700,
+        "known_input_tokens": 3021700,
+        "input_usage_missing_attempts": 0,
+        "sum_output_tokens": 49232,
+        "known_output_tokens": 49232,
+        "output_usage_missing_attempts": 0,
+        "usage_missing_attempts": 0,
+        "input_tokens": 3021700,
+        "output_tokens": 49232,
+        "usage_known_tasks": 160,
+        "seconds": 2743.313630564837
+      },
+      "P1": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "accuracy": 1.0,
+        "present_flawed_correct": 64,
+        "present_flawed_n": 64,
+        "missing_correct": 32,
+        "missing_n": 32,
+        "natural_first_errors": 0,
+        "families_with_first_errors": [],
+        "repaired": 0,
+        "repair_rate": null,
+        "first_correct_present": 128,
+        "damaged": 0,
+        "damage_rate": 0.0,
+        "sum_input_tokens": 3047700,
+        "known_input_tokens": 3047700,
+        "input_usage_missing_attempts": 0,
+        "sum_output_tokens": 51903,
+        "known_output_tokens": 51903,
+        "output_usage_missing_attempts": 0,
+        "usage_missing_attempts": 0,
+        "input_tokens": 3047700,
+        "output_tokens": 51903,
+        "usage_known_tasks": 160,
+        "seconds": 2905.3587570332456
+      },
+      "P3": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "accuracy": 1.0,
+        "present_flawed_correct": 64,
+        "present_flawed_n": 64,
+        "missing_correct": 32,
+        "missing_n": 32,
+        "natural_first_errors": 0,
+        "families_with_first_errors": [],
+        "repaired": 0,
+        "repair_rate": null,
+        "first_correct_present": 128,
+        "damaged": 0,
+        "damage_rate": 0.0,
+        "sum_input_tokens": 3059380,
+        "known_input_tokens": 3059380,
+        "input_usage_missing_attempts": 0,
+        "sum_output_tokens": 105664,
+        "known_output_tokens": 105664,
+        "output_usage_missing_attempts": 0,
+        "usage_missing_attempts": 0,
+        "input_tokens": 3059380,
+        "output_tokens": 105664,
+        "usage_known_tasks": 160,
+        "seconds": 4583.745296290843
+      },
+      "P7": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "accuracy": 1.0,
+        "present_flawed_correct": 64,
+        "present_flawed_n": 64,
+        "missing_correct": 32,
+        "missing_n": 32,
+        "natural_first_errors": 0,
+        "families_with_first_errors": [],
+        "repaired": 0,
+        "repair_rate": null,
+        "first_correct_present": 128,
+        "damaged": 0,
+        "damage_rate": 0.0,
+        "sum_input_tokens": 3065140,
+        "known_input_tokens": 3065140,
+        "input_usage_missing_attempts": 0,
+        "sum_output_tokens": 114261,
+        "known_output_tokens": 114261,
+        "output_usage_missing_attempts": 0,
+        "usage_missing_attempts": 0,
+        "input_tokens": 3065140,
+        "output_tokens": 114261,
+        "usage_known_tasks": 160,
+        "seconds": 4820.420430243947
+      },
+      "P8": {
+        "planned": 160,
+        "complete": 160,
+        "correct": 160,
+        "accuracy": 1.0,
+        "present_flawed_correct": 64,
+        "present_flawed_n": 64,
+        "missing_correct": 32,
+        "missing_n": 32,
+        "natural_first_errors": 0,
+        "families_with_first_errors": [],
+        "repaired": 0,
+        "repair_rate": null,
+        "first_correct_present": 128,
+        "damaged": 0,
+        "damage_rate": 0.0,
+        "sum_input_tokens": 3064980,
+        "known_input_tokens": 3064980,
+        "input_usage_missing_attempts": 0,
+        "sum_output_tokens": 117832,
+        "known_output_tokens": 117832,
+        "output_usage_missing_attempts": 0,
+        "usage_missing_attempts": 0,
+        "input_tokens": 3064980,
+        "output_tokens": 117832,
+        "usage_known_tasks": 160,
+        "seconds": 4953.611143432325
+      }
+    },
+    "family_results": [
+      {
+        "family_id": "M01",
+        "error_type": "material",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M01",
+        "error_type": "material",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M01",
+        "error_type": "material",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M01",
+        "error_type": "material",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M01",
+        "error_type": "material",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M02",
+        "error_type": "material",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M02",
+        "error_type": "material",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M02",
+        "error_type": "material",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M02",
+        "error_type": "material",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M02",
+        "error_type": "material",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M03",
+        "error_type": "material",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M03",
+        "error_type": "material",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M03",
+        "error_type": "material",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M03",
+        "error_type": "material",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M03",
+        "error_type": "material",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M04",
+        "error_type": "material",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M04",
+        "error_type": "material",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M04",
+        "error_type": "material",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M04",
+        "error_type": "material",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "M04",
+        "error_type": "material",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R01",
+        "error_type": "rule",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R01",
+        "error_type": "rule",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R01",
+        "error_type": "rule",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R01",
+        "error_type": "rule",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R01",
+        "error_type": "rule",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R02",
+        "error_type": "rule",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R02",
+        "error_type": "rule",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R02",
+        "error_type": "rule",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R02",
+        "error_type": "rule",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R02",
+        "error_type": "rule",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R03",
+        "error_type": "rule",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R03",
+        "error_type": "rule",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R03",
+        "error_type": "rule",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R03",
+        "error_type": "rule",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R03",
+        "error_type": "rule",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R04",
+        "error_type": "rule",
+        "procedure": "P0",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R04",
+        "error_type": "rule",
+        "procedure": "P1",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R04",
+        "error_type": "rule",
+        "procedure": "P3",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R04",
+        "error_type": "rule",
+        "procedure": "P7",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      },
+      {
+        "family_id": "R04",
+        "error_type": "rule",
+        "procedure": "P8",
+        "planned": 20,
+        "complete": 20,
+        "correct": 20,
+        "present_flawed_n": 8,
+        "present_flawed_correct": 8
+      }
+    ],
+    "primary_interactions": {
+      "I78": {
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "secondary_interaction_I73": {
+      "estimate": 0.0,
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "within_type_contrasts": {
+      "P7-P8": {
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "P7-P3": {
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "P3-P1": {
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "complete_pair_sensitivity": {
+      "I78": {
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "I73": {
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 8,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "secondary_interactions": {
+      "all": {
+        "I78": {
+          "estimate": 0.0,
+          "type_mean_difference": {
+            "material": 0.0,
+            "rule": 0.0
+          },
+          "available_families_by_type": {
+            "material": 4,
+            "rule": 4
+          },
+          "families": [
+            {
+              "family_id": "M01",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M02",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M03",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M04",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R01",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R02",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R03",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R04",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            }
+          ],
+          "type_family_difference_range": {
+            "material": [
+              0.0,
+              0.0
+            ],
+            "rule": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "I73": {
+          "estimate": 0.0,
+          "type_mean_difference": {
+            "material": 0.0,
+            "rule": 0.0
+          },
+          "available_families_by_type": {
+            "material": 4,
+            "rule": 4
+          },
+          "families": [
+            {
+              "family_id": "M01",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M02",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M03",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M04",
+              "error_type": "material",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R01",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R02",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R03",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R04",
+              "error_type": "rule",
+              "paired_groups": 20,
+              "difference": 0.0
+            }
+          ],
+          "type_family_difference_range": {
+            "material": [
+              0.0,
+              0.0
+            ],
+            "rule": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "aligned": {
+        "I78": {
+          "estimate": 0.0,
+          "type_mean_difference": {
+            "material": 0.0,
+            "rule": 0.0
+          },
+          "available_families_by_type": {
+            "material": 4,
+            "rule": 4
+          },
+          "families": [
+            {
+              "family_id": "M01",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M02",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M03",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M04",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R01",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R02",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R03",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R04",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            }
+          ],
+          "type_family_difference_range": {
+            "material": [
+              0.0,
+              0.0
+            ],
+            "rule": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "I73": {
+          "estimate": 0.0,
+          "type_mean_difference": {
+            "material": 0.0,
+            "rule": 0.0
+          },
+          "available_families_by_type": {
+            "material": 4,
+            "rule": 4
+          },
+          "families": [
+            {
+              "family_id": "M01",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M02",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M03",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M04",
+              "error_type": "material",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R01",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R02",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R03",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R04",
+              "error_type": "rule",
+              "paired_groups": 10,
+              "difference": 0.0
+            }
+          ],
+          "type_family_difference_range": {
+            "material": [
+              0.0,
+              0.0
+            ],
+            "rule": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "missing": {
+        "I78": {
+          "estimate": 0.0,
+          "type_mean_difference": {
+            "material": 0.0,
+            "rule": 0.0
+          },
+          "available_families_by_type": {
+            "material": 4,
+            "rule": 4
+          },
+          "families": [
+            {
+              "family_id": "M01",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M02",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M03",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M04",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R01",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R02",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R03",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R04",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            }
+          ],
+          "type_family_difference_range": {
+            "material": [
+              0.0,
+              0.0
+            ],
+            "rule": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "I73": {
+          "estimate": 0.0,
+          "type_mean_difference": {
+            "material": 0.0,
+            "rule": 0.0
+          },
+          "available_families_by_type": {
+            "material": 4,
+            "rule": 4
+          },
+          "families": [
+            {
+              "family_id": "M01",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M02",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M03",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "M04",
+              "error_type": "material",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R01",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R02",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R03",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            },
+            {
+              "family_id": "R04",
+              "error_type": "rule",
+              "paired_groups": 4,
+              "difference": 0.0
+            }
+          ],
+          "type_family_difference_range": {
+            "material": [
+              0.0,
+              0.0
+            ],
+            "rule": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "difficulty_diagnostic": {
+      "by_type": {
+        "material": {
+          "present_flawed_planned": 32,
+          "present_flawed_correct": 32,
+          "present_flawed_completed": 32,
+          "present_flawed_natural_errors": 0,
+          "error_families": [],
+          "aligned_present_planned": 32,
+          "aligned_present_correct": 32,
+          "missing_planned": 16,
+          "missing_correct": 16
+        },
+        "rule": {
+          "present_flawed_planned": 32,
+          "present_flawed_correct": 32,
+          "present_flawed_completed": 32,
+          "present_flawed_natural_errors": 0,
+          "error_families": [],
+          "aligned_present_planned": 32,
+          "aligned_present_correct": 32,
+          "missing_planned": 16,
+          "missing_correct": 16
+        }
+      },
+      "P0_present_planned": 128,
+      "P0_present_completed": 128,
+      "natural_first_errors": 0,
+      "families_with_first_errors": [],
+      "zero_observed_natural_errors": true,
+      "complete_P0_present_ceiling": true
+    },
+    "planned_groups": 160,
+    "complete_groups": 160,
+    "family_counts_by_type": {
+      "material": 4,
+      "rule": 4
+    }
+  },
+  "run_inventory": {
+    "observed_paths": 7365,
+    "observed_record_files": 800,
+    "observed_attempt_directories": 800,
+    "observed_started_attempt_files": 800,
+    "observed_sealed_attempt_files": 800,
+    "unplanned_artifacts": []
+  },
+  "retained_failure_attempts": [],
+  "operational_amendment": {
+    "status": "applied_observable_evidence_checked",
+    "final_audit": true,
+    "kind": "during_run_operational_amendment",
+    "baseline_max_workers": 3,
+    "amended_max_workers": 12,
+    "prior_terminal_snapshot_count": 667,
+    "post_amendment_attempts_observed": 133,
+    "invocations": [
+      {
+        "started_utc": "2026-11-06T20:39:13.126889+00:00",
+        "declared_workers": 3,
+        "observed_peak_attempts": 3,
+        "attempts": 667,
+        "progress_closed": false,
+        "original_parent_sigint_exit": true
+      },
+      {
+        "started_utc": "2026-11-06T22:17:17.197157+00:00",
+        "declared_workers": 12,
+        "observed_peak_attempts": 12,
+        "attempts": 133,
+        "progress_closed": true,
+        "original_parent_sigint_exit": false
+      }
+    ],
+    "original_progress_prefix_bytes": 119354,
+    "original_progress_prefix_sha256": "dbe3a9d40d252bae5376e7be037d15156f7b14f9401c733288948da4eed887ff",
+    "original_sigint_inflight_tasks_without_original_task_result": [
+      "runs/dev/M04_irrelevant_aligned_r2/P7/record.json",
+      "runs/dev/M04_paraphrase_aligned_r1/P1/record.json",
+      "runs/dev/R01_missing_flawed_r2/P8/record.json"
+    ],
+    "author_test_report": "Pinned author-supplied offline report/source inspected; not re-executed or treated as independent runtime proof.",
+    "initial_stop_request_workers_note": "Stop request recorded a proposed 3-to-6 increase; later amendment explicitly superseded it with 3-to-12. No six-worker invocation is allowed by this audit.",
+    "operational_limits": "Resource/latency summaries mix concurrency phases; do not infer causal time savings or compare wall-clock performance without this limitation.",
+    "input_hashes": {
+      "protocol/CONCURRENCY_AMENDMENT_2026-11-07.json": "db685add1b3f1467816e4c5e72d58bab66e92d938678a624204918ac1cfd448c",
+      "harness/run_concurrency_override.py": "15adc3074c13d6322c1e1373701488502335a9fc9745a3a022ed3d61fb12d41c",
+      "audits/concurrency_stop_request.json": "30987fd01119d1607b28e6ca3ad87150c75346a60dea1fcea4058fbfa39b776b",
+      "audits/concurrency_override_tests.json": "e4e86163590ecf486253ae45d66bafee2c45ab48328b441bd1c55071ec30936b",
+      "audits/concurrency_amendment_applied.json": "95b78c2d8c1c22bfecd3606edc920690c67a6e50ce558a18fa97738029c10248",
+      "audits/concurrency_invocations/4f5cc41e23394094aac9a613a1f11990.json": "3cf4bfd150efe2b53f4de065f4cc52ac1052e92eedefa61f3b4e54fae3446cb1"
+    },
+    "interpretation": "Scientific source hash preservation does not make the concurrency change pre-registered. Timing/resource observations mix operational phases; no causal speedup or unchanged service-load claim."
+  },
+  "runtime_warning_counts": {
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.": 800,
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.": 800,
+    "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list.": 800
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "800 tasks and five procedures each action 160/160",
+      "impact": "supported for this batch"
+    },
+    {
+      "id": "C2",
+      "claim": "I78=I73=0; repair rate NA with zero eligible P0 errors",
+      "impact": "supported; no equivalence or zero repair ability inference"
+    },
+    {
+      "id": "C3",
+      "claim": "Mechanism superiority, ineffectiveness, human behavior or real school effectiveness",
+      "impact": "unsupported and not asserted by final report"
+    },
+    {
+      "id": "C4",
+      "claim": "Subject tokens and logged attempt times",
+      "impact": "supported within log scope; not whole research cost, hidden computation or causal speedup"
+    }
+  ],
+  "unresolved_required_fixes": [],
+  "resolved_findings": [
+    {
+      "finding": "Exact equal-length wording was inaccurate",
+      "resolution": "Final report says near-equal length, P7/P8 added instructions 43/44 characters; frozen content unchanged"
+    },
+    {
+      "finding": "Independent auditor whole-tree scan initially classified its own review events as raw subject events",
+      "resolution": "Exact .aris/meta/events.jsonl exception with strict review_trace schema; no runs allowlist relaxation; full final audit succeeded"
+    }
+  ],
+  "publication_review": {
+    "status": "PASS",
+    "root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/github_publish/verification-mechanism-study",
+    "git_head": "ada83b5cadc91e30e0eade3256c4c6d2420fa8b2",
+    "scope": "Only new V2 diff in the three named files; no endorsement of untouched legacy claims",
+    "reviewer_wrote_publication_files": false,
+    "working_file_sha256": {
+      "README.md": "8173e6033b0c91db915aa7d114ee9ea3958760160e4a87846efd525ad9d68117",
+      "AGENTS.md": "4749f74a4aefc1e68f2b1cbd16fdf0623c0a0f79b235db8a9f86853747b92cdd",
+      "mechanism_study/report/dev_report.md": "ee39d352ff70b8541374e113aea986ab3ca913c7f008e3212df2162fa14ff485"
+    },
+    "reviewed_diff": ".aris/traces/experiment-audit/2026-11-07_final/003-publication_review.diff",
+    "reviewed_diff_sha256": "29082eb66d3deb3fa17a00b710c5f4573e9bd7b080e03a29033109a95548cd17"
+  },
+  "audited_input_hashes": {
+    "EXPERIMENT_AUDIT.md": "30009506ea4cbc7b94d962eea7769cd77a4b9cee1241bd2b10fe04b2fbb657f0",
+    "analysis/dev/family_results.csv": "beabab2447178b5a8bf8123d5f025897e09c3451c5d0743801660d6e2282d608",
+    "analysis/dev/integrity_audit.json": "653b845614177166a42d0b5498cc958ba785b6c860235212fad83b86fd396c22",
+    "analysis/dev/scored_runs.csv": "e51a255f998c3fd5ec927bea9f20b193b61d830d6f8bc35bd54f98d7204a724f",
+    "analysis/dev/summary.json": "5e3979b22f9dfab36d491c6984f52a8bb5e22240791d208b63bf75901f1c9fa9",
+    "analysis/plot_results.py": "e2c03de8822d47815cc5659635f63251dc2791012fefe5e471c03d148a4760d4",
+    "analysis/progress.py": "e690ee295011f74d2fdd30b6317dba35ba8c1023f11b2307fb05c8dd8e18214f",
+    "analysis/write_report.py": "12300e7de0594396172f1fc7f91b549bda74daee7be6cb082676171f419c2948",
+    "audits/INDEPENDENT_FINAL_AUDIT.json": "24905c6012661ac485a037d8dea216b3d183adf8cce343adcf2b35f961f7bd3a",
+    "audits/blind_packet.json": "5fcdbf43b5f9ba36c153f7ce308dbb3f26d18e9c4d03d2f865e9460455a2f77c",
+    "audits/blind_review_answers.json": "e5364fc9ad0ca03704d782abccf84424493c57144a046f48b24f6c0235e62381",
+    "audits/case_review.json": "8d24246de58bdf6b3b995b42a6f93a13a5ec8bc1a6b804be0ab5bba26a5c5127",
+    "audits/concurrency_amendment_applied.json": "95b78c2d8c1c22bfecd3606edc920690c67a6e50ce558a18fa97738029c10248",
+    "audits/concurrency_invocations/4f5cc41e23394094aac9a613a1f11990.json": "3cf4bfd150efe2b53f4de065f4cc52ac1052e92eedefa61f3b4e54fae3446cb1",
+    "audits/concurrency_override_tests.json": "e4e86163590ecf486253ae45d66bafee2c45ab48328b441bd1c55071ec30936b",
+    "audits/concurrency_stop_request.json": "30987fd01119d1607b28e6ca3ad87150c75346a60dea1fcea4058fbfa39b776b",
+    "audits/independent_final_audit.py": "e83d2a0c1d7328f4501f5c2552334ca564b5a0905746608ba94dcb8a7c89382d",
+    "audits/integrity_tests.json": "c2f6a3661cbca3593ee07571598bdb363b43cd2fb07abb35c2600e369dce7eb5",
+    "cases/AUTHORING_REVIEW.md": "e6403acf57619ea6a606c2584911ef3297aabfead0acbdec3206ab527447c888",
+    "cases/CASE_SPEC.md": "af0aa83a3ef326b0af464f56c25dc9b153568670755855eea5caddc2cede3df6",
+    "cases/build_cases.py": "16433093082c6d0f854adfed1268fe1044d998ce96d5510a441f666bf47920fc",
+    "cases/build_validation.json": "7555072166163773ac7a0b79fa6e3f577e7dfc3eca3703f6b119a493164cbec9",
+    "cases/factual_truth_tables.json": "97f72da7e4021cf2991e0711136dc0650f3005c6e875216623224d66db423922",
+    "figures/fig1_design.pdf": "6c379186fb5015f2eb1ccdc0801733d3acff859e20ba79393d90e396b35ef8ad",
+    "figures/fig1_design.png": "49eb7d19c37d4c014eeab59faf6bf0235fe5ebc874e76bba7d6c4f3f5fafde52",
+    "figures/fig1_design.svg": "8be350edc198d1738bb9788b39af2545d659fb48e3fe426851276f9adad23489",
+    "figures/fig2_family_accuracy.pdf": "d035b34da14fb4aee19cad6f5bcd41e03774a6d6d9edffd6fa189e43e40f1c32",
+    "figures/fig2_family_accuracy.png": "d008ef461fe7d7ccfab0607de6bb2eaa8da00be4f6069af4645906e1310141c0",
+    "figures/fig2_family_accuracy.svg": "fc196a0c0eb98858dae6a77fe33c28ded4cc056988f9fe89aa5246f105e9f877",
+    "figures/fig3_family_contrasts.pdf": "22c75f8476fa9408cea325fbf5e1d507b316cbb79eabcd132348fe88907a4aab",
+    "figures/fig3_family_contrasts.png": "a7a017557b482ff715eca505836b5adc059001296c294fcbcb2016a99b488ebf",
+    "figures/fig3_family_contrasts.svg": "dca32f777ec7868b68c83f4a776a619ee60f6160011715882360edb650cbb8c4",
+    "figures/fig4_resources.pdf": "ab8a6dd3e0bacc8720d066288517f4052462b9f787b6b7908cea3f7b75b3c1a4",
+    "figures/fig4_resources.png": "388f5281423b2a8267a1369a4cd441d6fad3a31dc2d92cd59e0d12203a12b2d6",
+    "figures/fig4_resources.svg": "b7a273b2f9ebea4b193263f88e043662ff0d9d87f74364a07dadb122a6ada85d",
+    "figures/figure_manifest.json": "8f16d0ca437c16710bc7c9a86869b3b0c0e1725e13c11d36b0fafbce9d85c38b",
+    "figures/visual_review.json": "2b62108cc18eec7237d822a2c4df08261d70e4880e1bbe7fa16866c5c993c3d0",
+    "harness/evaluate.py": "2290303e3e05ff1ba147f9872bae67eb2d87645f56e556de50c449beb73adc69",
+    "harness/integrity.py": "00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/offline_audit.py": "9249e94d4379b8dfa84f00b88bc1fa4e045e28405d292ed2294179b22a753922",
+    "harness/run_concurrency_override.py": "15adc3074c13d6322c1e1373701488502335a9fc9745a3a022ed3d61fb12d41c",
+    "harness/runner.py": "bf818b09bcb17f3b02983a7f71c4b4680ef6eef083392fca60132fac7e2be94a",
+    "keys/blind_mapping.json": "7e9dae0c762d54393faf1f97ae83a7d793cfc26c3d98c3cf5aec1fdcdd9708c9",
+    "keys/dev_keys.json": "66229f9ffc772ecef6aa9dc6fbcad32bed43013ed3798b151fa40935708c3099",
+    "prompts/dev_items.json": "3a72be003659919adf426cd2a446650cef3071d9b97908cd8843ba0b14da75be",
+    "protocol/CONCURRENCY_AMENDMENT_2026-11-07.json": "db685add1b3f1467816e4c5e72d58bab66e92d938678a624204918ac1cfd448c",
+    "protocol/EXECUTION_AMENDMENT.md": "1e8b376fbfb7e15da2b553073d09ce7f3e1a901a3937b850d5d6e4dc6184cc10",
+    "protocol/analysis_plan.json": "fcc53481a5e033b4ace7c02b27ad6db91305a490fbae3cff73b0add3ee76d914",
+    "protocol/approved_plan.md": "3549187964b3d8bfe156664a47c323ff7924c3f3b4d96f3caa57eaa40740497c",
+    "protocol/backend.json": "3d685d8bca690473500d6985d45193935988c5760324ec42ed0b8076073c29ac",
+    "protocol/frozen.json": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+    "protocol/output_schema.json": "1a2b74b964b6dfdb059d54a4383f4e75d4f076f4c767840f13acd734f7a75f9b",
+    "protocol/prompts.json": "8a175f0e50bc2454485755f3b46253988ffd99485c1cf3982fe53aebb3baaf01",
+    "protocol/runtime_identity.json": "1c5d162beb3abe2fcf160a0ddbe38ae1a2e7a0d0d464de60ab05eadecf1fdc71",
+    "report/DEV_REPORT.md": "32c997eb7bb3739c726f45bc2fb21ca7d95f8df91cf46208cd37050eca98f6a6",
+    "report/report_manifest.json": "9ff7faeeb51ae7075e5774c8212b7e65a0598a16264182610853ceb306106439",
+    "tests/test_evaluate.py": "bf16f57e3441d459510eb1934bb20ff7d3fcd8da0bc79f9a323db31e331804d1",
+    "tests/test_integrity.py": "51e795ecd82e6c8bc2ab6093e3608083df6f57b9166798ff336b0f8de1079faf",
+    "tests/test_runner_offline.py": "57b87d0e94b191f79ac24861155a87cfb3d1e163e5e4e4855c98f3ba87bfebdb",
+    "tests/test_v2.py": "684b788293358aeaf3dec8b1e7d45e96867a62274dc029c1af4174aac5dd0629"
+  },
+  "full_raw_input_hash_manifest": {
+    "path": "audits/INDEPENDENT_FINAL_AUDIT.json",
+    "sha256": "24905c6012661ac485a037d8dea216b3d183adf8cce343adcf2b35f961f7bd3a",
+    "field": "audited_input_hashes",
+    "entries": 5642
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_final",
+  "reviewer_actions": {
+    "subject_model_calls": 0,
+    "modified_frozen_files": 0,
+    "modified_raw_records": 0,
+    "modified_publication_files": 0
+  }
+}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2d9-ca1b-7171-af00-35bf127b3092"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"所列规则适用于本轮A14及U1—U3的有效确认，档案未载替代版本。U3为17/20＝85%，未达逐班九成；总体比例仅供统计，整批备货不构成放行授权。必要计数齐备，无须补取；禁止拆批，应保留D，整批退回补齐、暂不发放。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19008,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":537,"reasoning_output_tokens":394}}

@@ -1,0 +1,14 @@
+{
+  "group_id": "M01_decisive_change_flawed_r1",
+  "item_id": "M01_decisive_change_flawed",
+  "procedure": "P7",
+  "repeat": 1,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": "9c6a486e01813ba815f450760ea4511684d2099e3ba814e0c80c0a4a536de17b",
+  "attempt": 1,
+  "started_utc": "2026-11-06T21:58:57.409243+00:00",
+  "prompt_sha256": "25edb66f4b9ec96580cafa67dc73304d60604ae2d8713146d174f72e81f639fc",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

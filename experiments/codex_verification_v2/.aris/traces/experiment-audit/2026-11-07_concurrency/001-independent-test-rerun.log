@@ -1,0 +1,10 @@
+test_amendment_scope_and_driver_hash_checked (independent_audit_import.OverrideTests.test_amendment_scope_and_driver_hash_checked) ... ok
+test_only_guard_changes_and_original_verify_identity_remains (independent_audit_import.OverrideTests.test_only_guard_changes_and_original_verify_identity_remains) ... ok
+test_prior_final_inventory_is_required_and_hash_checked (independent_audit_import.OverrideTests.test_prior_final_inventory_is_required_and_hash_checked) ... ok
+test_twelve_workers_full_first_pass_then_zero_resampling (independent_audit_import.OverrideTests.test_twelve_workers_full_first_pass_then_zero_resampling) ... ok
+test_unknown_tasks_and_manifest_change_rejected (independent_audit_import.OverrideTests.test_unknown_tasks_and_manifest_change_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.043s
+
+OK

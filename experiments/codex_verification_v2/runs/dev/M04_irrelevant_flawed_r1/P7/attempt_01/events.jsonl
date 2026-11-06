@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2dc-48c9-70f1-a56f-8cb5dcdd873c"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"保留D。本月本班正式等级适用S1，未见替代办法，字典未换版。核准E类免到为8×5＝40人日，720/(800－40)≥92%且＜96%，满足定向支持条件。人员、用途及预算均有执行依据；字段齐全，不触发补件暂停。看板90%仅供排班，不能支持备忘录建议的C。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19178,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":638,"reasoning_output_tokens":487}}

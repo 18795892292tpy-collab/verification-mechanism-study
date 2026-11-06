@@ -1,0 +1,55 @@
+[
+  {
+    "step": 1,
+    "action": "Reconfirm host and exact cwd; directly read full driver and stored test source"
+  },
+  {
+    "step": 2,
+    "action": "Call original runner.verify read-only; confirm frozen max3 and matching runtime/source identity"
+  },
+  {
+    "step": 3,
+    "action": "Re-execute all 5 recorded offline tests in imported test namespace without running author report writer",
+    "result": "5/5 pass"
+  },
+  {
+    "step": 4,
+    "action": "Independently create exact667 mock fixture and resume at12; score800; resume again; test lock and applied ledger immutability",
+    "result": {
+      "prior_records": 667,
+      "new_mock_calls": 133,
+      "peak_simultaneous_mock_calls": 12,
+      "finished": true,
+      "resume_finished": true,
+      "resume_new_mock_calls": 0,
+      "prior_records_changed": 0,
+      "frozen_hash_unchanged": true,
+      "baseline_max_workers": 3,
+      "baseline_execution_config_max_workers": 3,
+      "competing_lock_rejected": true,
+      "applied_amendment_replacement_rejected": true,
+      "complete_tasks": 800,
+      "passed_integrity": true,
+      "unique_sessions": 800,
+      "subject_calls": 0
+    }
+  },
+  {
+    "step": 5,
+    "action": "Read canonical amendment and call check_amendment only; verify hashes of667 prior records, baseline, driver, source and inventory",
+    "result": {
+      "baseline_verify": "PASS",
+      "amendment_check": "PASS",
+      "prior_terminal_records": 667,
+      "amendment_sha256": "db685add1b3f1467816e4c5e72d58bab66e92d938678a624204918ac1cfd448c",
+      "driver_sha256": "15adc3074c13d6322c1e1373701488502335a9fc9745a3a022ed3d61fb12d41c",
+      "baseline_frozen_sha256": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+      "baseline_max_workers": 3,
+      "subject_calls": 0
+    }
+  },
+  {
+    "step": 6,
+    "action": "Report no blocker to root; preserve complete read-only audit evidence and append report"
+  }
+]

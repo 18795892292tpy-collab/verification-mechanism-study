@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-06T20:36:05.468618+00:00",
+  "hashes": {
+    "harness/runner.py": "bf818b09bcb17f3b02983a7f71c4b4680ef6eef083392fca60132fac7e2be94a",
+    "harness/evaluate.py": "2290303e3e05ff1ba147f9872bae67eb2d87645f56e556de50c449beb73adc69",
+    "tests/test_v2.py": "684b788293358aeaf3dec8b1e7d45e96867a62274dc029c1af4174aac5dd0629",
+    "tests/test_evaluate.py": "bf16f57e3441d459510eb1934bb20ff7d3fcd8da0bc79f9a323db31e331804d1",
+    "audits/integrity_tests.json": "a5ab669624b168a8fb3e24d0ae7c9796de539adee70fc3461af41fd234324c31"
+  },
+  "suite": "66 tests / 0 failures / 0 errors / 9.264 s",
+  "original_findings": "closed by unchanged five probes",
+  "new_open_finding": {
+    "id": "PF-04",
+    "title": "Task final contaminates earlier no-final attempt lifecycle audit",
+    "evidence": "harness/evaluate.py:287",
+    "reproduction": "002-resume-regression.json",
+    "status": "open"
+  }
+}

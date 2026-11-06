@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b29f-c307-7a91-8f17-f0d1610d411e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S3\",\"S4\",\"S8\"],\"brief_justification\":\"周主任签名的权限依据为W6，委员会自身权限不能扩大受托范围。W6附件场地清单未归档，无法确定三处场地的有效签署覆盖范围，属于决定所必需的字段缺失。依S8，应暂停本单签发，补取清单后重新核定。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18967,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":321,"reasoning_output_tokens":204}}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2b4-fb9a-7750-8d63-9d87f1bbee32"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"复核后保留A。Q26整套实训设备属制度适用对象，9月14日16:40受理，依衔接条款适用原八万元界线；含税7.2万元且无禁购或专项审批要求，属于设备处单部门办理范围。询价日期及其引用的新界线不改变适用版本，备忘录B依据不足。必要字段齐全，先前回答完整一致，无须暂停或撤销。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19184,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":652,"reasoning_output_tokens":496}}

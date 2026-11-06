@@ -1,0 +1,1594 @@
+{
+  "phase": "dev",
+  "planned_tasks": 800,
+  "actual_cli_attempts": 800,
+  "complete_tasks": 800,
+  "status_counts": {
+    "complete": 800
+  },
+  "unique_sessions": 800,
+  "sum_input_tokens": 15258900,
+  "sum_output_tokens": 438892,
+  "known_input_tokens": 15258900,
+  "known_output_tokens": 438892,
+  "input_usage_missing_attempts": 0,
+  "output_usage_missing_attempts": 0,
+  "usage_missing_attempts": 0,
+  "usage_known_tasks": 800,
+  "procedures": {
+    "P0": {
+      "planned": 160,
+      "complete": 160,
+      "correct": 160,
+      "accuracy": 1.0,
+      "present_flawed_correct": 64,
+      "present_flawed_n": 64,
+      "missing_correct": 32,
+      "missing_n": 32,
+      "natural_first_errors": 0,
+      "families_with_first_errors": [],
+      "repaired": null,
+      "repair_rate": null,
+      "first_correct_present": 128,
+      "damaged": null,
+      "damage_rate": null,
+      "failure_denominator_note": "Every planned task remains in accuracy. Failure after a correct first answer counts as an unsuccessful retained decision in damage.",
+      "sum_input_tokens": 3021700,
+      "sum_output_tokens": 49232,
+      "known_input_tokens": 3021700,
+      "known_output_tokens": 49232,
+      "input_usage_missing_attempts": 0,
+      "output_usage_missing_attempts": 0,
+      "usage_missing_attempts": 0,
+      "usage_known_tasks": 160,
+      "input_tokens": 3021700,
+      "output_tokens": 49232,
+      "seconds": 2743.313630564837
+    },
+    "P1": {
+      "planned": 160,
+      "complete": 160,
+      "correct": 160,
+      "accuracy": 1.0,
+      "present_flawed_correct": 64,
+      "present_flawed_n": 64,
+      "missing_correct": 32,
+      "missing_n": 32,
+      "natural_first_errors": 0,
+      "families_with_first_errors": [],
+      "repaired": 0,
+      "repair_rate": null,
+      "first_correct_present": 128,
+      "damaged": 0,
+      "damage_rate": 0.0,
+      "failure_denominator_note": "Every planned task remains in accuracy. Failure after a correct first answer counts as an unsuccessful retained decision in damage.",
+      "sum_input_tokens": 3047700,
+      "sum_output_tokens": 51903,
+      "known_input_tokens": 3047700,
+      "known_output_tokens": 51903,
+      "input_usage_missing_attempts": 0,
+      "output_usage_missing_attempts": 0,
+      "usage_missing_attempts": 0,
+      "usage_known_tasks": 160,
+      "input_tokens": 3047700,
+      "output_tokens": 51903,
+      "seconds": 2905.3587570332456
+    },
+    "P3": {
+      "planned": 160,
+      "complete": 160,
+      "correct": 160,
+      "accuracy": 1.0,
+      "present_flawed_correct": 64,
+      "present_flawed_n": 64,
+      "missing_correct": 32,
+      "missing_n": 32,
+      "natural_first_errors": 0,
+      "families_with_first_errors": [],
+      "repaired": 0,
+      "repair_rate": null,
+      "first_correct_present": 128,
+      "damaged": 0,
+      "damage_rate": 0.0,
+      "failure_denominator_note": "Every planned task remains in accuracy. Failure after a correct first answer counts as an unsuccessful retained decision in damage.",
+      "sum_input_tokens": 3059380,
+      "sum_output_tokens": 105664,
+      "known_input_tokens": 3059380,
+      "known_output_tokens": 105664,
+      "input_usage_missing_attempts": 0,
+      "output_usage_missing_attempts": 0,
+      "usage_missing_attempts": 0,
+      "usage_known_tasks": 160,
+      "input_tokens": 3059380,
+      "output_tokens": 105664,
+      "seconds": 4583.745296290843
+    },
+    "P7": {
+      "planned": 160,
+      "complete": 160,
+      "correct": 160,
+      "accuracy": 1.0,
+      "present_flawed_correct": 64,
+      "present_flawed_n": 64,
+      "missing_correct": 32,
+      "missing_n": 32,
+      "natural_first_errors": 0,
+      "families_with_first_errors": [],
+      "repaired": 0,
+      "repair_rate": null,
+      "first_correct_present": 128,
+      "damaged": 0,
+      "damage_rate": 0.0,
+      "failure_denominator_note": "Every planned task remains in accuracy. Failure after a correct first answer counts as an unsuccessful retained decision in damage.",
+      "sum_input_tokens": 3065140,
+      "sum_output_tokens": 114261,
+      "known_input_tokens": 3065140,
+      "known_output_tokens": 114261,
+      "input_usage_missing_attempts": 0,
+      "output_usage_missing_attempts": 0,
+      "usage_missing_attempts": 0,
+      "usage_known_tasks": 160,
+      "input_tokens": 3065140,
+      "output_tokens": 114261,
+      "seconds": 4820.420430243947
+    },
+    "P8": {
+      "planned": 160,
+      "complete": 160,
+      "correct": 160,
+      "accuracy": 1.0,
+      "present_flawed_correct": 64,
+      "present_flawed_n": 64,
+      "missing_correct": 32,
+      "missing_n": 32,
+      "natural_first_errors": 0,
+      "families_with_first_errors": [],
+      "repaired": 0,
+      "repair_rate": null,
+      "first_correct_present": 128,
+      "damaged": 0,
+      "damage_rate": 0.0,
+      "failure_denominator_note": "Every planned task remains in accuracy. Failure after a correct first answer counts as an unsuccessful retained decision in damage.",
+      "sum_input_tokens": 3064980,
+      "sum_output_tokens": 117832,
+      "known_input_tokens": 3064980,
+      "known_output_tokens": 117832,
+      "input_usage_missing_attempts": 0,
+      "output_usage_missing_attempts": 0,
+      "usage_missing_attempts": 0,
+      "usage_known_tasks": 160,
+      "input_tokens": 3064980,
+      "output_tokens": 117832,
+      "seconds": 4953.611143432325
+    }
+  },
+  "family_results": [
+    {
+      "family_id": "M01",
+      "error_type": "material",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M01",
+      "error_type": "material",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M01",
+      "error_type": "material",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M01",
+      "error_type": "material",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M01",
+      "error_type": "material",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M02",
+      "error_type": "material",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M02",
+      "error_type": "material",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M02",
+      "error_type": "material",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M02",
+      "error_type": "material",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M02",
+      "error_type": "material",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M03",
+      "error_type": "material",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M03",
+      "error_type": "material",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M03",
+      "error_type": "material",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M03",
+      "error_type": "material",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M03",
+      "error_type": "material",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M04",
+      "error_type": "material",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M04",
+      "error_type": "material",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M04",
+      "error_type": "material",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M04",
+      "error_type": "material",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "M04",
+      "error_type": "material",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R01",
+      "error_type": "rule",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R01",
+      "error_type": "rule",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R01",
+      "error_type": "rule",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R01",
+      "error_type": "rule",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R01",
+      "error_type": "rule",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R02",
+      "error_type": "rule",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R02",
+      "error_type": "rule",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R02",
+      "error_type": "rule",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R02",
+      "error_type": "rule",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R02",
+      "error_type": "rule",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R03",
+      "error_type": "rule",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R03",
+      "error_type": "rule",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R03",
+      "error_type": "rule",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R03",
+      "error_type": "rule",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R03",
+      "error_type": "rule",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R04",
+      "error_type": "rule",
+      "procedure": "P0",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R04",
+      "error_type": "rule",
+      "procedure": "P1",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R04",
+      "error_type": "rule",
+      "procedure": "P3",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R04",
+      "error_type": "rule",
+      "procedure": "P7",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    },
+    {
+      "family_id": "R04",
+      "error_type": "rule",
+      "procedure": "P8",
+      "planned": 20,
+      "complete": 20,
+      "correct": 20,
+      "present_flawed_n": 8,
+      "present_flawed_correct": 8
+    }
+  ],
+  "primary_interactions": {
+    "I78": {
+      "contrast": "(P7-P8)_rule - (P7-P8)_material",
+      "stratum": "present_flawed",
+      "complete_pair_only": false,
+      "unit": "family, equal weight within type",
+      "estimate": 0.0,
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      },
+      "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+    }
+  },
+  "secondary_interaction_I73": {
+    "contrast": "(P7-P3)_rule - (P7-P3)_material",
+    "stratum": "present_flawed",
+    "complete_pair_only": false,
+    "unit": "family, equal weight within type",
+    "estimate": 0.0,
+    "type_mean_difference": {
+      "material": 0.0,
+      "rule": 0.0
+    },
+    "available_families_by_type": {
+      "material": 4,
+      "rule": 4
+    },
+    "families": [
+      {
+        "family_id": "M01",
+        "error_type": "material",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "M02",
+        "error_type": "material",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "M03",
+        "error_type": "material",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "M04",
+        "error_type": "material",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "R01",
+        "error_type": "rule",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "R02",
+        "error_type": "rule",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "R03",
+        "error_type": "rule",
+        "paired_groups": 8,
+        "difference": 0.0
+      },
+      {
+        "family_id": "R04",
+        "error_type": "rule",
+        "paired_groups": 8,
+        "difference": 0.0
+      }
+    ],
+    "type_family_difference_range": {
+      "material": [
+        0.0,
+        0.0
+      ],
+      "rule": [
+        0.0,
+        0.0
+      ]
+    },
+    "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+  },
+  "within_type_contrasts": {
+    "P7-P8": {
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "P7-P3": {
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "P3-P1": {
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "complete_pair_sensitivity": {
+    "I78": {
+      "contrast": "(P7-P8)_rule - (P7-P8)_material",
+      "stratum": "present_flawed",
+      "complete_pair_only": true,
+      "unit": "family, equal weight within type",
+      "estimate": 0.0,
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      },
+      "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+    },
+    "I73": {
+      "contrast": "(P7-P3)_rule - (P7-P3)_material",
+      "stratum": "present_flawed",
+      "complete_pair_only": true,
+      "unit": "family, equal weight within type",
+      "estimate": 0.0,
+      "type_mean_difference": {
+        "material": 0.0,
+        "rule": 0.0
+      },
+      "available_families_by_type": {
+        "material": 4,
+        "rule": 4
+      },
+      "families": [
+        {
+          "family_id": "M01",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M02",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M03",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "M04",
+          "error_type": "material",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R01",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R02",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R03",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        },
+        {
+          "family_id": "R04",
+          "error_type": "rule",
+          "paired_groups": 8,
+          "difference": 0.0
+        }
+      ],
+      "type_family_difference_range": {
+        "material": [
+          0.0,
+          0.0
+        ],
+        "rule": [
+          0.0,
+          0.0
+        ]
+      },
+      "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+    }
+  },
+  "secondary_interactions": {
+    "all": {
+      "I78": {
+        "contrast": "(P7-P8)_rule - (P7-P8)_material",
+        "stratum": "all",
+        "complete_pair_only": false,
+        "unit": "family, equal weight within type",
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        },
+        "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+      },
+      "I73": {
+        "contrast": "(P7-P3)_rule - (P7-P3)_material",
+        "stratum": "all",
+        "complete_pair_only": false,
+        "unit": "family, equal weight within type",
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 20,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        },
+        "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+      }
+    },
+    "aligned": {
+      "I78": {
+        "contrast": "(P7-P8)_rule - (P7-P8)_material",
+        "stratum": "aligned",
+        "complete_pair_only": false,
+        "unit": "family, equal weight within type",
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        },
+        "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+      },
+      "I73": {
+        "contrast": "(P7-P3)_rule - (P7-P3)_material",
+        "stratum": "aligned",
+        "complete_pair_only": false,
+        "unit": "family, equal weight within type",
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 10,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        },
+        "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+      }
+    },
+    "missing": {
+      "I78": {
+        "contrast": "(P7-P8)_rule - (P7-P8)_material",
+        "stratum": "missing",
+        "complete_pair_only": false,
+        "unit": "family, equal weight within type",
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        },
+        "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+      },
+      "I73": {
+        "contrast": "(P7-P3)_rule - (P7-P3)_material",
+        "stratum": "missing",
+        "complete_pair_only": false,
+        "unit": "family, equal weight within type",
+        "estimate": 0.0,
+        "type_mean_difference": {
+          "material": 0.0,
+          "rule": 0.0
+        },
+        "available_families_by_type": {
+          "material": 4,
+          "rule": 4
+        },
+        "families": [
+          {
+            "family_id": "M01",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M02",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M03",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "M04",
+            "error_type": "material",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R01",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R02",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R03",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          },
+          {
+            "family_id": "R04",
+            "error_type": "rule",
+            "paired_groups": 4,
+            "difference": 0.0
+          }
+        ],
+        "type_family_difference_range": {
+          "material": [
+            0.0,
+            0.0
+          ],
+          "rule": [
+            0.0,
+            0.0
+          ]
+        },
+        "inference_note": "Descriptive point estimates and family ranges only; four designed families per type. No confidence interval or confirmatory test. Ceiling does not establish equivalence."
+      }
+    }
+  },
+  "difficulty_diagnostic": {
+    "by_type": {
+      "material": {
+        "present_flawed_planned": 32,
+        "present_flawed_correct": 32,
+        "present_flawed_completed": 32,
+        "present_flawed_natural_errors": 0,
+        "error_families": [],
+        "aligned_present_planned": 32,
+        "aligned_present_correct": 32,
+        "missing_planned": 16,
+        "missing_correct": 16
+      },
+      "rule": {
+        "present_flawed_planned": 32,
+        "present_flawed_correct": 32,
+        "present_flawed_completed": 32,
+        "present_flawed_natural_errors": 0,
+        "error_families": [],
+        "aligned_present_planned": 32,
+        "aligned_present_correct": 32,
+        "missing_planned": 16,
+        "missing_correct": 16
+      }
+    },
+    "P0_present_planned": 128,
+    "P0_present_completed": 128,
+    "natural_first_errors": 0,
+    "families_with_first_errors": [],
+    "zero_observed_natural_errors": true,
+    "complete_P0_present_ceiling": true,
+    "interpretation": "No cases are screened out. Accuracy interactions remain computable at ceiling; repair is NA without initial errors, and a ceiling cannot show mechanism superiority or equivalence."
+  },
+  "planned_groups": 160,
+  "complete_groups": 160,
+  "family_counts_by_type": {
+    "rule": 4,
+    "material": 4
+  },
+  "resource_scope": "Only subject CLI attempts; authoring, blind review and management overhead unknown and excluded.",
+  "verified_billed_cost": null,
+  "inference": "Fixed-budget development simulation. Same 160 P0 calls serve as difficulty diagnosis and shared first answers. No independent screen, no human respondents, no confirmatory superiority claim.",
+  "passed_integrity": true
+}

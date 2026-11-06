@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2b2-fea0-7c03-8cb8-e0080ccad629"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S6\",\"S8\"],\"brief_justification\":\"复核保留A。制度适用于本校本轮A14发放，档案未载替代版本；对象及学习用品用途与原清单一致，无另行金额审批要求。U1—U3有效确认率为100%、90%、90%，均达到含等号门槛，U4不纳入。计数已核验归档，必要信息齐全，应整批发放。先前答复与建议均获原文支持，无影响决定的遗漏或矛盾。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19167,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":678,"reasoning_output_tokens":516}}

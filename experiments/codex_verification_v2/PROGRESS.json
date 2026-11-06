@@ -1,0 +1,29 @@
+{
+  "updated_utc": "2026-11-06T22:22:43.223472+00:00",
+  "study": "codex_verification_v2",
+  "planned_total": 800,
+  "planned_P0": 160,
+  "planned_review": 640,
+  "terminal_records": 800,
+  "remaining_to_terminal": 0,
+  "status_counts": {
+    "complete": 800
+  },
+  "procedure_counts": {
+    "P8": 160,
+    "P3": 160,
+    "P7": 160,
+    "P1": 160,
+    "P0": 160
+  },
+  "started_attempts": 800,
+  "sealed_attempts": 800,
+  "unfinalized_tasks_with_sealed_attempts": 0,
+  "unsealed_started_attempts": 0,
+  "last_event": {
+    "utc": "2026-11-06T22:22:43.033025+00:00",
+    "event": "invocation_complete",
+    "phase": "dev",
+    "part": "all"
+  }
+}

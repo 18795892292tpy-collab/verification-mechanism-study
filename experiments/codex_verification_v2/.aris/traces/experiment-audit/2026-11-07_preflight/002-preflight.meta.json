@@ -1,0 +1,15 @@
+{
+  "call_number": 2,
+  "purpose": "independent-preflight-followup",
+  "timestamp": "2026-11-06T20:38:22.641314+00:00",
+  "agent_id": "/root/v2_preflight_audit",
+  "model": "inherited, exact identifier not exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "completed",
+  "verdict": "PASS",
+  "subject_calls": 0,
+  "network_calls": 0,
+  "freeze_calls": 0
+}

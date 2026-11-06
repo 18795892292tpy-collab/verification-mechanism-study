@@ -1,0 +1,44 @@
+[
+  {
+    "probe": "empty_usage",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 1,
+    "sum_input_tokens": null,
+    "sum_output_tokens": null,
+    "unique_sessions": 1,
+    "actual_cli_attempts": 1
+  },
+  {
+    "probe": "partial_usage",
+    "mock_calls": 1,
+    "subject_calls": 0,
+    "status": "complete",
+    "passed_integrity": true,
+    "usage_missing_attempts": 1,
+    "sum_input_tokens": 17,
+    "sum_output_tokens": null,
+    "unique_sessions": 1,
+    "actual_cli_attempts": 1
+  },
+  {
+    "probe": "missing_session",
+    "subject_calls": 0,
+    "raised": "RuntimeError",
+    "message": "Integrity audit failed"
+  },
+  {
+    "probe": "unplanned_raw_record",
+    "subject_calls": 0,
+    "raised": "RuntimeError",
+    "message": "Integrity audit failed: unplanned run artifacts"
+  },
+  {
+    "probe": "repeated_turn_completed",
+    "subject_calls": 0,
+    "raised": "RuntimeError",
+    "message": "Integrity audit failed"
+  }
+]

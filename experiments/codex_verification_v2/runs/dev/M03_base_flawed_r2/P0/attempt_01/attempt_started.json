@@ -1,0 +1,14 @@
+{
+  "group_id": "M03_base_flawed_r2",
+  "item_id": "M03_base_flawed",
+  "procedure": "P0",
+  "repeat": 2,
+  "phase": "dev",
+  "frozen_hash": "f5f73d297f3cc6b3f4049770dc6688a2ddc72ca66a784a89fd712d9c243afaf1",
+  "first_sha256": null,
+  "attempt": 1,
+  "started_utc": "2026-11-06T20:51:32.995248+00:00",
+  "prompt_sha256": "f4c207c694dce025cb9beab75ee12a4d6d33d6a34fd7e12e02be1a3259448d3d",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

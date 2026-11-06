@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-11-06T20:01:38.155274+00:00",
+  "host": "liekkas",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4",
+  "packages": {
+    "jsonschema": "4.19.2",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.7+dfsg1"
+  },
+  "git_target": "https://github.com/18795892292tpy-collab/verification-mechanism-study",
+  "canonical_v2_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "model_subject_calls_started": 0,
+  "network": "GitHub and ChatGPT TLS EOF through current local proxy; independent DIRECT connectivity probe succeeds; proxy upstream xhttp returns 411. No system proxy setting changed.",
+  "v1_cleanup_commit": "77cca53",
+  "v1_cleanup_pushed": false,
+  "v1_frozen_verify": true,
+  "v1_offline_tests": 32
+}

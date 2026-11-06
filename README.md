@@ -9,6 +9,16 @@
 
 API key 不在仓库里：复制 `mechanism_study/.env.example` 为 `mechanism_study/.env` 后填写。
 
+## Codex v2 固定 800 任务开发实验（2026-11-07）
+
+已完成 800/800 个计划任务，实际 CLI 调用也是 800 次，无重试，800 条回答均可解析。8 个新家族（材料适用性、规则条件各 4 个）构成 80 题，每题 2 次重复；160 个共享 P0 首轮对应 640 个 P1/P3/P7/P8 复核。五程序的 **action 选项均为 160/160 正确**，证据在场的首轮错误为 0，修复率为 NA；这些数字不评价理由完整性或引用质量，也不证明方法等价、机制优势或核验无效。
+
+- [完整中文报告](experiments/codex_verification_v2/report/DEV_REPORT.md)与[本仓库报告第 11 节](mechanism_study/report/dev_report.md#11-codex-v2-固定-800-任务开发批次2026-11-07)
+- [评分汇总](experiments/codex_verification_v2/analysis/dev/summary.json)与[逐任务评分](experiments/codex_verification_v2/analysis/dev/scored_runs.csv)
+- [执行前固定预算修订](experiments/codex_verification_v2/protocol/EXECUTION_AMENDMENT.md)、[冻结分析计划](experiments/codex_verification_v2/protocol/analysis_plan.json)与[执行中并发修订](experiments/codex_verification_v2/protocol/CONCURRENCY_AMENDMENT_2026-11-07.json)
+
+执行前已规定即使出现天花板也完成固定矩阵，不另做模型筛查或校准、不按 P0 结果选题。667 个任务终态后按用户要求由 3 直接改为 12 并发，6 并发未实际运行；耗时汇总混合两个并发阶段，不能解释为因果提速。只使用同主机 Codex CLI 显式请求 `gpt-6-astra / ultra`，底层权重快照未知。本批是虚构学校规则的 `simulation_only` 开发研究；题库经过同模型家族内部匿名盲审，没有真人被试或独立教育行政专家核定，与 v1、历史 DeepSeek 数据分开。
+
 ## Codex 首批开发实验（2026-11-07）
 
 按研究者的新指示，另行使用当前 Codex 环境完成 10 次校准和 200 次开发作答，完整归档于独立目录；未续跑或混合历史 DeepSeek 数据。

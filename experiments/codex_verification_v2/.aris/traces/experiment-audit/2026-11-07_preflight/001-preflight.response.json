@@ -1,0 +1,234 @@
+{
+  "audit_skill": "experiment-audit",
+  "phase": "preflight_round_1",
+  "verdict": "FAIL",
+  "overall_verdict": "fail",
+  "integrity_status": "fail",
+  "reason_code": "usage_lifecycle_and_unplanned_raw_inventory_gaps",
+  "summary": "58 offline tests pass, but independent fixtures reproduce 3 mandatory pre-freeze fixes. No subject calls or real result inspection.",
+  "host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "generated_at": "2026-11-06T20:27:56.895512+00:00",
+  "date": "2026-11-07",
+  "agent_id": "/root/v2_preflight_audit",
+  "verdict_id": "/root/v2_preflight_audit:2026-11-07_preflight:round1",
+  "reviewer_model": "Codex inherited model; exact model identifier not exposed to reviewer",
+  "reviewer_family": "openai",
+  "executor_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "evaluation_type": "simulation_only",
+  "external_education_expert_validation": false,
+  "actual_subject_calls_by_auditor": 0,
+  "read_experiment_results": false,
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_preflight",
+  "audited_input_hashes": {
+    "protocol/analysis_plan.json": "sha256:fcc53481a5e033b4ace7c02b27ad6db91305a490fbae3cff73b0add3ee76d914",
+    "protocol/EXECUTION_AMENDMENT.md": "sha256:1e8b376fbfb7e15da2b553073d09ce7f3e1a901a3937b850d5d6e4dc6184cc10",
+    "protocol/runtime_identity.json": "sha256:1c5d162beb3abe2fcf160a0ddbe38ae1a2e7a0d0d464de60ab05eadecf1fdc71",
+    "harness/runner.py": "sha256:5a743ef09d4f7ac81633f93ec2afb751e2745c80de95e12209e1626fbb20a548",
+    "harness/integrity.py": "sha256:00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/evaluate.py": "sha256:8716cd658ad304f3ed94d1920e026dcd912cb65595da49ec88546f0b290cffaa",
+    "harness/offline_audit.py": "sha256:9249e94d4379b8dfa84f00b88bc1fa4e045e28405d292ed2294179b22a753922",
+    "analysis/progress.py": "sha256:e690ee295011f74d2fdd30b6317dba35ba8c1023f11b2307fb05c8dd8e18214f",
+    "tests/test_v2.py": "sha256:843018e78a9a724a50ebc8e2a7a4657045f3dfd977ce440818253aba5e820e4f",
+    "tests/test_evaluate.py": "sha256:0c34c1c8a441e38940cdf53c0222505a7a46fbd2169ca3ece0bce3ea0d8259cb",
+    "tests/test_integrity.py": "sha256:51e795ecd82e6c8bc2ab6093e3608083df6f57b9166798ff336b0f8de1079faf",
+    "tests/test_runner_offline.py": "sha256:98b3d2e3304654cbdad1d8a17923588f83dbc37f554dc0b6c20607c8c72819e4",
+    "cases/CASE_SPEC.md": "sha256:af0aa83a3ef326b0af464f56c25dc9b153568670755855eea5caddc2cede3df6",
+    "cases/AUTHORING_REVIEW.md": "sha256:534089c52e7418540454bea2efb2154b02647fa1342d0ff254115ff80a846cab",
+    "cases/build_cases.py": "sha256:d5da42088f11a58fc61a470d3d96c377fa68339b8cfb884cf4393a19381d982f",
+    "prompts/dev_items.json": "sha256:3fb81c76ae3fcbb03a5fe1e0f7ed70c0f86b90d848cec31a206f6564eeb2e2a5",
+    "keys/dev_keys.json": "sha256:0b6a7fc5e7fe0a33c3326d11347b047321a85bd45df76332ddedacf11fd8c150"
+  },
+  "checks": {
+    "target_identity": {
+      "status": "pass",
+      "evidence": [
+        "hostname=liekkas",
+        "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+        "CLI resolves to /home/grf/.local/lib/node_modules/@openai/codex/bin/codex.js"
+      ]
+    },
+    "fixed_matrix": {
+      "status": "pass",
+      "details": "实际公开题80，键覆盖完全，8家族各10题，material/rule各40题即4家族；build_schedule产出160组、每程序160任务，共800。",
+      "evidence": [
+        "harness/runner.py:111",
+        "protocol/analysis_plan.json:5",
+        "tests/test_v2.py:98"
+      ]
+    },
+    "shared_first_and_no_selection": {
+      "status": "pass",
+      "details": "先160 P0全部terminal后才复核；四程序使用同一raw_final及first_sha256；parse_failure也复核原文，不按correctness重采样；配额后无final可限2次恢复。",
+      "evidence": [
+        "harness/runner.py:209",
+        "harness/runner.py:257",
+        "harness/runner.py:347",
+        "harness/runner.py:382",
+        "harness/runner.py:407"
+      ]
+    },
+    "lock_manifest_runtime": {
+      "status": "pass",
+      "details": "POSIX跨进程flock；write-once原始记录；源文件哈希、计划、运行参数、主机/目录/CLI及依赖哈希、manifest pin均有验证。测试覆盖锁竞争、源/参数/计划/CLI变化与manifest时间戳变化。",
+      "evidence": [
+        "harness/integrity.py:73",
+        "harness/integrity.py:100",
+        "harness/runner.py:90",
+        "harness/runner.py:144",
+        "tests/test_integrity.py:65",
+        "tests/test_v2.py:116"
+      ]
+    },
+    "pause_resume": {
+      "status": "pass",
+      "details": "认证/配额/网络断路器保留已开始调用、暂停新调度；已封口无final可继续第二次；存在final即使CLI失败也不得重采样；未封口中断显式拒绝自动重试。测试通过。",
+      "evidence": [
+        "harness/runner.py:170",
+        "harness/runner.py:237",
+        "harness/runner.py:303",
+        "tests/test_v2.py:152",
+        "tests/test_v2.py:190",
+        "tests/test_runner_offline.py:63"
+      ]
+    },
+    "gt_provenance": {
+      "status": "pass",
+      "details": "限定构造情景：评分键来自预先作者编写的事实oracle和语义映射，不读取被试输出；仅核对来源/结构，不替代另行80题匿名语义审查。",
+      "evidence": [
+        "cases/CASE_SPEC.md:37",
+        "cases/build_cases.py:657",
+        "cases/build_cases.py:684",
+        "harness/evaluate.py:152",
+        "harness/evaluate.py:196"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "按计划逐任务保留，缺失/技术失败/解析失败correct=0，accuracy分母160/程序；不用预测最大值归一化。修复率仅complete且证据齐全的P0自然错误；分母0为null。",
+      "evidence": [
+        "harness/evaluate.py:19",
+        "harness/evaluate.py:76",
+        "harness/evaluate.py:87",
+        "harness/evaluate.py:204",
+        "tests/test_evaluate.py:53",
+        "tests/test_evaluate.py:66"
+      ]
+    },
+    "family_contrasts": {
+      "status": "pass",
+      "details": "P7−P8先在家族内配对平均，再类型内家族等权，rule减material；I73及P3−P1方向与计划一致。完整配对敏感性另报实际家族数；不将重复或变体当独立家族。",
+      "evidence": [
+        "harness/evaluate.py:33",
+        "harness/evaluate.py:109",
+        "tests/test_evaluate.py:34",
+        "tests/test_evaluate.py:45"
+      ]
+    },
+    "result_existence": {
+      "status": "not_applicable",
+      "details": "本轮为执行前预审，未读取真实实验results或runs记录；没有验证任何实验性能数字，也不声称已完成800次。"
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "run调用summarize并把family/contrast/diagnostic写入派生分析；58离线测试含800模拟任务及零新增调用恢复。integrity.py历史RunLedger/legacy选择函数不是V2执行入口，未据此声称真实结果。",
+      "evidence": [
+        "harness/evaluate.py:211",
+        "harness/evaluate.py:227",
+        "tests/test_v2.py:284"
+      ]
+    },
+    "scope": {
+      "status": "pass",
+      "details": "明确仅4家族/类型、描述性开发模拟；无确认性p值/总体优越性/等效性/真实学校效果或教育专家验证声称。天花板不能证明机制，仍保留800固定矩阵。",
+      "evidence": [
+        "protocol/analysis_plan.json:35",
+        "protocol/analysis_plan.json:44",
+        "protocol/EXECUTION_AMENDMENT.md:10",
+        "cases/CASE_SPEC.md:79"
+      ]
+    },
+    "usage": {
+      "status": "fail",
+      "finding_ids": [
+        "PF-01",
+        "PF-02"
+      ]
+    },
+    "event_provenance": {
+      "status": "fail",
+      "finding_ids": [
+        "PF-02"
+      ]
+    },
+    "raw_inventory": {
+      "status": "fail",
+      "finding_ids": [
+        "PF-03"
+      ]
+    },
+    "eval_type": "simulation_only"
+  },
+  "findings": [
+    {
+      "id": "PF-01",
+      "severity": "major",
+      "status": "open",
+      "blocks_freeze": true,
+      "title": "缺失或部分 usage 被报告为已知零",
+      "evidence": [
+        "harness/evaluate.py:201",
+        "harness/evaluate.py:208",
+        "harness/evaluate.py:217",
+        "harness/runner.py:198"
+      ],
+      "reproduction": "empty_usage 与 partial_usage 探针：usage={} 得 usage_missing_attempts=0、两类token=0；仅input_tokens=17得output_tokens=0。均passed_integrity=true。",
+      "recommendation": "逐字段验证非bool非负整数；缺失字段保留null/空，完整总计含缺失时为null；另报明确命名的已知小计及各字段缺失次数。不得从空对象推导已知零。"
+    },
+    {
+      "id": "PF-02",
+      "severity": "major",
+      "status": "open",
+      "blocks_freeze": true,
+      "title": "会话/turn生命周期未校验，重复完成事件覆盖用量",
+      "evidence": [
+        "harness/runner.py:184",
+        "harness/runner.py:197",
+        "harness/runner.py:198",
+        "harness/runner.py:245",
+        "harness/evaluate.py:210",
+        "harness/evaluate.py:224"
+      ],
+      "reproduction": "missing_session探针无thread.started仍complete、unique_sessions=0且passed_integrity=true；repeated_turn_completed探针两次完成用量17/9及2/1只报告最后2/1且通过。",
+      "recommendation": "对成功响应要求唯一非空session及单一预期turn生命周期；重复/冲突事件不得静默选最后一个。将不完整或重复生命周期明确记为完整性/协议失败并禁止重采样；保留全部原始事件。无final技术失败可按既定规则暂停/重试，不应因正常失败没有成功生命周期而伪造完整证据。"
+    },
+    {
+      "id": "PF-03",
+      "severity": "major",
+      "status": "open",
+      "blocks_freeze": true,
+      "title": "计划外原始记录未进入完整性盘点",
+      "evidence": [
+        "harness/evaluate.py:156",
+        "harness/evaluate.py:214",
+        "harness/evaluate.py:224",
+        "analysis/progress.py:9"
+      ],
+      "reproduction": "unplanned_raw_record探针在临时fixture放入runs/dev/unplanned_group/P0/record.json，evaluate仍passed_integrity=true且actual_cli_attempts仅计计划内1次；计划外记录静默消失。",
+      "recommendation": "独立盘点runs/dev下所有task/attempt/record路径并与800计划逐一对应，发现计划外原始文件显式拒绝/审计，不得直接忽略。报告进度仅为未校验派生计数，不能充当该校验。"
+    }
+  ],
+  "verification": {
+    "unittest": {
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 9.769,
+      "log": "001-unit-initial.log"
+    },
+    "independent_probes": "002-probes-initial.json"
+  },
+  "required_next_step": "Repair PF-01/PF-02/PF-03 before freeze; independent follow-up review and rerun tests/probes. Preserve this first-round evidence."
+}

@@ -1,0 +1,18 @@
+{
+  "prior_records": 667,
+  "new_mock_calls": 133,
+  "peak_simultaneous_mock_calls": 12,
+  "finished": true,
+  "resume_finished": true,
+  "resume_new_mock_calls": 0,
+  "prior_records_changed": 0,
+  "frozen_hash_unchanged": true,
+  "baseline_max_workers": 3,
+  "baseline_execution_config_max_workers": 3,
+  "competing_lock_rejected": true,
+  "applied_amendment_replacement_rejected": true,
+  "complete_tasks": 800,
+  "passed_integrity": true,
+  "unique_sessions": 800,
+  "subject_calls": 0
+}

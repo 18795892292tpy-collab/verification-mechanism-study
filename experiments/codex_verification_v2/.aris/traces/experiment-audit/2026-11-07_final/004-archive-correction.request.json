@@ -1,0 +1,15 @@
+{
+  "call_number": 4,
+  "purpose": "post-seal-archive-portability-correction",
+  "timestamp": "2026-11-06T22:42:22.174407+00:00",
+  "agent_id": "/root/v2_final_audit",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "completed",
+  "deterministic_integrity": "PASS",
+  "overall_verdict": "WARN",
+  "model": "exact identity not independently exposed",
+  "original_sealed_review_preserved": true,
+  "tool": "collaboration.followup_task",
+  "prompt": "发布归档只读复算出现可复现问题，需要修复非冻结审计器的归档语义：canonicalV2原路径保持不变，现copy到准确G/experiments/codex_verification_v2（G=/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/github_publish/verification-mechanism-study）；只读 python .../audits/independent_final_audit.py --archive-root [copy绝对path] --final 报 BLOCKED_OR_ERROR integrity.run_inventory.observed_paths mismatch(7364,7365)。打包有意排除进程锁 .integrity.lock，payload manifest5740左右；怀疑旧canonical integrity inventory包括锁而归档无锁。请独立核查原因，修审计器archive模式严格允许声明排除锁这一差异，不能掩盖未知artifacts或修改冻结/eval/raw。原final审计已seal不得覆盖；追加correction/supplement trace，必要hash修订透明。我会重新打包/同步修订文件及清单，G暂不要动。git diff whitespace仅原CSV CRLF/保存diff上下文，不改原始字节。"
+}

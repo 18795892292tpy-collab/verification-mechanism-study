@@ -1,0 +1,82 @@
+[
+  {
+    "step": 1,
+    "action": "Verify target",
+    "observed": {
+      "hostname": "liekkas",
+      "cwd": "/home/grf",
+      "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2"
+    }
+  },
+  {
+    "step": 2,
+    "action": "Read experiment-audit skill and reviewer-independence/experiment-integrity/review-tracing references",
+    "paths": [
+      "/home/grf/.codex/skills/experiment-audit/SKILL.md",
+      "/home/grf/.codex/skills/shared-references/reviewer-independence.md",
+      "/home/grf/.codex/skills/shared-references/experiment-integrity.md",
+      "/home/grf/.codex/skills/shared-references/review-tracing.md"
+    ]
+  },
+  {
+    "step": 3,
+    "action": "Read primary protocol, harness, all four test files, progress and source-provenance documentation directly",
+    "files": [
+      "protocol/analysis_plan.json",
+      "protocol/EXECUTION_AMENDMENT.md",
+      "protocol/runtime_identity.json",
+      "harness/runner.py",
+      "harness/integrity.py",
+      "harness/evaluate.py",
+      "harness/offline_audit.py",
+      "analysis/progress.py",
+      "tests/test_v2.py",
+      "tests/test_evaluate.py",
+      "tests/test_integrity.py",
+      "tests/test_runner_offline.py",
+      "cases/CASE_SPEC.md",
+      "cases/AUTHORING_REVIEW.md",
+      "cases/build_cases.py",
+      "prompts/dev_items.json",
+      "keys/dev_keys.json"
+    ],
+    "method": "nl -ba/cat/rg; all requested implementation functions read; build_cases reviewed at provenance/oracle construction portions"
+  },
+  {
+    "step": 4,
+    "action": "Run offline unittest suite",
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -v",
+    "result": "58 tests OK, 9.769 seconds",
+    "output": "001-unit-initial.log"
+  },
+  {
+    "step": 5,
+    "action": "Author and run independent disposable-fixture probes",
+    "command": "PYTHONDONTWRITEBYTECODE=1 python .aris/traces/experiment-audit/2026-11-07_preflight/adversarial_probe.py",
+    "output": "002-probes-initial.json",
+    "result": "Five probes reproduced three gaps; no subject calls"
+  },
+  {
+    "step": 6,
+    "action": "Inspect actual fixed input structure without model calls",
+    "result": {
+      "items": 80,
+      "families": 8,
+      "families_per_type": 4,
+      "groups": 160,
+      "planned_tasks": 800,
+      "tasks_per_procedure": 160,
+      "key_coverage": "exact"
+    }
+  },
+  {
+    "step": 7,
+    "action": "Report findings to root; root accepts all three as mandatory before freeze and requests pause after report",
+    "result": "No code modified by auditor; preserve first-round evidence and re-review future fix"
+  },
+  {
+    "step": 8,
+    "action": "Write report, input hashes and forensic trace",
+    "result": "FAIL, same-family/provisional"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "reviewed_utc": "2026-11-06T20:32:37.063047+00:00",
+  "passed": true,
+  "evaluation_type": "simulation_only",
+  "internal_same_family_provisional": true,
+  "external_expert": false,
+  "model_subject_calls_before_review": 0,
+  "total_items": 80,
+  "initial_action_agreement": 80,
+  "initial_ambiguities": [
+    "B005",
+    "B048"
+  ],
+  "revision_scope": "M03 normative permission clarified into mandatory mutually exclusive disposition; keys and semantic oracle unchanged",
+  "revised_public_items": 10,
+  "final_action_agreement": 80,
+  "final_unique_answers": 80,
+  "unresolved_concerns": [],
+  "sha256": {
+    "prompts/dev_items.json": "3a72be003659919adf426cd2a446650cef3071d9b97908cd8843ba0b14da75be",
+    "keys/dev_keys.json": "66229f9ffc772ecef6aa9dc6fbcad32bed43013ed3798b151fa40935708c3099",
+    "audits/blind_packet.json": "5fcdbf43b5f9ba36c153f7ce308dbb3f26d18e9c4d03d2f865e9460455a2f77c",
+    "keys/blind_mapping.json": "7e9dae0c762d54393faf1f97ae83a7d793cfc26c3d98c3cf5aec1fdcdd9708c9",
+    "audits/blind_review_answers.json": "e5364fc9ad0ca03704d782abccf84424493c57144a046f48b24f6c0235e62381"
+  },
+  "limits": [
+    "Blind review is author-internal same-model-family validation, not independent educational expert review.",
+    "Agreement checks well-posedness only, not empirical difficulty or treatment effect.",
+    "Actual P0 responses must not be used to change this fixed bank."
+  ]
+}

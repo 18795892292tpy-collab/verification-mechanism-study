@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2d5-64ed-7b73-a797-17cb6751bf4c"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S8\"],\"brief_justification\":\"制度适用于K18周末外部用场；W6及签署时间有效，未见替代版本。周主任权限取决于附件清单，“委员会项目”不构成委员会签署。三处虽可分割且安全合格，但清单未归档，无法核定有效授权范围；这是必要字段缺失，并非明确否定或依据齐全，符合S8补件暂停条件，应暂停整单并补取清单。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19237,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":581,"reasoning_output_tokens":426}}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b2c6-11d4-7072-8f85-af1ae71b0a09"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S8\"],\"brief_justification\":\"复核确认：本题现行材料覆盖B17的42份合法申请、C7节点、相关字段及导入用途，无替代版本记载；A属制度规定范围，不涉及金额审批。中断2小时50分未达3小时，恢复时间已归档，信息充分。重复行须24小时内去重修正并保留合法申请。先前回答无实质遗漏或矛盾，保留A。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":19135,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":663,"reasoning_output_tokens":516}}

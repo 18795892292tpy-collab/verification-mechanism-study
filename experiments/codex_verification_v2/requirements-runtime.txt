@@ -1,0 +1,4 @@
+jsonschema==4.19.2
+numpy==2.3.5
+matplotlib==3.10.7+dfsg1
+# Actual installed distributions, not a cross-platform lockfile.
