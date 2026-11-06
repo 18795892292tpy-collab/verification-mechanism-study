@@ -1,0 +1,212 @@
+[
+  {
+    "code": "Q01",
+    "phase": "dev",
+    "item_id": "B02_missing_aligned"
+  },
+  {
+    "code": "Q02",
+    "phase": "dev",
+    "item_id": "B01_paraphrase_aligned"
+  },
+  {
+    "code": "Q03",
+    "phase": "dev",
+    "item_id": "A02_base_aligned"
+  },
+  {
+    "code": "Q04",
+    "phase": "dev",
+    "item_id": "A01_base_aligned"
+  },
+  {
+    "code": "Q05",
+    "phase": "dev",
+    "item_id": "A02_irrelevant_aligned"
+  },
+  {
+    "code": "Q06",
+    "phase": "dev",
+    "item_id": "A01_paraphrase_flawed"
+  },
+  {
+    "code": "Q07",
+    "phase": "dev",
+    "item_id": "A01_missing_flawed"
+  },
+  {
+    "code": "Q08",
+    "phase": "toy",
+    "item_id": "T02_missing_flawed"
+  },
+  {
+    "code": "Q09",
+    "phase": "dev",
+    "item_id": "A02_missing_flawed"
+  },
+  {
+    "code": "Q10",
+    "phase": "dev",
+    "item_id": "B01_base_flawed"
+  },
+  {
+    "code": "Q11",
+    "phase": "dev",
+    "item_id": "A02_decisive_change_aligned"
+  },
+  {
+    "code": "Q12",
+    "phase": "dev",
+    "item_id": "A02_base_flawed"
+  },
+  {
+    "code": "Q13",
+    "phase": "dev",
+    "item_id": "A01_irrelevant_flawed"
+  },
+  {
+    "code": "Q14",
+    "phase": "dev",
+    "item_id": "A02_irrelevant_flawed"
+  },
+  {
+    "code": "Q15",
+    "phase": "dev",
+    "item_id": "B02_base_aligned"
+  },
+  {
+    "code": "Q16",
+    "phase": "dev",
+    "item_id": "A02_paraphrase_aligned"
+  },
+  {
+    "code": "Q17",
+    "phase": "dev",
+    "item_id": "B02_missing_flawed"
+  },
+  {
+    "code": "Q18",
+    "phase": "dev",
+    "item_id": "A02_missing_aligned"
+  },
+  {
+    "code": "Q19",
+    "phase": "dev",
+    "item_id": "A01_decisive_change_aligned"
+  },
+  {
+    "code": "Q20",
+    "phase": "dev",
+    "item_id": "A01_base_flawed"
+  },
+  {
+    "code": "Q21",
+    "phase": "dev",
+    "item_id": "B01_irrelevant_flawed"
+  },
+  {
+    "code": "Q22",
+    "phase": "dev",
+    "item_id": "A01_paraphrase_aligned"
+  },
+  {
+    "code": "Q23",
+    "phase": "dev",
+    "item_id": "B01_missing_aligned"
+  },
+  {
+    "code": "Q24",
+    "phase": "dev",
+    "item_id": "B02_base_flawed"
+  },
+  {
+    "code": "Q25",
+    "phase": "dev",
+    "item_id": "B01_base_aligned"
+  },
+  {
+    "code": "Q26",
+    "phase": "dev",
+    "item_id": "A01_decisive_change_flawed"
+  },
+  {
+    "code": "Q27",
+    "phase": "dev",
+    "item_id": "B02_irrelevant_aligned"
+  },
+  {
+    "code": "Q28",
+    "phase": "dev",
+    "item_id": "B02_decisive_change_aligned"
+  },
+  {
+    "code": "Q29",
+    "phase": "dev",
+    "item_id": "B02_irrelevant_flawed"
+  },
+  {
+    "code": "Q30",
+    "phase": "dev",
+    "item_id": "A02_decisive_change_flawed"
+  },
+  {
+    "code": "Q31",
+    "phase": "dev",
+    "item_id": "B01_decisive_change_aligned"
+  },
+  {
+    "code": "Q32",
+    "phase": "toy",
+    "item_id": "T01_base_flawed"
+  },
+  {
+    "code": "Q33",
+    "phase": "dev",
+    "item_id": "A01_missing_aligned"
+  },
+  {
+    "code": "Q34",
+    "phase": "dev",
+    "item_id": "B02_paraphrase_aligned"
+  },
+  {
+    "code": "Q35",
+    "phase": "dev",
+    "item_id": "B02_paraphrase_flawed"
+  },
+  {
+    "code": "Q36",
+    "phase": "dev",
+    "item_id": "B01_paraphrase_flawed"
+  },
+  {
+    "code": "Q37",
+    "phase": "dev",
+    "item_id": "B02_decisive_change_flawed"
+  },
+  {
+    "code": "Q38",
+    "phase": "dev",
+    "item_id": "A02_paraphrase_flawed"
+  },
+  {
+    "code": "Q39",
+    "phase": "dev",
+    "item_id": "B01_decisive_change_flawed"
+  },
+  {
+    "code": "Q40",
+    "phase": "dev",
+    "item_id": "B01_irrelevant_aligned"
+  },
+  {
+    "code": "Q41",
+    "phase": "dev",
+    "item_id": "A01_irrelevant_aligned"
+  },
+  {
+    "code": "Q42",
+    "phase": "dev",
+    "item_id": "B01_missing_flawed"
+  }
+]

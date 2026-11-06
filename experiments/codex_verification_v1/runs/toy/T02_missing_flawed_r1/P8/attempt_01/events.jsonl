@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b19a-dcab-77d0-9631-b706eb4ba375"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\"],\"brief_justification\":\"保留C。S1适用于本案，未载对象或用途排除、时效冲突或替代版本。S2表明授权记录缺失，无法核验批准范围，应暂停补件；S3仅证明场地可用，备忘录无批准效力，不能支持A。现有信息足以决定暂停，但不足以认定同意或拒绝。先前回答依据完整、前后一致，无影响决定的遗漏。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18188,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":467,"reasoning_output_tokens":325}}

@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-11-06T16:44:03.105624+00:00",
+  "source_phase": "dev",
+  "tasks": 200,
+  "families": 4,
+  "input_sha256": {
+    "analysis/dev/summary.json": "0b3a9e625938555a01a48d96a21171b9a5b328ba44420fa7434e0dff401c06b7",
+    "analysis/dev/scored_runs.csv": "70c7ac8bd4941c43069d7ae420bbbf0a7ae4ef0b7d48599ecaebae964851df9a",
+    "analysis/dev/integrity_audit.json": "e2432a83c15fab4b8d6a5139c3cc2339d3168526f75db8b385ea1461f5d47f99"
+  },
+  "script_sha256": "8acf02c3c5e0905b163ef30d673062bd33d8b95ca5f4cfb286eb3e60c2809f42",
+  "matplotlib": "3.10.7+dfsg1",
+  "outputs": {
+    "fig1_design.svg": "98781de0d1044ee9600ddd76ac8119247e90c6a98cd045b8c91ede7f43c0b2b0",
+    "fig1_design.png": "160298321393030cadbcafa9789915d31f136b112a1de956f5b5ca3525572bb2",
+    "fig1_design.pdf": "306af57b0eb9cc15c1e43eb9645734e5ece3c3581e0aa71e9605cd7cfbac21c7",
+    "fig2_results.svg": "02159bb5ee09aa441a1bb43df8d3aa24fcbe935203516a8d4247ea4f359ec2fa",
+    "fig2_results.png": "7d8961aae13a2a2c885503f3ae50c24ee42404d681145e2540e11dd0f4e9eb2a",
+    "fig2_results.pdf": "30b60203b031c45fe983f48f52daea2a9abf2a2e9ca899a5ed919a936bec1892",
+    "fig3_resources.svg": "d6f71ae6423a6925df0ef09900950e517aaf08dc2deb5d5a295ef1c791079b8e",
+    "fig3_resources.png": "935c680f2fdeca76b763db1aa0b079a0e6798e3fffe475234287d6a4de5ba4a3",
+    "fig3_resources.pdf": "8c149ee0a097ea09f86e7f75a211036b7388b087099805ecc57887eef0afda02"
+  },
+  "synthetic_data": "Actual model responses to synthetic dossiers; no fabricated measurements",
+  "uncertainty_display": "Descriptive counts only; no confidence intervals",
+  "visual_review": "passed",
+  "visual_review_details": {
+    "reviewed_utc": "2026-11-06T16:44:57.957008+00:00",
+    "method": "Actual view_image inspection of each generated PNG",
+    "reviewed_pngs": [
+      "fig1_design.png",
+      "fig2_results.png",
+      "fig3_resources.png"
+    ],
+    "findings": [
+      "No clipped or overlapping labels observed",
+      "Figure 2 shows 40/40 in each condition, repair not estimable, and damage 0/32",
+      "Figure 3 matches recorded token sums and explicitly separates first-pass from review-task use"
+    ],
+    "layout_changes_required": false,
+    "source_and_output_hashes_rechecked": true
+  }
+}

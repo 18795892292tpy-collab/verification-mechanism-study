@@ -1,0 +1,14 @@
+protocol/frozen.json
+protocol/prompts.json
+protocol/output_schema.json
+protocol/analysis_plan.json
+protocol/runtime_identity.json
+protocol/backend.json
+prompts/toy_items.json
+prompts/dev_items.json
+keys/toy_keys.json
+keys/dev_keys.json
+runs/{toy,dev}/*/*/{record.json,prompt.txt,attempt_*/response.json,attempt_*/events.jsonl,attempt_*/meta.json,attempt_*/attempt_started.json,attempt_*/stderr.txt}
+analysis/{toy,dev}/{scored_runs.csv,family_results.csv,summary.json,integrity_audit.json}
+audits/development_gate.json
+report/DEV_REPORT.md

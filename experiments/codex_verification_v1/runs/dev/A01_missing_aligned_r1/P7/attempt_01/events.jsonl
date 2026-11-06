@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1a8-09ca-7df1-80dc-8f2ad3dddc74"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S4\",\"S5\"],\"brief_justification\":\"复核后保留D。S1适用于本校本次交接；S2确认现行批件字段附件缺失，满足暂停任何交付的条件。R-08仅覆盖上年度其他项目的人群、字段和用途，不能移用；未见替代版本，且无其他有效许可。最低两列是否获批尚不明确，交付或终止的条件均未证实，须补齐字段清单再决定。金额授权不涉本案。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18559,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":509,"reasoning_output_tokens":357}}

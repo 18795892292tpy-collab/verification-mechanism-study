@@ -1,0 +1,11 @@
+family_id,procedure,planned,complete,correct,present_flawed_n,present_flawed_correct
+T01,P0,1,1,1,1,1
+T01,P1,1,1,1,1,1
+T01,P3,1,1,1,1,1
+T01,P7,1,1,1,1,1
+T01,P8,1,1,1,1,1
+T02,P0,1,1,1,0,0
+T02,P1,1,1,1,0,0
+T02,P3,1,1,1,0,0
+T02,P7,1,1,1,0,0
+T02,P8,1,1,1,0,0

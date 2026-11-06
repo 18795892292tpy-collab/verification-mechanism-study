@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1bd-2102-7021-8113-5237c8dbe482"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\"],\"brief_justification\":\"保留A。本案属于通知覆盖的同一项目，无单独豁免。V2自2026-10-01替代V1且不追溯，但决定日期缺失，无法确定适用上限。完整方案须按8.2万元总承诺核算，旧额度表、首付款及备忘录均不足以支持批准。S1明确要求日期不明时先补日期，故应先补齐有签名的决定日期记录。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18553,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":504,"reasoning_output_tokens":352}}

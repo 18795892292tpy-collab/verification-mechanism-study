@@ -1,0 +1,87 @@
+{
+  "commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+  "tree_sha": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+  "truncated": false,
+  "files": [
+    {
+      "path": "mechanism_study/results/flash_branch_dev/manifest_20261106_183742.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b37b4721dc310290a698c15d258d672b5c493b69",
+      "size": 1948,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/b37b4721dc310290a698c15d258d672b5c493b69"
+    },
+    {
+      "path": "mechanism_study/results/flash_branch_dev/plan.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b38414163fb345091de13f386a7118e4ca79349",
+      "size": 50575,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/3b38414163fb345091de13f386a7118e4ca79349"
+    },
+    {
+      "path": "mechanism_study/results/flash_branch_dev/responses.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3aafe8901adebe94f11d146a63902e744ec66a3",
+      "size": 2667690,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/e3aafe8901adebe94f11d146a63902e744ec66a3"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_dev/manifest_20261106_185105.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4abac4da8ece1c1a2646e6b1ab5d91b4e163b6ed",
+      "size": 1950,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/4abac4da8ece1c1a2646e6b1ab5d91b4e163b6ed"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_dev/manifest_20261106_185118.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a60cf0605551a5ef24911d54b25007f1ebfc83b",
+      "size": 1950,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/8a60cf0605551a5ef24911d54b25007f1ebfc83b"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_dev/plan.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b53000805a84054eeaae591c25f10cbc278abe",
+      "size": 50575,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/60b53000805a84054eeaae591c25f10cbc278abe"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_dev/responses.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a36d75ecc73cbd0d6e33458a7ce611876ddb468",
+      "size": 4111733,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/1a36d75ecc73cbd0d6e33458a7ce611876ddb468"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_hard/manifest_20261106_185126.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d8d3bccd5d33efb7223b8d88cd949d40abffb3",
+      "size": 2286,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/60d8d3bccd5d33efb7223b8d88cd949d40abffb3"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_hard/plan.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5558fc00f48b9f889f0eb0d486710ae461c2c42c",
+      "size": 76391,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/5558fc00f48b9f889f0eb0d486710ae461c2c42c"
+    },
+    {
+      "path": "mechanism_study/results/flash_think_branch_hard/responses.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84466e9e378b77bf759ec45e3d9c5435727e0b16",
+      "size": 4395063,
+      "url": "https://api.github.com/repos/18795892292tpy-collab/verification-mechanism-study/git/blobs/84466e9e378b77bf759ec45e3d9c5435727e0b16"
+    }
+  ]
+}

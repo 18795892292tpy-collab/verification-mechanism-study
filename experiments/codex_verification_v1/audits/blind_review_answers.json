@@ -1,0 +1,299 @@
+{
+  "review_type": "same-model internal blind consistency check, not human expert validation",
+  "answers": [
+    {
+      "code": "Q01",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "正式审批状态无法核验，S1要求先补状态记录；临时四条件齐全也不能跳过此前置步骤。"
+    },
+    {
+      "code": "Q02",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "已取得完整现行附表且没有本校同类分组，适用第七条两班试点，不是第八条补件。"
+    },
+    {
+      "code": "Q03",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "决定日已适用七万元上限；完整方案总承诺八万二超限，六万元精简方案合格，必须选后者。"
+    },
+    {
+      "code": "Q04",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本项目只批准编码、班级，最低服务可行，必须删手机号并继续；往年其他项目不能扩展授权。"
+    },
+    {
+      "code": "Q05",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "决定日适用七万元上限，八万二完整方案超限而六万元精简方案满足最低服务；封皮颜色无关。"
+    },
+    {
+      "code": "Q06",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "现行本项目批件仅列编码、班级，必须采用两列及联络员方案；备忘录不能移用往年批准。"
+    },
+    {
+      "code": "Q07",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本次字段附件无法核验，规则明确要求暂停所有交付并补件；不能据往年批件推定许可。"
+    },
+    {
+      "code": "Q08",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "授权记录缺失触发暂停补件；场地可用不能证明同意，也不能把缺失认定为拒绝。"
+    },
+    {
+      "code": "Q09",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "决定日期无法核实，规则要求先补日期；旧额度表与首付款均不能确定适用上限。"
+    },
+    {
+      "code": "Q10",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "完整现行附表已取得，本校乡村小规模分组未列入，必须两班试点；不存在取得状态缺失。"
+    },
+    {
+      "code": "Q11",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "决定日在修订生效前，适用九万元上限；完整方案八万二未超限，按顺序必须选择。"
+    },
+    {
+      "code": "Q12",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "十月八日适用七万元上限，总承诺八万二超限；六万元精简方案合格，旧表不优先。"
+    },
+    {
+      "code": "Q13",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本次批件只批准两列，须删手机号并由联络员联系；会场变更不改变字段授权。"
+    },
+    {
+      "code": "Q14",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "按签名决定日适用七万元上限，完整方案八万二超限，精简方案六万元合格；封皮变更无关。"
+    },
+    {
+      "code": "Q15",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "已核验仍在审核中，且受理、风险通过、应急窗口、校内使用四项均满足，必须启用七天临时模式。"
+    },
+    {
+      "code": "Q16",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "全部承诺须合计八万二，高于决定日七万元额度；六万元精简方案满足最低服务。"
+    },
+    {
+      "code": "Q17",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "审批查询页缺失，S1要求先补可核验状态；受理和风险通过不能替代正式审批状态记录。"
+    },
+    {
+      "code": "Q18",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "签名决定日期未归档，无法确定哪版额度适用；按明文先补日期，收件章不能替代。"
+    },
+    {
+      "code": "Q19",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本项目现行附件逐一批准三列，S1要求交付三列，S3也规定使用直接回访流程。"
+    },
+    {
+      "code": "Q20",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本项目仅批准编码、班级，最低服务已具备，必须用两列继续回访；其他项目批准不能移用。"
+    },
+    {
+      "code": "Q21",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "已取得完整附表但无同类分组，适用第七条两班试点；教室方位不改变分支。"
+    },
+    {
+      "code": "Q22",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "当前授权仅覆盖编码、班级，规则要求两列交付并由联络员联系，不能终止或扩展字段。"
+    },
+    {
+      "code": "Q23",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "附表取得状态无法核验，规则明确按第八条暂停补件；节选无分组不能证明完整表无分组。"
+    },
+    {
+      "code": "Q24",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "审批状态已知未批准，四项临时条件均满足，S1要求采用七天临时模式，不能另加等待批准条件。"
+    },
+    {
+      "code": "Q25",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "完整现行附表已取得且没有乡村小规模分组，正好符合第七条两班试点条件。"
+    },
+    {
+      "code": "Q26",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本项目附件已批准三列，规则规定三列均获批就交付三列；两列最低服务不改变此分支。"
+    },
+    {
+      "code": "Q27",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "已核验未正式批准且四项临时条件齐全，必须七天临时运行；工作台位置未改变权限。"
+    },
+    {
+      "code": "Q28",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "已核验仍未正式批准，风险审查未完成，四项条件缺一；应沿用原方式并补审查。"
+    },
+    {
+      "code": "Q29",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "审批状态已核验且临时四条件齐全，必须启用七天临时模式；北侧位置不影响资格。"
+    },
+    {
+      "code": "Q30",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "九月二十八日早于修订生效日，应用九万元额度；八万二完整方案未超限，签发不等于提前生效。"
+    },
+    {
+      "code": "Q31",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "已取得现行附表，本校同类乡村小规模指标六分达到四分阈值，必须按第六条全校实施。"
+    },
+    {
+      "code": "Q32",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "额度三百元可核验且总价二百八十元无其他费用，按规则采购原清单；节约建议不改变分支。"
+    },
+    {
+      "code": "Q33",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本次批件字段附件缺失，规则明确先暂停所有交付并补清单；目录不能证明字段许可。"
+    },
+    {
+      "code": "Q34",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "审批状态已核验未批准，四项临时条件均成立，依明确顺序必须运行七天临时模式。"
+    },
+    {
+      "code": "Q35",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "风险审查已通过，连同另外三项满足临时资格；规则要求采用临时模式，不能再等待正式批准。"
+    },
+    {
+      "code": "Q36",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "完整现行附表已取得但同类分组缺席，应按第七条试点；第八条针对未取得或取得状态不明。"
+    },
+    {
+      "code": "Q37",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "审批状态已核验为审核中，但风险审查待补，临时条件未全满足；须维持旧方式并补手续。"
+    },
+    {
+      "code": "Q38",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "决定日七万元上限有效，总承诺八万二超限；六万元精简方案合格，不能只算首笔付款。"
+    },
+    {
+      "code": "Q39",
+      "action": "D",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "现行附表已有本校同类分组且指标六分，达到四分门槛，必须全校实施；不适用无分组试点。"
+    },
+    {
+      "code": "Q40",
+      "action": "C",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "取得完整现行附表但无本校同类分组，按第七条两班试点；容量相同的教室变更无关。"
+    },
+    {
+      "code": "Q41",
+      "action": "A",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "本项目只批准编码、班级，必须两列交付并由联络员联系；会场移楼未改变用途及授权。"
+    },
+    {
+      "code": "Q42",
+      "action": "B",
+      "ambiguous": false,
+      "alternative_action": null,
+      "reason": "完整附表取得状态无法核验，明确适用第八条暂停补件；节选不能证明取得完整表或无同类分组。"
+    }
+  ]
+}

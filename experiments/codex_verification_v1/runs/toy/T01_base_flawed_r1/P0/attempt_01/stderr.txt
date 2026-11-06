@@ -1,0 +1,5 @@
+2026-11-06T16:03:25.661550Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out
+2026-11-06T16:03:25.714263Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out
+2026-11-06T16:03:25.884548Z  WARN codex_http_client::native_roots: encountered errors while loading native root certificates native_root_error_count=2
+2026-11-06T16:03:30.917600Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out
+2026-11-06T16:03:40.387044Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out

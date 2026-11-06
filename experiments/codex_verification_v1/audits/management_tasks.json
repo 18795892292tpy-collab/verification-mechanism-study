@@ -1,0 +1,33 @@
+{
+  "scope": "management work, excluded from experimental response counts",
+  "model_family": "inherited current Codex model setting; not independent models",
+  "token_usage": null,
+  "tasks": [
+    {
+      "agent": "/root/cx_cases_build",
+      "purpose": "case authoring and deterministic oracle"
+    },
+    {
+      "agent": "/root/cx_integrity",
+      "purpose": "integrity code, offline tests and runner review"
+    },
+    {
+      "agent": "/root/mechanism_data_audit",
+      "purpose": "read-only legacy audit"
+    },
+    {
+      "agent": "/root/cx_blind_review",
+      "purpose": "42-item same-model internal blind consistency review"
+    },
+    {
+      "agent": "/root/cx_figures",
+      "purpose": "figure scripts and later rendering review"
+    },
+    {
+      "agent": "/root/cx_final_review",
+      "purpose": "independent raw-record recalculation and final reporting audit"
+    }
+  ],
+  "coordinator": "/root: protocol, orchestration, evaluator and artifacts; usage not included in CLI study totals",
+  "note": "Names count logical management tasks, not underlying model API requests; earlier planning work is outside this execution batch."
+}

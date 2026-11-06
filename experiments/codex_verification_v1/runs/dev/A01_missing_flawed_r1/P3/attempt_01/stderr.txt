@@ -1,0 +1,4 @@
+2026-11-06T16:38:47.601335Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out
+2026-11-06T16:38:47.793690Z  WARN codex_analytics::client: failed to send events request: error sending request for url (https://chatgpt.com/backend-api/codex/analytics-events/events)
+2026-11-06T16:38:57.774541Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: workspace routing discovery timed out
+2026-11-06T16:39:01.511517Z  WARN codex_http_client::native_roots: encountered errors while loading native root certificates native_root_error_count=2

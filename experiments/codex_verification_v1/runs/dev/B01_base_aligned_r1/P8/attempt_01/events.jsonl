@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1ac-4ef7-7fb1-9332-adc4c05f16ab"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\"],\"brief_justification\":\"复核后保留C。本校本期属乡村小规模，已取得完整现行附表但无同类分组，第七条要求两个班一学期试点；上年分类不适用。C的对象、期限、用途及记录安排符合材料，师资、场地和容量满足要求，无必需材料缺失或其他启动障碍。先前回答完整一致，无影响决定的遗漏；备忘录不作为授权依据。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18573,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":531,"reasoning_output_tokens":383}}

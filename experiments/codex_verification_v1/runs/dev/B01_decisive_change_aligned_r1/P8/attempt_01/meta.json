@@ -1,0 +1,47 @@
+{
+  "attempt": 1,
+  "started_utc": "2026-11-06T16:35:06.747417+00:00",
+  "finished_utc": "2026-11-06T16:35:38.145800+00:00",
+  "seconds": 31.398394300136715,
+  "returncode": 0,
+  "error": null,
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra",
+  "model_snapshot_resolved": null,
+  "prompt_sha256": "9bb0bc5ca135c490aa01ac02aa5a977080373dda9601fc6629768b0052d4d0e4",
+  "stdout_sha256": "cd021eddafffca27c6f636799f9d9ed50ede71cdfba34d4f064727459d12a81a",
+  "stderr_sha256": "5c8c97b5b592196009b7c7a91d5b65aac64952773247d2689f7c41f9de3b3645",
+  "started_sha256": "5e01fc367671ba41ae1d411579af8e8cc046b8d88425a853a4f5960a99553fb4",
+  "output_sha256": "dbd36ea094740ce05b5ca063989e82a7bce415dbe7846687e6b657ee482194f2",
+  "usage": {
+    "input_tokens": 18575,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 319
+  },
+  "thread_ids": [
+    "01a1b1b6-c22f-7702-83b2-2284c08c6c58"
+  ],
+  "unexpected_items": [],
+  "error_items": [
+    {
+      "id": "item_0",
+      "type": "error",
+      "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."
+    },
+    {
+      "id": "item_1",
+      "type": "error",
+      "message": "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    },
+    {
+      "id": "item_2",
+      "type": "error",
+      "message": "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+    }
+  ],
+  "top_level_errors": [],
+  "turn_completed": true,
+  "event_count": 7
+}

@@ -1,0 +1,4 @@
+2026-11-06T16:29:59.694635Z  WARN codex_http_client::native_roots: encountered errors while loading native root certificates native_root_error_count=2
+2026-11-06T16:30:04.721287Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket stage=Unknown
+2026-11-06T16:30:04.722034Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: stream disconnected before completion: tls handshake eof
+2026-11-06T16:30:06.138391Z  WARN codex_http_client::native_roots: encountered errors while loading native root certificates native_root_error_count=2

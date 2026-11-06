@@ -1,0 +1,790 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "forty_dev_items",
+      "passed": true
+    },
+    {
+      "check": "unique_ids",
+      "passed": true
+    },
+    {
+      "check": "A01_ten_items",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_flip",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_stable",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_stable",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_pause",
+      "passed": true
+    },
+    {
+      "check": "A02_ten_items",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_flip",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_stable",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_stable",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_pause",
+      "passed": true
+    },
+    {
+      "check": "B01_ten_items",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_flip",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_stable",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_stable",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_pause",
+      "passed": true
+    },
+    {
+      "check": "B02_ten_items",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_flip",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_stable",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_stable",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_pause",
+      "passed": true
+    },
+    {
+      "check": "A01_base_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_base_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_base_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_base_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_base_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_base_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_base_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_base_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_decisive_change_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_irrelevant_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_paraphrase_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A01_missing_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_base_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_base_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_base_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_base_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_base_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_base_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_base_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_base_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_decisive_change_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_irrelevant_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_paraphrase_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "A02_missing_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_base_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_base_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_base_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_base_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_base_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_base_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_base_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_base_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_decisive_change_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_irrelevant_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_paraphrase_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B01_missing_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_base_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_base_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_base_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_base_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_base_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_base_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_base_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_base_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_decisive_change_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_irrelevant_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_paraphrase_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_aligned_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_aligned_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_aligned_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_aligned_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_flawed_oracle",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_flawed_advice",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_flawed_public_length",
+      "passed": true
+    },
+    {
+      "check": "B02_missing_flawed_no_key_fields",
+      "passed": true
+    },
+    {
+      "check": "A01_no_core_deny",
+      "passed": true
+    },
+    {
+      "check": "A02_equal_cap_full",
+      "passed": true
+    },
+    {
+      "check": "A02_both_over_defer",
+      "passed": true
+    },
+    {
+      "check": "B01_below_threshold_stop",
+      "passed": true
+    },
+    {
+      "check": "B01_at_threshold_full",
+      "passed": true
+    },
+    {
+      "check": "B01_not_acquired_pause",
+      "passed": true
+    },
+    {
+      "check": "B02_approved_full",
+      "passed": true
+    },
+    {
+      "check": "B02_requires_accepted",
+      "passed": true
+    },
+    {
+      "check": "B02_requires_risk_review_complete",
+      "passed": true
+    },
+    {
+      "check": "B02_requires_emergency_window",
+      "passed": true
+    },
+    {
+      "check": "B02_requires_internal_only",
+      "passed": true
+    }
+  ],
+  "n_checks": 193,
+  "n_dev": 40,
+  "length_range": [
+    873,
+    984
+  ],
+  "key_action_counts": {
+    "A": 8,
+    "B": 12,
+    "D": 10,
+    "C": 10
+  },
+  "scope": "deterministic structural/rule checks; not independent education-expert validation; no model response generated"
+}

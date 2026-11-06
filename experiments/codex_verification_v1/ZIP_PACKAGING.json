@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-06T16:45:58.907855+00:00",
+  "archive": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/Codex_Verification_Initial_Pilot_2026-11-07.zip",
+  "bytes": 4626351,
+  "sha256": "88ed78620e99b20d5474f61b66ebb44e98e2b8a6a875adb1699267f09cf551b2",
+  "payload_files": 1565,
+  "archive_entries": 1566,
+  "crc_and_payload_hashes": "passed"
+}

@@ -1,0 +1,76 @@
+{
+  "group_id": "B01_decisive_change_aligned_r1",
+  "item_id": "B01_decisive_change_aligned",
+  "repeat": 1,
+  "procedure": "P3",
+  "phase": "dev",
+  "frozen_hash": "d24e2ecc0aafe67c566a0afcd0c88b3d44db8e00d28340beac858765154f2d64",
+  "first_sha256": "6f27afe675b52b74956b71f0de8f9ab2b92dd0aa073bcd822f6cf4e579da1d6c",
+  "prompt_sha256": "fefad46d283e571ef58843c3bdd4bc26c44bf0647383395e80225b5d8eee0ba5",
+  "started_utc": "2026-11-06T16:21:24.054289+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_utc": "2026-11-06T16:21:24.054966+00:00",
+      "finished_utc": "2026-11-06T16:21:57.006222+00:00",
+      "seconds": 32.95128123299219,
+      "returncode": 0,
+      "error": null,
+      "model_requested": "gpt-6-astra",
+      "effort_requested": "ultra",
+      "model_snapshot_resolved": null,
+      "prompt_sha256": "fefad46d283e571ef58843c3bdd4bc26c44bf0647383395e80225b5d8eee0ba5",
+      "stdout_sha256": "5ba3ce8b2799ea5292e282d6007ba22ea260c82450e9a22ed952fb91579b7187",
+      "stderr_sha256": "c000b810c8b6b290678aa4d1f5c491f5a74f6aebc534e0ac28cf68bc56121b3a",
+      "started_sha256": "e600f8c76ed5100d6796118ce122b5de8595886c5fb682c7d344ba37be34d058",
+      "output_sha256": "e78d9b37710e2a66148a63fdc7379748b9310aef8b1f40fd7290de9cee91261a",
+      "usage": {
+        "input_tokens": 18540,
+        "cached_input_tokens": 16256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 517,
+        "reasoning_output_tokens": 381
+      },
+      "thread_ids": [
+        "01a1b1aa-3493-7533-97f9-7e8abcd51d54"
+      ],
+      "unexpected_items": [],
+      "error_items": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."
+        },
+        {
+          "id": "item_1",
+          "type": "error",
+          "message": "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+        },
+        {
+          "id": "item_2",
+          "type": "error",
+          "message": "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+        }
+      ],
+      "top_level_errors": [],
+      "turn_completed": true,
+      "event_count": 7
+    }
+  ],
+  "status": "complete",
+  "parsed": {
+    "action": "D",
+    "cited_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "brief_justification": "复核后保留D。本期核定分类为乡村小规模，旧分类不适用；已取得完整现行附表，对应分组六分达到四分阈值，对象、指标和用途均适用。第六条要求全校实施，覆盖D的实施范围；档案未设金额或额外批准要求，且无其他启动障碍，决定所需材料充分。",
+    "confidence": 5
+  },
+  "raw_final": "{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\"],\"brief_justification\":\"复核后保留D。本期核定分类为乡村小规模，旧分类不适用；已取得完整现行附表，对应分组六分达到四分阈值，对象、指标和用途均适用。第六条要求全校实施，覆盖D的实施范围；档案未设金额或额外批准要求，且无其他启动障碍，决定所需材料充分。\",\"confidence\":5}",
+  "final_sha256": "e78d9b37710e2a66148a63fdc7379748b9310aef8b1f40fd7290de9cee91261a",
+  "finished_utc": "2026-11-06T16:21:57.010267+00:00"
+}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1b8-dfc5-7592-8c2b-841bc0031671"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"B\",\"cited_sources\":[\"S1\",\"S2\",\"S4\",\"S5\"],\"brief_justification\":\"正式审批状态已可核验且尚未批准，故不适用A或C；风险审查未完成通过，不满足临时模式的全部条件，不能选D。依规应维持原值班方式并补齐手续，直至正式批准或符合临时条款。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18481,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":195,"reasoning_output_tokens":87}}

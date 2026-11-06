@@ -1,0 +1,23 @@
+{
+  "date_client": "2026-11-06",
+  "host": "liekkas",
+  "desktop_thread": "01a0ce44-ec93-77e0-88e8-536e1f4e5307",
+  "desktop_turn": "01a1b18a-cf52-76e0-a18f-0b2b092836db",
+  "desktop_visible_model": "gpt-6-astra",
+  "desktop_visible_effort": "ultra",
+  "desktop_provider": "openai",
+  "cli_path": "/home/grf/.local/bin/codex",
+  "cli_version": "0.166.0",
+  "cli_auth_status": "Logged in using ChatGPT",
+  "cli_default_model_ignored": "gpt-6.1-sol",
+  "experiment_backend": "same-host Codex CLI, new ephemeral session per response",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra",
+  "provider_requested": "openai",
+  "account_identity_basis": "Same host /home/grf/.codex authentication store; ChatGPT login verified; no credentials read or exported",
+  "provider_weight_snapshot": null,
+  "temperature": null,
+  "sampling_seed": null,
+  "prepared_utc": "2026-11-06T15:50:41.227617+00:00",
+  "note": "This is a new CLI-context experiment matching the visible desktop model configuration, not a claim of identical desktop/CLI system prompts or hidden weights. No other model condition is pooled."
+}

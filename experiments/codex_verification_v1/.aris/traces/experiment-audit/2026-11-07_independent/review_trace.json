@@ -1,0 +1,48 @@
+{
+  "agent_task": "/root/cx_final_review",
+  "parent_task": "/root",
+  "requested_work": "Independent raw evidence, score and final report audit; no model calls or frozen-file mutation",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "review_scope": "Deterministic evidence independently recomputed; semantic review is not independent model-family validation",
+  "phase": "final_review_complete",
+  "generated_utc": "2026-11-06T16:43:43.149188+00:00",
+  "script_sha256": "30879073e8e44127174c85468f8129b3799015132e811e0b7ac42e9ee2d995f5",
+  "pending_check": {
+    "toy": 10,
+    "dev": 199,
+    "exit_code": 2
+  },
+  "toy_independent_preflight": {
+    "checks": 1023,
+    "errors": [],
+    "sessions": 10,
+    "warnings_per_category": 10
+  },
+  "input_manifest": "protocol/frozen.json",
+  "final_result_path": "audits/final_review.json",
+  "final_report_path": "audits/FINAL_REVIEW.md",
+  "trace_note": "This records the actual delegated audit task and its deterministic evidence; no additional reviewer model call is represented.",
+  "finished_utc": "2026-11-06T16:45:30.230175+00:00",
+  "final_result_sha256": "5863475359781077ff864e82d9258e1ae7432565683f69c21becacde6c4eceff",
+  "reviewed_report_sha256": "047a8063f6cfe859e416897e2f313caa4681b0fc597d968cabf3b354e8600725",
+  "deterministic_checks": 19217,
+  "passed": true,
+  "unique_sessions": 210,
+  "warning_categories": {
+    "unstable_skip_host_skill_discovery": 210,
+    "disabled_code_mode_host": 210,
+    "skills_context_budget_removed": 210
+  },
+  "resolved_findings": [
+    {
+      "finding": "Frozen extra_chars counts added instruction bodies excluding one separator newline; initial audit counted complete appended strings.",
+      "resolution": "Final report now explicitly gives both conventions (body 43/44; including newline 44/45); audit checks both. No frozen input or original response was changed.",
+      "earlier_report_sha256": "c93c2df1579f0dfc2dd1ac55e58c898ada8c56b6b11e0db1b8d1fdb3520e7279"
+    },
+    {
+      "finding": "Correctness endpoint could be read as judging full explanation quality.",
+      "resolution": "Final report explicitly states correctness is action-option agreement only, not explanation/citation quality."
+    }
+  ]
+}

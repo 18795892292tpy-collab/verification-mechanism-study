@@ -1,0 +1,76 @@
+{
+  "group_id": "A02_paraphrase_aligned_r1",
+  "item_id": "A02_paraphrase_aligned",
+  "repeat": 1,
+  "procedure": "P1",
+  "phase": "dev",
+  "frozen_hash": "d24e2ecc0aafe67c566a0afcd0c88b3d44db8e00d28340beac858765154f2d64",
+  "first_sha256": "9aa9a9a460a4df18744ea9e0c13e805dc3889dc6d3a629ac361cc409bf7d23e8",
+  "prompt_sha256": "71d4e84301b225c31d3f742abc2cce5e5462039bbc6f36922a6ca325711903b5",
+  "started_utc": "2026-11-06T16:31:33.114666+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_utc": "2026-11-06T16:31:33.116009+00:00",
+      "finished_utc": "2026-11-06T16:31:56.858662+00:00",
+      "seconds": 23.742682342184708,
+      "returncode": 0,
+      "error": null,
+      "model_requested": "gpt-6-astra",
+      "effort_requested": "ultra",
+      "model_snapshot_resolved": null,
+      "prompt_sha256": "71d4e84301b225c31d3f742abc2cce5e5462039bbc6f36922a6ca325711903b5",
+      "stdout_sha256": "02790a852f262e065c17bf791eb3446673b6d141022e22c906de9775efdab929",
+      "stderr_sha256": "c702289b6c87ebbd3e2846ae7ed98b3c556706b0d3f2ea8c7952a25925814796",
+      "started_sha256": "0474356296c0e202f2142e87a38b02123891aa7fe14a90adb43df3df1e7630bf",
+      "output_sha256": "6f422cf7d466bc2a8aef17ed977357821efd13fc4d464e4b3aa5ea2a95953e5e",
+      "usage": {
+        "input_tokens": 18506,
+        "cached_input_tokens": 16256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 332,
+        "reasoning_output_tokens": 202
+      },
+      "thread_ids": [
+        "01a1b1b3-7fb4-76a2-9259-4ffff7beccd9"
+      ],
+      "unexpected_items": [],
+      "error_items": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."
+        },
+        {
+          "id": "item_1",
+          "type": "error",
+          "message": "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+        },
+        {
+          "id": "item_2",
+          "type": "error",
+          "message": "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+        }
+      ],
+      "top_level_errors": [],
+      "turn_completed": true,
+      "event_count": 7
+    }
+  ],
+  "status": "complete",
+  "parsed": {
+    "action": "B",
+    "cited_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "brief_justification": "签名决定日为2026-10-08，适用已生效的V2七万元上限，旧额度表不能替代新通知。完整方案总承诺八万二千元超额；精简方案六万元且满足最低服务要求，依选择顺序应采用精简方案。日期已核验，无需补齐，也不符合顺延条件。",
+    "confidence": 5
+  },
+  "raw_final": "{\"action\":\"B\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\"],\"brief_justification\":\"签名决定日为2026-10-08，适用已生效的V2七万元上限，旧额度表不能替代新通知。完整方案总承诺八万二千元超额；精简方案六万元且满足最低服务要求，依选择顺序应采用精简方案。日期已核验，无需补齐，也不符合顺延条件。\",\"confidence\":5}",
+  "final_sha256": "6f422cf7d466bc2a8aef17ed977357821efd13fc4d464e4b3aa5ea2a95953e5e",
+  "finished_utc": "2026-11-06T16:31:56.865523+00:00"
+}

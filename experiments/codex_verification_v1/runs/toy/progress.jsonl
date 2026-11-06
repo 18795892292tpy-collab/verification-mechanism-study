@@ -1,0 +1,10 @@
+{"phase": "toy", "group": "T02_missing_flawed_r1", "procedure": "P0", "status": "complete", "seconds": 23.94}
+{"phase": "toy", "group": "T01_base_flawed_r1", "procedure": "P0", "status": "complete", "seconds": 32.48}
+{"phase": "toy", "group": "T02_missing_flawed_r1", "procedure": "P1", "status": "complete", "seconds": 26.57}
+{"phase": "toy", "group": "T01_base_flawed_r1", "procedure": "P7", "status": "complete", "seconds": 45.57}
+{"phase": "toy", "group": "T02_missing_flawed_r1", "procedure": "P3", "status": "complete", "seconds": 53.48}
+{"phase": "toy", "group": "T01_base_flawed_r1", "procedure": "P8", "status": "complete", "seconds": 48.57}
+{"phase": "toy", "group": "T02_missing_flawed_r1", "procedure": "P8", "status": "complete", "seconds": 41.42}
+{"phase": "toy", "group": "T02_missing_flawed_r1", "procedure": "P7", "status": "complete", "seconds": 39.77}
+{"phase": "toy", "group": "T01_base_flawed_r1", "procedure": "P3", "status": "complete", "seconds": 38.48}
+{"phase": "toy", "group": "T01_base_flawed_r1", "procedure": "P1", "status": "complete", "seconds": 36.38}

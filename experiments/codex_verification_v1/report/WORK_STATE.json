@@ -1,0 +1,17 @@
+{
+  "status": "initial_batch_complete",
+  "host": "liekkas",
+  "client_date_now": "2026-11-07",
+  "root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-06/codex_verification_v1",
+  "exec_session_id": null,
+  "toy_done": true,
+  "toy_all_correct": true,
+  "frozen_hash": "d24e2ecc0aafe67c566a0afcd0c88b3d44db8e00d28340beac858765154f2d64",
+  "next": [
+    "No further model runs scheduled; initial batch archived."
+  ],
+  "important": "Do not modify frozen files or resample existing answers. 32 offline tests, 193 case checks, 42 blind answers matched. CLI current model explicitly gpt-6-astra ultra, not default gpt-6.1-sol. No DeepSeek requests. 3 workers.",
+  "dev_done": true,
+  "dev_tasks": 200,
+  "gate": "STOP_DEVELOPMENT_EXPANSION"
+}

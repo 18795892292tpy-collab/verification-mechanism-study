@@ -1,0 +1,76 @@
+{
+  "group_id": "B01_decisive_change_aligned_r1",
+  "item_id": "B01_decisive_change_aligned",
+  "repeat": 1,
+  "procedure": "P0",
+  "phase": "dev",
+  "frozen_hash": "d24e2ecc0aafe67c566a0afcd0c88b3d44db8e00d28340beac858765154f2d64",
+  "first_sha256": null,
+  "prompt_sha256": "c32bc896609d884c00ebf191ec66b06474dbc7b87fdd752d9ecd071816207cfb",
+  "started_utc": "2026-11-06T16:10:20.500431+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_utc": "2026-11-06T16:10:20.501045+00:00",
+      "finished_utc": "2026-11-06T16:10:49.942138+00:00",
+      "seconds": 29.44111716398038,
+      "returncode": 0,
+      "error": null,
+      "model_requested": "gpt-6-astra",
+      "effort_requested": "ultra",
+      "model_snapshot_resolved": null,
+      "prompt_sha256": "c32bc896609d884c00ebf191ec66b06474dbc7b87fdd752d9ecd071816207cfb",
+      "stdout_sha256": "91e1382ef56a2df02acc948b27eb3b90be9d0032f0b5787555cb55773498d4cb",
+      "stderr_sha256": "24bc61f98fed17e936fab6fadf54357b322b058f61cce251d70ebea31fec6a4b",
+      "started_sha256": "1fb415136366d49ce434426e8564747d4320d22fda22bac752d7bdcfedc01044",
+      "output_sha256": "6f27afe675b52b74956b71f0de8f9ab2b92dd0aa073bcd822f6cf4e579da1d6c",
+      "usage": {
+        "input_tokens": 18317,
+        "cached_input_tokens": 16256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 224,
+        "reasoning_output_tokens": 118
+      },
+      "thread_ids": [
+        "01a1b1a0-148b-78a3-b6ef-7abbe70c8abb"
+      ],
+      "unexpected_items": [],
+      "error_items": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."
+        },
+        {
+          "id": "item_1",
+          "type": "error",
+          "message": "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+        },
+        {
+          "id": "item_2",
+          "type": "error",
+          "message": "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+        }
+      ],
+      "top_level_errors": [],
+      "turn_completed": true,
+      "event_count": 7
+    }
+  ],
+  "status": "complete",
+  "parsed": {
+    "action": "D",
+    "cited_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "brief_justification": "本校本期属于乡村小规模学校，已取得完整现行附表；对应分组效果指标为六分，达到四分阈值，依第六条必须全校实施。档案确认无其他启动障碍，因此执行D的完整内容。",
+    "confidence": 5
+  },
+  "raw_final": "{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\"],\"brief_justification\":\"本校本期属于乡村小规模学校，已取得完整现行附表；对应分组效果指标为六分，达到四分阈值，依第六条必须全校实施。档案确认无其他启动障碍，因此执行D的完整内容。\",\"confidence\":5}",
+  "final_sha256": "6f27afe675b52b74956b71f0de8f9ab2b92dd0aa073bcd822f6cf4e579da1d6c",
+  "finished_utc": "2026-11-06T16:10:49.946661+00:00"
+}

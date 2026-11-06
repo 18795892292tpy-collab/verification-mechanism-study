@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-11-06T16:06:12.378831+00:00",
+  "passed": true,
+  "complete_tasks": 10,
+  "correct_by_procedure": {
+    "P0": 2,
+    "P1": 2,
+    "P3": 2,
+    "P7": 2,
+    "P8": 2
+  },
+  "unique_sessions": 10,
+  "tool_events": 0,
+  "usage_available": true,
+  "next_stage": "200-task development matrix"
+}

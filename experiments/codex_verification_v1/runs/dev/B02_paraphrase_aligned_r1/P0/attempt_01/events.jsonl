@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1a0-e511-7963-827e-16f8e53a1f9c"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\"],\"brief_justification\":\"正式审批状态可核验，且确认尚未批准。申请已受理、风险审查通过、当前属于登记应急窗口、数据仅限校内使用，四项临时条件全部满足，依规必须开启七天临时模式，期满关闭，不得转为整学期运行。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18359,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":273,"reasoning_output_tokens":162}}

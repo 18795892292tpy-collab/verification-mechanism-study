@@ -8,3 +8,15 @@
 - 案例编写与检查：[.claude/skills/verification-case-builder/SKILL.md](.claude/skills/verification-case-builder/SKILL.md)
 
 API key 不在仓库里：复制 `mechanism_study/.env.example` 为 `mechanism_study/.env` 后填写。
+
+## Codex 首批开发实验（2026-11-07）
+
+按研究者的新指示，另行使用当前 Codex 环境完成 10 次校准和 200 次开发作答，完整归档于独立目录；未续跑或混合历史 DeepSeek 数据。
+
+- [中文实验报告](experiments/codex_verification_v1/report/DEV_REPORT.md)
+- [完整材料与复算说明](experiments/codex_verification_v1/README_中文.md)
+- [离线回放页面](experiments/codex_verification_v1/viewer.html)（下载后用浏览器打开）
+- [三组科研图](experiments/codex_verification_v1/figures/)与[最终审计](experiments/codex_verification_v1/audits/FINAL_REVIEW.md)
+- [完整 ZIP 下载](experiments/artifacts/Codex_Verification_Initial_Pilot_2026-11-07.zip?raw=true)
+
+五种程序均为 40/40 选项正确；首轮无自然错误，纠错率为 NA，不能据此判断机制优势或方法等价。按预设门槛停止扩大这一矩阵，未运行保留集。
