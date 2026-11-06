@@ -37,3 +37,5 @@ python analysis/plot_results.py
 
 所有统计图均从保存的真实记录生成。技能来源见`report/FIGURE_PROVENANCE.md`。
 `FILE_MANIFEST.csv`列出包内研究文件SHA-256。
+
+发布去重、原清单和历史快照恢复方法见 [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md)。

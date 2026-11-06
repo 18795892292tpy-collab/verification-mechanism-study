@@ -32,6 +32,7 @@ Python 3.12。下面所有命令都在 `mechanism_study/` 下运行。`.env` 不
 ## 研究者定下的规则（不要自行改变）
 
 - **只用 DeepSeek flash。** API 模型名 `deepseek-flash` 就是 DeepSeek-V4.1-Flash（2026-11-06 价格页标明版本为 DeepSeek-V4.1-Flash-1017）。不用本地模型，不换其他模型。分析计划里"3 个模型"的旧设计已由研究者改为只用 flash。
+  - **例外：** 2026-11-07 研究者授权在 Codex 环境中用 `gpt-6-astra / ultra` 做一个独立的探索批次（`experiments/codex_verification_v1/`）。它单独存放、单独报告，不与 DeepSeek flash 的数据合并，也不作为 flash 结论的依据。
 - **两种条件，分文件夹存放、分开报告，绝不合并：**
   - 不推理（第 1–3 轮的全部数据）：`.env` 里 `LLM_MODEL=deepseek-chat`。服务器返回 deepseek-flash，不产生推理 token。温度 0.7，`--max-tokens 4000`（默认值）。
   - 推理（当前条件）：命令里加 `--model deepseek-flash --max-tokens 32000 --timeout 400`。推理强度用默认的 high。推理模式下温度参数被忽略。不要用 4,000 的上限：此前的推理探测中 P3 复核 80 次有 77 次被截断，结果无效。

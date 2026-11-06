@@ -40,3 +40,6 @@ venv/
 !/experiments/codex_verification_v1/
 !/experiments/artifacts/
 !/experiments/codex_verification_v1/figures/*.pdf
+
+# Historical snapshot duplicates can be restored locally from pinned Git objects.
+/experiments/codex_verification_v1/audits/legacy_snapshot/
