@@ -4,9 +4,15 @@
 
 研究问题：生成式 AI 给学校行政决策提建议，建议引用了真实材料，但材料的适用对象、时间版本或授权范围并不支持这个决定。这时，第二轮"来源适用性核验"之所以有用，是因为它检查了能区分不同行动的证据，还是只是因为多算了一轮？
 
+## 2026-11-07：新增的 Codex 独立批次
+
+研究者已另行明确要求使用当前 Codex 环境，并批准执行。本批完整材料在 [`experiments/codex_verification_v1/`](experiments/codex_verification_v1/)，先读其中文 README、执行修订、冻结分析计划和实验报告。以下“只用 DeepSeek flash”及续跑命令描述原 `mechanism_study/` 条件，不用于重写或混合这个新批次。
+
+本批已完成 10 次校准、200 次开发作答；5 种程序均为 40/40，首轮无自然错误，纠错率 NA。预设扩展门槛未达到，已停止扩展。不要修改冻结输入或原始回答，不要为追求差异而重新采样；新实验须另立版本。原有 DeepSeek 运行没有继续执行。
+
 ## 先读这些
 
-1. `mechanism_study/report/dev_report.md`：已做实验的全部结果（第 1–9 节），每节按 原目标—方法—结果—解释—下一步 写。
+1. `mechanism_study/report/dev_report.md`：已做实验的全部结果（第 1–10 节），每节按 原目标—方法—结果—解释—下一步 写。
 2. `mechanism_study/README.md`：程序 P0–P6 的定义和运行方法。
 3. `mechanism_study/analysis/analysis_plan.md`：预先规定的分析（C1、C2、C3、NI1、NI2）。
 4. `.claude/skills/verification-case-builder/SKILL.md` 及其 `references/`：如何编写和检查案例家族（尤其 `hard_tier.md`）。
@@ -26,6 +32,7 @@ Python 3.12。下面所有命令都在 `mechanism_study/` 下运行。`.env` 不
 ## 研究者定下的规则（不要自行改变）
 
 - **只用 DeepSeek flash。** API 模型名 `deepseek-flash` 就是 DeepSeek-V4.1-Flash（2026-11-06 价格页标明版本为 DeepSeek-V4.1-Flash-1017）。不用本地模型，不换其他模型。分析计划里"3 个模型"的旧设计已由研究者改为只用 flash。
+  - **例外：** 2026-11-07 研究者授权在 Codex 环境中用 `gpt-6-astra / ultra` 做一个独立的探索批次（`experiments/codex_verification_v1/`）。它单独存放、单独报告，不与 DeepSeek flash 的数据合并，也不作为 flash 结论的依据。
 - **两种条件，分文件夹存放、分开报告，绝不合并：**
   - 不推理（第 1–3 轮的全部数据）：`.env` 里 `LLM_MODEL=deepseek-chat`。服务器返回 deepseek-flash，不产生推理 token。温度 0.7，`--max-tokens 4000`（默认值）。
   - 推理（当前条件）：命令里加 `--model deepseek-flash --max-tokens 32000 --timeout 400`。推理强度用默认的 high。推理模式下温度参数被忽略。不要用 4,000 的上限：此前的推理探测中 P3 复核 80 次有 77 次被截断，结果无效。
@@ -42,7 +49,7 @@ Python 3.12。下面所有命令都在 `mechanism_study/` 下运行。`.env` 不
 |---|---|---|
 | 第 1–3 轮各文件夹（`screen_*`、`dev_*`、`probe_thinking_*` 等） | 见报告 | 已完成并写入报告 |
 | `results/flash_branch_dev` | 不推理，P0–P6 分支，2 次重复 | 160 组完成 31 组后暂停（研究者改为推理条件） |
-| `results/flash_think_branch_dev` | 推理，P0–P6 分支，2 次重复 | 研究者手动停止：160 组完成 52 组，无错误，无截断 |
+| `results/flash_think_branch_dev` | 推理，P0–P6 分支，2 次重复 | 研究者手动停止；2026-11-07 去重审计：160 组完成 49 个唯一组（52 个分支，其中 3 个重复）；原记录无错误、无截断 |
 | `results/flash_think_branch_hard` | 推理，P0–P6 分支，2 次重复 | 研究者手动停止：240 组完成 39 组，无错误，无截断 |
 | `results/screen_local_qwen7b_*` | 本地 Qwen2.5-7B | 已停用，只作旁证存档，不进入结论 |
 

@@ -1,0 +1,4 @@
+# Observed runtime versions, not a portable pip lock. Matplotlib has a distribution-specific build suffix.
+jsonschema==4.19.2
+numpy==2.3.5
+matplotlib==3.10.7+dfsg1

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1ac-5e59-7a81-9034-70a3a2ce5a47"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\"],\"brief_justification\":\"复核后保留C。S3确认本案属于同一项目，签名决定日为2026-09-28，V2尚未生效，应适用V1九万元上限。完整方案含已承诺分期共8.2万元，项目、用途及金额均在制度覆盖范围内，依S1必须选择。材料充分，无需补日期；备忘录误将正式签发视为提前生效。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18567,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":693,"reasoning_output_tokens":551}}

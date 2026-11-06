@@ -1,0 +1,39 @@
+{
+  "updated_utc": "2026-11-06T16:43:30.810387+00:00",
+  "study": "codex_verification_v1",
+  "planned_total": 210,
+  "phases": {
+    "toy": {
+      "planned": 10,
+      "recorded": 10,
+      "status_counts": {
+        "complete": 10
+      },
+      "procedure_counts": {
+        "P8": 2,
+        "P3": 2,
+        "P7": 2,
+        "P1": 2,
+        "P0": 2
+      },
+      "started_attempts": 10,
+      "committed_attempts": 10
+    },
+    "dev": {
+      "planned": 200,
+      "recorded": 200,
+      "status_counts": {
+        "complete": 200
+      },
+      "procedure_counts": {
+        "P8": 40,
+        "P3": 40,
+        "P7": 40,
+        "P1": 40,
+        "P0": 40
+      },
+      "started_attempts": 200,
+      "committed_attempts": 200
+    }
+  }
+}

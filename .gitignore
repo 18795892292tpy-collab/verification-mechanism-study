@@ -2,6 +2,7 @@
 # Dissertation drafts, private folders and the virtual environment stay local.
 /*
 !/.gitignore
+!/.gitattributes
 !/AGENTS.md
 !/README.md
 !/mechanism_study/
@@ -32,3 +33,13 @@ venv/
 /mechanism_study/results/local_qwen7b_branch.log
 
 /mechanism_study/results/local_qwen7b_branch_hard/
+
+# Authorized Codex pilot archive, kept separate from historical DeepSeek runs.
+!/experiments/
+/experiments/*
+!/experiments/codex_verification_v1/
+!/experiments/artifacts/
+!/experiments/codex_verification_v1/figures/*.pdf
+
+# Historical snapshot duplicates can be restored locally from pinned Git objects.
+/experiments/codex_verification_v1/audits/legacy_snapshot/

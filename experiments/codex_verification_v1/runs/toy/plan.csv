@@ -1,0 +1,11 @@
+group_id,item_id,repeat,procedure
+T02_missing_flawed_r1,T02_missing_flawed,1,P0
+T01_base_flawed_r1,T01_base_flawed,1,P7
+T02_missing_flawed_r1,T02_missing_flawed,1,P1
+T02_missing_flawed_r1,T02_missing_flawed,1,P3
+T01_base_flawed_r1,T01_base_flawed,1,P8
+T02_missing_flawed_r1,T02_missing_flawed,1,P8
+T02_missing_flawed_r1,T02_missing_flawed,1,P7
+T01_base_flawed_r1,T01_base_flawed,1,P3
+T01_base_flawed_r1,T01_base_flawed,1,P1
+T01_base_flawed_r1,T01_base_flawed,1,P0

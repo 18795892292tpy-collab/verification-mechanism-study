@@ -1,0 +1,33 @@
+{
+  "version": "development-v1",
+  "set_before_any_model_response": true,
+  "initial_groups": 40,
+  "initial_tasks": 200,
+  "toy_tasks": 10,
+  "primary_unit": "case_family",
+  "primary_population": "rule-condition families, flawed advice, evidence present",
+  "primary_contrasts": [
+    "P7-P3",
+    "P7-P8"
+  ],
+  "primary_outcome": "planned final correct (nonresponse/parse failure=0)",
+  "pilot_inference": "descriptive; 2 rule families do not support population superiority or equivalence",
+  "extension_gate": {
+    "min_rule_families_with_present_flawed_P0_errors": 2,
+    "min_present_P0_errors_total": 4,
+    "no_unresolved_case_ambiguity": true,
+    "no_tool_or_context_contamination": true,
+    "not_conditioned_on_review_results": true,
+    "purpose": "resource triage only, not a power claim"
+  },
+  "ceiling_rule": "If every evidence-present P0 decision is correct, finish initial paired batch to assess stability, then stop expansion; repair denominator zero -> null/NA. No injected errors pooled.",
+  "outputs": [
+    "full-plan scoring",
+    "procedure/family accuracy",
+    "repair/damage transitions",
+    "missing-evidence pauses",
+    "resource consumption",
+    "audit"
+  ],
+  "optional_holdout": "not selected or executed in this initial development batch"
+}

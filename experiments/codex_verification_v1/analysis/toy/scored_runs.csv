@@ -1,0 +1,11 @@
+group_id,item_id,repeat,procedure,family_id,state,advice,error_type,status,correct_action,action,correct,parse_ok,pause_action,first_sha256,attempts,seconds,input_tokens,output_tokens
+T02_missing_flawed_r1,T02_missing_flawed,1,P0,T02,missing,flawed,toy,complete,C,C,1,1,C,,1,23.939293326810002,17991,186
+T01_base_flawed_r1,T01_base_flawed,1,P7,T01,base,flawed,toy,complete,B,B,1,1,D,99cdbb214dacb2438806f8221c77215169e77cd31d3f8ca293c30c87f8e93b16,1,45.5697471620515,18177,450
+T02_missing_flawed_r1,T02_missing_flawed,1,P1,T02,missing,flawed,toy,complete,C,C,1,1,C,c2c8f041eb92b0ef0d01d95478c7cb8c52f56beb9b508a060c477f25066ed60c,1,26.56821004790254,18080,150
+T02_missing_flawed_r1,T02_missing_flawed,1,P3,T02,missing,flawed,toy,complete,C,C,1,1,C,c2c8f041eb92b0ef0d01d95478c7cb8c52f56beb9b508a060c477f25066ed60c,1,53.481197755085304,18153,678
+T01_base_flawed_r1,T01_base_flawed,1,P8,T01,base,flawed,toy,complete,B,B,1,1,D,99cdbb214dacb2438806f8221c77215169e77cd31d3f8ca293c30c87f8e93b16,1,48.57093801302835,18176,725
+T02_missing_flawed_r1,T02_missing_flawed,1,P8,T02,missing,flawed,toy,complete,C,C,1,1,C,c2c8f041eb92b0ef0d01d95478c7cb8c52f56beb9b508a060c477f25066ed60c,1,41.417381551116705,18188,467
+T02_missing_flawed_r1,T02_missing_flawed,1,P7,T02,missing,flawed,toy,complete,C,C,1,1,C,c2c8f041eb92b0ef0d01d95478c7cb8c52f56beb9b508a060c477f25066ed60c,1,39.767517887987196,18189,555
+T01_base_flawed_r1,T01_base_flawed,1,P3,T01,base,flawed,toy,complete,B,B,1,1,D,99cdbb214dacb2438806f8221c77215169e77cd31d3f8ca293c30c87f8e93b16,1,38.477398925926536,18141,447
+T01_base_flawed_r1,T01_base_flawed,1,P1,T01,base,flawed,toy,complete,B,B,1,1,D,99cdbb214dacb2438806f8221c77215169e77cd31d3f8ca293c30c87f8e93b16,1,36.38274306897074,18068,281
+T01_base_flawed_r1,T01_base_flawed,1,P0,T01,base,flawed,toy,complete,B,B,1,1,D,,1,32.47885507508181,17986,201

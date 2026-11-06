@@ -1,0 +1,1168 @@
+[
+  {
+    "item_id": "A01_base_aligned",
+    "family_id": "A01",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "core",
+    "advised_action": "A",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "16840c8bf3ad71351ebc4bf9ba4fb314983dbe44c764a199b6ae9e29f3b906a9"
+  },
+  {
+    "item_id": "A01_base_flawed",
+    "family_id": "A01",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "core",
+    "advised_action": "B",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "af69e107c3bae52a2285a3186aa22af32190df3f3efd01d0b046e3e6a7c4719f"
+  },
+  {
+    "item_id": "A01_decisive_change_aligned",
+    "family_id": "A01",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "full",
+    "advised_action": "B",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "09d9fd983bb466fe3e2b7729d4c0553da9e1096efb039927d388493130f7a3b6"
+  },
+  {
+    "item_id": "A01_decisive_change_flawed",
+    "family_id": "A01",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "full",
+    "advised_action": "A",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "c4e54cf6414f84258cdfe0cb4af22e3c2abaf016e69b9a97056fb981e4a502eb"
+  },
+  {
+    "item_id": "A01_irrelevant_aligned",
+    "family_id": "A01",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "core",
+    "advised_action": "A",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "d5c33718d0dad6fdfe28c9b50dbbbbe368803a0182ab673444e3a9e2aa1025c4"
+  },
+  {
+    "item_id": "A01_irrelevant_flawed",
+    "family_id": "A01",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "core",
+    "advised_action": "B",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "a2499c7c7909ff13824a64c1e0423d1cb27b0e309f68c9045d72cc1729205943"
+  },
+  {
+    "item_id": "A01_paraphrase_aligned",
+    "family_id": "A01",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "core",
+    "advised_action": "A",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "eec1490f7365a28e24bc3e565780a045473012712fdf7ff288fe6290b36369e1"
+  },
+  {
+    "item_id": "A01_paraphrase_flawed",
+    "family_id": "A01",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "core",
+    "advised_action": "B",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": [
+        "student_code",
+        "class"
+      ]
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "e05f22fbce64e52efedb5b12e42cec0ae359fd9010cfadfe79067bde7c523570"
+  },
+  {
+    "item_id": "A01_missing_aligned",
+    "family_id": "A01",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "pause",
+    "advised_action": "D",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": null
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "d08c3faac4f4468b71753a83c92438f0c28e87be94bdbe767eced1d666d16a69"
+  },
+  {
+    "item_id": "A01_missing_flawed",
+    "family_id": "A01",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "pause",
+    "advised_action": "B",
+    "pause_action": "D",
+    "escalate_action": "D",
+    "error_type": "material",
+    "facts": {
+      "requested_fields": [
+        "student_code",
+        "class",
+        "phone"
+      ],
+      "core_fields": [
+        "student_code",
+        "class"
+      ],
+      "approved_fields": null
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "public_text_sha256": "e564de440fa4831b7a3ceab39894f79e3ce20950d977cf57be6f8a354db14394"
+  },
+  {
+    "item_id": "A02_base_aligned",
+    "family_id": "A02",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "reduced",
+    "advised_action": "B",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-10-08",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "114fc4eaa9c34d04391a8136a66e9af4b73b2623cbf21a4871fae287bbb34354"
+  },
+  {
+    "item_id": "A02_base_flawed",
+    "family_id": "A02",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "reduced",
+    "advised_action": "C",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-10-08",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "40efe842644601f9b5d852857ba16a9a5ca71ee4982155f53c1e25bf9662ac4f"
+  },
+  {
+    "item_id": "A02_decisive_change_aligned",
+    "family_id": "A02",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "full",
+    "advised_action": "C",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-09-28",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "5c45f7ecc12d92fbff95e984a400c34c1016755457c1741cc3e4dbb37f5047b9"
+  },
+  {
+    "item_id": "A02_decisive_change_flawed",
+    "family_id": "A02",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "full",
+    "advised_action": "B",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-09-28",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "7cc79b4f7564a0ac1eaab9c3aedb32b2f250c506c293cb5194edae792941c12a"
+  },
+  {
+    "item_id": "A02_irrelevant_aligned",
+    "family_id": "A02",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "reduced",
+    "advised_action": "B",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-10-08",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "6dcb928f99f3c2d7a456849ff345b1e91da865da6b70108e3320d2813e180998"
+  },
+  {
+    "item_id": "A02_irrelevant_flawed",
+    "family_id": "A02",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "reduced",
+    "advised_action": "C",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-10-08",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "ee24ffc5f38f80e5c070af316d6b579f8b5b8a5d547a92842ec4fc19570c4325"
+  },
+  {
+    "item_id": "A02_paraphrase_aligned",
+    "family_id": "A02",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "reduced",
+    "advised_action": "B",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-10-08",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "0319c04591ef1238321b076db204a3c979bf2200f2380b9ba351159b8b640598"
+  },
+  {
+    "item_id": "A02_paraphrase_flawed",
+    "family_id": "A02",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "reduced",
+    "advised_action": "C",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": "2026-10-08",
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "bdfb95e85b1a7f638c4da95a388d12dc132fde5349e41132931572760552a946"
+  },
+  {
+    "item_id": "A02_missing_aligned",
+    "family_id": "A02",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "pause",
+    "advised_action": "A",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": null,
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "cb425dea9af4e80b959931a0944bfc0c106f6f58d1f621c6032df701c121a54b"
+  },
+  {
+    "item_id": "A02_missing_flawed",
+    "family_id": "A02",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "A",
+    "action": "A",
+    "semantic_action": "pause",
+    "advised_action": "C",
+    "pause_action": "A",
+    "escalate_action": "A",
+    "error_type": "material",
+    "facts": {
+      "decision_date": null,
+      "effective_date": "2026-10-01",
+      "old_cap": 90000,
+      "new_cap": 70000,
+      "full_commitment": 82000,
+      "reduced_commitment": 60000,
+      "reduced_meets_service": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "cfec17c802a5d91a44f70ce8c0f2e420a61125fe6159a24f5ceaded4535c9f52"
+  },
+  {
+    "item_id": "B01_base_aligned",
+    "family_id": "B01",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pilot",
+    "advised_action": "C",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "dab959faf5ba91fdf279c899393498487f1773b87097bee0ead8790396bfa88b"
+  },
+  {
+    "item_id": "B01_base_flawed",
+    "family_id": "B01",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pilot",
+    "advised_action": "B",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "4263e8713848698ff0e1f9337cdce7eecbff9dde0c7017bd64b614b592ad5c95"
+  },
+  {
+    "item_id": "B01_decisive_change_aligned",
+    "family_id": "B01",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "full",
+    "advised_action": "D",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": true,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "76d1e696cad7bc1f7e3c4406775b3bfd3527e70bfeb864fa52b648485eaf6510"
+  },
+  {
+    "item_id": "B01_decisive_change_flawed",
+    "family_id": "B01",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "full",
+    "advised_action": "C",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": true,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "5658e9848ca60899ef2a4886406d895758df417befcf64f411320057c35741dd"
+  },
+  {
+    "item_id": "B01_irrelevant_aligned",
+    "family_id": "B01",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pilot",
+    "advised_action": "C",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "0d7400a9d9ea0dca66a7df1345a75050d145cf0650c66484472b7e58efca9e8e"
+  },
+  {
+    "item_id": "B01_irrelevant_flawed",
+    "family_id": "B01",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pilot",
+    "advised_action": "B",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "a252613fe55edf719bda6a6561e39eb0253392ab3bd6c465918631c06ec19a96"
+  },
+  {
+    "item_id": "B01_paraphrase_aligned",
+    "family_id": "B01",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pilot",
+    "advised_action": "C",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "025cb60986571c2e5037cb80b4e475b666397e12496d1126854555c498c4e909"
+  },
+  {
+    "item_id": "B01_paraphrase_flawed",
+    "family_id": "B01",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pilot",
+    "advised_action": "B",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": true,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "0ae3922062f2753f8158743e16eb7e191be6cd5b734b2da434c3ac419da8abbf"
+  },
+  {
+    "item_id": "B01_missing_aligned",
+    "family_id": "B01",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "pause",
+    "advised_action": "B",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": null,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "0816619ec857efe19fba4011d1579bc0b19370df5d0c82b03f00c947ae34dbcc"
+  },
+  {
+    "item_id": "B01_missing_flawed",
+    "family_id": "B01",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "pause",
+    "advised_action": "C",
+    "pause_action": "B",
+    "escalate_action": "B",
+    "error_type": "rule",
+    "facts": {
+      "table_acquired": null,
+      "matching_group_present": false,
+      "group_effect": 6,
+      "effect_threshold": 4
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "8419a50ef67d3d361cd8009589d6dfdd91d97b8336703abe41c5745639e24a40"
+  },
+  {
+    "item_id": "B02_base_aligned",
+    "family_id": "B02",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "temporary",
+    "advised_action": "D",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "38cb9aca9b9113dbdd9078ce898702a75d19332f4a44a6b3f03b64f776df7be2"
+  },
+  {
+    "item_id": "B02_base_flawed",
+    "family_id": "B02",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "temporary",
+    "advised_action": "B",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "1fb64939fc9940db1fea692c077c9f97da04a9866b7ab2c5ec6ceac14992e6b9"
+  },
+  {
+    "item_id": "B02_decisive_change_aligned",
+    "family_id": "B02",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "pending",
+    "advised_action": "B",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": false,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "7d3ed4ba8eabffcc41844b8da809848b58048bd88879bcdfe5c56af5a7a17b87"
+  },
+  {
+    "item_id": "B02_decisive_change_flawed",
+    "family_id": "B02",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "B",
+    "action": "B",
+    "semantic_action": "pending",
+    "advised_action": "D",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": false,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "cc6817513d402d5e27aea7f4a4ec89d22e48a3ef2d67b3ad911f34ebd946f5c3"
+  },
+  {
+    "item_id": "B02_irrelevant_aligned",
+    "family_id": "B02",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "temporary",
+    "advised_action": "D",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "4f56b662a8487dbb232e24250b4ad1d8c7772a15989b91f9438560d003f6d6f7"
+  },
+  {
+    "item_id": "B02_irrelevant_flawed",
+    "family_id": "B02",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "temporary",
+    "advised_action": "B",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "897ba7436eab094b393c19d4ad78a2c1fb113edc1982de1f6852c6b4da636b7d"
+  },
+  {
+    "item_id": "B02_paraphrase_aligned",
+    "family_id": "B02",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "temporary",
+    "advised_action": "D",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "cc0a2bd349f1c9d374dbe6a23474a91ef3df169322dca05670b0e7471aa43fb3"
+  },
+  {
+    "item_id": "B02_paraphrase_flawed",
+    "family_id": "B02",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "D",
+    "action": "D",
+    "semantic_action": "temporary",
+    "advised_action": "B",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": true,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "6aa55064177d472687d7bda1745d801a38f330aa2b137066d6d326825ada44eb"
+  },
+  {
+    "item_id": "B02_missing_aligned",
+    "family_id": "B02",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pause",
+    "advised_action": "C",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": false,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "4b1f689e53aeb5bf8d2b2d88dabf7c3ba41bcd2c250d22a8e728f04e0a4e5c8b"
+  },
+  {
+    "item_id": "B02_missing_flawed",
+    "family_id": "B02",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "C",
+    "action": "C",
+    "semantic_action": "pause",
+    "advised_action": "D",
+    "pause_action": "C",
+    "escalate_action": "C",
+    "error_type": "rule",
+    "facts": {
+      "formal_status_known": false,
+      "formally_approved": false,
+      "accepted": true,
+      "risk_review_complete": true,
+      "emergency_window": true,
+      "internal_only": true
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "public_text_sha256": "64d87b356b7fc3e1f7801d6d6f8d5856b930a8b58cbf6a7f44656d58ea258564"
+  }
+]

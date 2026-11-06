@@ -1,0 +1,10 @@
+{
+  "evaluated_utc": "2026-11-06T16:44:31.110470+00:00",
+  "present_P0_errors": 0,
+  "rule_families_with_present_flawed_P0_errors": [],
+  "criteria": "At least two rule families with present/flawed P0 errors and at least four present P0 errors; no unresolved ambiguity or contamination. No review contrast enters gate.",
+  "eligible_to_expand": false,
+  "based_on_P0_only": true,
+  "decision": "STOP_DEVELOPMENT_EXPANSION",
+  "note": "A resource allocation rule, not a statistical proof or a superiority decision."
+}

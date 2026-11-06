@@ -1,0 +1,2 @@
+# Frozen experimental files must retain byte-identical line endings on checkout.
+experiments/codex_verification_v1/** -text

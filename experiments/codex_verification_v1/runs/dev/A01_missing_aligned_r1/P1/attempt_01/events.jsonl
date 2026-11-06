@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b1a8-c81c-73d0-860f-5f323ffd138e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S4\"],\"brief_justification\":\"S2确认本次字段附件缺失，无法核实任何列的批准范围；S1要求此时暂停所有交付，故A、B均不可执行。字段未能核实不等于最低两列未获批，不能据此选择C终止项目。S4的其他项目批准不能移用，应选D补齐清单后再决定。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18450,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":216,"reasoning_output_tokens":94}}

@@ -1,0 +1,83 @@
+{
+  "source_batch": "development-v1",
+  "source_git_commit": "4153a61a0756bf98dc51e9309dc12fc01b634998",
+  "publication_only_changes": true,
+  "omissions": [
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_branch_dev/manifest_20261106_183742.json",
+      "source_path": "mechanism_study/results/flash_branch_dev/manifest_20261106_183742.json",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 1948,
+      "sha256": "dca7f8290953052a8674aa1c3d3eeddf4f0391ca7fb0c743872727e094558853"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_branch_dev/plan.csv",
+      "source_path": "mechanism_study/results/flash_branch_dev/plan.csv",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 50575,
+      "sha256": "527b9f71f3d568789b4ac1cc74cfe10b3080fb1ebd9202ab8da07b7f4f02aab1"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_branch_dev/responses.jsonl",
+      "source_path": "mechanism_study/results/flash_branch_dev/responses.jsonl",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 2667690,
+      "sha256": "e4e5a0405276b10d3029c0bc036ee9a0a599613a91c5faca559a9cffb472fe6f"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_dev/manifest_20261106_185105.json",
+      "source_path": "mechanism_study/results/flash_think_branch_dev/manifest_20261106_185105.json",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 1950,
+      "sha256": "cbcd6d6052031d7d452a7b964a995fcb09b063b1abe799d340b1e2bb816b8e8e"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_dev/manifest_20261106_185118.json",
+      "source_path": "mechanism_study/results/flash_think_branch_dev/manifest_20261106_185118.json",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 1950,
+      "sha256": "315a2b7cb0cffa8b2db65adb1e31fc0ae6a2a52c7ccbd15d839a530d293d7312"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_dev/plan.csv",
+      "source_path": "mechanism_study/results/flash_think_branch_dev/plan.csv",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 50575,
+      "sha256": "ce2bf6e04b2a8eb4a27a2132b9203ffe9616e58c7cb3445ee688d36bfe50a52f"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_dev/responses.jsonl",
+      "source_path": "mechanism_study/results/flash_think_branch_dev/responses.jsonl",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 4111733,
+      "sha256": "8a01fb88144148e5bcc5c834806398e378e6d0bb2dd107c0c126a40339f4e6b6"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_hard/manifest_20261106_185126.json",
+      "source_path": "mechanism_study/results/flash_think_branch_hard/manifest_20261106_185126.json",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 2286,
+      "sha256": "057ba6e9563eca1ebe8079261aa35332e0a6fc974c92f3aededb9a30dd04cf9d"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_hard/plan.csv",
+      "source_path": "mechanism_study/results/flash_think_branch_hard/plan.csv",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 76391,
+      "sha256": "132eb71de98ccd08345fe2dc26ba57430459257f7691798e94e40b4885906852"
+    },
+    {
+      "omitted_path": "experiments/codex_verification_v1/audits/legacy_snapshot/flash_think_branch_hard/responses.jsonl",
+      "source_path": "mechanism_study/results/flash_think_branch_hard/responses.jsonl",
+      "source_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+      "bytes": 4395063,
+      "sha256": "dd44c6ddb65953f168dba46f234588c3816d4e7973ed12b2d3a5250fcbb50657"
+    },
+    {
+      "omitted_path": "experiments/artifacts/Codex_Verification_Initial_Pilot_2026-11-07.zip",
+      "bytes": 4626351,
+      "sha256": "88ed78620e99b20d5474f61b66ebb44e98e2b8a6a875adb1699267f09cf551b2",
+      "reason": "duplicate archive; canonical complete archive retained locally; use source checkout and restore utility for full research content"
+    }
+  ]
+}
