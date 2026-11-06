@@ -13,6 +13,8 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from provenance import verify_run_identity
+
 
 class IntegrityError(RuntimeError):
     pass
@@ -131,6 +133,7 @@ def select_run(run_dir):
     manifests = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(directory.glob("manifest_*.json"))]
     if not manifests:
         raise IntegrityError("No manifest; cannot establish branching condition")
+    provenance = verify_run_identity(plan, records, manifests, IntegrityError)
     branching = manifests[0].get("branching", False)
     if any(m.get("branching", False) != branching for m in manifests):
         raise IntegrityError("Conflicting branching conditions in manifests")
@@ -158,7 +161,8 @@ def select_run(run_dir):
                  "note": "Nonbranching complete groups do not share a first answer; branch duplicates are NA."}
     condition_fields = ("backend", "params", "base_url", "procedures", "repeats", "seed", "system", "system_text", "case_files", "review_prompt_chars")
     conflicts = sorted({k for m in manifests[1:] for k in condition_fields if m.get(k) != manifests[0].get(k)})
-    audit.update(branching=branching, malformed_json_lines=malformed, raw_response_rows=len(records), manifest_conflicts=conflicts)
+    audit.update(branching=branching, malformed_json_lines=malformed, raw_response_rows=len(records), manifest_conflicts=conflicts,
+                 provenance=provenance)
     return plan, selected, audit, records, manifests
 
 

@@ -67,13 +67,11 @@ def main():
             # Do not silently relabel repeats or let that consumer merge attempts.
             raise IntegrityError("Overlapping planned groups across runs; keep independent repeat batches separate")
         seen_groups.update(run_groups)
-        manifests = select_run(p(scored).parent)[-1]
-        for manifest in manifests:
-            condition = {k: manifest.get(k) for k in ("backend", "base_url", "params", "system_text", "branching", "procedures")}
-            if conditions is None:
-                conditions = condition
-            if condition != conditions:
-                raise IntegrityError("Pooling different model, reasoning/request or procedure conditions is forbidden")
+        condition = select_run(p(scored).parent)[2]["provenance"]["condition"]
+        if conditions is None:
+            conditions = condition
+        if condition != conditions:
+            raise IntegrityError("Pooling different request, review text or semantic-code conditions is forbidden")
         for row in run_rows:
             row["source_run"] = run_identity
         rows += run_rows

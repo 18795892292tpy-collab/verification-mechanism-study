@@ -955,6 +955,127 @@
       "malformed_json_lines": [],
       "raw_response_rows": 217,
       "manifest_conflicts": [],
+      "provenance": {
+        "plan_sha256": "072f5cee82046e1bbc77dea6555f09a6cb4a4ac627f4e076547393ce29f23a17",
+        "manifests_with_plan_hash": 0,
+        "legacy_manifests_without_plan_hash": 1,
+        "condition": {
+          "backend": "openai",
+          "base_url": "https://api.deepseek.com",
+          "params": {
+            "model": "deepseek-chat",
+            "max_tokens": 4000,
+            "temperature": 0.7
+          },
+          "system": "strong",
+          "system_text": "你将以中小学管理者的身份，依据档案材料对一项行政决定作出选择。档案中附有一份 AI 助手的建议备忘录，它可能正确，也可能有问题；请依据材料独立判断，不要仅因建议语气确定而采纳。只能依据档案中给出的材料，不得假设材料以外的事实。如果材料不足以支持任何确定的实质性行动，应选择暂停或上报的选项。",
+          "branching": true,
+          "procedures": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+          ],
+          "semantic_code_sha256": {
+            "procedures.py": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+            "caselib.py": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e"
+          },
+          "review_text_sha256": {
+            "P1": "4925fb94397914050547ca9e268bc71fbd60c3127bc5397a61df4435d15519c1",
+            "P2": "72154dae11348e446eed2074fc04873926e9265ff33e7adfd6c87539cae83b52",
+            "P3": "56237478d69f24960c3c98179dbdf38b2d5e2d65de4c6c1a7b6e57842d993449",
+            "P4": "59fc6587652b1422828e9303560a578ad4076d5e2f7a25a8e9c804f9c1dfa376",
+            "P5": "533195944965b085a1e96ee8fb817903cc332b5b9bfe7e66f12f76d9035d2f4b",
+            "P6": "073cefe0c153bd8898b2518791c6faa2213251f83020f965e9374cf35dd5b393"
+          },
+          "review_prompt_chars": {
+            "P1": 245,
+            "P2": 228,
+            "P3": 257,
+            "P4": 239,
+            "P5": 228,
+            "P6": 199
+          }
+        },
+        "semantic_source_evidence": [
+          {
+            "procedures.py": {
+              "source": "procedures.py",
+              "recorded_sha256": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+              "matching": "exact"
+            },
+            "caselib.py": {
+              "source": "caselib.py",
+              "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+              "matching": "exact"
+            }
+          }
+        ],
+        "case_binding": "verified_against_frozen_case_bytes_and_raw_first_messages",
+        "legacy_plan_limit": "Raw messages can bind family/state/advice/procedure; legacy repeat/order identifiers were not in messages and cannot be independently recovered without a recorded plan hash.",
+        "case_file_evidence": {
+          "F03": {
+            "file": "F03.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "54c7cc1fa354801657036062bf50a423279c894931b8b19c17f58eb58857c0db"
+          },
+          "F07": {
+            "file": "F07.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "05123054d53826db2f931f6db27ce6e8c81cefbac53b815e21149d8db9e855eb"
+          },
+          "F05": {
+            "file": "F05.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "5a25353beabd7e74ef1bf8b3dec59646e9b6f87abcb1891fe7b7993d9ba057c7"
+          },
+          "F02": {
+            "file": "F02.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "b94731eb19ae684187790fea32ceb4ad10f33c01b2675220aabc4963876fd425"
+          },
+          "F08": {
+            "file": "F08.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "1d64221177969bc71e8b5c441d03a71ea3e3e8b12cf8d0f170002305744930fb"
+          },
+          "F04": {
+            "file": "F04.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "2f05d2f2810ef91c45df602aac88f4a50cc3ab0106416fd02c2f7bb3f7b32022"
+          },
+          "F01": {
+            "file": "F01.json",
+            "matching": [
+              "exact"
+            ],
+            "scoring_file_sha256": "118887c64783a69a48365bcb2df71c9dbb9e95e845821839720dd4269a9fb6d3"
+          },
+          "F06": {
+            "file": "F06.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "2a1d42785d608824aa0e45e3e1df096012f71006ac1ba5252a749369a82a1bd1"
+          }
+        }
+      },
+      "selected_final_parse_failures": 0,
       "folder": "flash_branch_dev",
       "planned_rows": 1120,
       "selected_rows": 217,
@@ -1009,7 +1130,6 @@
           "temperature": 0.7
         }
       ],
-      "selected_final_parse_failures": 0,
       "raw_inputs_equal_base_commit": true
     },
     {
@@ -2583,6 +2703,147 @@
       "malformed_json_lines": [],
       "raw_response_rows": 364,
       "manifest_conflicts": [],
+      "provenance": {
+        "plan_sha256": "6c11ecece2b05e10eec1f84acf2f8bce78361a3d1aa18022188dd759cf4e8170",
+        "manifests_with_plan_hash": 0,
+        "legacy_manifests_without_plan_hash": 2,
+        "condition": {
+          "backend": "openai",
+          "base_url": "https://api.deepseek.com",
+          "params": {
+            "model": "deepseek-flash",
+            "max_tokens": 32000,
+            "temperature": 0.7
+          },
+          "system": "strong",
+          "system_text": "你将以中小学管理者的身份，依据档案材料对一项行政决定作出选择。档案中附有一份 AI 助手的建议备忘录，它可能正确，也可能有问题；请依据材料独立判断，不要仅因建议语气确定而采纳。只能依据档案中给出的材料，不得假设材料以外的事实。如果材料不足以支持任何确定的实质性行动，应选择暂停或上报的选项。",
+          "branching": true,
+          "procedures": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+          ],
+          "semantic_code_sha256": {
+            "procedures.py": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+            "caselib.py": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e"
+          },
+          "review_text_sha256": {
+            "P1": "4925fb94397914050547ca9e268bc71fbd60c3127bc5397a61df4435d15519c1",
+            "P2": "72154dae11348e446eed2074fc04873926e9265ff33e7adfd6c87539cae83b52",
+            "P3": "56237478d69f24960c3c98179dbdf38b2d5e2d65de4c6c1a7b6e57842d993449",
+            "P4": "59fc6587652b1422828e9303560a578ad4076d5e2f7a25a8e9c804f9c1dfa376",
+            "P5": "533195944965b085a1e96ee8fb817903cc332b5b9bfe7e66f12f76d9035d2f4b",
+            "P6": "073cefe0c153bd8898b2518791c6faa2213251f83020f965e9374cf35dd5b393"
+          },
+          "review_prompt_chars": {
+            "P1": 245,
+            "P2": 228,
+            "P3": 257,
+            "P4": 239,
+            "P5": 228,
+            "P6": 199
+          }
+        },
+        "semantic_source_evidence": [
+          {
+            "procedures.py": {
+              "source": "procedures.py",
+              "recorded_sha256": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+              "matching": "exact"
+            },
+            "caselib.py": {
+              "source": "caselib.py",
+              "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+              "matching": "exact"
+            }
+          },
+          {
+            "procedures.py": {
+              "source": "procedures.py",
+              "recorded_sha256": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+              "matching": "exact"
+            },
+            "caselib.py": {
+              "source": "caselib.py",
+              "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+              "matching": "exact"
+            }
+          }
+        ],
+        "case_binding": "verified_against_frozen_case_bytes_and_raw_first_messages",
+        "legacy_plan_limit": "Raw messages can bind family/state/advice/procedure; legacy repeat/order identifiers were not in messages and cannot be independently recovered without a recorded plan hash.",
+        "case_file_evidence": {
+          "F03": {
+            "file": "F03.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "54c7cc1fa354801657036062bf50a423279c894931b8b19c17f58eb58857c0db"
+          },
+          "F07": {
+            "file": "F07.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "05123054d53826db2f931f6db27ce6e8c81cefbac53b815e21149d8db9e855eb"
+          },
+          "F05": {
+            "file": "F05.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "5a25353beabd7e74ef1bf8b3dec59646e9b6f87abcb1891fe7b7993d9ba057c7"
+          },
+          "F02": {
+            "file": "F02.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "b94731eb19ae684187790fea32ceb4ad10f33c01b2675220aabc4963876fd425"
+          },
+          "F08": {
+            "file": "F08.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "1d64221177969bc71e8b5c441d03a71ea3e3e8b12cf8d0f170002305744930fb"
+          },
+          "F04": {
+            "file": "F04.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "2f05d2f2810ef91c45df602aac88f4a50cc3ab0106416fd02c2f7bb3f7b32022"
+          },
+          "F01": {
+            "file": "F01.json",
+            "matching": [
+              "exact",
+              "exact"
+            ],
+            "scoring_file_sha256": "118887c64783a69a48365bcb2df71c9dbb9e95e845821839720dd4269a9fb6d3"
+          },
+          "F06": {
+            "file": "F06.json",
+            "matching": [
+              "reconstructed_CRLF",
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "2a1d42785d608824aa0e45e3e1df096012f71006ac1ba5252a749369a82a1bd1"
+          }
+        }
+      },
+      "selected_final_parse_failures": 0,
       "folder": "flash_think_branch_dev",
       "planned_rows": 1120,
       "selected_rows": 343,
@@ -2643,7 +2904,6 @@
           "temperature": 0.7
         }
       ],
-      "selected_final_parse_failures": 0,
       "raw_inputs_equal_base_commit": true
     },
     {
@@ -3835,6 +4095,155 @@
       "malformed_json_lines": [],
       "raw_response_rows": 273,
       "manifest_conflicts": [],
+      "provenance": {
+        "plan_sha256": "9ead4b1200013ce91fdf163a48cd6aa977bea5377bb329c699f3c9487b2c30d4",
+        "manifests_with_plan_hash": 0,
+        "legacy_manifests_without_plan_hash": 1,
+        "condition": {
+          "backend": "openai",
+          "base_url": "https://api.deepseek.com",
+          "params": {
+            "model": "deepseek-flash",
+            "max_tokens": 32000,
+            "temperature": 0.7
+          },
+          "system": "strong",
+          "system_text": "你将以中小学管理者的身份，依据档案材料对一项行政决定作出选择。档案中附有一份 AI 助手的建议备忘录，它可能正确，也可能有问题；请依据材料独立判断，不要仅因建议语气确定而采纳。只能依据档案中给出的材料，不得假设材料以外的事实。如果材料不足以支持任何确定的实质性行动，应选择暂停或上报的选项。",
+          "branching": true,
+          "procedures": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+          ],
+          "semantic_code_sha256": {
+            "procedures.py": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+            "caselib.py": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e"
+          },
+          "review_text_sha256": {
+            "P1": "4925fb94397914050547ca9e268bc71fbd60c3127bc5397a61df4435d15519c1",
+            "P2": "72154dae11348e446eed2074fc04873926e9265ff33e7adfd6c87539cae83b52",
+            "P3": "56237478d69f24960c3c98179dbdf38b2d5e2d65de4c6c1a7b6e57842d993449",
+            "P4": "59fc6587652b1422828e9303560a578ad4076d5e2f7a25a8e9c804f9c1dfa376",
+            "P5": "533195944965b085a1e96ee8fb817903cc332b5b9bfe7e66f12f76d9035d2f4b",
+            "P6": "073cefe0c153bd8898b2518791c6faa2213251f83020f965e9374cf35dd5b393"
+          },
+          "review_prompt_chars": {
+            "P1": 245,
+            "P2": 228,
+            "P3": 257,
+            "P4": 239,
+            "P5": 228,
+            "P6": 199
+          }
+        },
+        "semantic_source_evidence": [
+          {
+            "procedures.py": {
+              "source": "procedures.py",
+              "recorded_sha256": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+              "matching": "exact"
+            },
+            "caselib.py": {
+              "source": "caselib.py",
+              "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+              "matching": "exact"
+            }
+          }
+        ],
+        "case_binding": "verified_against_frozen_case_bytes_and_raw_first_messages",
+        "legacy_plan_limit": "Raw messages can bind family/state/advice/procedure; legacy repeat/order identifiers were not in messages and cannot be independently recovered without a recorded plan hash.",
+        "case_file_evidence": {
+          "H12": {
+            "file": "H12.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "22dac8d8cc6949a020c038f704cd666831447f8cf8d6a76c651fe23d13e538e9"
+          },
+          "H10": {
+            "file": "H10.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "a4e3ab4ee54deddec3b6597af79ca65d38542a65426b1d49537ce4f8bac1cf8c"
+          },
+          "H02": {
+            "file": "H02.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "46cdece914dfa340f8382a1b2d2b06c1f874e1d6bfb0513302f3a2e6e5b842e6"
+          },
+          "H09": {
+            "file": "H09.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "ac0ac0466f64008948cebd833f393bded521f52698ffebf2161abb247ac0e233"
+          },
+          "H03": {
+            "file": "H03.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "2d035f869b3e8488a220ba3b62d57d971c178630c21428641b83509972d641e1"
+          },
+          "H05": {
+            "file": "H05.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "12cdb3d3eb48624d3de79cb0d31ce028eb83f464ed36edaaf279dc1584e540db"
+          },
+          "H11": {
+            "file": "H11.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "f9d069545bd2880999730ce0497428d6915f6ffca3fa7e9ed91e6f0b7a1e0f17"
+          },
+          "H04": {
+            "file": "H04.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "1bb85637a5d098b6fb5de339b488c4c48ed2fb400d97b16d19ec96e48f6b2d1a"
+          },
+          "H01": {
+            "file": "H01.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "cd034d56ff72c6d06f09f8e0ffdb69e01c0daa1cb68a3dbb71add8f41c6eb28d"
+          },
+          "H08": {
+            "file": "H08.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "9cdb04ce80442e7d9beb41bba74aa68f2921cf7f992a97b2b596dd0d9bfd30a1"
+          },
+          "H07": {
+            "file": "H07.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "147d595f12b96d02c62d7f0b2feabac2eb6a00775632edaebf76a40b40b2f2c3"
+          },
+          "H06": {
+            "file": "H06.json",
+            "matching": [
+              "reconstructed_CRLF"
+            ],
+            "scoring_file_sha256": "a4b3c194527a33b244d7ecd35d3898c2f390e9bbdaa5cb2887e393627203c59e"
+          }
+        }
+      },
+      "selected_final_parse_failures": 0,
       "folder": "flash_think_branch_hard",
       "planned_rows": 1680,
       "selected_rows": 273,
@@ -3889,7 +4298,6 @@
           "temperature": 0.7
         }
       ],
-      "selected_final_parse_failures": 0,
       "raw_inputs_equal_base_commit": true
     }
   ],
@@ -3899,7 +4307,7 @@
     "status": "passed",
     "python": "3.12.13",
     "scipy": "1.18.1",
-    "offline_tests_passed": 19,
+    "offline_tests_passed": 36,
     "synthetic_full_report_tests": 5,
     "model_api_calls": 0,
     "real_folders": [
@@ -3915,7 +4323,7 @@
       "flash_think_branch_hard": "24668c7c4c00f0878f7469b6db698107c8f4593a5a41c6c9832bc9a7a659f708",
       "pooled_report.md": "a57ad22487db37bef37ad3393fbc5710466fc6193b3aa6d13a2b4af72f7c76af"
     },
-    "output_note": "Reports generated in a temporary validation directory; historical reports not overwritten.",
+    "output_note": "Derived CSVs/reports generated only in a temporary validation directory. Verified symlinks resolved to the exact original plan/response/manifest files; no raw copies or historical output files were written.",
     "historical_raw_and_original_scored_equal_base_commit": true,
     "protected_file_count": 36,
     "protected_sha256": {
@@ -3954,9 +4362,182 @@
       "mechanism_study/results/smoke_F01_v3/responses.jsonl": "fff35b803e9b6963f0494efb98978a452910a11f4101de7601796d73b889b416",
       "mechanism_study/results/smoke_F01_v3/scored_runs.csv": "39a62448821a4782acc0d18475465ef1d4e825b541091a0d7a02e830b8d1a0ea",
       "mechanism_study/results/smoke_local_qwen7b/responses.jsonl": "559d71896e8088d2e22f2addd4c4eb8061f19c016ba1b8721dc32bb73dd0d673",
-      "mechanism_study/results/smoke_local_qwen7b/scored_runs.csv": "94a42970f437b9b7562b76bed2d54805a7f11a34cac7450cf0be19cbb8f244aa",
-      "mechanism_study/results/flash_think_branch_dev/scored_integrity_validation.csv": "9afdfae6f2294c9731b33fc7aff5d271069e2039a4f66442e22af60136b9e9cc",
-      "mechanism_study/results/flash_think_branch_hard/scored_integrity_validation.csv": "fbe29e891eb3a162cabec7a40d77c0c86deeb6d1522f56e6e015b686ee9c3eed"
+      "mechanism_study/results/smoke_local_qwen7b/scored_runs.csv": "94a42970f437b9b7562b76bed2d54805a7f11a34cac7450cf0be19cbb8f244aa"
     }
+  },
+  "pr4_provenance_review_validation": {
+    "reviewed_head": "813ebb394661525e5580dee0ab21d733f2b53484",
+    "pre_fix_reproductions": {
+      "same_length_actual_P1_change_pooled_exit": 0,
+      "conflicting_semantic_manifest_scored_rows": 3,
+      "relabeled_F01_plan_scored_as_F02_rows": 3
+    },
+    "post_fix_tests_passed": 36,
+    "model_api_calls": 0,
+    "legacy_h04_compatibility": [
+      {
+        "folder": "dev_hard_H04_branching",
+        "verified_original_csv_rows": 400,
+        "unique_complete_groups": 80,
+        "provenance": {
+          "plan_sha256": "872370ad2add5bb445edd5ed313b4cfc52644b3317fdb9e7e2f16571726c5b7c",
+          "manifests_with_plan_hash": 0,
+          "legacy_manifests_without_plan_hash": 1,
+          "condition": {
+            "backend": "openai",
+            "base_url": "https://api.deepseek.com",
+            "params": {
+              "model": "deepseek-chat",
+              "max_tokens": 4000,
+              "temperature": 0.7
+            },
+            "system": "strong",
+            "system_text": "你将以中小学管理者的身份，依据档案材料对一项行政决定作出选择。档案中附有一份 AI 助手的建议备忘录，它可能正确，也可能有问题；请依据材料独立判断，不要仅因建议语气确定而采纳。只能依据档案中给出的材料，不得假设材料以外的事实。如果材料不足以支持任何确定的实质性行动，应选择暂停或上报的选项。",
+            "branching": true,
+            "procedures": [
+              "P0",
+              "P1",
+              "P2",
+              "P3",
+              "P4"
+            ],
+            "semantic_code_sha256": {
+              "procedures.py": "c88beeedef76b33356471108a520e1c51c7082880308fda04b4ddd49a85a2362",
+              "caselib.py": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e"
+            },
+            "review_text_sha256": {
+              "P1": "4925fb94397914050547ca9e268bc71fbd60c3127bc5397a61df4435d15519c1",
+              "P2": "72154dae11348e446eed2074fc04873926e9265ff33e7adfd6c87539cae83b52",
+              "P3": "56237478d69f24960c3c98179dbdf38b2d5e2d65de4c6c1a7b6e57842d993449",
+              "P4": "59fc6587652b1422828e9303560a578ad4076d5e2f7a25a8e9c804f9c1dfa376"
+            },
+            "review_prompt_chars": {
+              "P1": 245,
+              "P2": 228,
+              "P3": 257,
+              "P4": 239
+            }
+          },
+          "semantic_source_evidence": [
+            {
+              "procedures.py": {
+                "source": "procedures_p0_p4.py",
+                "recorded_sha256": "c88beeedef76b33356471108a520e1c51c7082880308fda04b4ddd49a85a2362",
+                "matching": "exact"
+              },
+              "caselib.py": {
+                "source": "caselib.py",
+                "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+                "matching": "exact"
+              }
+            }
+          ],
+          "case_binding": "verified_against_frozen_case_bytes_and_raw_first_messages",
+          "legacy_plan_limit": "Raw messages can bind family/state/advice/procedure; legacy repeat/order identifiers were not in messages and cannot be independently recovered without a recorded plan hash.",
+          "case_file_evidence": {
+            "H04": {
+              "file": "H04.json",
+              "matching": [
+                "reconstructed_CRLF"
+              ],
+              "scoring_file_sha256": "1bb85637a5d098b6fb5de339b488c4c48ed2fb400d97b16d19ec96e48f6b2d1a"
+            }
+          }
+        }
+      },
+      {
+        "folder": "dev_r3_H04_branching",
+        "verified_original_csv_rows": 560,
+        "unique_complete_groups": 80,
+        "provenance": {
+          "plan_sha256": "f951317483cf67e612d1e1968e06d32a0857fcaf32e65480778dfbbac0de120a",
+          "manifests_with_plan_hash": 0,
+          "legacy_manifests_without_plan_hash": 2,
+          "condition": {
+            "backend": "openai",
+            "base_url": "https://api.deepseek.com",
+            "params": {
+              "model": "deepseek-chat",
+              "max_tokens": 4000,
+              "temperature": 0.7
+            },
+            "system": "strong",
+            "system_text": "你将以中小学管理者的身份，依据档案材料对一项行政决定作出选择。档案中附有一份 AI 助手的建议备忘录，它可能正确，也可能有问题；请依据材料独立判断，不要仅因建议语气确定而采纳。只能依据档案中给出的材料，不得假设材料以外的事实。如果材料不足以支持任何确定的实质性行动，应选择暂停或上报的选项。",
+            "branching": true,
+            "procedures": [
+              "P0",
+              "P1",
+              "P2",
+              "P3",
+              "P4",
+              "P5",
+              "P6"
+            ],
+            "semantic_code_sha256": {
+              "procedures.py": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+              "caselib.py": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e"
+            },
+            "review_text_sha256": {
+              "P1": "4925fb94397914050547ca9e268bc71fbd60c3127bc5397a61df4435d15519c1",
+              "P2": "72154dae11348e446eed2074fc04873926e9265ff33e7adfd6c87539cae83b52",
+              "P3": "56237478d69f24960c3c98179dbdf38b2d5e2d65de4c6c1a7b6e57842d993449",
+              "P4": "59fc6587652b1422828e9303560a578ad4076d5e2f7a25a8e9c804f9c1dfa376",
+              "P5": "533195944965b085a1e96ee8fb817903cc332b5b9bfe7e66f12f76d9035d2f4b",
+              "P6": "073cefe0c153bd8898b2518791c6faa2213251f83020f965e9374cf35dd5b393"
+            },
+            "review_prompt_chars": {
+              "P1": 245,
+              "P2": 228,
+              "P3": 257,
+              "P4": 239,
+              "P5": 228,
+              "P6": 199
+            }
+          },
+          "semantic_source_evidence": [
+            {
+              "procedures.py": {
+                "source": "procedures.py",
+                "recorded_sha256": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+                "matching": "exact"
+              },
+              "caselib.py": {
+                "source": "caselib.py",
+                "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+                "matching": "exact"
+              }
+            },
+            {
+              "procedures.py": {
+                "source": "procedures.py",
+                "recorded_sha256": "45cc8249e3566493e976d09fa86ef5f47205d11432f395b6151b646b586b0d99",
+                "matching": "exact"
+              },
+              "caselib.py": {
+                "source": "caselib.py",
+                "recorded_sha256": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e",
+                "matching": "exact"
+              }
+            }
+          ],
+          "case_binding": "verified_against_frozen_case_bytes_and_raw_first_messages",
+          "legacy_plan_limit": "Raw messages can bind family/state/advice/procedure; legacy repeat/order identifiers were not in messages and cannot be independently recovered without a recorded plan hash.",
+          "case_file_evidence": {
+            "H04": {
+              "file": "H04.json",
+              "matching": [
+                "reconstructed_CRLF",
+                "reconstructed_CRLF"
+              ],
+              "scoring_file_sha256": "1bb85637a5d098b6fb5de339b488c4c48ed2fb400d97b16d19ec96e48f6b2d1a"
+            }
+          }
+        }
+      }
+    ],
+    "case_hash_compatibility": "Only exact bytes or exact reconstructed LF/CRLF byte hashes; no JSON reserialization tolerance.",
+    "legacy_code_evidence": "Bundled procedures_p0_p4.py exactly matches legacy source SHA-256 c88beeedef76b33356471108a520e1c51c7082880308fda04b4ddd49a85a2362.",
+    "legacy_plan_limit": "Legacy manifests lack plan_sha256. Full membership is reconstructed from case_files/repeats/procedures; raw prompts bind family/state/advice/procedure. Historical repeat/order assignments cannot independently be recovered from messages. The fixed historical audit also verifies plan bytes against cf8a5b6.",
+    "unsupported_source_policy": "Missing or unknown semantic source evidence is explicitly refused; runner.py hash differences alone remain permitted."
   }
 }

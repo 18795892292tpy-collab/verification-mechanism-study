@@ -45,14 +45,13 @@ class ReportIntegrationTests(unittest.TestCase):
             for family in ("F01", "F02"):
                 folder = root / family
                 folder.mkdir()
-                plan, records = [], []
+                plan = runner.build_plan([fams[family]], ["P0", "P1", "P3"], 1, 42)
+                records = []
                 state = "missing" if mode == "missing_only" else "base"
                 key = runner.cl.key_of(fams[family], state)
                 wrong = next(a for a in runner.cl.state_view(fams[family], state)["options"] if a != key)
                 for advice in ("aligned", "flawed"):
-                    group = [{"run_id": f"{family}-{advice}-{p}", "family_id": family, "state": state,
-                              "advice": advice, "procedure": p, "repeat": 1, "order": len(plan) + n}
-                             for n, p in enumerate(("P0", "P1", "P3"))]
+                    group = [row for row in plan if row["state"] == state and row["advice"] == advice]
                     if mode in ("all_correct", "missing_only"):
                         actions = [key, key, key]
                     elif mode == "all_wrong_tied":
@@ -64,14 +63,20 @@ class ReportIntegrationTests(unittest.TestCase):
                     else:
                         raise AssertionError(mode)
                     records.extend(runner.execute_branch(group, fams, ScriptedMock(actions)))
-                    plan.extend(group)
                 with (folder / "plan.csv").open("w", newline="") as f:
                     writer = csv.DictWriter(f, fieldnames=runner.PLAN_FIELDS)
                     writer.writeheader()
                     writer.writerows(plan)
                 (folder / "responses.jsonl").write_text("".join(json.dumps(r) + "\n" for r in records))
                 (folder / "manifest_fixture.json").write_text(json.dumps({"branching": True,
-                    "backend": "mock", "params": runner.Mock(4000).params(), "procedures": ["P0", "P1", "P3"]}))
+                    "backend": "mock", "params": runner.Mock(4000).params(), "procedures": ["P0", "P1", "P3"],
+                    "repeats": 1,
+                    "system": "strong", "system_text": runner.pr.SYSTEMS["strong"],
+                    "case_files": {family + ".json": runner.sha256_file(Path(fams[family]["_path"]))},
+                    "code_files": {p.name: runner.sha256_file(p) for p in (STUDY / "harness/procedures.py", runner.SKILL_SCRIPTS / "caselib.py")},
+                    "review_prompt_chars": {p: len(text) for p, text in runner.pr.REVIEW.items()},
+                    "review_text_sha256": {p: runner.digest(text) for p, text in runner.pr.REVIEW.items()},
+                    "plan_sha256": runner.digest(plan)}))
                 self.command(STUDY / "harness/scorer.py", folder, "--cases", STUDY / "cases/dev")
                 scored = folder / "scored_runs.csv"
                 single_reports.append(self.command(STUDY / "analysis/branch_report.py", scored, "--cases", STUDY / "cases/dev"))

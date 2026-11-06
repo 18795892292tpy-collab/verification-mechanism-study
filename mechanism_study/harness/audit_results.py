@@ -16,9 +16,14 @@ from pathlib import Path
 from branch_integrity import digest, select_run
 
 
-def audit_folder(directory, pricing=None):
+def audit_folder(directory, pricing=None, cases_dir=None):
     directory = Path(directory)
     plan, selected, audit, records, manifests = select_run(directory)
+    if cases_dir is not None:
+        from scorer import score_directory
+        scored, _, checked = score_directory(directory, cases_dir)
+        audit["provenance"] = checked["provenance"]
+        audit["selected_final_parse_failures"] = sum(not row["parse_ok"] for row in scored)
     calls, seen = [], set()
     for line, record in records:
         for index, call in enumerate(record.get("calls") or []):
@@ -83,11 +88,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run_dirs", nargs="+")
     parser.add_argument("--pricing")
+    parser.add_argument("--cases", nargs="+", help="case directory for every run, or one shared directory; enables full label/denominator binding")
     parser.add_argument("--out", help="new audit JSON path (never overwrites an existing file)")
     args = parser.parse_args()
     study = Path(__file__).resolve().parents[1]
     pricing = json.loads(Path(args.pricing).read_text()) if args.pricing else None
-    output = {"schema": "legacy-folder-audit/v1", "folders": [audit_folder(Path(p) if Path(p).is_absolute() else study / p, pricing) for p in args.run_dirs]}
+    cases = args.cases or [None] * len(args.run_dirs)
+    if len(cases) == 1:
+        cases = cases * len(args.run_dirs)
+    if len(cases) != len(args.run_dirs):
+        parser.error("--cases needs one shared directory or one directory per run")
+    resolve = lambda p: Path(p) if Path(p).is_absolute() else study / p
+    output = {"schema": "legacy-folder-audit/v1", "folders": [audit_folder(resolve(p), pricing, resolve(c) if c else None) for p, c in zip(args.run_dirs, cases)]}
     rendered = json.dumps(output, ensure_ascii=False, indent=2)
     if args.out:
         with Path(args.out).open("x", encoding="utf-8") as f:

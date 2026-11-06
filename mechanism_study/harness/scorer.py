@@ -22,6 +22,7 @@ sys.path.insert(0, str(STUDY.parent / ".claude" / "skills" / "verification-case-
 import caselib as cl  # noqa: E402
 sys.path.insert(0, str(HERE))
 from branch_integrity import IntegrityError, digest, select_run  # noqa: E402
+from provenance import verify_case_binding  # noqa: E402
 
 if not sys.stdout.isatty():
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -59,9 +60,13 @@ def parse_answer(text: str, letters: set[str]) -> dict | None:
 def score_directory(run_dir, cases_dir):
     """Score in memory; raw files and historical derived files are never changed here."""
     fams = {f["family_id"]: f for f in cl.load_dir(cases_dir)}
-    plan, recs, audit, _, manifests = select_run(run_dir)
+    plan, recs, audit, records, manifests = select_run(run_dir)
     if audit["manifest_conflicts"]:
         raise IntegrityError("Conflicting run conditions in manifests: " + ", ".join(audit["manifest_conflicts"]))
+    if audit["malformed_json_lines"] or audit.get("unknown_run_id_lines"):
+        raise IntegrityError("Malformed or unknown response records; identities cannot be verified")
+    evidence = verify_case_binding(plan, records, manifests, fams, IntegrityError)
+    audit["provenance"].update(case_binding="verified_against_frozen_case_bytes_and_raw_first_messages", case_file_evidence=evidence)
     model = manifests[0]["params"]["model"]
     rows, n_missing = [], 0
     for p in plan:

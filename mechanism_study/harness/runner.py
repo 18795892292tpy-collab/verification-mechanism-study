@@ -33,6 +33,7 @@ sys.path.insert(0, str(HERE))
 import caselib as cl  # noqa: E402
 import procedures as pr  # noqa: E402
 from branch_integrity import DirectoryLock, IntegrityError, digest, select_run, validate_resume  # noqa: E402
+from provenance import verify_case_binding  # noqa: E402
 
 if not sys.stdout.isatty():
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -306,9 +307,10 @@ def run_locked(args, cases_dir, out):
     }
     if resuming:
         validate_resume(out, manifest, plan, build_plan(fams, procedures, args.repeats, args.seed))
-        _, selected, audit, _, _ = select_run(out)
+        _, selected, audit, records, manifests = select_run(out)
         if audit["malformed_json_lines"] or audit.get("unknown_run_id_lines"):
             raise IntegrityError("Malformed or unknown response records; audit before resuming")
+        verify_case_binding(plan, records, manifests, {f["family_id"]: f for f in fams}, IntegrityError)
         finished = set(selected)
     else:
         finished = set()
