@@ -1,0 +1,9 @@
+0 done, 160 to run, backend=openai, model=qwen2.5-7b-instruct-ctx16k
+  25/160 jobs, records ok=25 err=0 elapsed=115s
+  50/160 jobs, records ok=50 err=0 elapsed=229s
+  75/160 jobs, records ok=75 err=0 elapsed=340s
+  100/160 jobs, records ok=100 err=0 elapsed=447s
+  125/160 jobs, records ok=125 err=0 elapsed=555s
+  150/160 jobs, records ok=150 err=0 elapsed=665s
+  160/160 jobs, records ok=160 err=0 elapsed=709s
+Finished: ok=160 err=0. Re-run the same command to retry errors.

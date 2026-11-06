@@ -1,0 +1,5 @@
+contrast,n_families,estimate,se,t,df,p_t,ci_lo,ci_hi,boot_lo,boot_hi,p_signflip,margin,bound,passes,role
+NI1: P3 - P0 aligned_overturn,1,,,,0,,,,,,,0.05,,False,decision
+NI2: P3 - P0 irrelevant_stability given base correct,1,,,,0,,,,,,,-0.05,,False,decision
+NI1: P3 - P1 aligned_overturn,1,,,,0,,,,,,,0.05,,False,reported
+NI2: P3 - P1 irrelevant_stability given base correct,1,,,,0,,,,,,,-0.05,,False,reported

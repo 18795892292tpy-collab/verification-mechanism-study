@@ -1,0 +1,9 @@
+contrast,n_families,estimate,se,t,df,p_t,ci_lo,ci_hi,boot_lo,boot_hi,p_signflip
+d_prime: P3 - P1,1,,,,0,,,,,,
+d_prime: P3 - P2,1,,,,0,,,,,,
+d_prime: P3 - P4,1,,,,0,,,,,,
+d_prime: P1 - P0,1,,,,0,,,,,,
+criterion_c: P3 - P1,1,,,,0,,,,,,
+criterion_c: P3 - P2,1,,,,0,,,,,,
+criterion_c: P3 - P4,1,,,,0,,,,,,
+criterion_c: P1 - P0,1,,,,0,,,,,,

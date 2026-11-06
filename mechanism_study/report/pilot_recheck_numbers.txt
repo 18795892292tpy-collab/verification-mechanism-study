@@ -1,0 +1,6 @@
+Recomputed from Table 2 of School_Governance_AI_v5.pdf (mean output tokens):
+  Study 1 council, C vs B : +24.0%   (v3 says 24.0%)
+  Study 2 single,  S1 vs S0: +13.5%   (v3 says 13.5%)
+  Study 2 council, C vs B : +28.4%   (v3 says 28.4%)
+  Runs: 18 + 48 = 66 (v3 says 66); calls: 18*7 = 126 (v3: 126); 24*1 + 24*7 = 192 (v3: 192); total 318 (manuscript: 318)
+Not recomputable here: any value that needs the raw archive (run_metrics.csv, Stage 2 folder, Study 3 sealed responses).

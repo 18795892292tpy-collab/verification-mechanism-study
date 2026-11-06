@@ -1,0 +1,4 @@
+running: D:/lunweng/.venv/Scripts/python.exe -u harness/runner.py --cases cases/dev --out results/flash_branch_dev --procedures P0,P1,P2,P3,P4,P5,P6 --repeats 2 --branching
+0 done, 1120 to run, backend=openai, model=deepseek-chat
+branching: 160 item x repeat groups to run
+  25/160 jobs, records ok=175 err=0 elapsed=332s

@@ -1,0 +1,7 @@
+Resuming plan with 560 runs
+162 done, 398 to run, backend=openai, model=deepseek-chat
+branching: 64 item x repeat groups to run
+  25/64 jobs, records ok=175 err=0 elapsed=117s
+  50/64 jobs, records ok=350 err=0 elapsed=215s
+  64/64 jobs, records ok=448 err=0 elapsed=257s
+Finished: ok=448 err=0. Re-run the same command to retry errors.

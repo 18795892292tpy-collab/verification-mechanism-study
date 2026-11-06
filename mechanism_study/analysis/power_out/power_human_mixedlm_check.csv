@@ -1,0 +1,3 @@
+N,K,delta,sd_slope,nsim,reject_v3_ttest,reject_crossed,reject_mixedlm,mixedlm_failures
+128,12,0.0,0.5,100,0.08,0.03,0.02,0
+128,12,0.1,0.5,100,0.65,0.53,0.37,0

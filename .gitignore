@@ -1,0 +1,34 @@
+# Allowlist: only the experiment and its case-building skill go to GitHub.
+# Dissertation drafts, private folders and the virtual environment stay local.
+/*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/mechanism_study/
+!/.claude/
+/.claude/*
+!/.claude/skills/
+/.claude/skills/*
+!/.claude/skills/verification-case-builder/
+
+# Never commit credentials
+.env
+.env.*
+!.env.example
+
+# Python and local environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dissertation build tools and drafts (contain the proposal text)
+/mechanism_study/report/v4_tools/
+*.docx
+*.pdf
+
+# Discontinued local-model run, stopped part way and never analyzed
+/mechanism_study/results/local_qwen7b_branch_dev/
+/mechanism_study/results/local_qwen7b_branch.log
+
+/mechanism_study/results/local_qwen7b_branch_hard/

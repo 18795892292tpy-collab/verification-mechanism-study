@@ -1,0 +1,11 @@
+check,F,rejection_rate,note
+C1 null (P3 = P1),16,0.035,"two-sided, unadjusted alpha .05, 600 sims"
+C2 null (P3 = P2),16,0.056666666666666664,"two-sided, unadjusted alpha .05, 600 sims"
+C3 null (no interaction),16,0.05333333333333334,"two-sided, unadjusted alpha .05, 600 sims"
+"C3 null, generic caution (+5 pts escalation everywhere)",16,0.043333333333333335,"two-sided, unadjusted alpha .05, 600 sims"
+NI1 at margin (true P3-P0 overturn = +5),16,0.05333333333333334,nominal one-sided .025; true diff 0.051
+C1 null (P3 = P1),40,0.041666666666666664,"two-sided, unadjusted alpha .05, 600 sims"
+C2 null (P3 = P2),40,0.03833333333333333,"two-sided, unadjusted alpha .05, 600 sims"
+C3 null (no interaction),40,0.056666666666666664,"two-sided, unadjusted alpha .05, 600 sims"
+"C3 null, generic caution (+5 pts escalation everywhere)",40,0.04,"two-sided, unadjusted alpha .05, 600 sims"
+NI1 at margin (true P3-P0 overturn = +5),40,0.03166666666666667,nominal one-sided .025; true diff 0.050

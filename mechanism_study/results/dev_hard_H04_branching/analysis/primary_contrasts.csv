@@ -1,0 +1,4 @@
+contrast,n_families,estimate,se,t,df,p_t,ci_lo,ci_hi,boot_lo,boot_hi,p_signflip,p_holm,reject_holm_05
+C1: P3 - P1 flawed_correction,1,,,,0,,,,,,,,False
+C2: P3 - P2 flawed_correction,1,,,,0,,,,,,,,False
+"C3: [escalation P3-P1, absent] - [P3-P1, present]",1,,,,0,,,,,,,,False

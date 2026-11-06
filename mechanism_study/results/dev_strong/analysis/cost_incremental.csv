@@ -1,0 +1,3 @@
+comparison,extra_tokens_per_response,extra_correct_per_flawed_item,tokens_per_extra_correction,boot_lo,boot_hi,share_boot_gain_positive
+P3 vs P0,2800.3625,0.015625,179223.2,60186.96,184231.34,0.6635
+P3 vs P1,-13.893749999999898,-0.015625,,,,0.0

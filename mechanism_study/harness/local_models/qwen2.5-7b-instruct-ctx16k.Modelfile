@@ -1,0 +1,6 @@
+# Local open-weight model for the development screen (2026-11-06).
+# Base: qwen2.5:7b-instruct from the Ollama library (Q4_K_M, Apache 2.0); digest recorded in the run folder.
+# Only change: a 16k context window, so that no dossier (longest first-call prompt about 5,500 Chinese
+# characters) or review call is cut off. Ollama's default window is shorter and truncates silently.
+FROM qwen2.5:7b-instruct
+PARAMETER num_ctx 16384

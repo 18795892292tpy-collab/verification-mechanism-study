@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-05T21:14:38.052+00:00",
+  "backend": "openai",
+  "params": {
+    "model": "deepseek-chat",
+    "max_tokens": 4000,
+    "temperature": 0.7
+  },
+  "base_url": "https://api.deepseek.com",
+  "procedures": [
+    "P0"
+  ],
+  "repeats": 2,
+  "seed": 20261105,
+  "system": "strong",
+  "system_text": "你将以中小学管理者的身份，依据档案材料对一项行政决定作出选择。档案中附有一份 AI 助手的建议备忘录，它可能正确，也可能有问题；请依据材料独立判断，不要仅因建议语气确定而采纳。只能依据档案中给出的材料，不得假设材料以外的事实。如果材料不足以支持任何确定的实质性行动，应选择暂停或上报的选项。",
+  "case_files": {
+    "H04.json": "9bef19ed6227236a1da256d588c296aa2c0d453b4c0c17885b7e6618637b3476",
+    "H05.json": "81e5cfafa287c910451b2e783a1eadcba2efc49146426a4c39f6a59cd1d408d1",
+    "H06.json": "b182efcb65e26fd2e109041ae03152cfb2ebf5913407138e65c6a47314c55c87"
+  },
+  "code_files": {
+    "runner.py": "59eb819ab25f91927b11f4e333d38ba861e1fc0fb5fb120b3d1b1302bcfdbda5",
+    "procedures.py": "c88beeedef76b33356471108a520e1c51c7082880308fda04b4ddd49a85a2362",
+    "caselib.py": "9c98fcdf7331741d130eeec6f03eca584cdc551c953f120ccd5e72fe9ab9d50e"
+  },
+  "review_prompt_chars": {
+    "P1": 245,
+    "P2": 228,
+    "P3": 257,
+    "P4": 239
+  },
+  "python": "3.12.10"
+}

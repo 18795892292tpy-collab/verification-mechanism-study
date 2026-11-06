@@ -1,0 +1,4 @@
+model,coef,se,p,n_rows,n_families
+C1 P3-P1 flawed_correction (logOR),-24.423001041367193,,,128,8
+C2 P3-P2 flawed_correction (logOR),1.3242546867539254e-15,,,128,8
+C3 P3xabsent escalation interaction (logOR),-0.7091475219063849,0.4172528467939538,0.08921314509078698,320,8

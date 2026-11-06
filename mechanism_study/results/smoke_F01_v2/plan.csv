@@ -1,0 +1,11 @@
+run_id,order,family_id,state,advice,procedure,repeat
+c11c0f4b3eb2,0,F01,missing,aligned,P0,1
+c6783ee6257d,1,F01,base,aligned,P0,1
+754ab39039ee,2,F01,irrelevant_change,flawed,P0,1
+4473b41fca35,3,F01,paraphrase,aligned,P0,1
+616f79f3f9e6,4,F01,paraphrase,flawed,P0,1
+7820bb1f7984,5,F01,irrelevant_change,aligned,P0,1
+afb16249b9c2,6,F01,decisive_change,flawed,P0,1
+26c244c0c63a,7,F01,base,flawed,P0,1
+c6dd431ef17b,8,F01,missing,flawed,P0,1
+df0224765220,9,F01,decisive_change,aligned,P0,1

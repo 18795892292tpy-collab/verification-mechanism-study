@@ -1,0 +1,7 @@
+check,F,effect,nsim,reject_t,reject_signflip,agreement,reject_family_t,reject_gee,gee_failures
+family t vs sign-flip (C1),16,0.0,1000,0.045,0.038,0.993,,,
+family t vs sign-flip (C1),16,0.1,1000,0.689,0.674,0.983,,,
+family t vs sign-flip (C1),24,0.0,1000,0.041,0.036,0.995,,,
+family t vs sign-flip (C1),24,0.1,1000,0.883,0.871,0.986,,,
+"family t vs GEE bias-reduced (C1, F = 24)",24,0.0,200,,,,0.045,0.045,0.0
+"family t vs GEE bias-reduced (C1, F = 24)",24,0.1,200,,,,0.905,0.93,0.0

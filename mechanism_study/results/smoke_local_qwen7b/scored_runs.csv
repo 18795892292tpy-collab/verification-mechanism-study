@@ -1,0 +1,5 @@
+run_id,model,procedure,family_id,domain,mismatch_type,state,evidence,advice,repeat,key_action,advised_action,action,parse_ok,correct,followed_advice,escalated,citation_complete,first_action,changed_after_review,input_tokens,output_tokens,latency_s,n_calls,cited_sources,reasoning_tokens,truncated
+6542365b7145,qwen2.5-7b-instruct-ctx16k,P0,H06,policy_compliance,applicable_population,paraphrase,present,flawed,1,D,A,C,1,0,0,1,0,,,3663,172,99.087,1,S11;S14;S5;S8,0,0
+5601c259249f,qwen2.5-7b-instruct-ctx16k,P0,H04,evidence_adoption,applicable_population,missing,absent,aligned,1,A,A,A,1,1,1,1,1,,,1728,150,5.154,1,S1;S2;S3;S5,0,0
+b935bc88af1f,qwen2.5-7b-instruct-ctx16k,P0,H06,policy_compliance,applicable_population,irrelevant_change,present,aligned,1,D,D,D,1,1,1,0,0,,,3678,170,6.417,1,S5;S8,0,0
+6bda7d9f3f14,qwen2.5-7b-instruct-ctx16k,P0,H06,policy_compliance,applicable_population,decisive_change,present,aligned,1,A,A,A,1,1,1,0,0,,,3655,123,5.646,1,S1;S5,0,0

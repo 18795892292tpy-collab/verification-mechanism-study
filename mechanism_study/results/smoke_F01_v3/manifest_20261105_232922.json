@@ -1,0 +1,30 @@
+{
+  "created": "2026-11-05T16:29:22.561+00:00",
+  "backend": "openai",
+  "params": {
+    "model": "deepseek-chat",
+    "max_tokens": 1500,
+    "temperature": 0.7
+  },
+  "base_url": "https://api.deepseek.com",
+  "procedures": [
+    "P0"
+  ],
+  "repeats": 3,
+  "seed": 20261105,
+  "case_files": {
+    "F01.json": "c01fed621fb807df1a09e3e20d0c11e82d36d15055cdda20434640a824e3fe50"
+  },
+  "code_files": {
+    "runner.py": "a3b451563d4dfcc87930f6ba4ae62ddda3c463b59cebf033e43feefab55b14b9",
+    "procedures.py": "ba9ec7c9946d5c2fcc99517d629eec0b0d00387e493698a65a8fd5b52fabbd83",
+    "caselib.py": "776c2ff4c042c2e6d9610780bde2f6622e956c7bd8925d721b130e9907507e9b"
+  },
+  "review_prompt_chars": {
+    "P1": 245,
+    "P2": 228,
+    "P3": 257,
+    "P4": 239
+  },
+  "python": "3.12.10"
+}

@@ -1,0 +1,44 @@
+# 作答表对照（研究者保存，勿发给审核人）
+
+| 题号 | 家族 | 状态 | 正确行动 |
+|---|---|---|---|
+| 1 | F03 | decisive_change | A |
+| 2 | F05 | irrelevant_change | C |
+| 3 | F07 | base | A |
+| 4 | F01 | paraphrase | B |
+| 5 | F05 | missing | B |
+| 6 | F04 | decisive_change | A |
+| 7 | F07 | decisive_change | C |
+| 8 | F03 | irrelevant_change | C |
+| 9 | F03 | missing | D |
+| 10 | F01 | missing | D |
+| 11 | F02 | irrelevant_change | A |
+| 12 | F05 | decisive_change | A |
+| 13 | F08 | irrelevant_change | B |
+| 14 | F05 | paraphrase | C |
+| 15 | F03 | paraphrase | C |
+| 16 | F04 | irrelevant_change | D |
+| 17 | F04 | paraphrase | D |
+| 18 | F08 | decisive_change | D |
+| 19 | F05 | base | C |
+| 20 | F01 | irrelevant_change | B |
+| 21 | F04 | base | D |
+| 22 | F01 | decisive_change | A |
+| 23 | F06 | paraphrase | D |
+| 24 | F08 | missing | C |
+| 25 | F08 | paraphrase | B |
+| 26 | F01 | base | B |
+| 27 | F07 | missing | D |
+| 28 | F02 | base | A |
+| 29 | F07 | irrelevant_change | A |
+| 30 | F06 | base | D |
+| 31 | F07 | paraphrase | A |
+| 32 | F06 | missing | A |
+| 33 | F08 | base | B |
+| 34 | F04 | missing | C |
+| 35 | F06 | irrelevant_change | D |
+| 36 | F03 | base | C |
+| 37 | F06 | decisive_change | B |
+| 38 | F02 | decisive_change | B |
+| 39 | F02 | missing | C |
+| 40 | F02 | paraphrase | A |

@@ -1,0 +1,28 @@
+running grids (nsim = 1000) ...
+  grids done in 194s (154 scenarios)
+  checks done in 19s
+ F  C1_holm  C2_holm  C3_holm  NI1_pass  NI2_pass  adopt_full  C1_se
+16    0.563    0.408    0.534     0.742     0.445       0.132  0.037
+24    0.812    0.639    0.781     0.863     0.621       0.332  0.031
+32    0.932    0.816    0.907     0.939     0.766       0.589  0.027
+40    0.966    0.891    0.978     0.962     0.826       0.708  0.024
+60    0.998    0.980    0.998     0.996     0.952       0.929  0.020
+                                                  check  F  rejection_rate                                       note
+                                      C1 null (P3 = P1) 16           0.050 two-sided, unadjusted alpha .05, 2000 sims
+                                      C2 null (P3 = P2) 16           0.044 two-sided, unadjusted alpha .05, 2000 sims
+                               C3 null (no interaction) 16           0.045 two-sided, unadjusted alpha .05, 2000 sims
+C3 null, generic caution (+5 pts escalation everywhere) 16           0.044 two-sided, unadjusted alpha .05, 2000 sims
+               NI1 at margin (true P3-P0 overturn = +5) 16           0.056    nominal one-sided .025; true diff 0.049
+                                      C1 null (P3 = P1) 40           0.050 two-sided, unadjusted alpha .05, 2000 sims
+                                      C2 null (P3 = P2) 40           0.042 two-sided, unadjusted alpha .05, 2000 sims
+                               C3 null (no interaction) 40           0.052 two-sided, unadjusted alpha .05, 2000 sims
+C3 null, generic caution (+5 pts escalation everywhere) 40           0.043 two-sided, unadjusted alpha .05, 2000 sims
+               NI1 at margin (true P3-P0 overturn = +5) 40           0.044    nominal one-sided .025; true diff 0.050
+                                    check  F  effect  nsim  reject_t  reject_signflip  agreement  reject_family_t  reject_gee  gee_failures
+               family t vs sign-flip (C1) 16     0.0  1000     0.045            0.038      0.993              NaN         NaN           NaN
+               family t vs sign-flip (C1) 16     0.1  1000     0.689            0.674      0.983              NaN         NaN           NaN
+               family t vs sign-flip (C1) 24     0.0  1000     0.041            0.036      0.995              NaN         NaN           NaN
+               family t vs sign-flip (C1) 24     0.1  1000     0.883            0.871      0.986              NaN         NaN           NaN
+family t vs GEE bias-reduced (C1, F = 24) 24     0.0   200       NaN              NaN        NaN            0.045       0.045           0.0
+family t vs GEE bias-reduced (C1, F = 24) 24     0.1   200       NaN              NaN        NaN            0.905       0.930           0.0
+wrote D:\lunweng\mechanism_study\analysis\power_out\power_tables.md
