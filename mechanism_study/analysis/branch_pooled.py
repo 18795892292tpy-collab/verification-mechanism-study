@@ -26,7 +26,10 @@ STUDY = HERE.parent
 sys.path.insert(0, str(STUDY.parent / ".claude" / "skills" / "verification-case-builder" / "scripts"))
 sys.path.insert(0, str(HERE))
 import caselib as cl  # noqa: E402
-from branch_report import sign_test, wilson  # noqa: E402
+sys.path.insert(0, str(STUDY / "harness"))
+from scorer import load_verified_branch_rows  # noqa: E402
+from branch_integrity import IntegrityError, digest, select_run  # noqa: E402
+from branch_report import count, number, rate, rate_interval, sign_test  # noqa: E402
 
 CONTRASTS = [("P3", "P1", "C1 analogue: source verification vs free re-check"),
              ("P3", "P2", "C2 analogue: source verification vs generic checklist"),
@@ -49,10 +52,32 @@ def main():
     out = p(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
-    rows, fams = [], {}
+    rows, fams, seen_raw, seen_groups, conditions = [], {}, set(), set(), None
     for scored, cases in args.run:
-        rows += list(csv.DictReader(open(p(scored), encoding="utf-8")))
+        run_rows = load_verified_branch_rows(p(scored), p(cases))
+        # Namespace groups by input run: independent repeats in two folders are not duplicates.
+        raw_hash = digest((p(scored).parent / "responses.jsonl").read_text(encoding="utf-8"))
+        run_identity = p(scored).parent.name + ":" + raw_hash
+        if raw_hash in seen_raw:
+            raise IntegrityError("Same raw results supplied more than once")
+        seen_raw.add(raw_hash)
+        run_groups = {(r["family_id"], r["state"], r["advice"], r["repeat"]) for r in run_rows}
+        if seen_groups & run_groups:
+            # analyze.py consumes the exported CSV without a source_run key.
+            # Do not silently relabel repeats or let that consumer merge attempts.
+            raise IntegrityError("Overlapping planned groups across runs; keep independent repeat batches separate")
+        seen_groups.update(run_groups)
+        condition = select_run(p(scored).parent)[2]["provenance"]["condition"]
+        if conditions is None:
+            conditions = condition
+        if condition != conditions:
+            raise IntegrityError("Pooling different request, review text or semantic-code conditions is forbidden")
+        for row in run_rows:
+            row["source_run"] = run_identity
+        rows += run_rows
         fams.update({f["family_id"]: f for f in cl.load_dir(p(cases))})
+    if not rows:
+        raise IntegrityError("No selected complete groups to pool")
     with open(out / "combined_scored_runs.csv", "w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
         w.writeheader()
@@ -62,14 +87,17 @@ def main():
         w.writeheader()
         w.writerows(r for r in rows if r["procedure"] in {"P0", "P1", "P2", "P3", "P4"})
 
-    key = lambda r: (r["family_id"], r["state"], r["advice"], r["repeat"])  # noqa: E731
+    key = lambda r: (r["family_id"], r["state"], r["advice"], r["repeat"], r.get("source_run", ""))  # noqa: E731
     first = {key(r): r for r in rows if r["procedure"] == "P0"}
     review = defaultdict(dict)
     for r in rows:
         if r["procedure"] != "P0":
             review[r["procedure"]][key(r)] = r
-            assert r["first_action"] == first[key(r)]["action"], "not a branching run"
+            if (r["branch_id"], r["first_text_sha256"]) != (first[key(r)]["branch_id"], first[key(r)]["first_text_sha256"]):
+                raise IntegrityError("Branch or full first-answer hash differs")
     procs = sorted(review)
+    if not first or any(k not in review[q] for q in procs for k in first):
+        raise IntegrityError("No complete, consistently paired branch groups to analyze")
     complete = all(k in review[q] for q in procs for k in first)
     present = [k for k, r in first.items() if r["evidence"] == "present"]
     fw = [k for k in present if first[k]["correct"] == "0"]
@@ -89,18 +117,22 @@ def main():
     w(f"# Pooled branching analysis ({out.name})\n")
     w(f"Model(s): {', '.join(sorted({r['model'] for r in rows}))}. Families: {len(fam_ids)} ({', '.join(fam_ids)}). "
       f"Shared first answers: {len(first)}; review procedures: {', '.join(procs)}; every review present: {complete}.\n")
+    w("NA means not estimable: zero denominators, no error-bearing families, or no nonzero "
+      "paired differences provide no repair comparison. Confidence intervals and t-tests need "
+      "at least two families and positive variance; sign tests need a discordant pair. "
+      "NA is not evidence of no benefit or equivalence.\n")
     trunc = sum(r.get("truncated") == "1" for r in rows)
     reas = sum(int(r.get("reasoning_tokens") or 0) > 0 for r in rows)
     parse = sum(r["parse_ok"] == "1" for r in rows)
     w(f"Parsed answers {parse}/{len(rows)}; truncated responses {trunc}; responses with reasoning tokens {reas}.\n")
 
     w("## First answers (P0), evidence present\n")
-    w(f"- correct {len(fr)}/{len(present)}; incorrect {len(fw)}: " +
+    w(f"- correct {count(len(fr), len(present))}; incorrect {len(fw)}: " +
       "; ".join(f"{k} {v}" for k, v in Counter(kind(k) for k in fw).most_common()))
     fl = [k for k in present if k[2] == "flawed"]
     al = [k for k in present if k[2] == "aligned"]
-    w(f"- flawed advice corrected {sum(first[k]['correct'] == '1' for k in fl)}/{len(fl)}; "
-      f"aligned advice correct {sum(first[k]['correct'] == '1' for k in al)}/{len(al)}\n")
+    w(f"- flawed advice corrected {count(sum(first[k]['correct'] == '1' for k in fl), len(fl))}; "
+      f"aligned advice correct {count(sum(first[k]['correct'] == '1' for k in al), len(al))}\n")
 
     w("## Final accuracy by procedure (evidence present)\n")
     w("| procedure | flawed advice corrected | aligned advice kept correct | output tokens per item |")
@@ -112,7 +144,7 @@ def main():
         src = first if q == "P0" else review[q]
         a = sum(src[k]["correct"] == "1" for k in fl)
         b = sum(src[k]["correct"] == "1" for k in al)
-        w(f"| {q} | {a}/{len(fl)} = {a / len(fl):.2f} | {b}/{len(al)} = {b / len(al):.2f} | "
+        w(f"| {q} | {a}/{len(fl)} = {rate(a, len(fl))} | {b}/{len(al)} = {rate(b, len(al))} | "
           f"{sum(tok[q]) / len(tok[q]):.0f} |")
     w("")
 
@@ -122,34 +154,38 @@ def main():
     for q in procs:
         rep = sum(review[q][k]["correct"] == "1" for k in fw)
         dam = sum(review[q][k]["correct"] == "0" for k in fr)
-        rl, rh = wilson(rep, len(fw))
-        dl, dh = wilson(dam, len(fr))
-        w(f"| {q} | {rep}/{len(fw)} | {rep / max(1, len(fw)):.2f} [{rl:.2f}, {rh:.2f}] | {dam}/{len(fr)} | "
-          f"{dam / max(1, len(fr)):.2f} [{dl:.2f}, {dh:.2f}] |")
+        w(f"| {q} | {rep}/{len(fw)} | {rate_interval(rep, len(fw))} | {dam}/{len(fr)} | "
+          f"{rate_interval(dam, len(fr))} |")
     w("")
 
     w("## Repair rate by type of first-answer error\n")
     kinds = [k for k, _ in Counter(kind(k) for k in fw).most_common()]
-    w("| procedure | " + " | ".join(kinds) + " |")
-    w("|---|" + "---|" * len(kinds))
-    for q in procs:
-        cells = []
-        for kd in kinds:
-            ks = [k for k in fw if kind(k) == kd]
-            cells.append(f"{sum(review[q][k]['correct'] == '1' for k in ks)}/{len(ks)}")
-        w(f"| {q} | " + " | ".join(cells) + " |")
+    if not kinds:
+        w("NA: no incorrect evidence-present first answers.\n")
+    if kinds:
+        w("| procedure | " + " | ".join(kinds) + " |")
+        w("|---|" + "---|" * len(kinds))
+        for q in procs:
+            cells = []
+            for kd in kinds:
+                ks = [k for k in fw if kind(k) == kd]
+                cells.append(f"{sum(review[q][k]['correct'] == '1' for k in ks)}/{len(ks)}")
+            w(f"| {q} | " + " | ".join(cells) + " |")
     w("")
 
     w("## Repair rate by mismatch type\n")
     mts = sorted({fams[k[0]]["mismatch_type"] for k in fw})
-    w("| procedure | " + " | ".join(mts) + " |")
-    w("|---|" + "---|" * len(mts))
-    for q in procs:
-        cells = []
-        for m in mts:
-            ks = [k for k in fw if fams[k[0]]["mismatch_type"] == m]
-            cells.append(f"{sum(review[q][k]['correct'] == '1' for k in ks)}/{len(ks)}")
-        w(f"| {q} | " + " | ".join(cells) + " |")
+    if not mts:
+        w("NA: no incorrect evidence-present first answers.\n")
+    if mts:
+        w("| procedure | " + " | ".join(mts) + " |")
+        w("|---|" + "---|" * len(mts))
+        for q in procs:
+            cells = []
+            for m in mts:
+                ks = [k for k in fw if fams[k[0]]["mismatch_type"] == m]
+                cells.append(f"{sum(review[q][k]['correct'] == '1' for k in ks)}/{len(ks)}")
+            w(f"| {q} | " + " | ".join(cells) + " |")
     w("")
 
     fam_err = [f for f in fam_ids if any(k[0] == f for k in fw)]
@@ -167,38 +203,43 @@ def main():
             continue
         d = [frate(a, f) - frate(b, f) for f in fam_err]
         n = len(d)
-        mean = sum(d) / n
+        mean = sum(d) / n if n else float("nan")
         sd = (sum((x - mean) ** 2 for x in d) / (n - 1)) ** 0.5 if n > 1 else float("nan")
         se = sd / math.sqrt(n) if n > 1 else float("nan")
         tcrit = stats.t.ppf(0.975, n - 1) if n > 1 else float("nan")
         tp = stats.ttest_1samp(d, 0).pvalue if n > 1 and sd > 0 else float("nan")
         try:
-            wp = stats.wilcoxon(d).pvalue if any(x != 0 for x in d) else 1.0
+            wp = stats.wilcoxon(d).pvalue if any(x != 0 for x in d) else float("nan")
         except ValueError:
             wp = float("nan")
         gt, lt = sum(x > 0 for x in d), sum(x < 0 for x in d)
         oa = sum(review[a][k]["correct"] == "1" and review[b][k]["correct"] == "0" for k in fw)
         ob = sum(review[b][k]["correct"] == "1" and review[a][k]["correct"] == "0" for k in fw)
-        w(f"| {a} vs {b} | {meaning} | {mean:+.3f} [{mean - tcrit * se:+.3f}, {mean + tcrit * se:+.3f}] | {tp:.3f} | "
-          f"{wp:.3f} | {gt} / {lt} / {n - gt - lt} (sign p {sign_test(gt, lt):.3f}) | {oa} : {ob} ({sign_test(oa, ob):.3f}) |")
+        interval = f"[{number(mean - tcrit * se, signed=True)}, {number(mean + tcrit * se, signed=True)}]" if n > 1 and sd > 0 else "[NA]"
+        effect = f"{number(mean, signed=True)} {interval}" if n else "NA"
+        w(f"| {a} vs {b} | {meaning} | {effect} | {number(tp)} | "
+          f"{number(wp)} | {gt} / {lt} / {n - gt - lt} (sign p {number(sign_test(gt, lt))}) | {oa} : {ob} ({number(sign_test(oa, ob))}) |")
     w("")
 
     w("## Repairs by family\n")
-    w("| family | mismatch | first wrong | " + " | ".join(procs) + " |")
-    w("|---|---|---|" + "---|" * len(procs))
-    for f in fam_err:
-        ks = [k for k in fw if k[0] == f]
-        w(f"| {f} | {fams[f]['mismatch_type']} | {len(ks)} | " +
-          " | ".join(str(sum(review[q][k]['correct'] == '1' for k in ks)) for q in procs) + " |")
+    if not fam_err:
+        w("NA: no family has an incorrect evidence-present first answer.\n")
+    if fam_err:
+        w("| family | mismatch | first wrong | " + " | ".join(procs) + " |")
+        w("|---|---|---|" + "---|" * len(procs))
+        for f in fam_err:
+            ks = [k for k in fw if k[0] == f]
+            w(f"| {f} | {fams[f]['mismatch_type']} | {len(ks)} | " +
+              " | ".join(str(sum(review[q][k]['correct'] == '1' for k in ks)) for q in procs) + " |")
     w("")
 
     miss = [k for k, r in first.items() if r["state"] == "missing"]
     w("## Missing-evidence state (key = pause or escalate)\n")
-    w(f"- P0 correct {sum(first[k]['correct'] == '1' for k in miss)}/{len(miss)}; after review: " +
-      ", ".join(f"{q} {sum(review[q][k]['correct'] == '1' for k in miss)}/{len(miss)}" for q in procs))
+    w(f"- P0 correct {count(sum(first[k]['correct'] == '1' for k in miss), len(miss))}; after review: " +
+      ", ".join(f"{q} {count(sum(review[q][k]['correct'] == '1' for k in miss), len(miss))}" for q in procs))
     w("- unnecessary escalation with evidence present: P0 "
-      f"{sum(first[k]['escalated'] == '1' for k in present)}/{len(present)}; " +
-      ", ".join(f"{q} {sum(review[q][k]['escalated'] == '1' for k in present)}/{len(present)}" for q in procs))
+      f"{count(sum(first[k]['escalated'] == '1' for k in present), len(present))}; " +
+      ", ".join(f"{q} {count(sum(review[q][k]['escalated'] == '1' for k in present), len(present))}" for q in procs))
     w("")
     w("Development data: the families were not reviewed by independent experts, and the contrasts are exploratory. "
       "Answer-level p values ignore clustering; the family-level tests are the ones that match the analysis plan.")

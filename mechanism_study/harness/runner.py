@@ -32,6 +32,8 @@ sys.path.insert(0, str(SKILL_SCRIPTS))
 sys.path.insert(0, str(HERE))
 import caselib as cl  # noqa: E402
 import procedures as pr  # noqa: E402
+from branch_integrity import DirectoryLock, IntegrityError, digest, select_run, validate_resume  # noqa: E402
+from provenance import verify_case_binding  # noqa: E402
 
 if not sys.stdout.isatty():
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -153,20 +155,6 @@ def read_plan(path: Path) -> list[dict]:
         return [dict(r, repeat=int(r["repeat"]), order=int(r["order"])) for r in csv.DictReader(fh)]
 
 
-def done_ids(path: Path) -> set[str]:
-    ids = set()
-    if path.exists():
-        with open(path, encoding="utf-8") as fh:
-            for line in fh:
-                try:
-                    rec = json.loads(line)
-                except json.JSONDecodeError:
-                    continue
-                if rec.get("status") == "ok":
-                    ids.add(rec["run_id"])
-    return ids
-
-
 # ---------------------------------------------------------------- execution
 def execute(row, fams_by_id, backend, system="strong") -> dict:
     fam = fams_by_id[row["family_id"]]
@@ -242,7 +230,16 @@ def main() -> int:
 
     cases_dir = (STUDY / args.cases) if not Path(args.cases).is_absolute() else Path(args.cases)
     out = (STUDY / args.out) if not Path(args.out).is_absolute() else Path(args.out)
-    out.mkdir(parents=True, exist_ok=True)
+    try:
+        with DirectoryLock(out):
+            return run_locked(args, cases_dir, out)
+    except IntegrityError as exc:
+        print(f"Integrity check failed: {exc}")
+        return 3
+
+
+def run_locked(args, cases_dir, out):
+    """All plan/manifest/response writes happen while the directory lock is held."""
     fams = cl.load_dir(cases_dir)
     if args.families:
         keep = set(args.families.split(","))
@@ -279,16 +276,21 @@ def main() -> int:
                                    args.max_tokens, args.temperature, timeout=args.timeout)
 
     procedures = args.procedures.split(",")
+    if len(set(procedures)) != len(procedures) or not set(procedures) <= set(pr.N_CALLS):
+        raise IntegrityError("Unknown or duplicate procedures")
+    if args.branching and "P0" not in procedures:
+        raise IntegrityError("Branching plan must contain its shared P0 answer")
+    if args.repeats < 1 or args.concurrency < 1 or (args.limit is not None and args.limit < 1):
+        raise IntegrityError("Repeats, concurrency and limit must be positive")
     plan_path, resp_path = out / "plan.csv", out / "responses.jsonl"
-    if plan_path.exists():
+    resuming = plan_path.exists()
+    if not resuming and (resp_path.exists() or list(out.glob("manifest_*.json"))):
+        raise IntegrityError("Output has responses/manifests but no plan")
+    if resuming:
         plan = read_plan(plan_path)
         print(f"Resuming plan with {len(plan)} runs")
     else:
         plan = build_plan(fams, procedures, args.repeats, args.seed)
-        with open(plan_path, "w", encoding="utf-8", newline="") as fh:
-            w = csv.DictWriter(fh, fieldnames=PLAN_FIELDS)
-            w.writeheader()
-            w.writerows(plan)
     manifest = {
         "created": now(), "backend": args.backend, "params": backend.params(),
         "base_url": (load_env(STUDY / ".env").get("LLM_BASE_URL") if args.backend == "openai" else None),
@@ -299,11 +301,27 @@ def main() -> int:
                                                        SKILL_SCRIPTS / "caselib.py"]},
         "review_prompt_chars": {k: len(v) for k, v in pr.REVIEW.items()},
         "python": sys.version.split()[0],
+        "integrity_version": 1,
+        "review_text_sha256": {k: digest(v) for k, v in pr.REVIEW.items()},
+        "plan_sha256": digest(plan),
     }
-    (out / f"manifest_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    if resuming:
+        validate_resume(out, manifest, plan, build_plan(fams, procedures, args.repeats, args.seed))
+        _, selected, audit, records, manifests = select_run(out)
+        if audit["malformed_json_lines"] or audit.get("unknown_run_id_lines"):
+            raise IntegrityError("Malformed or unknown response records; audit before resuming")
+        verify_case_binding(plan, records, manifests, {f["family_id"]: f for f in fams}, IntegrityError)
+        finished = set(selected)
+    else:
+        finished = set()
+        with open(plan_path, "x", encoding="utf-8", newline="") as fh:
+            w = csv.DictWriter(fh, fieldnames=PLAN_FIELDS)
+            w.writeheader()
+            w.writerows(plan)
+    # Use exclusive creation and microseconds: quick restarts must not overwrite provenance.
+    with (out / f"manifest_{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.json").open("x", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
 
-    finished = done_ids(resp_path)
     todo = [r for r in sorted(plan, key=lambda r: r["order"]) if r["run_id"] not in finished]
     if args.limit:
         todo = todo[: args.limit]
@@ -313,9 +331,8 @@ def main() -> int:
     n_ok = n_err = 0
     t0 = time.time()
     if args.branching:
-        # Group by item x repeat; a group with any unfinished run is re-run whole, so every
-        # procedure in a group always reviews the same first answer (the scorer keeps the
-        # latest ok record per run_id).
+        # Retry the whole group only when no complete successful branch exists.
+        # Scoring uses that same atomic branch selection, never per-procedure latest_ok.
         groups = {}
         for r in sorted(plan, key=lambda r: r["order"]):
             groups.setdefault((r["family_id"], r["state"], r["advice"], r["repeat"]), []).append(r)
