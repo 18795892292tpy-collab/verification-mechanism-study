@@ -1,0 +1,3898 @@
+{
+  "schema": "legacy-integrity-recompute/v1",
+  "base_commit": "cf8a5b64bb221882348c0091f401a0e1f4847d24",
+  "repository": "18795892292tpy-collab/verification-mechanism-study",
+  "model_calls_made": 0,
+  "scope": "Three partial legacy folders; no full historical H04 inferential recomputation. No historical raw or derived results modified.",
+  "runtime": "3.12.13",
+  "folders": [
+    {
+      "selection_policy": "earliest_completed_fully_successful_complete_branch",
+      "planned_groups": 160,
+      "unique_complete_groups": 31,
+      "remaining_groups": 129,
+      "complete_branch_attempts": 31,
+      "branch_attempts": 31,
+      "duplicate_groups": [],
+      "duplicate_group_count": 0,
+      "duplicate_record_count": 0,
+      "unknown_run_id_lines": [],
+      "selected_branches": [
+        {
+          "branch_id": "aaa03ae13dd8",
+          "group": [
+            "F01",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:06.321000+00:00",
+          "first_line": 64,
+          "rows": 7,
+          "first_text_sha256": "c79d588429639dba675f341e1042cc1255f8a49a4656af671aaeda4fb501b832"
+        },
+        {
+          "branch_id": "6383e8bf776b",
+          "group": [
+            "F01",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:34.312000+00:00",
+          "first_line": 113,
+          "rows": 7,
+          "first_text_sha256": "95979e9f15849777a15caa7bf0854d30b10904853ef211d52ede292e14d6be0a"
+        },
+        {
+          "branch_id": "9e1cdc9888f7",
+          "group": [
+            "F01",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:44:14.562000+00:00",
+          "first_line": 204,
+          "rows": 7,
+          "first_text_sha256": "4df34efcb75f5d38c183d16e4a02dbeb9d40b2a8742780fd559ec211026dec40"
+        },
+        {
+          "branch_id": "020fe5e86611",
+          "group": [
+            "F01",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:08.143000+00:00",
+          "first_line": 71,
+          "rows": 7,
+          "first_text_sha256": "94155713bea003db1e74cacbcec60a2c2f12c20fa4cc45f84675d585ffc7b0c7"
+        },
+        {
+          "branch_id": "d4bf5ffb94bf",
+          "group": [
+            "F02",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:52.005000+00:00",
+          "first_line": 92,
+          "rows": 7,
+          "first_text_sha256": "2f51415bd961d7668950661dcaff9f9657cdf79500ef29944a595087549d03ae"
+        },
+        {
+          "branch_id": "b6e41bce8fe2",
+          "group": [
+            "F02",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:15.211000+00:00",
+          "first_line": 169,
+          "rows": 7,
+          "first_text_sha256": "67ff2d4773db1acea72b085b4f06b6ff2ae2c56ab037a2b90c7b73521cdeb410"
+        },
+        {
+          "branch_id": "b4dfc5758118",
+          "group": [
+            "F02",
+            "irrelevant_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:15.842000+00:00",
+          "first_line": 36,
+          "rows": 7,
+          "first_text_sha256": "9b9c7531031c0adc861079e07cb6c4888001ad05d987f75a2f150f102c230122"
+        },
+        {
+          "branch_id": "3d97bd662fa7",
+          "group": [
+            "F02",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:31.300000+00:00",
+          "first_line": 162,
+          "rows": 7,
+          "first_text_sha256": "1570ea3e45e089fd7638e83111806920fd3297e8c0cafb374cb48ed4b88f1e87"
+        },
+        {
+          "branch_id": "c1a40881a1c1",
+          "group": [
+            "F02",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:59.105000+00:00",
+          "first_line": 106,
+          "rows": 7,
+          "first_text_sha256": "12892a749eff34b8c5705dd70c90472f4e6ff70ce0ce7d1ab3f8f562442039bd"
+        },
+        {
+          "branch_id": "dd93b8960358",
+          "group": [
+            "F03",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:30.391000+00:00",
+          "first_line": 183,
+          "rows": 7,
+          "first_text_sha256": "8e291ef75d3358a8f744a9a660be98e8a452684f12e16f6e1cc2dcb7642ad8a6"
+        },
+        {
+          "branch_id": "37c2fe1303c0",
+          "group": [
+            "F03",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:51.079000+00:00",
+          "first_line": 85,
+          "rows": 7,
+          "first_text_sha256": "7cff3af9f4c6e091f4066ae5f75a497e4a9d5653ce2dd53354587ea0d85c2d76"
+        },
+        {
+          "branch_id": "95cb954dc131",
+          "group": [
+            "F04",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:10.806000+00:00",
+          "first_line": 78,
+          "rows": 7,
+          "first_text_sha256": "f682d371c8204a8aae685cdbc6d035967c63202a15402efc5c2c3abcaa56fca0"
+        },
+        {
+          "branch_id": "c26cb8a9b93c",
+          "group": [
+            "F04",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:01.594000+00:00",
+          "first_line": 57,
+          "rows": 7,
+          "first_text_sha256": "a0ebe3a5ac21d885f45ddbb5c29a00664a9daeb9ad2b1eca7fb80d6b8db7c379"
+        },
+        {
+          "branch_id": "7578f7cf27a1",
+          "group": [
+            "F04",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:40.504000+00:00",
+          "first_line": 120,
+          "rows": 7,
+          "first_text_sha256": "b405d20e5cd9ccc356bfd9b3f52c2ec67dff85b6f18af49ce4337a9bb4d3c9c3"
+        },
+        {
+          "branch_id": "167c2db5bf0a",
+          "group": [
+            "F04",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:28.550000+00:00",
+          "first_line": 148,
+          "rows": 7,
+          "first_text_sha256": "3e6f3614e9a55040449658568be976806ef98698342e5e51021f57fec0f476a9"
+        },
+        {
+          "branch_id": "54b3fc0efbca",
+          "group": [
+            "F04",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:52.904000+00:00",
+          "first_line": 99,
+          "rows": 7,
+          "first_text_sha256": "431b6bde5fe82bfa9d98388c33555a5fe023700162b086c58486061292189f25"
+        },
+        {
+          "branch_id": "ca2c09ef1e83",
+          "group": [
+            "F04",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:15.065000+00:00",
+          "first_line": 29,
+          "rows": 7,
+          "first_text_sha256": "cb91afe97b10e386a3eeb2915b88904e325a39b11d63658270a680c1c476a3a3"
+        },
+        {
+          "branch_id": "96346eab122a",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:44:05.116000+00:00",
+          "first_line": 197,
+          "rows": 7,
+          "first_text_sha256": "ff6a7394262a3e92d8a1a759b2d7a44b5cd34fb2be0163315229a626fa0fdb34"
+        },
+        {
+          "branch_id": "4ea8e3944ea2",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:28.263000+00:00",
+          "first_line": 50,
+          "rows": 7,
+          "first_text_sha256": "a9c30bfc9f86bc034c8a5134d60d0c8d89700ec936f95035c53c62334c8c2f2b"
+        },
+        {
+          "branch_id": "8341108c157a",
+          "group": [
+            "F06",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:30.229000+00:00",
+          "first_line": 176,
+          "rows": 7,
+          "first_text_sha256": "66cfc9d5631fad4dedc804ec9c0838b5237676c54a9db740dd262793048d5a3c"
+        },
+        {
+          "branch_id": "da37102ae85e",
+          "group": [
+            "F06",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:37.045000+00:00",
+          "first_line": 15,
+          "rows": 7,
+          "first_text_sha256": "82f711cfd63137e0d8e947b9bc8455dcee474c66759d9138f32cbcbd53d7ac08"
+        },
+        {
+          "branch_id": "f23f49d6793d",
+          "group": [
+            "F06",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:40.565000+00:00",
+          "first_line": 127,
+          "rows": 7,
+          "first_text_sha256": "4c5d73309b1576471d3fece06f37ba73c2cf195098c29cfbe772ff92abaf8fc1"
+        },
+        {
+          "branch_id": "0b5cf5fe9d36",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:26.548000+00:00",
+          "first_line": 1,
+          "rows": 7,
+          "first_text_sha256": "00eb131f931dec2fc33b57ce61befd80a33a75c914e283d23a450763820a6d34"
+        },
+        {
+          "branch_id": "1ca056af97f2",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:24.768000+00:00",
+          "first_line": 43,
+          "rows": 7,
+          "first_text_sha256": "8d9c05587c5f1dbdc24604562d2ea3aae5058e9db2180a8a7cfb52b5e12cced5"
+        },
+        {
+          "branch_id": "45193926d92d",
+          "group": [
+            "F07",
+            "base",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:13.365000+00:00",
+          "first_line": 141,
+          "rows": 7,
+          "first_text_sha256": "37423d54068a80bbf6de3719f76a9f4e07d49f4933f53106ebfb4f74062dae4b"
+        },
+        {
+          "branch_id": "469c51e80823",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:39.624000+00:00",
+          "first_line": 22,
+          "rows": 7,
+          "first_text_sha256": "df8b17425d15049873273ac34bad4c89a673eb2b8887755651625f47f5fb141b"
+        },
+        {
+          "branch_id": "aa28ca7a2c03",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:28.394000+00:00",
+          "first_line": 8,
+          "rows": 7,
+          "first_text_sha256": "5a65be840c304abd3d621256c8b399f0bd30aa9dd153701667d466d00e8e574c"
+        },
+        {
+          "branch_id": "b06d0d90ddab",
+          "group": [
+            "F07",
+            "irrelevant_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:44:15.481000+00:00",
+          "first_line": 211,
+          "rows": 7,
+          "first_text_sha256": "6b20d67d18594605eeae93946adc2860baab98438c978920f0adac20855decda"
+        },
+        {
+          "branch_id": "90089f29f652",
+          "group": [
+            "F08",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:30.828000+00:00",
+          "first_line": 155,
+          "rows": 7,
+          "first_text_sha256": "55eb158430cd433df54ac892534d7a6e96301f5f00cf8ef6284f25b016051a97"
+        },
+        {
+          "branch_id": "47d008d879a1",
+          "group": [
+            "F08",
+            "irrelevant_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:50.522000+00:00",
+          "first_line": 134,
+          "rows": 7,
+          "first_text_sha256": "6b8f3300f5f6579f0e7d25a53b16591b7c1b308751b483c6b0b894918dc34a1d"
+        },
+        {
+          "branch_id": "f0c2520d0828",
+          "group": [
+            "F08",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:31.359000+00:00",
+          "first_line": 190,
+          "rows": 7,
+          "first_text_sha256": "127ea0e4aeabfc4fdf90fbeae2bc2c1896199e6aa73a5717f25d980dd34b45ad"
+        }
+      ],
+      "branches": [
+        {
+          "branch_id": "0b5cf5fe9d36",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:26.548000+00:00",
+          "first_line": 1,
+          "rows": 7,
+          "first_text_sha256": "00eb131f931dec2fc33b57ce61befd80a33a75c914e283d23a450763820a6d34"
+        },
+        {
+          "branch_id": "aa28ca7a2c03",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:28.394000+00:00",
+          "first_line": 8,
+          "rows": 7,
+          "first_text_sha256": "5a65be840c304abd3d621256c8b399f0bd30aa9dd153701667d466d00e8e574c"
+        },
+        {
+          "branch_id": "da37102ae85e",
+          "group": [
+            "F06",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:37.045000+00:00",
+          "first_line": 15,
+          "rows": 7,
+          "first_text_sha256": "82f711cfd63137e0d8e947b9bc8455dcee474c66759d9138f32cbcbd53d7ac08"
+        },
+        {
+          "branch_id": "469c51e80823",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:38:39.624000+00:00",
+          "first_line": 22,
+          "rows": 7,
+          "first_text_sha256": "df8b17425d15049873273ac34bad4c89a673eb2b8887755651625f47f5fb141b"
+        },
+        {
+          "branch_id": "ca2c09ef1e83",
+          "group": [
+            "F04",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:15.065000+00:00",
+          "first_line": 29,
+          "rows": 7,
+          "first_text_sha256": "cb91afe97b10e386a3eeb2915b88904e325a39b11d63658270a680c1c476a3a3"
+        },
+        {
+          "branch_id": "b4dfc5758118",
+          "group": [
+            "F02",
+            "irrelevant_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:15.842000+00:00",
+          "first_line": 36,
+          "rows": 7,
+          "first_text_sha256": "9b9c7531031c0adc861079e07cb6c4888001ad05d987f75a2f150f102c230122"
+        },
+        {
+          "branch_id": "1ca056af97f2",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:24.768000+00:00",
+          "first_line": 43,
+          "rows": 7,
+          "first_text_sha256": "8d9c05587c5f1dbdc24604562d2ea3aae5058e9db2180a8a7cfb52b5e12cced5"
+        },
+        {
+          "branch_id": "4ea8e3944ea2",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:39:28.263000+00:00",
+          "first_line": 50,
+          "rows": 7,
+          "first_text_sha256": "a9c30bfc9f86bc034c8a5134d60d0c8d89700ec936f95035c53c62334c8c2f2b"
+        },
+        {
+          "branch_id": "c26cb8a9b93c",
+          "group": [
+            "F04",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:01.594000+00:00",
+          "first_line": 57,
+          "rows": 7,
+          "first_text_sha256": "a0ebe3a5ac21d885f45ddbb5c29a00664a9daeb9ad2b1eca7fb80d6b8db7c379"
+        },
+        {
+          "branch_id": "aaa03ae13dd8",
+          "group": [
+            "F01",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:06.321000+00:00",
+          "first_line": 64,
+          "rows": 7,
+          "first_text_sha256": "c79d588429639dba675f341e1042cc1255f8a49a4656af671aaeda4fb501b832"
+        },
+        {
+          "branch_id": "020fe5e86611",
+          "group": [
+            "F01",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:08.143000+00:00",
+          "first_line": 71,
+          "rows": 7,
+          "first_text_sha256": "94155713bea003db1e74cacbcec60a2c2f12c20fa4cc45f84675d585ffc7b0c7"
+        },
+        {
+          "branch_id": "95cb954dc131",
+          "group": [
+            "F04",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:10.806000+00:00",
+          "first_line": 78,
+          "rows": 7,
+          "first_text_sha256": "f682d371c8204a8aae685cdbc6d035967c63202a15402efc5c2c3abcaa56fca0"
+        },
+        {
+          "branch_id": "37c2fe1303c0",
+          "group": [
+            "F03",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:51.079000+00:00",
+          "first_line": 85,
+          "rows": 7,
+          "first_text_sha256": "7cff3af9f4c6e091f4066ae5f75a497e4a9d5653ce2dd53354587ea0d85c2d76"
+        },
+        {
+          "branch_id": "d4bf5ffb94bf",
+          "group": [
+            "F02",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:52.005000+00:00",
+          "first_line": 92,
+          "rows": 7,
+          "first_text_sha256": "2f51415bd961d7668950661dcaff9f9657cdf79500ef29944a595087549d03ae"
+        },
+        {
+          "branch_id": "54b3fc0efbca",
+          "group": [
+            "F04",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:52.904000+00:00",
+          "first_line": 99,
+          "rows": 7,
+          "first_text_sha256": "431b6bde5fe82bfa9d98388c33555a5fe023700162b086c58486061292189f25"
+        },
+        {
+          "branch_id": "c1a40881a1c1",
+          "group": [
+            "F02",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:40:59.105000+00:00",
+          "first_line": 106,
+          "rows": 7,
+          "first_text_sha256": "12892a749eff34b8c5705dd70c90472f4e6ff70ce0ce7d1ab3f8f562442039bd"
+        },
+        {
+          "branch_id": "6383e8bf776b",
+          "group": [
+            "F01",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:34.312000+00:00",
+          "first_line": 113,
+          "rows": 7,
+          "first_text_sha256": "95979e9f15849777a15caa7bf0854d30b10904853ef211d52ede292e14d6be0a"
+        },
+        {
+          "branch_id": "7578f7cf27a1",
+          "group": [
+            "F04",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:40.504000+00:00",
+          "first_line": 120,
+          "rows": 7,
+          "first_text_sha256": "b405d20e5cd9ccc356bfd9b3f52c2ec67dff85b6f18af49ce4337a9bb4d3c9c3"
+        },
+        {
+          "branch_id": "f23f49d6793d",
+          "group": [
+            "F06",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:40.565000+00:00",
+          "first_line": 127,
+          "rows": 7,
+          "first_text_sha256": "4c5d73309b1576471d3fece06f37ba73c2cf195098c29cfbe772ff92abaf8fc1"
+        },
+        {
+          "branch_id": "47d008d879a1",
+          "group": [
+            "F08",
+            "irrelevant_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:41:50.522000+00:00",
+          "first_line": 134,
+          "rows": 7,
+          "first_text_sha256": "6b8f3300f5f6579f0e7d25a53b16591b7c1b308751b483c6b0b894918dc34a1d"
+        },
+        {
+          "branch_id": "45193926d92d",
+          "group": [
+            "F07",
+            "base",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:13.365000+00:00",
+          "first_line": 141,
+          "rows": 7,
+          "first_text_sha256": "37423d54068a80bbf6de3719f76a9f4e07d49f4933f53106ebfb4f74062dae4b"
+        },
+        {
+          "branch_id": "167c2db5bf0a",
+          "group": [
+            "F04",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:28.550000+00:00",
+          "first_line": 148,
+          "rows": 7,
+          "first_text_sha256": "3e6f3614e9a55040449658568be976806ef98698342e5e51021f57fec0f476a9"
+        },
+        {
+          "branch_id": "90089f29f652",
+          "group": [
+            "F08",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:30.828000+00:00",
+          "first_line": 155,
+          "rows": 7,
+          "first_text_sha256": "55eb158430cd433df54ac892534d7a6e96301f5f00cf8ef6284f25b016051a97"
+        },
+        {
+          "branch_id": "3d97bd662fa7",
+          "group": [
+            "F02",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:42:31.300000+00:00",
+          "first_line": 162,
+          "rows": 7,
+          "first_text_sha256": "1570ea3e45e089fd7638e83111806920fd3297e8c0cafb374cb48ed4b88f1e87"
+        },
+        {
+          "branch_id": "b6e41bce8fe2",
+          "group": [
+            "F02",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:15.211000+00:00",
+          "first_line": 169,
+          "rows": 7,
+          "first_text_sha256": "67ff2d4773db1acea72b085b4f06b6ff2ae2c56ab037a2b90c7b73521cdeb410"
+        },
+        {
+          "branch_id": "8341108c157a",
+          "group": [
+            "F06",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:30.229000+00:00",
+          "first_line": 176,
+          "rows": 7,
+          "first_text_sha256": "66cfc9d5631fad4dedc804ec9c0838b5237676c54a9db740dd262793048d5a3c"
+        },
+        {
+          "branch_id": "dd93b8960358",
+          "group": [
+            "F03",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:30.391000+00:00",
+          "first_line": 183,
+          "rows": 7,
+          "first_text_sha256": "8e291ef75d3358a8f744a9a660be98e8a452684f12e16f6e1cc2dcb7642ad8a6"
+        },
+        {
+          "branch_id": "f0c2520d0828",
+          "group": [
+            "F08",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:43:31.359000+00:00",
+          "first_line": 190,
+          "rows": 7,
+          "first_text_sha256": "127ea0e4aeabfc4fdf90fbeae2bc2c1896199e6aa73a5717f25d980dd34b45ad"
+        },
+        {
+          "branch_id": "96346eab122a",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:44:05.116000+00:00",
+          "first_line": 197,
+          "rows": 7,
+          "first_text_sha256": "ff6a7394262a3e92d8a1a759b2d7a44b5cd34fb2be0163315229a626fa0fdb34"
+        },
+        {
+          "branch_id": "9e1cdc9888f7",
+          "group": [
+            "F01",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:44:14.562000+00:00",
+          "first_line": 204,
+          "rows": 7,
+          "first_text_sha256": "4df34efcb75f5d38c183d16e4a02dbeb9d40b2a8742780fd559ec211026dec40"
+        },
+        {
+          "branch_id": "b06d0d90ddab",
+          "group": [
+            "F07",
+            "irrelevant_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:44:15.481000+00:00",
+          "first_line": 211,
+          "rows": 7,
+          "first_text_sha256": "6b20d67d18594605eeae93946adc2860baab98438c978920f0adac20855decda"
+        }
+      ],
+      "branching": true,
+      "malformed_json_lines": [],
+      "raw_response_rows": 217,
+      "manifest_conflicts": [],
+      "folder": "flash_branch_dev",
+      "planned_rows": 1120,
+      "selected_rows": 217,
+      "status_counts": {
+        "ok": 217
+      },
+      "failed_records": 0,
+      "observed_unique_calls": 217,
+      "failed_calls": 0,
+      "truncated_calls": 0,
+      "reasoning_tokens": {
+        "recorded_sum": 0,
+        "positive_calls": 0,
+        "missing_calls": 217
+      },
+      "tokens": {
+        "prompt_tokens": {
+          "recorded_sum": 310023,
+          "missing_calls": 0
+        },
+        "completion_tokens": {
+          "recorded_sum": 210726,
+          "missing_calls": 0
+        },
+        "prompt_cache_hit_tokens": {
+          "recorded_sum": 263296,
+          "missing_calls": 0
+        },
+        "prompt_cache_miss_tokens": {
+          "recorded_sum": 46727,
+          "missing_calls": 0
+        }
+      },
+      "unlogged_transport_retry_attempts": 0,
+      "cost": {
+        "total": null,
+        "recorded_call_subtotal": null,
+        "priced_calls": 0,
+        "currency": null,
+        "source": null,
+        "note": "null = NA; no inferred prices or token counts. Shared first calls counted once per branch. Unlogged retries or ambiguous record integrity prevent a complete expense claim."
+      },
+      "input_sha256": {
+        "plan.csv": "527b9f71f3d568789b4ac1cc74cfe10b3080fb1ebd9202ab8da07b7f4f02aab1",
+        "responses.jsonl": "e4e5a0405276b10d3029c0bc036ee9a0a599613a91c5faca559a9cffb472fe6f",
+        "manifest_20261106_183742.json": "dca7f8290953052a8674aa1c3d3eeddf4f0391ca7fb0c743872727e094558853"
+      },
+      "manifest_params": [
+        {
+          "model": "deepseek-chat",
+          "max_tokens": 4000,
+          "temperature": 0.7
+        }
+      ],
+      "selected_final_parse_failures": 0,
+      "raw_inputs_equal_base_commit": true
+    },
+    {
+      "selection_policy": "earliest_completed_fully_successful_complete_branch",
+      "planned_groups": 160,
+      "unique_complete_groups": 49,
+      "remaining_groups": 111,
+      "complete_branch_attempts": 52,
+      "branch_attempts": 52,
+      "duplicate_groups": [
+        {
+          "group": [
+            "F06",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "branches": [
+            "c99e749d122c",
+            "3aba03441632"
+          ]
+        },
+        {
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "branches": [
+            "98fba3486b28",
+            "d5bb839b8b1d"
+          ]
+        },
+        {
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "branches": [
+            "6f62d586df97",
+            "daf2a84eb95a"
+          ]
+        }
+      ],
+      "duplicate_group_count": 3,
+      "duplicate_record_count": 21,
+      "unknown_run_id_lines": [],
+      "selected_branches": [
+        {
+          "branch_id": "8c31eeed51a2",
+          "group": [
+            "F01",
+            "base",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:21.628000+00:00",
+          "first_line": 351,
+          "rows": 7,
+          "first_text_sha256": "4c296c0448e5a765b6e67e9708681665db975adb1672ca89422265d2b0ad8061"
+        },
+        {
+          "branch_id": "18d140c13028",
+          "group": [
+            "F01",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:55:55.339000+00:00",
+          "first_line": 85,
+          "rows": 7,
+          "first_text_sha256": "c788f6958796dd4647143324978d09d3e672b3dd8a9e2b693ad65dcb31a6b5b0"
+        },
+        {
+          "branch_id": "54a496a474bf",
+          "group": [
+            "F01",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:01.725000+00:00",
+          "first_line": 134,
+          "rows": 7,
+          "first_text_sha256": "338e8102c81a3dd6906bbfc246e0186e45d696c54bb7561dcc72c0723da5ece5"
+        },
+        {
+          "branch_id": "78eec4858e31",
+          "group": [
+            "F01",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:13.793000+00:00",
+          "first_line": 211,
+          "rows": 7,
+          "first_text_sha256": "28dbe1526648f98653e8b240b13c745a279b2ee3368154a56b3f6e252e0a9944"
+        },
+        {
+          "branch_id": "ac00e4d1a684",
+          "group": [
+            "F01",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:34.607000+00:00",
+          "first_line": 232,
+          "rows": 7,
+          "first_text_sha256": "7bd5b8c97364af3245ef2071f5799b0460b0b368b1f7cd41c6febd204da48721"
+        },
+        {
+          "branch_id": "2e0168191950",
+          "group": [
+            "F01",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:14.898000+00:00",
+          "first_line": 302,
+          "rows": 7,
+          "first_text_sha256": "ef5e93327f6d6c8cb04bd6cb34943518e25238c391ee3e63304c66a89d6a253e"
+        },
+        {
+          "branch_id": "23375ecfac05",
+          "group": [
+            "F01",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:55:29.005000+00:00",
+          "first_line": 78,
+          "rows": 7,
+          "first_text_sha256": "233ee3de1ebb18b30b405514c168d6b6f39593ff8f6b83642097f086eb727354"
+        },
+        {
+          "branch_id": "01c32d363764",
+          "group": [
+            "F02",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:27.959000+00:00",
+          "first_line": 106,
+          "rows": 7,
+          "first_text_sha256": "81fc2874ce25a958ccf388d19e6ee5a02bc08c28a43b8ad586568550c1ffb7c6"
+        },
+        {
+          "branch_id": "63440ab14575",
+          "group": [
+            "F02",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:37.329000+00:00",
+          "first_line": 197,
+          "rows": 7,
+          "first_text_sha256": "b09cf64fe70650e03be06a6972c1aafb35780a24114c85567d69e796d16d9784"
+        },
+        {
+          "branch_id": "87d1318856ef",
+          "group": [
+            "F02",
+            "irrelevant_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:18.543000+00:00",
+          "first_line": 71,
+          "rows": 7,
+          "first_text_sha256": "6d571e5670a47bab01c2ec1b83090859c6238c12961425c73be1fa13fc66cad7"
+        },
+        {
+          "branch_id": "35506df59c81",
+          "group": [
+            "F02",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:10.321000+00:00",
+          "first_line": 169,
+          "rows": 7,
+          "first_text_sha256": "58c6445f0f67f6be794579b97389aada519ba9b5e6e29d582664123aa41299c2"
+        },
+        {
+          "branch_id": "6a9c84f5476d",
+          "group": [
+            "F02",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:01.302000+00:00",
+          "first_line": 309,
+          "rows": 7,
+          "first_text_sha256": "0403024eb121d864dd26d92fb1d5a6274e5509739a7dda072c238c85d6d92e1d"
+        },
+        {
+          "branch_id": "ec2acfb85b4e",
+          "group": [
+            "F02",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:58.162000+00:00",
+          "first_line": 120,
+          "rows": 7,
+          "first_text_sha256": "3902b35404ec1942352549a8ee2b17b503cb2657f381d466ffa243b7a8df13dc"
+        },
+        {
+          "branch_id": "3697e03b5296",
+          "group": [
+            "F03",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:39.921000+00:00",
+          "first_line": 204,
+          "rows": 7,
+          "first_text_sha256": "6836ac37876cad98e37e6b7f7959f2ad6d32caa882a673f3b83bbfa12ddc8c38"
+        },
+        {
+          "branch_id": "057405a94bfe",
+          "group": [
+            "F03",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:19.726000+00:00",
+          "first_line": 267,
+          "rows": 7,
+          "first_text_sha256": "5294cd96c0921594951f36da572ac924a3c815f9420c4a6f775f10da6c43b35b"
+        },
+        {
+          "branch_id": "a8e1abb6b765",
+          "group": [
+            "F03",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:32.965000+00:00",
+          "first_line": 330,
+          "rows": 7,
+          "first_text_sha256": "8374b39e3d678150487328bbe7c88dea06e69366a3673a4a7b16c59d9e714a05"
+        },
+        {
+          "branch_id": "6d313e5bc3ad",
+          "group": [
+            "F03",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:27.977000+00:00",
+          "first_line": 127,
+          "rows": 7,
+          "first_text_sha256": "bcd2f0142bd8cc82cfbf39c584963f065cfbfa75df446f73c7934ad49e488a8d"
+        },
+        {
+          "branch_id": "5591c4705bfb",
+          "group": [
+            "F04",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:09.710000+00:00",
+          "first_line": 99,
+          "rows": 7,
+          "first_text_sha256": "036041dc97e72bd916f796a8911c2be374b1fd319e97c892fd830aa33437c27b"
+        },
+        {
+          "branch_id": "8e44d3c0ef0e",
+          "group": [
+            "F04",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:03.746000+00:00",
+          "first_line": 92,
+          "rows": 7,
+          "first_text_sha256": "aa6e800e2a7a1a09e4c6f7bd6fb965006f498c56b14a3d172618532fd4d7e621"
+        },
+        {
+          "branch_id": "fe743bbc9e29",
+          "group": [
+            "F04",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:28.919000+00:00",
+          "first_line": 148,
+          "rows": 7,
+          "first_text_sha256": "d70b55545f5442c83db0993710c112db8af3869835192c401ca2943c7ddd2cbb"
+        },
+        {
+          "branch_id": "5bfdd5ad74af",
+          "group": [
+            "F04",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:09.035000+00:00",
+          "first_line": 176,
+          "rows": 7,
+          "first_text_sha256": "16ff395d8d58be6c2198c5b8ce5a75908021cab3db445ca7693abdf0c479ab2c"
+        },
+        {
+          "branch_id": "d6a8738332b2",
+          "group": [
+            "F04",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:47.946000+00:00",
+          "first_line": 274,
+          "rows": 7,
+          "first_text_sha256": "f68b785dec71a0ad4d435f47f801641e03fb5c21e6814b4c07984f377300b54e"
+        },
+        {
+          "branch_id": "d758ed179999",
+          "group": [
+            "F04",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:47.342000+00:00",
+          "first_line": 113,
+          "rows": 7,
+          "first_text_sha256": "c435069152d08cf3063f239833071bbca88668f85e29c2606d7338eb52d78474"
+        },
+        {
+          "branch_id": "96d027e18bbb",
+          "group": [
+            "F04",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:12.093000+00:00",
+          "first_line": 57,
+          "rows": 7,
+          "first_text_sha256": "0503f4b10fa4a070dc631058eccdcd829ab37b78eda97c26e42be888cf147514"
+        },
+        {
+          "branch_id": "8cee1ad6997d",
+          "group": [
+            "F05",
+            "base",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:03.771000+00:00",
+          "first_line": 246,
+          "rows": 7,
+          "first_text_sha256": "945c331e916883855461804fd271c8afc297454dac7ee70bef9925f92b5c9bd4"
+        },
+        {
+          "branch_id": "9c64a7a55a53",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:28.065000+00:00",
+          "first_line": 190,
+          "rows": 7,
+          "first_text_sha256": "18d0e9f6205134a59421d8f1824889d13957566839199eda2cf6ef62eb4053a0"
+        },
+        {
+          "branch_id": "bf61d15949b1",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:14.199000+00:00",
+          "first_line": 1,
+          "rows": 7,
+          "first_text_sha256": "5fce5e360c3deaa23ede53b40207a0b5dc95067b3cf957498b295b40be1b0e67"
+        },
+        {
+          "branch_id": "d9759a559903",
+          "group": [
+            "F05",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:35.631000+00:00",
+          "first_line": 281,
+          "rows": 7,
+          "first_text_sha256": "0bb11e01e5aea940db4bd66ccb3a3a2c95322cee19beb5ccdad748247a28cb3a"
+        },
+        {
+          "branch_id": "8bcd4dceeed6",
+          "group": [
+            "F06",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:13.820000+00:00",
+          "first_line": 295,
+          "rows": 7,
+          "first_text_sha256": "ef7a703b123a12c9f3e4d962f0d01e33da8e9c805e1fd1ba5241b1c9f4381c81"
+        },
+        {
+          "branch_id": "eb6a8cf5866a",
+          "group": [
+            "F06",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:28.159000+00:00",
+          "first_line": 225,
+          "rows": 7,
+          "first_text_sha256": "cfdbaf2e95bcd35b77068094927a31204e84928be726aa5142f26322c4ee569b"
+        },
+        {
+          "branch_id": "c99e749d122c",
+          "group": [
+            "F06",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:59.985000+00:00",
+          "first_line": 50,
+          "rows": 7,
+          "first_text_sha256": "9e13ff07266474bc4f2b17b4d7f149cfe843029fadb89962210aaa2b47b3a7e5"
+        },
+        {
+          "branch_id": "c504451f70b8",
+          "group": [
+            "F06",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:51.291000+00:00",
+          "first_line": 155,
+          "rows": 7,
+          "first_text_sha256": "1a9907830f53aafd7de77c7135d37ad89b6e29ed61db4d37a3ea8c18798e49de"
+        },
+        {
+          "branch_id": "ec424e29c956",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:37.505000+00:00",
+          "first_line": 15,
+          "rows": 7,
+          "first_text_sha256": "4e967c04580ad2d3147008ada0a67832d707b1db312e91a11198e7ab88dcec57"
+        },
+        {
+          "branch_id": "a62313cb1357",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:33.203000+00:00",
+          "first_line": 8,
+          "rows": 7,
+          "first_text_sha256": "24340da3d45972ac9872f38118dfd8f43cc4e55895654c609680af72f5e9fb58"
+        },
+        {
+          "branch_id": "7aa6791063b0",
+          "group": [
+            "F07",
+            "base",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:51.901000+00:00",
+          "first_line": 162,
+          "rows": 7,
+          "first_text_sha256": "e24ffe193555a7b757501becdeca89e9b980e137c66deabbd6414c957f0dbaf0"
+        },
+        {
+          "branch_id": "98fba3486b28",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:38.206000+00:00",
+          "first_line": 22,
+          "rows": 7,
+          "first_text_sha256": "cdeca3db4e9278494c803bde8189fb86feade90f1122f9021800eaac581c335c"
+        },
+        {
+          "branch_id": "6f62d586df97",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:47.691000+00:00",
+          "first_line": 36,
+          "rows": 7,
+          "first_text_sha256": "b9a1402c75ea747d9993ccf723b7c7e3b39a1a3ed5ba5e0fb408b416d21c1023"
+        },
+        {
+          "branch_id": "9587634f0bd8",
+          "group": [
+            "F07",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:01.035000+00:00",
+          "first_line": 288,
+          "rows": 7,
+          "first_text_sha256": "1ad2dc33c2eb13d67eef54f7f8f1b92cc8bb1f57d160944b501f47f0a9596d5c"
+        },
+        {
+          "branch_id": "8ea67d702058",
+          "group": [
+            "F07",
+            "irrelevant_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:52.938000+00:00",
+          "first_line": 239,
+          "rows": 7,
+          "first_text_sha256": "a821f9296fdd6b582dd0cd5a9ad1a14fc2f67c906f724aa92a425a94a0a853df"
+        },
+        {
+          "branch_id": "805bc2c2eb63",
+          "group": [
+            "F07",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:18.952000+00:00",
+          "first_line": 260,
+          "rows": 7,
+          "first_text_sha256": "b5721b6f3ffd9bc2409d84229f8805667c92d98fa6c74369a88cfca75875daac"
+        },
+        {
+          "branch_id": "39c40be688e1",
+          "group": [
+            "F07",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:07.733000+00:00",
+          "first_line": 316,
+          "rows": 7,
+          "first_text_sha256": "74cce897771d054ae30eaeee6f3f72ac3a9c4df40788300be8e82b234cdaf5f2"
+        },
+        {
+          "branch_id": "bee46b701e69",
+          "group": [
+            "F07",
+            "paraphrase",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:42.982000+00:00",
+          "first_line": 337,
+          "rows": 7,
+          "first_text_sha256": "904041008ab4e86876e6ced6a1ff2d37ee50033acd4fab3ed726ee0bdeee329b"
+        },
+        {
+          "branch_id": "604e2d6811aa",
+          "group": [
+            "F08",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:28.057000+00:00",
+          "first_line": 183,
+          "rows": 7,
+          "first_text_sha256": "7e5c1e52e79f4716bf69a5adcfc30af132a38f8a85e7d06b5430b7b512511a42"
+        },
+        {
+          "branch_id": "e3aab2e4bb56",
+          "group": [
+            "F08",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:31.855000+00:00",
+          "first_line": 323,
+          "rows": 7,
+          "first_text_sha256": "d701b91720350aeb91e5f7890f2c96e530ca22a46081887bc5df2ada8c661700"
+        },
+        {
+          "branch_id": "02aecbce4037",
+          "group": [
+            "F08",
+            "irrelevant_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:10.060000+00:00",
+          "first_line": 141,
+          "rows": 7,
+          "first_text_sha256": "b529efeaba0851cc4735e54c8bc9a285386619caf9ff0a55b41e6877aef912ed"
+        },
+        {
+          "branch_id": "fe30378e1835",
+          "group": [
+            "F08",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:48.071000+00:00",
+          "first_line": 358,
+          "rows": 7,
+          "first_text_sha256": "e7a9349a3d98a8f9fff5699a8e6f73b09124cfd31bbc86d10ea2521d97df97a5"
+        },
+        {
+          "branch_id": "ff4a9189ccd2",
+          "group": [
+            "F08",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:08.875000+00:00",
+          "first_line": 253,
+          "rows": 7,
+          "first_text_sha256": "f07b0f876a0639a085723bfa4271d77be1252ec97b7b1c63b3f4a785a941c745"
+        },
+        {
+          "branch_id": "64a82316799e",
+          "group": [
+            "F08",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:13.920000+00:00",
+          "first_line": 344,
+          "rows": 7,
+          "first_text_sha256": "f1f1170b8c09e8797d28261a28a86351965106ca4f74aae60b1243531e20bfb3"
+        },
+        {
+          "branch_id": "93df5176c31a",
+          "group": [
+            "F08",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:15.546000+00:00",
+          "first_line": 218,
+          "rows": 7,
+          "first_text_sha256": "bee3e10a05e646a98efe4eb47c465e1a49a67632c6f537d6a240aa9cd66dc0d4"
+        }
+      ],
+      "branches": [
+        {
+          "branch_id": "bf61d15949b1",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:14.199000+00:00",
+          "first_line": 1,
+          "rows": 7,
+          "first_text_sha256": "5fce5e360c3deaa23ede53b40207a0b5dc95067b3cf957498b295b40be1b0e67"
+        },
+        {
+          "branch_id": "a62313cb1357",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:33.203000+00:00",
+          "first_line": 8,
+          "rows": 7,
+          "first_text_sha256": "24340da3d45972ac9872f38118dfd8f43cc4e55895654c609680af72f5e9fb58"
+        },
+        {
+          "branch_id": "ec424e29c956",
+          "group": [
+            "F06",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:37.505000+00:00",
+          "first_line": 15,
+          "rows": 7,
+          "first_text_sha256": "4e967c04580ad2d3147008ada0a67832d707b1db312e91a11198e7ab88dcec57"
+        },
+        {
+          "branch_id": "98fba3486b28",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:38.206000+00:00",
+          "first_line": 22,
+          "rows": 7,
+          "first_text_sha256": "cdeca3db4e9278494c803bde8189fb86feade90f1122f9021800eaac581c335c"
+        },
+        {
+          "branch_id": "d5bb839b8b1d",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:47.437000+00:00",
+          "first_line": 29,
+          "rows": 7,
+          "first_text_sha256": "6514d571f8d8bdbf66067c608d2d6804e05561ab3928e3b7ac98b314b37c6889"
+        },
+        {
+          "branch_id": "6f62d586df97",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:47.691000+00:00",
+          "first_line": 36,
+          "rows": 7,
+          "first_text_sha256": "b9a1402c75ea747d9993ccf723b7c7e3b39a1a3ed5ba5e0fb408b416d21c1023"
+        },
+        {
+          "branch_id": "daf2a84eb95a",
+          "group": [
+            "F07",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:58.368000+00:00",
+          "first_line": 43,
+          "rows": 7,
+          "first_text_sha256": "23ea517faed1f48fac43d8db1de3106242a5459a03d04ace00e3c69dad432744"
+        },
+        {
+          "branch_id": "c99e749d122c",
+          "group": [
+            "F06",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:53:59.985000+00:00",
+          "first_line": 50,
+          "rows": 7,
+          "first_text_sha256": "9e13ff07266474bc4f2b17b4d7f149cfe843029fadb89962210aaa2b47b3a7e5"
+        },
+        {
+          "branch_id": "96d027e18bbb",
+          "group": [
+            "F04",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:12.093000+00:00",
+          "first_line": 57,
+          "rows": 7,
+          "first_text_sha256": "0503f4b10fa4a070dc631058eccdcd829ab37b78eda97c26e42be888cf147514"
+        },
+        {
+          "branch_id": "3aba03441632",
+          "group": [
+            "F06",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:16.263000+00:00",
+          "first_line": 64,
+          "rows": 7,
+          "first_text_sha256": "6aef9bc67244b0147594917e2d793c5ff6ed1dd65900982be86bfe850e22567b"
+        },
+        {
+          "branch_id": "87d1318856ef",
+          "group": [
+            "F02",
+            "irrelevant_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:18.543000+00:00",
+          "first_line": 71,
+          "rows": 7,
+          "first_text_sha256": "6d571e5670a47bab01c2ec1b83090859c6238c12961425c73be1fa13fc66cad7"
+        },
+        {
+          "branch_id": "23375ecfac05",
+          "group": [
+            "F01",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:55:29.005000+00:00",
+          "first_line": 78,
+          "rows": 7,
+          "first_text_sha256": "233ee3de1ebb18b30b405514c168d6b6f39593ff8f6b83642097f086eb727354"
+        },
+        {
+          "branch_id": "18d140c13028",
+          "group": [
+            "F01",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:55:55.339000+00:00",
+          "first_line": 85,
+          "rows": 7,
+          "first_text_sha256": "c788f6958796dd4647143324978d09d3e672b3dd8a9e2b693ad65dcb31a6b5b0"
+        },
+        {
+          "branch_id": "8e44d3c0ef0e",
+          "group": [
+            "F04",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:03.746000+00:00",
+          "first_line": 92,
+          "rows": 7,
+          "first_text_sha256": "aa6e800e2a7a1a09e4c6f7bd6fb965006f498c56b14a3d172618532fd4d7e621"
+        },
+        {
+          "branch_id": "5591c4705bfb",
+          "group": [
+            "F04",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:09.710000+00:00",
+          "first_line": 99,
+          "rows": 7,
+          "first_text_sha256": "036041dc97e72bd916f796a8911c2be374b1fd319e97c892fd830aa33437c27b"
+        },
+        {
+          "branch_id": "01c32d363764",
+          "group": [
+            "F02",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:27.959000+00:00",
+          "first_line": 106,
+          "rows": 7,
+          "first_text_sha256": "81fc2874ce25a958ccf388d19e6ee5a02bc08c28a43b8ad586568550c1ffb7c6"
+        },
+        {
+          "branch_id": "d758ed179999",
+          "group": [
+            "F04",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:47.342000+00:00",
+          "first_line": 113,
+          "rows": 7,
+          "first_text_sha256": "c435069152d08cf3063f239833071bbca88668f85e29c2606d7338eb52d78474"
+        },
+        {
+          "branch_id": "ec2acfb85b4e",
+          "group": [
+            "F02",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:56:58.162000+00:00",
+          "first_line": 120,
+          "rows": 7,
+          "first_text_sha256": "3902b35404ec1942352549a8ee2b17b503cb2657f381d466ffa243b7a8df13dc"
+        },
+        {
+          "branch_id": "6d313e5bc3ad",
+          "group": [
+            "F03",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:27.977000+00:00",
+          "first_line": 127,
+          "rows": 7,
+          "first_text_sha256": "bcd2f0142bd8cc82cfbf39c584963f065cfbfa75df446f73c7934ad49e488a8d"
+        },
+        {
+          "branch_id": "54a496a474bf",
+          "group": [
+            "F01",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:01.725000+00:00",
+          "first_line": 134,
+          "rows": 7,
+          "first_text_sha256": "338e8102c81a3dd6906bbfc246e0186e45d696c54bb7561dcc72c0723da5ece5"
+        },
+        {
+          "branch_id": "02aecbce4037",
+          "group": [
+            "F08",
+            "irrelevant_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:10.060000+00:00",
+          "first_line": 141,
+          "rows": 7,
+          "first_text_sha256": "b529efeaba0851cc4735e54c8bc9a285386619caf9ff0a55b41e6877aef912ed"
+        },
+        {
+          "branch_id": "fe743bbc9e29",
+          "group": [
+            "F04",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:28.919000+00:00",
+          "first_line": 148,
+          "rows": 7,
+          "first_text_sha256": "d70b55545f5442c83db0993710c112db8af3869835192c401ca2943c7ddd2cbb"
+        },
+        {
+          "branch_id": "c504451f70b8",
+          "group": [
+            "F06",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:51.291000+00:00",
+          "first_line": 155,
+          "rows": 7,
+          "first_text_sha256": "1a9907830f53aafd7de77c7135d37ad89b6e29ed61db4d37a3ea8c18798e49de"
+        },
+        {
+          "branch_id": "7aa6791063b0",
+          "group": [
+            "F07",
+            "base",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:51.901000+00:00",
+          "first_line": 162,
+          "rows": 7,
+          "first_text_sha256": "e24ffe193555a7b757501becdeca89e9b980e137c66deabbd6414c957f0dbaf0"
+        },
+        {
+          "branch_id": "35506df59c81",
+          "group": [
+            "F02",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:10.321000+00:00",
+          "first_line": 169,
+          "rows": 7,
+          "first_text_sha256": "58c6445f0f67f6be794579b97389aada519ba9b5e6e29d582664123aa41299c2"
+        },
+        {
+          "branch_id": "5bfdd5ad74af",
+          "group": [
+            "F04",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:09.035000+00:00",
+          "first_line": 176,
+          "rows": 7,
+          "first_text_sha256": "16ff395d8d58be6c2198c5b8ce5a75908021cab3db445ca7693abdf0c479ab2c"
+        },
+        {
+          "branch_id": "604e2d6811aa",
+          "group": [
+            "F08",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:28.057000+00:00",
+          "first_line": 183,
+          "rows": 7,
+          "first_text_sha256": "7e5c1e52e79f4716bf69a5adcfc30af132a38f8a85e7d06b5430b7b512511a42"
+        },
+        {
+          "branch_id": "9c64a7a55a53",
+          "group": [
+            "F05",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:28.065000+00:00",
+          "first_line": 190,
+          "rows": 7,
+          "first_text_sha256": "18d0e9f6205134a59421d8f1824889d13957566839199eda2cf6ef62eb4053a0"
+        },
+        {
+          "branch_id": "63440ab14575",
+          "group": [
+            "F02",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:37.329000+00:00",
+          "first_line": 197,
+          "rows": 7,
+          "first_text_sha256": "b09cf64fe70650e03be06a6972c1aafb35780a24114c85567d69e796d16d9784"
+        },
+        {
+          "branch_id": "3697e03b5296",
+          "group": [
+            "F03",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:39.921000+00:00",
+          "first_line": 204,
+          "rows": 7,
+          "first_text_sha256": "6836ac37876cad98e37e6b7f7959f2ad6d32caa882a673f3b83bbfa12ddc8c38"
+        },
+        {
+          "branch_id": "78eec4858e31",
+          "group": [
+            "F01",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:13.793000+00:00",
+          "first_line": 211,
+          "rows": 7,
+          "first_text_sha256": "28dbe1526648f98653e8b240b13c745a279b2ee3368154a56b3f6e252e0a9944"
+        },
+        {
+          "branch_id": "93df5176c31a",
+          "group": [
+            "F08",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:15.546000+00:00",
+          "first_line": 218,
+          "rows": 7,
+          "first_text_sha256": "bee3e10a05e646a98efe4eb47c465e1a49a67632c6f537d6a240aa9cd66dc0d4"
+        },
+        {
+          "branch_id": "eb6a8cf5866a",
+          "group": [
+            "F06",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:28.159000+00:00",
+          "first_line": 225,
+          "rows": 7,
+          "first_text_sha256": "cfdbaf2e95bcd35b77068094927a31204e84928be726aa5142f26322c4ee569b"
+        },
+        {
+          "branch_id": "ac00e4d1a684",
+          "group": [
+            "F01",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:34.607000+00:00",
+          "first_line": 232,
+          "rows": 7,
+          "first_text_sha256": "7bd5b8c97364af3245ef2071f5799b0460b0b368b1f7cd41c6febd204da48721"
+        },
+        {
+          "branch_id": "8ea67d702058",
+          "group": [
+            "F07",
+            "irrelevant_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:52.938000+00:00",
+          "first_line": 239,
+          "rows": 7,
+          "first_text_sha256": "a821f9296fdd6b582dd0cd5a9ad1a14fc2f67c906f724aa92a425a94a0a853df"
+        },
+        {
+          "branch_id": "8cee1ad6997d",
+          "group": [
+            "F05",
+            "base",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:03.771000+00:00",
+          "first_line": 246,
+          "rows": 7,
+          "first_text_sha256": "945c331e916883855461804fd271c8afc297454dac7ee70bef9925f92b5c9bd4"
+        },
+        {
+          "branch_id": "ff4a9189ccd2",
+          "group": [
+            "F08",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:08.875000+00:00",
+          "first_line": 253,
+          "rows": 7,
+          "first_text_sha256": "f07b0f876a0639a085723bfa4271d77be1252ec97b7b1c63b3f4a785a941c745"
+        },
+        {
+          "branch_id": "805bc2c2eb63",
+          "group": [
+            "F07",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:18.952000+00:00",
+          "first_line": 260,
+          "rows": 7,
+          "first_text_sha256": "b5721b6f3ffd9bc2409d84229f8805667c92d98fa6c74369a88cfca75875daac"
+        },
+        {
+          "branch_id": "057405a94bfe",
+          "group": [
+            "F03",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:19.726000+00:00",
+          "first_line": 267,
+          "rows": 7,
+          "first_text_sha256": "5294cd96c0921594951f36da572ac924a3c815f9420c4a6f775f10da6c43b35b"
+        },
+        {
+          "branch_id": "d6a8738332b2",
+          "group": [
+            "F04",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:47.946000+00:00",
+          "first_line": 274,
+          "rows": 7,
+          "first_text_sha256": "f68b785dec71a0ad4d435f47f801641e03fb5c21e6814b4c07984f377300b54e"
+        },
+        {
+          "branch_id": "d9759a559903",
+          "group": [
+            "F05",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:35.631000+00:00",
+          "first_line": 281,
+          "rows": 7,
+          "first_text_sha256": "0bb11e01e5aea940db4bd66ccb3a3a2c95322cee19beb5ccdad748247a28cb3a"
+        },
+        {
+          "branch_id": "9587634f0bd8",
+          "group": [
+            "F07",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:01.035000+00:00",
+          "first_line": 288,
+          "rows": 7,
+          "first_text_sha256": "1ad2dc33c2eb13d67eef54f7f8f1b92cc8bb1f57d160944b501f47f0a9596d5c"
+        },
+        {
+          "branch_id": "8bcd4dceeed6",
+          "group": [
+            "F06",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:13.820000+00:00",
+          "first_line": 295,
+          "rows": 7,
+          "first_text_sha256": "ef7a703b123a12c9f3e4d962f0d01e33da8e9c805e1fd1ba5241b1c9f4381c81"
+        },
+        {
+          "branch_id": "2e0168191950",
+          "group": [
+            "F01",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:14.898000+00:00",
+          "first_line": 302,
+          "rows": 7,
+          "first_text_sha256": "ef5e93327f6d6c8cb04bd6cb34943518e25238c391ee3e63304c66a89d6a253e"
+        },
+        {
+          "branch_id": "6a9c84f5476d",
+          "group": [
+            "F02",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:01.302000+00:00",
+          "first_line": 309,
+          "rows": 7,
+          "first_text_sha256": "0403024eb121d864dd26d92fb1d5a6274e5509739a7dda072c238c85d6d92e1d"
+        },
+        {
+          "branch_id": "39c40be688e1",
+          "group": [
+            "F07",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:07.733000+00:00",
+          "first_line": 316,
+          "rows": 7,
+          "first_text_sha256": "74cce897771d054ae30eaeee6f3f72ac3a9c4df40788300be8e82b234cdaf5f2"
+        },
+        {
+          "branch_id": "e3aab2e4bb56",
+          "group": [
+            "F08",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:31.855000+00:00",
+          "first_line": 323,
+          "rows": 7,
+          "first_text_sha256": "d701b91720350aeb91e5f7890f2c96e530ca22a46081887bc5df2ada8c661700"
+        },
+        {
+          "branch_id": "a8e1abb6b765",
+          "group": [
+            "F03",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:32.965000+00:00",
+          "first_line": 330,
+          "rows": 7,
+          "first_text_sha256": "8374b39e3d678150487328bbe7c88dea06e69366a3673a4a7b16c59d9e714a05"
+        },
+        {
+          "branch_id": "bee46b701e69",
+          "group": [
+            "F07",
+            "paraphrase",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:42.982000+00:00",
+          "first_line": 337,
+          "rows": 7,
+          "first_text_sha256": "904041008ab4e86876e6ced6a1ff2d37ee50033acd4fab3ed726ee0bdeee329b"
+        },
+        {
+          "branch_id": "64a82316799e",
+          "group": [
+            "F08",
+            "paraphrase",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:13.920000+00:00",
+          "first_line": 344,
+          "rows": 7,
+          "first_text_sha256": "f1f1170b8c09e8797d28261a28a86351965106ca4f74aae60b1243531e20bfb3"
+        },
+        {
+          "branch_id": "8c31eeed51a2",
+          "group": [
+            "F01",
+            "base",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:21.628000+00:00",
+          "first_line": 351,
+          "rows": 7,
+          "first_text_sha256": "4c296c0448e5a765b6e67e9708681665db975adb1672ca89422265d2b0ad8061"
+        },
+        {
+          "branch_id": "fe30378e1835",
+          "group": [
+            "F08",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:48.071000+00:00",
+          "first_line": 358,
+          "rows": 7,
+          "first_text_sha256": "e7a9349a3d98a8f9fff5699a8e6f73b09124cfd31bbc86d10ea2521d97df97a5"
+        }
+      ],
+      "branching": true,
+      "malformed_json_lines": [],
+      "raw_response_rows": 364,
+      "manifest_conflicts": [],
+      "folder": "flash_think_branch_dev",
+      "planned_rows": 1120,
+      "selected_rows": 343,
+      "status_counts": {
+        "ok": 364
+      },
+      "failed_records": 0,
+      "observed_unique_calls": 364,
+      "failed_calls": 0,
+      "truncated_calls": 0,
+      "reasoning_tokens": {
+        "recorded_sum": 884077,
+        "positive_calls": 364,
+        "missing_calls": 0
+      },
+      "tokens": {
+        "prompt_tokens": {
+          "recorded_sum": 494960,
+          "missing_calls": 0
+        },
+        "completion_tokens": {
+          "recorded_sum": 1198197,
+          "missing_calls": 0
+        },
+        "prompt_cache_hit_tokens": {
+          "recorded_sum": 362112,
+          "missing_calls": 0
+        },
+        "prompt_cache_miss_tokens": {
+          "recorded_sum": 132848,
+          "missing_calls": 0
+        }
+      },
+      "unlogged_transport_retry_attempts": 0,
+      "cost": {
+        "total": null,
+        "recorded_call_subtotal": null,
+        "priced_calls": 0,
+        "currency": null,
+        "source": null,
+        "note": "null = NA; no inferred prices or token counts. Shared first calls counted once per branch. Unlogged retries or ambiguous record integrity prevent a complete expense claim."
+      },
+      "input_sha256": {
+        "plan.csv": "ce2bf6e04b2a8eb4a27a2132b9203ffe9616e58c7cb3445ee688d36bfe50a52f",
+        "responses.jsonl": "8a01fb88144148e5bcc5c834806398e378e6d0bb2dd107c0c126a40339f4e6b6",
+        "manifest_20261106_185105.json": "cbcd6d6052031d7d452a7b964a995fcb09b063b1abe799d340b1e2bb816b8e8e",
+        "manifest_20261106_185118.json": "315a2b7cb0cffa8b2db65adb1e31fc0ae6a2a52c7ccbd15d839a530d293d7312"
+      },
+      "manifest_params": [
+        {
+          "model": "deepseek-flash",
+          "max_tokens": 32000,
+          "temperature": 0.7
+        },
+        {
+          "model": "deepseek-flash",
+          "max_tokens": 32000,
+          "temperature": 0.7
+        }
+      ],
+      "selected_final_parse_failures": 0,
+      "raw_inputs_equal_base_commit": true
+    },
+    {
+      "selection_policy": "earliest_completed_fully_successful_complete_branch",
+      "planned_groups": 240,
+      "unique_complete_groups": 39,
+      "remaining_groups": 201,
+      "complete_branch_attempts": 39,
+      "branch_attempts": 39,
+      "duplicate_groups": [],
+      "duplicate_group_count": 0,
+      "duplicate_record_count": 0,
+      "unknown_run_id_lines": [],
+      "selected_branches": [
+        {
+          "branch_id": "8bd27866aa06",
+          "group": [
+            "H01",
+            "base",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:41.373000+00:00",
+          "first_line": 43,
+          "rows": 7,
+          "first_text_sha256": "4a9ba225cbcfb41c078ce7b76066d34d6d20355be7c123a83f0d6ff9657203c3"
+        },
+        {
+          "branch_id": "34b98b765926",
+          "group": [
+            "H01",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:06.909000+00:00",
+          "first_line": 176,
+          "rows": 7,
+          "first_text_sha256": "5476741f4f9f6f09a38d58b6f89c7ec360edbe945d72d2bfb694ecd75d023f5b"
+        },
+        {
+          "branch_id": "948595212a40",
+          "group": [
+            "H01",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:02.757000+00:00",
+          "first_line": 253,
+          "rows": 7,
+          "first_text_sha256": "084642ab34224ff3b820b683da9df8a0f236ae0d03b86312ccef7d01db4514b3"
+        },
+        {
+          "branch_id": "d29c37074e25",
+          "group": [
+            "H02",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:26.168000+00:00",
+          "first_line": 29,
+          "rows": 7,
+          "first_text_sha256": "d9a969682cc14893156a40bf998c4acd1025a66705f2cb6476856e0918f3df70"
+        },
+        {
+          "branch_id": "4e1c396818fb",
+          "group": [
+            "H02",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:58.729000+00:00",
+          "first_line": 239,
+          "rows": 7,
+          "first_text_sha256": "8b4fc68faee29a1461c928ce93abf4c6c45173b57dd41ff84e7244ca7f06efaf"
+        },
+        {
+          "branch_id": "1b8a4d471f01",
+          "group": [
+            "H03",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:20.001000+00:00",
+          "first_line": 57,
+          "rows": 7,
+          "first_text_sha256": "72bffc3690a476973b50d7d5b4e8e5d753ac2a4c4795d4d3fdeb391ff3188aac"
+        },
+        {
+          "branch_id": "79859cce421d",
+          "group": [
+            "H03",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:45.361000+00:00",
+          "first_line": 183,
+          "rows": 7,
+          "first_text_sha256": "ac5df63746a071dae557943b872c572cbc7ff38073167316fc1eee4b487155c6"
+        },
+        {
+          "branch_id": "919aae273f99",
+          "group": [
+            "H03",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:31.447000+00:00",
+          "first_line": 71,
+          "rows": 7,
+          "first_text_sha256": "e900a4cbadefb20ea64a688a7a6e3ecc4d6086e8258e48500ef8e425226bb9fc"
+        },
+        {
+          "branch_id": "a62371caea49",
+          "group": [
+            "H04",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:32.510000+00:00",
+          "first_line": 127,
+          "rows": 7,
+          "first_text_sha256": "8a9e2d28bf62ce8ee93bcbb2ac37d72d667ead2f05463b341c593ce422110135"
+        },
+        {
+          "branch_id": "fc1b7695d136",
+          "group": [
+            "H04",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:30.276000+00:00",
+          "first_line": 64,
+          "rows": 7,
+          "first_text_sha256": "cd455ac69a03a2592f643b3b596c998c04b874f6b55cb47365f2fb20e97cdfcd"
+        },
+        {
+          "branch_id": "c70a3b3bc586",
+          "group": [
+            "H04",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:47.782000+00:00",
+          "first_line": 85,
+          "rows": 7,
+          "first_text_sha256": "54661d40cf35898b358fffb8b12c612cecacd986227ecc1f0eece372a37927ca"
+        },
+        {
+          "branch_id": "1a50d671a2fb",
+          "group": [
+            "H04",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:24.498000+00:00",
+          "first_line": 22,
+          "rows": 7,
+          "first_text_sha256": "d5134def5492f73da1505fa84913bb55e47aa7b69257ae5596e1f9ca001b79a4"
+        },
+        {
+          "branch_id": "17bdb477cb80",
+          "group": [
+            "H05",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:44.249000+00:00",
+          "first_line": 267,
+          "rows": 7,
+          "first_text_sha256": "aafe076d5229d6a5cf84d7087ed7c9543556a6d31931fbc215ad25a3a6b7c0b3"
+        },
+        {
+          "branch_id": "96fe5752be17",
+          "group": [
+            "H05",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:29.038000+00:00",
+          "first_line": 260,
+          "rows": 7,
+          "first_text_sha256": "cf5c7e80ce46bd470a5328efcd3213785a15408f3145591edd7d73c118564084"
+        },
+        {
+          "branch_id": "9f50f6fbd54e",
+          "group": [
+            "H05",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:50.496000+00:00",
+          "first_line": 204,
+          "rows": 7,
+          "first_text_sha256": "7205747b28e2252b18679c919ed0a65395d89fcb792b95eb8465b5f0b02d2e4b"
+        },
+        {
+          "branch_id": "1ce30c5518dd",
+          "group": [
+            "H06",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:39.255000+00:00",
+          "first_line": 134,
+          "rows": 7,
+          "first_text_sha256": "6f053b238ced9bf78aa9220f20f11f0c32d508a6ac26fb6000720be6244fdfa0"
+        },
+        {
+          "branch_id": "85c58a2126ba",
+          "group": [
+            "H06",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:47.015000+00:00",
+          "first_line": 113,
+          "rows": 7,
+          "first_text_sha256": "46bf5d18465637d669bb283ed1af0ce1b4d2e86ab0cd9fd4eee36c84764d7476"
+        },
+        {
+          "branch_id": "d8c2084ca3fe",
+          "group": [
+            "H06",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:04.668000+00:00",
+          "first_line": 197,
+          "rows": 7,
+          "first_text_sha256": "7391ff5ce4fd625979efcd42e56fc4005a832e0f2fb3ceed1d352fced84664ca"
+        },
+        {
+          "branch_id": "c916c4efc8fe",
+          "group": [
+            "H07",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:44.413000+00:00",
+          "first_line": 225,
+          "rows": 7,
+          "first_text_sha256": "b06873c1095bb081255d4945658ac29bb32a949cdecb6e4e1ebc44aff8c06080"
+        },
+        {
+          "branch_id": "527e87342a9a",
+          "group": [
+            "H07",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:59.639000+00:00",
+          "first_line": 141,
+          "rows": 7,
+          "first_text_sha256": "4bc4b62b580714de2b5267aeb848cebae3ff2ca3caec276b1ff76347ddcd24e4"
+        },
+        {
+          "branch_id": "7b12ea575fe2",
+          "group": [
+            "H07",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:04.070000+00:00",
+          "first_line": 92,
+          "rows": 7,
+          "first_text_sha256": "a938e0785e42d2ea1634bfe4a4387128527c6ca7f85676e0a99e7f9a5b2ca758"
+        },
+        {
+          "branch_id": "f05e935b9ca9",
+          "group": [
+            "H07",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:34.477000+00:00",
+          "first_line": 99,
+          "rows": 7,
+          "first_text_sha256": "b28bde5eeb5c4a17c876e7d1be416632c731ae85c3b07d7d38016c785ba280a0"
+        },
+        {
+          "branch_id": "6d3e2d7d34bb",
+          "group": [
+            "H08",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:26.876000+00:00",
+          "first_line": 162,
+          "rows": 7,
+          "first_text_sha256": "a1094eba647e9cff537163d3f2d0c875f19ae127939b0f260389024337bc7199"
+        },
+        {
+          "branch_id": "e74b49c813da",
+          "group": [
+            "H08",
+            "irrelevant_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:23.958000+00:00",
+          "first_line": 148,
+          "rows": 7,
+          "first_text_sha256": "4a5486249ab698d2c7e4f66283222f72956bce08d17e200fce235ec931136633"
+        },
+        {
+          "branch_id": "0e3e489c7f27",
+          "group": [
+            "H08",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:03.146000+00:00",
+          "first_line": 1,
+          "rows": 7,
+          "first_text_sha256": "3f642224f5a4b175bf1ee3033654efd13fd7cd084fda33e628ec3457725083f1"
+        },
+        {
+          "branch_id": "3492960e9ca2",
+          "group": [
+            "H09",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:59.656000+00:00",
+          "first_line": 246,
+          "rows": 7,
+          "first_text_sha256": "678e9f8d8b1339981da5836015e1ea3ef9e1fe0a4721a6dae0611a8c9f248575"
+        },
+        {
+          "branch_id": "03f5cd0fc57d",
+          "group": [
+            "H09",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:13.641000+00:00",
+          "first_line": 155,
+          "rows": 7,
+          "first_text_sha256": "8eccf2e2d78d040c8f100c7fd0d2b559cb1f92dec5ac68f1374c6f96953965c3"
+        },
+        {
+          "branch_id": "01e3ed39d694",
+          "group": [
+            "H09",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:00.903000+00:00",
+          "first_line": 106,
+          "rows": 7,
+          "first_text_sha256": "9729649512cc3181530634cd8c65382c458abd1c3aa4597f0c263ea1cf1a9cc3"
+        },
+        {
+          "branch_id": "b5ab3c5a3c53",
+          "group": [
+            "H09",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:58.932000+00:00",
+          "first_line": 211,
+          "rows": 7,
+          "first_text_sha256": "7458e3632c81f9ce1eeef8ab5fea4e56b25b9bb61c63ea69319846c1393d4514"
+        },
+        {
+          "branch_id": "593faf2fc240",
+          "group": [
+            "H09",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:57.694000+00:00",
+          "first_line": 50,
+          "rows": 7,
+          "first_text_sha256": "d3d0df3bea9c3e3077532d85c398850f408902f8acbccc4e5d8b6857e495ab15"
+        },
+        {
+          "branch_id": "7cdf02fb45e7",
+          "group": [
+            "H10",
+            "base",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:30.286000+00:00",
+          "first_line": 36,
+          "rows": 7,
+          "first_text_sha256": "4af3df65b777984dd84e32f7fec76f91614c532bac3caa8bbf6b00ed23e7e1a9"
+        },
+        {
+          "branch_id": "86a999291440",
+          "group": [
+            "H10",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:39.726000+00:00",
+          "first_line": 78,
+          "rows": 7,
+          "first_text_sha256": "88bd40da2a29c6d1ef8fba3de2afe5616b689661cacbfc512f5887c2e75c39cb"
+        },
+        {
+          "branch_id": "c4cd50765292",
+          "group": [
+            "H11",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:51.427000+00:00",
+          "first_line": 120,
+          "rows": 7,
+          "first_text_sha256": "39845b77f2cc35df60d4dd9fd5c8e2c3b0c38253bca49c450a5afef141e3fc33"
+        },
+        {
+          "branch_id": "9155f73ad69b",
+          "group": [
+            "H11",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:46.393000+00:00",
+          "first_line": 232,
+          "rows": 7,
+          "first_text_sha256": "364b07d8010d2f6cd78bf1a6618df6b01bd8674844085b7dd2fe1f8a6834fda9"
+        },
+        {
+          "branch_id": "eb5dbd82435e",
+          "group": [
+            "H12",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:07.112000+00:00",
+          "first_line": 8,
+          "rows": 7,
+          "first_text_sha256": "75cbdb32bb36cee4ef25ba237dd66c0fb60d782dbbb3ab9103cb7e8a6695009e"
+        },
+        {
+          "branch_id": "2fb616686f5d",
+          "group": [
+            "H12",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:22.805000+00:00",
+          "first_line": 218,
+          "rows": 7,
+          "first_text_sha256": "3704b3f7bbbd43ed861b0e7ded195fad444030e1345e5a9c87e53cc16431a98d"
+        },
+        {
+          "branch_id": "fb15d429a8e4",
+          "group": [
+            "H12",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:11.065000+00:00",
+          "first_line": 15,
+          "rows": 7,
+          "first_text_sha256": "334c597ab9db3f8c697b3d0632533901424009c4a8e4b38f1ec2dcaa7a86614b"
+        },
+        {
+          "branch_id": "4a108bfeabc5",
+          "group": [
+            "H12",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:39.706000+00:00",
+          "first_line": 169,
+          "rows": 7,
+          "first_text_sha256": "04021057bb49f255e622af0f62633982bcf5e45f4dfdc399b25b775452b5976f"
+        },
+        {
+          "branch_id": "13d7c7a93cf5",
+          "group": [
+            "H12",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:59.119000+00:00",
+          "first_line": 190,
+          "rows": 7,
+          "first_text_sha256": "2250814f5b4f4d1e24767feffb3a077f5d5dad4b03c5dd145de1bcfb25743efb"
+        }
+      ],
+      "branches": [
+        {
+          "branch_id": "0e3e489c7f27",
+          "group": [
+            "H08",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:03.146000+00:00",
+          "first_line": 1,
+          "rows": 7,
+          "first_text_sha256": "3f642224f5a4b175bf1ee3033654efd13fd7cd084fda33e628ec3457725083f1"
+        },
+        {
+          "branch_id": "eb5dbd82435e",
+          "group": [
+            "H12",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:07.112000+00:00",
+          "first_line": 8,
+          "rows": 7,
+          "first_text_sha256": "75cbdb32bb36cee4ef25ba237dd66c0fb60d782dbbb3ab9103cb7e8a6695009e"
+        },
+        {
+          "branch_id": "fb15d429a8e4",
+          "group": [
+            "H12",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:11.065000+00:00",
+          "first_line": 15,
+          "rows": 7,
+          "first_text_sha256": "334c597ab9db3f8c697b3d0632533901424009c4a8e4b38f1ec2dcaa7a86614b"
+        },
+        {
+          "branch_id": "1a50d671a2fb",
+          "group": [
+            "H04",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:24.498000+00:00",
+          "first_line": 22,
+          "rows": 7,
+          "first_text_sha256": "d5134def5492f73da1505fa84913bb55e47aa7b69257ae5596e1f9ca001b79a4"
+        },
+        {
+          "branch_id": "d29c37074e25",
+          "group": [
+            "H02",
+            "irrelevant_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:26.168000+00:00",
+          "first_line": 29,
+          "rows": 7,
+          "first_text_sha256": "d9a969682cc14893156a40bf998c4acd1025a66705f2cb6476856e0918f3df70"
+        },
+        {
+          "branch_id": "7cdf02fb45e7",
+          "group": [
+            "H10",
+            "base",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:30.286000+00:00",
+          "first_line": 36,
+          "rows": 7,
+          "first_text_sha256": "4af3df65b777984dd84e32f7fec76f91614c532bac3caa8bbf6b00ed23e7e1a9"
+        },
+        {
+          "branch_id": "8bd27866aa06",
+          "group": [
+            "H01",
+            "base",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:41.373000+00:00",
+          "first_line": 43,
+          "rows": 7,
+          "first_text_sha256": "4a9ba225cbcfb41c078ce7b76066d34d6d20355be7c123a83f0d6ff9657203c3"
+        },
+        {
+          "branch_id": "593faf2fc240",
+          "group": [
+            "H09",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:54:57.694000+00:00",
+          "first_line": 50,
+          "rows": 7,
+          "first_text_sha256": "d3d0df3bea9c3e3077532d85c398850f408902f8acbccc4e5d8b6857e495ab15"
+        },
+        {
+          "branch_id": "1b8a4d471f01",
+          "group": [
+            "H03",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:20.001000+00:00",
+          "first_line": 57,
+          "rows": 7,
+          "first_text_sha256": "72bffc3690a476973b50d7d5b4e8e5d753ac2a4c4795d4d3fdeb391ff3188aac"
+        },
+        {
+          "branch_id": "fc1b7695d136",
+          "group": [
+            "H04",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:30.276000+00:00",
+          "first_line": 64,
+          "rows": 7,
+          "first_text_sha256": "cd455ac69a03a2592f643b3b596c998c04b874f6b55cb47365f2fb20e97cdfcd"
+        },
+        {
+          "branch_id": "919aae273f99",
+          "group": [
+            "H03",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:31.447000+00:00",
+          "first_line": 71,
+          "rows": 7,
+          "first_text_sha256": "e900a4cbadefb20ea64a688a7a6e3ecc4d6086e8258e48500ef8e425226bb9fc"
+        },
+        {
+          "branch_id": "86a999291440",
+          "group": [
+            "H10",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:39.726000+00:00",
+          "first_line": 78,
+          "rows": 7,
+          "first_text_sha256": "88bd40da2a29c6d1ef8fba3de2afe5616b689661cacbfc512f5887c2e75c39cb"
+        },
+        {
+          "branch_id": "c70a3b3bc586",
+          "group": [
+            "H04",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:57:47.782000+00:00",
+          "first_line": 85,
+          "rows": 7,
+          "first_text_sha256": "54661d40cf35898b358fffb8b12c612cecacd986227ecc1f0eece372a37927ca"
+        },
+        {
+          "branch_id": "7b12ea575fe2",
+          "group": [
+            "H07",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:04.070000+00:00",
+          "first_line": 92,
+          "rows": 7,
+          "first_text_sha256": "a938e0785e42d2ea1634bfe4a4387128527c6ca7f85676e0a99e7f9a5b2ca758"
+        },
+        {
+          "branch_id": "f05e935b9ca9",
+          "group": [
+            "H07",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:58:34.477000+00:00",
+          "first_line": 99,
+          "rows": 7,
+          "first_text_sha256": "b28bde5eeb5c4a17c876e7d1be416632c731ae85c3b07d7d38016c785ba280a0"
+        },
+        {
+          "branch_id": "01e3ed39d694",
+          "group": [
+            "H09",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:00.903000+00:00",
+          "first_line": 106,
+          "rows": 7,
+          "first_text_sha256": "9729649512cc3181530634cd8c65382c458abd1c3aa4597f0c263ea1cf1a9cc3"
+        },
+        {
+          "branch_id": "85c58a2126ba",
+          "group": [
+            "H06",
+            "missing",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:47.015000+00:00",
+          "first_line": 113,
+          "rows": 7,
+          "first_text_sha256": "46bf5d18465637d669bb283ed1af0ce1b4d2e86ab0cd9fd4eee36c84764d7476"
+        },
+        {
+          "branch_id": "c4cd50765292",
+          "group": [
+            "H11",
+            "missing",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T11:59:51.427000+00:00",
+          "first_line": 120,
+          "rows": 7,
+          "first_text_sha256": "39845b77f2cc35df60d4dd9fd5c8e2c3b0c38253bca49c450a5afef141e3fc33"
+        },
+        {
+          "branch_id": "a62371caea49",
+          "group": [
+            "H04",
+            "base",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:32.510000+00:00",
+          "first_line": 127,
+          "rows": 7,
+          "first_text_sha256": "8a9e2d28bf62ce8ee93bcbb2ac37d72d667ead2f05463b341c593ce422110135"
+        },
+        {
+          "branch_id": "1ce30c5518dd",
+          "group": [
+            "H06",
+            "decisive_change",
+            "aligned",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:39.255000+00:00",
+          "first_line": 134,
+          "rows": 7,
+          "first_text_sha256": "6f053b238ced9bf78aa9220f20f11f0c32d508a6ac26fb6000720be6244fdfa0"
+        },
+        {
+          "branch_id": "527e87342a9a",
+          "group": [
+            "H07",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:00:59.639000+00:00",
+          "first_line": 141,
+          "rows": 7,
+          "first_text_sha256": "4bc4b62b580714de2b5267aeb848cebae3ff2ca3caec276b1ff76347ddcd24e4"
+        },
+        {
+          "branch_id": "e74b49c813da",
+          "group": [
+            "H08",
+            "irrelevant_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:01:23.958000+00:00",
+          "first_line": 148,
+          "rows": 7,
+          "first_text_sha256": "4a5486249ab698d2c7e4f66283222f72956bce08d17e200fce235ec931136633"
+        },
+        {
+          "branch_id": "03f5cd0fc57d",
+          "group": [
+            "H09",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:13.641000+00:00",
+          "first_line": 155,
+          "rows": 7,
+          "first_text_sha256": "8eccf2e2d78d040c8f100c7fd0d2b559cb1f92dec5ac68f1374c6f96953965c3"
+        },
+        {
+          "branch_id": "6d3e2d7d34bb",
+          "group": [
+            "H08",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:26.876000+00:00",
+          "first_line": 162,
+          "rows": 7,
+          "first_text_sha256": "a1094eba647e9cff537163d3f2d0c875f19ae127939b0f260389024337bc7199"
+        },
+        {
+          "branch_id": "4a108bfeabc5",
+          "group": [
+            "H12",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:02:39.706000+00:00",
+          "first_line": 169,
+          "rows": 7,
+          "first_text_sha256": "04021057bb49f255e622af0f62633982bcf5e45f4dfdc399b25b775452b5976f"
+        },
+        {
+          "branch_id": "34b98b765926",
+          "group": [
+            "H01",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:06.909000+00:00",
+          "first_line": 176,
+          "rows": 7,
+          "first_text_sha256": "5476741f4f9f6f09a38d58b6f89c7ec360edbe945d72d2bfb694ecd75d023f5b"
+        },
+        {
+          "branch_id": "79859cce421d",
+          "group": [
+            "H03",
+            "decisive_change",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:45.361000+00:00",
+          "first_line": 183,
+          "rows": 7,
+          "first_text_sha256": "ac5df63746a071dae557943b872c572cbc7ff38073167316fc1eee4b487155c6"
+        },
+        {
+          "branch_id": "13d7c7a93cf5",
+          "group": [
+            "H12",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:03:59.119000+00:00",
+          "first_line": 190,
+          "rows": 7,
+          "first_text_sha256": "2250814f5b4f4d1e24767feffb3a077f5d5dad4b03c5dd145de1bcfb25743efb"
+        },
+        {
+          "branch_id": "d8c2084ca3fe",
+          "group": [
+            "H06",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:04.668000+00:00",
+          "first_line": 197,
+          "rows": 7,
+          "first_text_sha256": "7391ff5ce4fd625979efcd42e56fc4005a832e0f2fb3ceed1d352fced84664ca"
+        },
+        {
+          "branch_id": "9f50f6fbd54e",
+          "group": [
+            "H05",
+            "paraphrase",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:50.496000+00:00",
+          "first_line": 204,
+          "rows": 7,
+          "first_text_sha256": "7205747b28e2252b18679c919ed0a65395d89fcb792b95eb8465b5f0b02d2e4b"
+        },
+        {
+          "branch_id": "b5ab3c5a3c53",
+          "group": [
+            "H09",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:04:58.932000+00:00",
+          "first_line": 211,
+          "rows": 7,
+          "first_text_sha256": "7458e3632c81f9ce1eeef8ab5fea4e56b25b9bb61c63ea69319846c1393d4514"
+        },
+        {
+          "branch_id": "2fb616686f5d",
+          "group": [
+            "H12",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:05:22.805000+00:00",
+          "first_line": 218,
+          "rows": 7,
+          "first_text_sha256": "3704b3f7bbbd43ed861b0e7ded195fad444030e1345e5a9c87e53cc16431a98d"
+        },
+        {
+          "branch_id": "c916c4efc8fe",
+          "group": [
+            "H07",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:44.413000+00:00",
+          "first_line": 225,
+          "rows": 7,
+          "first_text_sha256": "b06873c1095bb081255d4945658ac29bb32a949cdecb6e4e1ebc44aff8c06080"
+        },
+        {
+          "branch_id": "9155f73ad69b",
+          "group": [
+            "H11",
+            "missing",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:46.393000+00:00",
+          "first_line": 232,
+          "rows": 7,
+          "first_text_sha256": "364b07d8010d2f6cd78bf1a6618df6b01bd8674844085b7dd2fe1f8a6834fda9"
+        },
+        {
+          "branch_id": "4e1c396818fb",
+          "group": [
+            "H02",
+            "missing",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:58.729000+00:00",
+          "first_line": 239,
+          "rows": 7,
+          "first_text_sha256": "8b4fc68faee29a1461c928ce93abf4c6c45173b57dd41ff84e7244ca7f06efaf"
+        },
+        {
+          "branch_id": "3492960e9ca2",
+          "group": [
+            "H09",
+            "base",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:06:59.656000+00:00",
+          "first_line": 246,
+          "rows": 7,
+          "first_text_sha256": "678e9f8d8b1339981da5836015e1ea3ef9e1fe0a4721a6dae0611a8c9f248575"
+        },
+        {
+          "branch_id": "948595212a40",
+          "group": [
+            "H01",
+            "paraphrase",
+            "flawed",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:02.757000+00:00",
+          "first_line": 253,
+          "rows": 7,
+          "first_text_sha256": "084642ab34224ff3b820b683da9df8a0f236ae0d03b86312ccef7d01db4514b3"
+        },
+        {
+          "branch_id": "96fe5752be17",
+          "group": [
+            "H05",
+            "decisive_change",
+            "flawed",
+            "2"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:29.038000+00:00",
+          "first_line": 260,
+          "rows": 7,
+          "first_text_sha256": "cf5c7e80ce46bd470a5328efcd3213785a15408f3145591edd7d73c118564084"
+        },
+        {
+          "branch_id": "17bdb477cb80",
+          "group": [
+            "H05",
+            "decisive_change",
+            "aligned",
+            "1"
+          ],
+          "eligible": true,
+          "reasons": [],
+          "finished": "2026-11-06T12:07:44.249000+00:00",
+          "first_line": 267,
+          "rows": 7,
+          "first_text_sha256": "aafe076d5229d6a5cf84d7087ed7c9543556a6d31931fbc215ad25a3a6b7c0b3"
+        }
+      ],
+      "branching": true,
+      "malformed_json_lines": [],
+      "raw_response_rows": 273,
+      "manifest_conflicts": [],
+      "folder": "flash_think_branch_hard",
+      "planned_rows": 1680,
+      "selected_rows": 273,
+      "status_counts": {
+        "ok": 273
+      },
+      "failed_records": 0,
+      "observed_unique_calls": 273,
+      "failed_calls": 0,
+      "truncated_calls": 0,
+      "reasoning_tokens": {
+        "recorded_sum": 849381,
+        "positive_calls": 273,
+        "missing_calls": 0
+      },
+      "tokens": {
+        "prompt_tokens": {
+          "recorded_sum": 625478,
+          "missing_calls": 0
+        },
+        "completion_tokens": {
+          "recorded_sum": 1118835,
+          "missing_calls": 0
+        },
+        "prompt_cache_hit_tokens": {
+          "recorded_sum": 524031,
+          "missing_calls": 0
+        },
+        "prompt_cache_miss_tokens": {
+          "recorded_sum": 101447,
+          "missing_calls": 0
+        }
+      },
+      "unlogged_transport_retry_attempts": 0,
+      "cost": {
+        "total": null,
+        "recorded_call_subtotal": null,
+        "priced_calls": 0,
+        "currency": null,
+        "source": null,
+        "note": "null = NA; no inferred prices or token counts. Shared first calls counted once per branch. Unlogged retries or ambiguous record integrity prevent a complete expense claim."
+      },
+      "input_sha256": {
+        "plan.csv": "132eb71de98ccd08345fe2dc26ba57430459257f7691798e94e40b4885906852",
+        "responses.jsonl": "dd44c6ddb65953f168dba46f234588c3816d4e7973ed12b2d3a5250fcbb50657",
+        "manifest_20261106_185126.json": "057ba6e9563eca1ebe8079261aa35332e0a6fc974c92f3aededb9a30dd04cf9d"
+      },
+      "manifest_params": [
+        {
+          "model": "deepseek-flash",
+          "max_tokens": 32000,
+          "temperature": 0.7
+        }
+      ],
+      "selected_final_parse_failures": 0,
+      "raw_inputs_equal_base_commit": true
+    }
+  ],
+  "reasoning_unique_groups": 88,
+  "reasoning_remaining_groups": 312
+}

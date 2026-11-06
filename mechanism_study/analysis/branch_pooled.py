@@ -26,6 +26,9 @@ STUDY = HERE.parent
 sys.path.insert(0, str(STUDY.parent / ".claude" / "skills" / "verification-case-builder" / "scripts"))
 sys.path.insert(0, str(HERE))
 import caselib as cl  # noqa: E402
+sys.path.insert(0, str(STUDY / "harness"))
+from scorer import load_verified_branch_rows  # noqa: E402
+from branch_integrity import IntegrityError, digest, select_run  # noqa: E402
 from branch_report import sign_test, wilson  # noqa: E402
 
 CONTRASTS = [("P3", "P1", "C1 analogue: source verification vs free re-check"),
@@ -49,10 +52,34 @@ def main():
     out = p(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
-    rows, fams = [], {}
+    rows, fams, seen_raw, seen_groups, conditions = [], {}, set(), set(), None
     for scored, cases in args.run:
-        rows += list(csv.DictReader(open(p(scored), encoding="utf-8")))
+        run_rows = load_verified_branch_rows(p(scored), p(cases))
+        # Namespace groups by input run: independent repeats in two folders are not duplicates.
+        raw_hash = digest((p(scored).parent / "responses.jsonl").read_text(encoding="utf-8"))
+        run_identity = p(scored).parent.name + ":" + raw_hash
+        if raw_hash in seen_raw:
+            raise IntegrityError("Same raw results supplied more than once")
+        seen_raw.add(raw_hash)
+        run_groups = {(r["family_id"], r["state"], r["advice"], r["repeat"]) for r in run_rows}
+        if seen_groups & run_groups:
+            # analyze.py consumes the exported CSV without a source_run key.
+            # Do not silently relabel repeats or let that consumer merge attempts.
+            raise IntegrityError("Overlapping planned groups across runs; keep independent repeat batches separate")
+        seen_groups.update(run_groups)
+        manifests = select_run(p(scored).parent)[-1]
+        for manifest in manifests:
+            condition = {k: manifest.get(k) for k in ("backend", "base_url", "params", "system_text", "branching", "procedures")}
+            if conditions is None:
+                conditions = condition
+            if condition != conditions:
+                raise IntegrityError("Pooling different model, reasoning/request or procedure conditions is forbidden")
+        for row in run_rows:
+            row["source_run"] = run_identity
+        rows += run_rows
         fams.update({f["family_id"]: f for f in cl.load_dir(p(cases))})
+    if not rows:
+        raise IntegrityError("No selected complete groups to pool")
     with open(out / "combined_scored_runs.csv", "w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
         w.writeheader()
@@ -62,14 +89,17 @@ def main():
         w.writeheader()
         w.writerows(r for r in rows if r["procedure"] in {"P0", "P1", "P2", "P3", "P4"})
 
-    key = lambda r: (r["family_id"], r["state"], r["advice"], r["repeat"])  # noqa: E731
+    key = lambda r: (r["family_id"], r["state"], r["advice"], r["repeat"], r.get("source_run", ""))  # noqa: E731
     first = {key(r): r for r in rows if r["procedure"] == "P0"}
     review = defaultdict(dict)
     for r in rows:
         if r["procedure"] != "P0":
             review[r["procedure"]][key(r)] = r
-            assert r["first_action"] == first[key(r)]["action"], "not a branching run"
+            if (r["branch_id"], r["first_text_sha256"]) != (first[key(r)]["branch_id"], first[key(r)]["first_text_sha256"]):
+                raise IntegrityError("Branch or full first-answer hash differs")
     procs = sorted(review)
+    if not first or any(k not in review[q] for q in procs for k in first):
+        raise IntegrityError("No complete, consistently paired branch groups to analyze")
     complete = all(k in review[q] for q in procs for k in first)
     present = [k for k, r in first.items() if r["evidence"] == "present"]
     fw = [k for k in present if first[k]["correct"] == "0"]
@@ -167,7 +197,7 @@ def main():
             continue
         d = [frate(a, f) - frate(b, f) for f in fam_err]
         n = len(d)
-        mean = sum(d) / n
+        mean = sum(d) / n if n else float("nan")
         sd = (sum((x - mean) ** 2 for x in d) / (n - 1)) ** 0.5 if n > 1 else float("nan")
         se = sd / math.sqrt(n) if n > 1 else float("nan")
         tcrit = stats.t.ppf(0.975, n - 1) if n > 1 else float("nan")

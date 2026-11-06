@@ -21,6 +21,9 @@ HERE = Path(__file__).resolve().parent
 STUDY = HERE.parent
 sys.path.insert(0, str(STUDY.parent / ".claude" / "skills" / "verification-case-builder" / "scripts"))
 import caselib as cl  # noqa: E402
+sys.path.insert(0, str(STUDY / "harness"))
+from scorer import load_verified_branch_rows  # noqa: E402
+from branch_integrity import IntegrityError  # noqa: E402
 
 CONTRASTS = [("P5", "P3", "item 5 removed from source verification"),
              ("P6", "P2", "item 5 removed from generic checklist"),
@@ -57,15 +60,18 @@ def main():
     args = ap.parse_args()
     cases = Path(args.cases) if Path(args.cases).is_absolute() else STUDY / args.cases
     fams = {f["family_id"]: f for f in cl.load_dir(cases)}
-    rows = list(csv.DictReader(open(args.scored, encoding="utf-8")))
-    key = lambda r: (r["family_id"], r["state"], r["advice"], r["repeat"])  # noqa: E731
+    rows = load_verified_branch_rows(args.scored, cases)
+    key = lambda r: (r["family_id"], r["state"], r["advice"], r["repeat"], r.get("source_run", ""))  # noqa: E731
     first = {key(r): r for r in rows if r["procedure"] == "P0"}
     review = defaultdict(dict)
     for r in rows:
         if r["procedure"] != "P0":
             review[r["procedure"]][key(r)] = r
-            assert r["first_action"] == first[key(r)]["action"], "not a branching run: first answers differ"
+            if (r["branch_id"], r["first_text_sha256"]) != (first[key(r)]["branch_id"], first[key(r)]["first_text_sha256"]):
+                raise IntegrityError("Branch or full first-answer hash differs")
     procs = sorted(review)
+    if not first or any(k not in review[q] for q in procs for k in first):
+        raise IntegrityError("No complete, consistently paired branch groups to analyze")
     out = []
     w = out.append
     w(f"# Branching analysis: {Path(args.scored).parent.name}\n")

@@ -20,6 +20,8 @@ HERE = Path(__file__).resolve().parent
 STUDY = HERE.parent
 sys.path.insert(0, str(STUDY.parent / ".claude" / "skills" / "verification-case-builder" / "scripts"))
 import caselib as cl  # noqa: E402
+sys.path.insert(0, str(HERE))
+from branch_integrity import IntegrityError, digest, select_run  # noqa: E402
 
 if not sys.stdout.isatty():
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -28,7 +30,7 @@ COLUMNS = ["run_id", "model", "procedure", "family_id", "domain", "mismatch_type
            "advice", "repeat", "key_action", "advised_action", "action", "parse_ok", "correct",
            "followed_advice", "escalated", "citation_complete", "first_action", "changed_after_review",
            "input_tokens", "output_tokens", "latency_s", "n_calls", "cited_sources",
-           "reasoning_tokens", "truncated"]
+           "reasoning_tokens", "truncated", "branch_id", "first_text_sha256", "selection_policy"]
 
 JSON_BLOCK = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.S)
 BARE_OBJ = re.compile(r"\{[^{}]*\"action\"[^{}]*\}", re.S)
@@ -54,33 +56,13 @@ def parse_answer(text: str, letters: set[str]) -> dict | None:
     return None
 
 
-def latest_ok(resp_path: Path) -> dict:
-    recs = {}
-    with open(resp_path, encoding="utf-8") as fh:
-        for line in fh:
-            try:
-                rec = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-            if rec.get("status") == "ok":
-                recs[rec["run_id"]] = rec
-    return recs
-
-
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("run_dir")
-    ap.add_argument("--cases", required=True)
-    args = ap.parse_args()
-    run_dir = Path(args.run_dir) if Path(args.run_dir).is_absolute() else STUDY / args.run_dir
-    cases_dir = Path(args.cases) if Path(args.cases).is_absolute() else STUDY / args.cases
+def score_directory(run_dir, cases_dir):
+    """Score in memory; raw files and historical derived files are never changed here."""
     fams = {f["family_id"]: f for f in cl.load_dir(cases_dir)}
-    with open(run_dir / "plan.csv", encoding="utf-8", newline="") as fh:
-        plan = list(csv.DictReader(fh))
-    recs = latest_ok(run_dir / "responses.jsonl")
-    manifests = sorted(run_dir.glob("manifest_*.json"))
-    model = json.loads(manifests[-1].read_text(encoding="utf-8"))["params"]["model"] if manifests else ""
-
+    plan, recs, audit, _, manifests = select_run(run_dir)
+    if audit["manifest_conflicts"]:
+        raise IntegrityError("Conflicting run conditions in manifests: " + ", ".join(audit["manifest_conflicts"]))
+    model = manifests[0]["params"]["model"]
     rows, n_missing = [], 0
     for p in plan:
         rec = recs.get(p["run_id"])
@@ -118,15 +100,56 @@ def main() -> int:
             "reasoning_tokens": sum(int(((u.get("completion_tokens_details") or {}).get("reasoning_tokens")) or 0)
                                     for u in usage),
             "truncated": int(any(c.get("finish_reason") == "length" for c in rec["calls"])),
+            "branch_id": rec.get("branch_id", ""),
+            "first_text_sha256": digest(rec["calls"][0].get("text", "")),
+            "selection_policy": audit["selection_policy"],
         }
         rows.append(row)
 
-    out = run_dir / "scored_runs.csv"
+    return rows, n_missing, audit
+
+
+def load_verified_branch_rows(scored_path, cases_dir):
+    """Validate CSV against canonical raw selection; legacy CSVs need no rewriting.
+
+    A detached CSV cannot establish the exact first response and is refused. An
+    old latest_ok CSV that differs must be rescored rather than silently pooled.
+    """
+    scored_path = Path(scored_path)
+    with scored_path.open(encoding="utf-8", newline="") as f:
+        saved = list(csv.DictReader(f))
+    expected, _, audit = score_directory(scored_path.parent, cases_dir)
+    if not audit["branching"]:
+        raise IntegrityError("Branch analysis requires a branching run")
+    if audit["malformed_json_lines"] or audit.get("unknown_run_id_lines"):
+        raise IntegrityError("Malformed raw records; inspect audit before analysis")
+    by_id = {r["run_id"]: r for r in saved}
+    if len(by_id) != len(saved) or set(by_id) != {r["run_id"] for r in expected}:
+        raise IntegrityError("CSV membership differs from earliest complete branches; re-run scorer")
+    for row in expected:
+        for column, value in by_id[row["run_id"]].items():
+            if column in row and str(row[column]) != value:
+                raise IntegrityError(f"Stale or inconsistent scored row {row['run_id']} ({column}); re-run scorer")
+    return [{k: str(v) for k, v in r.items()} for r in expected]
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("run_dir")
+    ap.add_argument("--cases", required=True)
+    ap.add_argument("--out", help="optional separate output CSV; leaves historical scored CSV unchanged")
+    args = ap.parse_args()
+    run_dir = Path(args.run_dir) if Path(args.run_dir).is_absolute() else STUDY / args.run_dir
+    cases_dir = Path(args.cases) if Path(args.cases).is_absolute() else STUDY / args.cases
+    rows, n_missing, audit = score_directory(run_dir, cases_dir)
+    if audit["malformed_json_lines"] or audit.get("unknown_run_id_lines"):
+        raise IntegrityError("Malformed or unknown raw records; inspect folder audit before scoring")
+    out = Path(args.out) if args.out else run_dir / "scored_runs.csv"
     with open(out, "w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=COLUMNS)
         w.writeheader()
         w.writerows(rows)
-    print(f"Scored {len(rows)} runs ({n_missing} planned runs without an ok response) -> {out}")
+    print(f"Scored {len(rows)} runs ({n_missing} planned runs without a selected complete response) -> {out}")
     n_reason = sum(r["reasoning_tokens"] > 0 for r in rows)
     n_trunc = sum(r["truncated"] for r in rows)
     if n_reason:
