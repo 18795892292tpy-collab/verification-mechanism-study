@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b340-d246-7a42-8685-2dc13e58b63e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\"],\"brief_justification\":\"外部批复仍待办、追缴款已结清，且有效应急登记EM7与已核定的C1支出同时满足，依法定例外豁免上周期审计条件，应按核定金额给予一次过渡拨款。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18453,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":280,"reasoning_output_tokens":178}}

@@ -1,0 +1,106 @@
+{
+  "audit_skill": "experiment-audit",
+  "stage": "A1-derivation",
+  "verdict": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-07T00:00:35.591651+00:00",
+  "evidence": {
+    "passed": true,
+    "real_model_calls": 0,
+    "source_files_verified_unchanged": 589,
+    "derived_count": 80,
+    "derived_correct": 80,
+    "families": {
+      "M05": 10,
+      "M06": 10,
+      "M07": 10,
+      "M08": 10,
+      "R05": 10,
+      "R06": 10,
+      "R07": 10,
+      "R08": 10
+    },
+    "usage": {
+      "input": 1474842,
+      "output": 24171
+    },
+    "posthoc_hypothetical_threshold": {
+      "status": "development_gate_failed",
+      "criteria_pass": {
+        "material": false,
+        "rule": false
+      },
+      "NOT_A_RUN_GATE": true,
+      "automatic_execution_authorized": false
+    },
+    "original_gate_status": "technical_block",
+    "original_challenge_allowed": false,
+    "additional_probes": [
+      {
+        "name": "lifecycle_embedded_tool",
+        "passed": true,
+        "rejection": [
+          "event_order_not_exact_observed_signature",
+          "top_level_error_or_unknown_event_or_tool"
+        ]
+      },
+      {
+        "name": "extra_error_after_final",
+        "passed": true,
+        "rejection": [
+          "event_order_not_exact_observed_signature",
+          "top_level_error_or_unknown_event_or_tool"
+        ]
+      },
+      {
+        "name": "diagnostic_object_extra_field",
+        "passed": true,
+        "rejection": [
+          "diagnostic_objects_not_exact_allowlist"
+        ]
+      },
+      {
+        "name": "swap_final_and_last_diagnostic",
+        "passed": true,
+        "rejection": [
+          "event_order_not_exact_observed_signature"
+        ]
+      },
+      {
+        "name": "empty_session",
+        "passed": true,
+        "rejection": [
+          "invalid_single_session_lifecycle"
+        ]
+      },
+      {
+        "name": "unknown_usage_retained",
+        "passed": true
+      }
+    ],
+    "script_sha256": "2cfa38ad66ec9d412b7b8346e326d3d5d05f7453d7a3bf0f450bb06efdbea245",
+    "outputs_verified": {
+      "input_sha256.json": "3e934df86e497376956e228badf05164093500854ec2f2c03598e7474f5f887e",
+      "item_scores.csv": "c82c9049c747e42f39fb1a3c88dfcf24e5186058db683ca510696f62fe307e93",
+      "policy.json": "efd914527275fcd55c4ca466152650ab4ad9457067095c670fbd40323fa823f0",
+      "rows.json": "d330391ecf56a33763b520939e000914cdfdcbaebe7e0bc9ac13ded2f8b041d9",
+      "summary.json": "9a0761cf948d68caccc35340e2ce756b033aa76272d519480fd1fe58ba372bb6",
+      "threshold_diagnostic.json": "87fd961d0f57babb36721ec4936dd5bc56f517e2f29a76a203461a394b3c82a7"
+    }
+  },
+  "author_tests_rerun_passed": 21,
+  "additional_probe_count": 6,
+  "real_model_calls": 0,
+  "original_gate": "technical_block",
+  "automatic_execution_authorized": false,
+  "scope": "Posthoc sensitivity analysis only; challenge driver separately reviewed",
+  "historical_v2_diagnostic_census": {
+    "v2_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+    "v2_event_files": 800,
+    "matching_exact3_diagnostics": 800,
+    "nonmatching_files": 0,
+    "read_only": true,
+    "real_model_calls": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "created_utc": "2026-11-06T23:32:12.631778+00:00",
+  "test_count": 47,
+  "command": "python -m unittest discover -s tests -v",
+  "real_model_calls": 0,
+  "test_output": "audits/harness_test_output.txt",
+  "test_output_sha256": "a12edeacc1a2b516af4ae4f4b68e3c7ee59be32689a91584b366714d840f0cb1",
+  "sha256": {
+    "harness/runner.py": "b27ef6a030cbcb0099af6a51817b835260d48754810a1db6566cd7a8313e34ce",
+    "harness/integrity.py": "6e81d18ba12883184d7ae06176e50269c7785a0c6c98679f796a9ccca8c7a5bf",
+    "harness/PROVENANCE.json": "ec51dc8938beda66545b2b5a17076bfa693a02f617ad23db8075792cf0f661b1",
+    "analysis/evaluate.py": "1acba9b4477f04951a94107c74c55de6d75e716b7922e36237b40dfc97a24768",
+    "analysis/progress.py": "e9a26a919432f8ebf022f78f85e4ece1eda9a08da95e45a9747c848f1b201687",
+    "tests/test_v3.py": "0335c7d380124a3e178f7c997acbd93dccac69fc0f26bb837e190b66f211c387",
+    "protocol/backend.json": "b5cccb1b62e36963577a4f2291fd9ea710bc861904fa5524c08c8ac9a1f77e1b"
+  },
+  "tested": "All original 33 tests plus 14 regressions. F1: pre/post-gate cross-phase unsealed attempts block gate; every observed sealed attempt validated even without record; valid sealed final recovers with zero model calls. F2: output file and last completed agent-message exact SHA conflict remains protocol_failure, preserved, non-resampled, and fails integrity/gate; empty-output conflict covered. F3: item error with successful turn is technical_failure; transport diagnostics trip breaker. F4: noncontiguous or unsealed later attempts block any new call; global preflight checks all tasks before dispatch; post-final attempt rejected. F5: symlink lock path and directory, FIFO and hard-link lock refused before mutation. Full offline80+128, zero-call resume/recovery, concurrency12, unknown usage, thresholds and family contrasts retained. Independent round2 review pending."
+}

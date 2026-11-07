@@ -1,0 +1,958 @@
+{
+  "passed": true,
+  "canonical_host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "real_model_calls": 0,
+  "case_review_artifact_hashes_valid": true,
+  "blind_original_sources_match_preserved_pre_revision_files": true,
+  "changed_p0_items": [
+    "R05_missing_aligned",
+    "R05_missing_flawed",
+    "R06_paraphrase_aligned",
+    "R06_paraphrase_flawed"
+  ],
+  "changed_p0_semantic_keys": 0,
+  "challenge_inputs_unchanged": true,
+  "bound_reviewed_p0": 80,
+  "bound_reviewed_challenge": 32,
+  "revision_rechecked": 4,
+  "all_actions_match_current_keys": true,
+  "all_p0_unique": true,
+  "all_challenge_correctness_and_single_error_labels_match": true,
+  "toolchain_and_protocol_hashes_unchanged_since_round2": [
+    "protocol/EXPERIMENT_PLAN.md",
+    "protocol/analysis_plan.json",
+    "protocol/runtime_identity.json",
+    "protocol/prompts.json",
+    "protocol/backend.json",
+    "harness/runner.py",
+    "harness/integrity.py",
+    "harness/PROVENANCE.json",
+    "analysis/evaluate.py",
+    "analysis/progress.py",
+    "tests/test_v3.py"
+  ],
+  "subject_attempts_before_freeze": 0,
+  "frozen_exists_at_check": false,
+  "manual_revised_case_reasoning": {
+    "P031": "D:登记类别未知。Z1停表则计4日；X2不停表计7日；S9要求补字段。",
+    "P032": "D:与P031正式档案相同；错误备忘录不能填补登记代码。",
+    "P072": "B:审计未完且类别E2，不满足应急且C1的有限豁免；字段已知不能补证。",
+    "P073": "B:与P072正式档案相同；应急登记不能单独豁免C1条件。"
+  },
+  "case_review_sha256": "38a368b63ec840992529e6e018313979949411c39c09bfe815bd617f8d88d53c",
+  "artifact_hashes": {
+    "audits/blind_review/answers.json": "9d9f33db5c0042bbcfd404666714319a4f69062699e8e8f829effdaf27a962f1",
+    "audits/blind_review/revision_answers.json": "e45ae847f671b57dbac6c871617fad873e947ddd9ca5f42de099d6395978490a",
+    "audits/blind_review/private_mapping.json": "4e5bb6f971efdc0301534822769766bb824a004cb346820af842d738a04e7eb8",
+    "prompts/p0_items.json": "a191461d53d35b66da3b56b5481471cb9359f0ad368cf87debb304fb7b3eeba8",
+    "keys/p0_keys.json": "e93a9d8e1b6e161bfb834f8902be12adc0092a173696598c7d81687d931d6b94",
+    "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+    "audits/blind_review/packet.json": "10ae600c497a65670c1ad891b86ab5ec7291bbe631c399616effe4eab3f49406",
+    "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0",
+    "audits/case_review.json": "38a368b63ec840992529e6e018313979949411c39c09bfe815bd617f8d88d53c",
+    "cases/blind_revision_R05_R06.json": "d757d8142f20151e3a7576cbc75017b7a0df20ee80a38983c813e5a540ead9f3",
+    "audits/blind_review/packet_manifest.json": "76afd0d79b67ab953cb583eac552ae6c741295f3f51028a2cbe17a22a772351f",
+    "audits/blind_review/revision_packet.json": "a7d6071ecf24f37b9007adbe5528db9b334bd8544766d8876572f833054d0716"
+  },
+  "checks": [
+    {
+      "phase": "challenge",
+      "alias": "C001",
+      "item_id": "M07_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C002",
+      "item_id": "M08_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C003",
+      "item_id": "M07_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C004",
+      "item_id": "M05_base_draft_error",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C005",
+      "item_id": "R05_base_draft_error",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C006",
+      "item_id": "M06_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C007",
+      "item_id": "R05_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C008",
+      "item_id": "R07_base_draft_error",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C009",
+      "item_id": "M05_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C010",
+      "item_id": "M05_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C011",
+      "item_id": "R08_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C012",
+      "item_id": "M07_base_draft_error",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C013",
+      "item_id": "M08_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C014",
+      "item_id": "R07_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C015",
+      "item_id": "R07_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C016",
+      "item_id": "R08_base_draft_error",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C017",
+      "item_id": "M08_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C018",
+      "item_id": "M06_base_draft_error",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C019",
+      "item_id": "R06_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C020",
+      "item_id": "M08_base_draft_error",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C021",
+      "item_id": "R06_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C022",
+      "item_id": "R06_base_draft_error",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C023",
+      "item_id": "M06_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C024",
+      "item_id": "M07_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C025",
+      "item_id": "R07_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C026",
+      "item_id": "R05_decisive_change_draft_correct",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C027",
+      "item_id": "R08_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C028",
+      "item_id": "R08_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C029",
+      "item_id": "M05_decisive_change_draft_error",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C030",
+      "item_id": "R06_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C031",
+      "item_id": "R05_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "challenge",
+      "alias": "C032",
+      "item_id": "M06_base_draft_correct",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P001",
+      "item_id": "M07_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P002",
+      "item_id": "R08_base_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P003",
+      "item_id": "M07_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P004",
+      "item_id": "M08_missing_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P005",
+      "item_id": "M06_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P006",
+      "item_id": "R07_base_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P007",
+      "item_id": "M07_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P008",
+      "item_id": "M05_missing_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P009",
+      "item_id": "M08_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P010",
+      "item_id": "R06_missing_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P011",
+      "item_id": "M07_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P012",
+      "item_id": "M08_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P013",
+      "item_id": "M05_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P014",
+      "item_id": "M05_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P015",
+      "item_id": "M08_base_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P016",
+      "item_id": "M07_base_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P017",
+      "item_id": "R05_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P018",
+      "item_id": "M08_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P019",
+      "item_id": "R06_base_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P020",
+      "item_id": "M05_base_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P021",
+      "item_id": "R05_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P022",
+      "item_id": "R06_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P023",
+      "item_id": "M07_missing_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P024",
+      "item_id": "R07_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P025",
+      "item_id": "R06_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P026",
+      "item_id": "R05_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P027",
+      "item_id": "M05_missing_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P028",
+      "item_id": "R08_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P029",
+      "item_id": "R07_base_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P030",
+      "item_id": "M05_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P031",
+      "item_id": "R05_missing_aligned",
+      "review_source": "revision_answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P032",
+      "item_id": "R05_missing_flawed",
+      "review_source": "revision_answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P033",
+      "item_id": "R07_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P034",
+      "item_id": "R06_base_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P035",
+      "item_id": "M08_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P036",
+      "item_id": "M06_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P037",
+      "item_id": "M06_base_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P038",
+      "item_id": "R05_base_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P039",
+      "item_id": "M06_missing_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P040",
+      "item_id": "R07_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P041",
+      "item_id": "M06_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P042",
+      "item_id": "R05_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P043",
+      "item_id": "M08_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P044",
+      "item_id": "M06_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P045",
+      "item_id": "R08_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P046",
+      "item_id": "M07_missing_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P047",
+      "item_id": "M05_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P048",
+      "item_id": "R05_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P049",
+      "item_id": "M06_base_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P050",
+      "item_id": "R08_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P051",
+      "item_id": "R05_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P052",
+      "item_id": "R08_base_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P053",
+      "item_id": "R08_paraphrase_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P054",
+      "item_id": "M05_base_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P055",
+      "item_id": "M07_base_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P056",
+      "item_id": "R06_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P057",
+      "item_id": "R08_missing_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P058",
+      "item_id": "R08_missing_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P059",
+      "item_id": "M05_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P060",
+      "item_id": "R07_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P061",
+      "item_id": "R08_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P062",
+      "item_id": "M06_missing_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P063",
+      "item_id": "M08_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P064",
+      "item_id": "M07_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P065",
+      "item_id": "R08_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P066",
+      "item_id": "R05_base_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P067",
+      "item_id": "M06_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P068",
+      "item_id": "M07_irrelevant_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P069",
+      "item_id": "M08_missing_aligned",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P070",
+      "item_id": "M05_decisive_change_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P071",
+      "item_id": "R07_paraphrase_flawed",
+      "review_source": "answers.json",
+      "action": "C",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P072",
+      "item_id": "R06_paraphrase_aligned",
+      "review_source": "revision_answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P073",
+      "item_id": "R06_paraphrase_flawed",
+      "review_source": "revision_answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P074",
+      "item_id": "R07_decisive_change_flawed",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P075",
+      "item_id": "R06_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P076",
+      "item_id": "M06_irrelevant_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P077",
+      "item_id": "M08_base_aligned",
+      "review_source": "answers.json",
+      "action": "D",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P078",
+      "item_id": "R07_missing_flawed",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P079",
+      "item_id": "R07_missing_aligned",
+      "review_source": "answers.json",
+      "action": "B",
+      "text_exactly_bound": true
+    },
+    {
+      "phase": "p0",
+      "alias": "P080",
+      "item_id": "R06_missing_flawed",
+      "review_source": "answers.json",
+      "action": "A",
+      "text_exactly_bound": true
+    }
+  ]
+}

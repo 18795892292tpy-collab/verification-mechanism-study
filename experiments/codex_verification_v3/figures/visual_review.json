@@ -1,0 +1,23 @@
+{
+  "reviewed_utc": "2026-11-07T00:15:39.626062+00:00",
+  "reviewer": "same-family internal agent",
+  "method": "view_image of final PNG files at actual final generation; SVG/PDF rendered outputs share same plotting source but were not separately rendered",
+  "images": [
+    {
+      "path": "figures/fig1_strict_vs_a1.png",
+      "sha256": "902f80b2d1d3c8f3c224cadea51e96fb3ac226b47a058ce5fe73056675105439"
+    },
+    {
+      "path": "figures/fig2_authored_challenge.png",
+      "sha256": "0975931357a74123c9cc7a6830a22daad69d1db1046497b96e21370e0970a7a7"
+    }
+  ],
+  "checks": [
+    "Labels and bar fractions match source summary",
+    "Strict vs posthoc separation and original technical block clear",
+    "Failure included in planned denominator",
+    "No legend or footer overlap after regeneration",
+    "Families and exploratory scope labeled"
+  ],
+  "verdict": "passed"
+}

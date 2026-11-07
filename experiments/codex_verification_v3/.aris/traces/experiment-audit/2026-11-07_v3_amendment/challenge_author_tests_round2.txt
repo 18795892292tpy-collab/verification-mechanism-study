@@ -1,0 +1,20 @@
+test_128_and_resume_no_calls (__main__.Tests.test_128_and_resume_no_calls) ... ok
+test_completed_error_payload_refused (__main__.Tests.test_completed_error_payload_refused) ... ok
+test_false_returncode_refused (__main__.Tests.test_false_returncode_refused) ... ok
+test_lifecycle (__main__.Tests.test_lifecycle) ... ok
+test_lifecycle_item_refused (__main__.Tests.test_lifecycle_item_refused) ... ok
+test_mismatch (__main__.Tests.test_mismatch) ... ok
+test_no_response_never_complete (__main__.Tests.test_no_response_never_complete) ... ok
+test_p0_session_duplicate_refused (__main__.Tests.test_p0_session_duplicate_refused) ... ok
+test_response_metadata_mismatch_refused (__main__.Tests.test_response_metadata_mismatch_refused) ... ok
+test_runtime_symlink_refused_before_marker (__main__.Tests.test_runtime_symlink_refused_before_marker) ... ok
+test_tool (__main__.Tests.test_tool) ... ok
+test_unknown_diagnostic (__main__.Tests.test_unknown_diagnostic) ... ok
+test_unknown_path_refused (__main__.Tests.test_unknown_path_refused) ... ok
+test_unknown_stderr_refused (__main__.Tests.test_unknown_stderr_refused) ... ok
+test_valid (__main__.Tests.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.270s
+
+OK

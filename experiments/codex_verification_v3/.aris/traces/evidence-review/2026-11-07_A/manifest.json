@@ -1,0 +1,29 @@
+{
+  "trace_type": "saved explicit review request, exact authorized inputs, read batches, full visible review response and validation; not a provider wire log or hidden reasoning export",
+  "host": "liekkas",
+  "target": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "reviewer_requested": "gpt-6-astra/ultra",
+  "reviewer_class": "same-family/provisional",
+  "execution_mode": "direct collaborative subagent; no CLI model invoked; actual model identity not independently attested",
+  "input_sha256": {
+    "protocol.json": "8db6328dac7209b3ebb18a4ec60a8bc9e3539ee132477bfb6c41d0cd0f7b1d74",
+    "blind_packet.json": "ecf6ab623aaf23709499cb43cb29fb4c2b87d3dd9e9c86a4c70a5eac8b71b5b8"
+  },
+  "access_scope": [
+    "evidence_review/protocol.json",
+    "evidence_review/blind_packet.json"
+  ],
+  "blindness": "No private_mapping, old results, other reviewer, answer key, or planned result accessed. Public memo treated as a claim to check, not ground truth.",
+  "read_order": [
+    "host and target identity + protocol",
+    "full packet (display truncated; C01/C02 visible)",
+    "C03/C04",
+    "C05/C06",
+    "C07/C08",
+    "C09/C10",
+    "C11/C12",
+    "C13/C14",
+    "C15/C16"
+  ],
+  "rating_method": "Each response read and judged against its own dossier. Code only serializes individually enumerated decisions, copies verbatim answer/citation fields, and checks output integrity."
+}

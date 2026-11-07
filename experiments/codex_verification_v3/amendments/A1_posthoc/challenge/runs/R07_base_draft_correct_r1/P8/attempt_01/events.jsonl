@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b355-d54b-7d32-a8fa-4bf514d82b18"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S9\"],\"brief_justification\":\"复核维持C：规则适用于本议项，未见失效或替代版本；本案不涉及金额审批，S9确认无额外权限或待核事实。甲乙回避后有资格5人，法定到会4人；丙丁现场、戊己实时核验通过，共4人。赞成3票超过5人的半数，决议成立并通过。必要信息齐全，草稿无影响结论的遗漏或矛盾。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18639,"cached_input_tokens":18432,"cache_write_input_tokens":0,"output_tokens":674,"reasoning_output_tokens":516}}

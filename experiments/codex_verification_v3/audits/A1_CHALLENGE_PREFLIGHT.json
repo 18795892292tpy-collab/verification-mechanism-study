@@ -1,0 +1,56 @@
+{
+  "audit_skill": "experiment-audit",
+  "stage": "extra-C-exploratory-preflight",
+  "verdict": "PASS",
+  "known_blockers": [],
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-07T00:06:05.246368+00:00",
+  "canonical_host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "source_sha256": {
+    "amendments/A1_posthoc/challenge/driver.py": "9412da448003e6ff148b8c4c2a2873e9f961492347fe117c2a0d6c3bdb0d1fa8",
+    "amendments/A1_posthoc/challenge/test_driver.py": "33ec7b26b2dd8918ac408c42fcef323a0e38e8b3f3d155a042f4e6f3468e331b",
+    "amendments/A1_posthoc/challenge/authorization.candidate.json": "baf9550c07e55fbc6dda0ec2aa55ef32d9a472b25eda3ad7445de3f3ca3528ff",
+    "audits/A1_DERIVATION_REVIEW.json": "bb3891d1c6955c46a77b17dec9c5daa76d7446193b2f788d77e9833c9fe0755e",
+    "amendments/A1_posthoc/results/summary.json": "9a0761cf948d68caccc35340e2ce756b033aa76272d519480fd1fe58ba372bb6",
+    "amendments/A1_posthoc/results/threshold_diagnostic.json": "87fd961d0f57babb36721ec4936dd5bc56f517e2f29a76a203461a394b3c82a7",
+    "amendments/A1_posthoc/results/manifest.json": "25a8eb00b3c5aebcf2c5bc5b5d59f331a3ce66eacd5eeb99ade3619a9caa4352",
+    "amendments/A1_posthoc/results/input_sha256.json": "3e934df86e497376956e228badf05164093500854ec2f2c03598e7474f5f887e",
+    "analysis/decision_gate.json": "ee5bdaa2bd78f0f47287e57856169c0b66bfee3af72a12cc1ae0276969aa1941"
+  },
+  "author_tests_rerun_passed": 15,
+  "independent_probes_passed": 17,
+  "extra_C_frozen_at_check": false,
+  "extra_C_attempts_at_check": 0,
+  "original_inputs_reverified_unchanged": 589,
+  "real_model_calls": 0,
+  "source_bindings": {
+    "jobs": 128,
+    "original_fixed_drafts": 32,
+    "all_prompts_exactly_match_original_dossier_draft_and_procedure": true,
+    "original_gate_status": "technical_block",
+    "original_challenge_allowed": false,
+    "posthoc_threshold_status": "development_gate_failed",
+    "posthoc_threshold_is_run_gate": false
+  },
+  "effective_max_attempts_per_task": 1,
+  "original_attempt_ceiling": 2,
+  "max_workers": 12,
+  "previous_findings_resolved": [
+    "authorization previously trusted declaration without derived content; now validates actual diagnostic/summary/manifest/input hashes",
+    "lifecycle-carried tool and misplaced diagnostics; now strict event slots and shapes",
+    "cross-P0/C session duplicates; now joined uniqueness",
+    "marker/record origin and chronology insufficient; now rechecked",
+    "unknown top-level error payload; now exact top-level keys",
+    "boolean returncode; now exact int",
+    "has_response false missing hash coverage; now type/existence/hash set consistent",
+    "runtime_empty symlink; now canonical empty directory checked before marker/call"
+  ],
+  "limits": [
+    "Post-freeze additional exploration, not original-gate-authorized continuation.",
+    "Observed numerical A1 content remains posthoc; no natural-error performance/repair comparison implied.",
+    "Any change to reviewed driver/authorization/source manifests needs renewed hash verification and review.",
+    "No retry implemented: one attempted task is final or manual-audit blocked; never infer second attempts allowed from the old ceiling."
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "passed": true,
+  "author_checks_only": true,
+  "p0_items": 80,
+  "challenge_drafts": 32,
+  "p0_answer_distribution": {
+    "A": 20,
+    "B": 20,
+    "D": 20,
+    "C": 20
+  },
+  "family_count": 8,
+  "case_states": [
+    {
+      "family_id": "M05",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "A",
+      "changed_key": "B",
+      "pause_key": "D"
+    },
+    {
+      "family_id": "M06",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "B",
+      "changed_key": "C",
+      "pause_key": "A"
+    },
+    {
+      "family_id": "M07",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "C",
+      "changed_key": "D",
+      "pause_key": "B"
+    },
+    {
+      "family_id": "M08",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "D",
+      "changed_key": "A",
+      "pause_key": "C"
+    },
+    {
+      "family_id": "R05",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "A",
+      "changed_key": "B",
+      "pause_key": "D"
+    },
+    {
+      "family_id": "R06",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "B",
+      "changed_key": "C",
+      "pause_key": "A"
+    },
+    {
+      "family_id": "R07",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "C",
+      "changed_key": "D",
+      "pause_key": "B"
+    },
+    {
+      "family_id": "R08",
+      "decisive_source_only": "S4",
+      "irrelevant_source_only": "S8",
+      "missing_source_only": "S4",
+      "four_substantive_paraphrases": true,
+      "missing_association_removed": true,
+      "base_key": "D",
+      "changed_key": "A",
+      "pause_key": "C"
+    }
+  ],
+  "p0_char_range": [
+    974,
+    1088
+  ],
+  "max_memo_length_ratio": 1.0941176470588236,
+  "memo_ratios": [
+    {
+      "family_id": "M05",
+      "state": "base",
+      "memo_length_ratio": 1.0941176470588236
+    },
+    {
+      "family_id": "M05",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.0833333333333333
+    },
+    {
+      "family_id": "M05",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0941176470588236
+    },
+    {
+      "family_id": "M05",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0919540229885059
+    },
+    {
+      "family_id": "M05",
+      "state": "missing",
+      "memo_length_ratio": 1.0543478260869565
+    },
+    {
+      "family_id": "M06",
+      "state": "base",
+      "memo_length_ratio": 1.0476190476190477
+    },
+    {
+      "family_id": "M06",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.0740740740740742
+    },
+    {
+      "family_id": "M06",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0476190476190477
+    },
+    {
+      "family_id": "M06",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0465116279069768
+    },
+    {
+      "family_id": "M06",
+      "state": "missing",
+      "memo_length_ratio": 1.0444444444444445
+    },
+    {
+      "family_id": "M07",
+      "state": "base",
+      "memo_length_ratio": 1.0
+    },
+    {
+      "family_id": "M07",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.048780487804878
+    },
+    {
+      "family_id": "M07",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0
+    },
+    {
+      "family_id": "M07",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0
+    },
+    {
+      "family_id": "M07",
+      "state": "missing",
+      "memo_length_ratio": 1.0112359550561798
+    },
+    {
+      "family_id": "M08",
+      "state": "base",
+      "memo_length_ratio": 1.0493827160493827
+    },
+    {
+      "family_id": "M08",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.0365853658536586
+    },
+    {
+      "family_id": "M08",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0493827160493827
+    },
+    {
+      "family_id": "M08",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0481927710843373
+    },
+    {
+      "family_id": "M08",
+      "state": "missing",
+      "memo_length_ratio": 1.0568181818181819
+    },
+    {
+      "family_id": "R05",
+      "state": "base",
+      "memo_length_ratio": 1.0588235294117647
+    },
+    {
+      "family_id": "R05",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.0705882352941176
+    },
+    {
+      "family_id": "R05",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0588235294117647
+    },
+    {
+      "family_id": "R05",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0574712643678161
+    },
+    {
+      "family_id": "R05",
+      "state": "missing",
+      "memo_length_ratio": 1.069767441860465
+    },
+    {
+      "family_id": "R06",
+      "state": "base",
+      "memo_length_ratio": 1.0113636363636365
+    },
+    {
+      "family_id": "R06",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.035294117647059
+    },
+    {
+      "family_id": "R06",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0113636363636365
+    },
+    {
+      "family_id": "R06",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.011111111111111
+    },
+    {
+      "family_id": "R06",
+      "state": "missing",
+      "memo_length_ratio": 1.0340909090909092
+    },
+    {
+      "family_id": "R07",
+      "state": "base",
+      "memo_length_ratio": 1.035294117647059
+    },
+    {
+      "family_id": "R07",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.0235294117647058
+    },
+    {
+      "family_id": "R07",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.035294117647059
+    },
+    {
+      "family_id": "R07",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0344827586206897
+    },
+    {
+      "family_id": "R07",
+      "state": "missing",
+      "memo_length_ratio": 1.0340909090909092
+    },
+    {
+      "family_id": "R08",
+      "state": "base",
+      "memo_length_ratio": 1.0444444444444445
+    },
+    {
+      "family_id": "R08",
+      "state": "decisive_change",
+      "memo_length_ratio": 1.0786516853932584
+    },
+    {
+      "family_id": "R08",
+      "state": "irrelevant",
+      "memo_length_ratio": 1.0444444444444445
+    },
+    {
+      "family_id": "R08",
+      "state": "paraphrase",
+      "memo_length_ratio": 1.0434782608695652
+    },
+    {
+      "family_id": "R08",
+      "state": "missing",
+      "memo_length_ratio": 1.054945054945055
+    }
+  ],
+  "oracle_tests": 29,
+  "boundary_tests": [
+    [
+      "M05",
+      5425,
+      0
+    ],
+    [
+      "M05",
+      5424,
+      1
+    ],
+    [
+      "M07",
+      47,
+      1
+    ],
+    [
+      "M07",
+      48,
+      0
+    ],
+    [
+      "M07",
+      50,
+      0
+    ]
+  ],
+  "shortcut_accuracy": {
+    "always_same_letter": 0.25,
+    "always_follow_memo": 0.5,
+    "always_pause": 0.2
+  },
+  "public_input_never_contains_keys": true,
+  "expert_review": "pending",
+  "blind_review": "pending",
+  "limitations": [
+    "Same-family authored synthetic rules, external validity unestablished.",
+    "Missing association can sometimes leave reference candidate values elsewhere; values alone do not identify the missing association.",
+    "Automatic checks do not certify all semantic ambiguities or guarantee difficulty.",
+    "Eight development families only; no independent heldout family tested."
+  ]
+}

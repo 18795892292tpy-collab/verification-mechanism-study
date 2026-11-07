@@ -1,0 +1,91 @@
+{"event": "invocation_started", "phase": "p0", "workers": 12, "frozen_hash": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887"}
+{"event": "task_result", "phase": "p0", "group": "M05_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.13}
+{"event": "task_result", "phase": "p0", "group": "M05_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.18}
+{"event": "task_result", "phase": "p0", "group": "M07_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.15}
+{"event": "task_result", "phase": "p0", "group": "M08_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.26}
+{"event": "task_result", "phase": "p0", "group": "R08_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.65}
+{"event": "task_result", "phase": "p0", "group": "M06_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.34}
+{"event": "task_result", "phase": "p0", "group": "R05_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.78}
+{"event": "task_result", "phase": "p0", "group": "R06_missing_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.14}
+{"event": "task_result", "phase": "p0", "group": "R07_missing_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.38}
+{"event": "task_result", "phase": "p0", "group": "R08_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.61}
+{"event": "task_result", "phase": "p0", "group": "R07_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.79}
+{"event": "task_result", "phase": "p0", "group": "M06_missing_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.99}
+{"event": "task_result", "phase": "p0", "group": "M06_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.03}
+{"event": "task_result", "phase": "p0", "group": "R05_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.94}
+{"event": "task_result", "phase": "p0", "group": "M08_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.44}
+{"event": "task_result", "phase": "p0", "group": "R07_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.35}
+{"event": "task_result", "phase": "p0", "group": "R05_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.62}
+{"event": "task_result", "phase": "p0", "group": "M05_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.77}
+{"event": "task_result", "phase": "p0", "group": "M06_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.92}
+{"event": "task_result", "phase": "p0", "group": "M05_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.73}
+{"event": "task_result", "phase": "p0", "group": "R07_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.72}
+{"event": "task_result", "phase": "p0", "group": "R05_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 20.13}
+{"event": "task_result", "phase": "p0", "group": "R07_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.81}
+{"event": "task_result", "phase": "p0", "group": "R07_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 22.85}
+{"event": "task_result", "phase": "p0", "group": "M07_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 13.77}
+{"event": "task_result", "phase": "p0", "group": "M08_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.14}
+{"event": "task_result", "phase": "p0", "group": "M08_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.41}
+{"event": "task_result", "phase": "p0", "group": "M05_missing_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.35}
+{"event": "task_result", "phase": "p0", "group": "M08_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.08}
+{"event": "task_result", "phase": "p0", "group": "R08_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.71}
+{"event": "task_result", "phase": "p0", "group": "M08_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 14.93}
+{"event": "task_result", "phase": "p0", "group": "R07_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.46}
+{"event": "task_result", "phase": "p0", "group": "R06_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 20.11}
+{"event": "task_result", "phase": "p0", "group": "M07_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.56}
+{"event": "task_result", "phase": "p0", "group": "M06_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 20.26}
+{"event": "task_result", "phase": "p0", "group": "M07_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.78}
+{"event": "task_result", "phase": "p0", "group": "M08_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 14.82}
+{"event": "task_result", "phase": "p0", "group": "M05_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.8}
+{"event": "task_result", "phase": "p0", "group": "M05_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 14.65}
+{"event": "task_result", "phase": "p0", "group": "M07_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.18}
+{"event": "task_result", "phase": "p0", "group": "R05_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.45}
+{"event": "task_result", "phase": "p0", "group": "R08_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.89}
+{"event": "task_result", "phase": "p0", "group": "R07_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.53}
+{"event": "task_result", "phase": "p0", "group": "M06_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.88}
+{"event": "task_result", "phase": "p0", "group": "R08_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.07}
+{"event": "task_result", "phase": "p0", "group": "R05_missing_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 21.66}
+{"event": "task_result", "phase": "p0", "group": "M08_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.19}
+{"event": "task_result", "phase": "p0", "group": "R07_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 23.13}
+{"event": "task_result", "phase": "p0", "group": "M07_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.29}
+{"event": "task_result", "phase": "p0", "group": "R06_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.1}
+{"event": "task_result", "phase": "p0", "group": "M06_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.53}
+{"event": "task_result", "phase": "p0", "group": "M07_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.4}
+{"event": "task_result", "phase": "p0", "group": "M08_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.65}
+{"event": "task_result", "phase": "p0", "group": "R07_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.85}
+{"event": "task_result", "phase": "p0", "group": "M07_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.65}
+{"event": "task_result", "phase": "p0", "group": "R06_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 20.2}
+{"event": "task_result", "phase": "p0", "group": "R06_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 13.55}
+{"event": "task_result", "phase": "p0", "group": "M07_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.46}
+{"event": "task_result", "phase": "p0", "group": "R06_decisive_change_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.72}
+{"event": "task_result", "phase": "p0", "group": "R05_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.81}
+{"event": "task_result", "phase": "p0", "group": "M06_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 14.06}
+{"event": "task_result", "phase": "p0", "group": "M05_irrelevant_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.93}
+{"event": "task_result", "phase": "p0", "group": "R08_missing_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.31}
+{"event": "task_result", "phase": "p0", "group": "M05_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.41}
+{"event": "task_result", "phase": "p0", "group": "R05_paraphrase_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.43}
+{"event": "task_result", "phase": "p0", "group": "R06_missing_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.83}
+{"event": "task_result", "phase": "p0", "group": "R08_paraphrase_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 18.31}
+{"event": "task_result", "phase": "p0", "group": "R06_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 19.93}
+{"event": "task_result", "phase": "p0", "group": "M06_decisive_change_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.18}
+{"event": "task_result", "phase": "p0", "group": "R08_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 16.57}
+{"event": "task_result", "phase": "p0", "group": "R08_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 15.53}
+{"event": "task_result", "phase": "p0", "group": "M06_base_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.86}
+{"event": "task_result", "phase": "p0", "group": "R06_irrelevant_aligned_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.54}
+{"event": "task_result", "phase": "p0", "group": "M05_base_flawed_r1", "procedure": "P0", "status": "technical_failure", "seconds": 17.57}
+Traceback (most recent call last):
+  File "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/harness/runner.py", line 562, in <module>
+    if not run(a.phase,a.workers):raise SystemExit(75)
+           ~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/harness/runner.py", line 535, in run
+    done,_=wait(futures,return_when=FIRST_COMPLETED)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 299, in wait
+    waiter.event.wait(timeout)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.14/threading.py", line 670, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.14/threading.py", line 369, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt

@@ -1,0 +1,1368 @@
+{
+  "reviewer": "A",
+  "reviewer_class": "same-family/provisional",
+  "reviewer_requested": "gpt-6-astra/ultra",
+  "reviewer_actual": "direct collaborative subagent; actual backend model and reasoning tier not independently attested",
+  "reviewed_utc": "2026-11-06T23:12:45.927698+00:00",
+  "protocol_version": "v3-v2-evidence-audit-1",
+  "scope": "80 exact saved short answers; only protocol and blind packet used as evidentiary inputs",
+  "uncertainty_policy": "All protocol uncertainty options retained; no forced resolution. Here no dossier-level contradiction or decisive-support ambiguity remained after inspection. Self-report of prior reasoning is not independently verified.",
+  "ratings": [
+    {
+      "response_id": "C01A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "材料适用于本校K18社区周末开放及场地编号核验。W6签署时有效，未载替代版本；授权仅覆盖L1、L2，活动免费。委员会清单不能扩张受托权限，S5签署对L3不具效力。各场地独立且安全合格，应放行L1、L2并剔除L3。附件已归档，必要材料齐备，应直接办结。保留B，备忘录C不成立。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4明列“可签场地为 L1、L2”，S1规定“受托签署仅限委托所列地点”；S5为周主任三处签署，S2与S6给出独立、安全条件。因此缩至两处的理由成立；“活动免费”亦见S6。",
+      "action": "B"
+    },
+    {
+      "response_id": "C01A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留B。材料适用于K18周末开放凭单；W6本学期有效，档案无替代版本，授权仅含L1、L2。委员会权限及三处同意签字不能扩大受托范围，备忘录C不成立。场地独立且安全合格，应签发L1、L2凭单并剔除L3。附件及必要资料齐备，无须暂停补件；先前回答完整、前后一致。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3明确K18签名“不是委员会集体决定”，S4仅授权L1、L2；S1规定可分地点分别放行，S2、S6支撑独立和安全。附件已在S4，不需S8补件。关于先前回答的自评不作已核实的过程事实。",
+      "action": "B"
+    },
+    {
+      "response_id": "C01A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "W6仅授权周主任签署L1、L2，委员会的权限范围不能扩张受托权限，学期决议也不能替代本场签署。各地点可独立使用且安全合格，应签发L1、L2凭单并剔除L3。委托附件已在档，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4的“可签场地为 L1、L2”与S3“每场活动仍需单独签署”支持限制权限；S2独立运作和S6均通过检查补足分项放行条件，S8支持资料齐备即办结。",
+      "action": "B"
+    },
+    {
+      "response_id": "C01A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "W6仅授权周主任签署L1、L2，委员会的权限清单不能扩大受托权限或替代本场签署，L3签署无效。各地点可独立使用且安全合格，应签发L1、L2凭单并剔除L3，不能整单驳回。委托附件清单已入档，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S1明确“不能因为申请还含越界地点而整单拒绝”；配合S4两处委托、S5三处签署及S6安全通过，足以推出剔除L3且保留L1/L2。未将委员会清单当成受托权限。",
+      "action": "B"
+    },
+    {
+      "response_id": "C01A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "制度适用于K18周末免费开放，场地编号与用途对应；W6签署时有效，无替代版本记载，仅授权周主任签署L1、L2。委员会清单及项目归口不能扩大受托权限，L3越权签署无先行效力或追认安排。各室独立且安全合格，满足分项放行条件；附件及必需资料齐备，不满足补件暂停条件。维持B。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4写“清单外签署不享有先行效力”且无追认安排，S3项目归口不能改变签署身份；S2、S5、S6共同支持独立地点分项放行。版本未另载是封闭档案范围的陈述，不是对现实版本的认证。",
+      "action": "B"
+    },
+    {
+      "response_id": "C02A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留A。制度覆盖本校Q26整笔实训采购。E47确认受理时间为9月14日16:40，早于修订生效，且无重新受理，故继续适用八万元界线。含税总额7.2万元未达界线，无禁购或安全专项审批情形，单部门路径覆盖所选行动。询价引用新界线不改变适用版本；必要字段齐全，无须补件、会签或撤销。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4载E47“9 月 14 日 16:40”，S2修订自九月十五日零时适用新受理事项，S1旧界线八万元；S3含税七万二千元，S5无专项审批组件，支持完整单部门路径。",
+      "action": "A"
+    },
+    {
+      "response_id": "C02A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "Q26于9月14日16:40正式受理，应继续适用原八万元界线。含税总额七万二千元且无禁购标记，应走设备处单部门路径。询价时间不改变受理时点，必要字段齐全，无须联合会签、补件暂停或撤销。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2把受理绑定登记台确认而非询价，S4时间早于生效且禁止询价覆盖；S1与S3给出7.2万低于8万。引用虽未列S5，S4已支持询价不改时点这一理由，关键引用充分。",
+      "action": "A"
+    },
+    {
+      "response_id": "C02A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核保留A：Q26属本校实训设备整笔采购，9月14日16:40已确认受理，适用经校务会议批准的原八万元界线；含税7.2万元在设备处单部门办理范围内。询价引用新界线不改变适用版本，无禁购标记或需专项审批的组件。必要字段齐全，先前回答前后一致，无影响决定的遗漏，无须补件或撤销。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1确认两版本均获校务会议批准；S4的受理时间与S2保留旧版规则、S3金额共同支持A。S5另证实用途与无专项审批组件；对“先前回答”自评不作为独立证据加分。",
+      "action": "A"
+    },
+    {
+      "response_id": "C02A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "Q26于9月14日16:40完成受理确认，早于修订生效，继续适用八万元界线。申请含税总额七万二千元且无禁购标记，应由设备处按单部门路径执行。必要字段齐全，无须补件暂停。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4“9 月 14 日 16:40”、S2生效与衔接规则、S1八万元界线和S3七万二千元形成完整链条。短答案省略无关预算不减分；S8支持无需补件。",
+      "action": "A"
+    },
+    {
+      "response_id": "C02A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留A。Q26属于本校教学实训设备，整笔含税7.2万元；9月14日16:40已受理，依衔接条款继续适用获校务会议批准的旧版8万元界线，单部门路径覆盖本单。无禁购或需另行安全专项审批的组件，必要字段齐全。预算预留不替代审批，无须补件或撤销。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3整笔含税七万二千元，S4确认于修订前受理，S2规定继续原版，S1原版未达八万元单部门办理。S6“预留待执行”与S8不因归档生成审批支持预算不是审批替代物。",
+      "action": "A"
+    },
+    {
+      "response_id": "C03A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "维持A。S1、S8适用于本轮T9，未见替代版本；S8明确要求向原保管人补取必要字段。T9资格代码未归档，课程名称不能代填。R7全样本增幅不能替代匹配层结果，三份材料仅属一项独立研究；预算与试用许可不能补足资格信息。应暂停并向人事室补取代码。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3明确“资格代码字段未随名册归档”，S1要求未找到目标代码则补全；S4分层结果与S5同一研究编号支持不可用合并结果或三份载体替代。S6预算/使用安排不能填代码。",
+      "action": "A"
+    },
+    {
+      "response_id": "C03A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "维持A。规程适用于本校本轮T9，未见替代版本。预算及使用安排覆盖试用和年度服务，但不能补足资格代码。代码未归档，满足S1、S8的补件暂停条件，不满足字段齐全直接处理条件。R7仅一项独立研究，N层增幅2分、E层7分；合并结果不能替代匹配结果，备忘录不足以支持D。应向人事室补取代码。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4的N层82到84为2分、E层84到91为7分；S3缺目标代码，使S1匹配规则无法落地。S5仅一次研究、S6预算安排均被正确区分，S8支持向原保管人人事室补取。",
+      "action": "A"
+    },
+    {
+      "response_id": "C03A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "规程适用于T9本轮选择，档案未见替代版本；试用及年度服务均在预算内。资格代码未归档，无法匹配N/E层，课程名称不能替代代码，全样本增幅不能替代匹配结果；三份研究材料仅属一项独立研究。备忘录不支持D，先前回答无实质遗漏或矛盾，保留A，向人事室补取代码后再决定。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2界定N/E，S3缺代码且课程名称沿用宣传材料，S1不许混合成绩替代匹配；S5三载体同研究。理由已经给出必要缺档及补取路径；自述先前无遗漏不用于证明审阅过程。",
+      "action": "A"
+    },
+    {
+      "response_id": "C03A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "T9的资格代码未归档，无法确定应匹配N层还是E层；课程名称不能替代资格代码，全样本增幅也不能替代匹配层结果。依S1和S8，应暂停方案选择，向人事室补取资格代码后再决定。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S8"
+      ],
+      "evidence_note": "S3直接记载代码未归档且人事室负责，S1直接规定未找到目标代码时补全。虽未单引分层数值页，决定性暂停理由无需计算各层增幅，所引S1/S3/S8已共同支持。",
+      "action": "A"
+    },
+    {
+      "response_id": "C03A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "T9资格代码未归档，无法确定应匹配哪个研究层；课程名称不能替代资格代码，混合群体成绩也不能替代匹配结果。依S1和S8，应暂停整笔方案选择，向原保管人人事室补取资格代码后再决定。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S8"
+      ],
+      "evidence_note": "S1禁止混合群体替代匹配并要求补目标代码，S3“人事室对资格代码负责”且代码缺档，S8要求向原保管人补取必要字段。完整暂停行动有明确来源，不是推定研究不合格。",
+      "action": "A"
+    },
+    {
+      "response_id": "C04A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "本轮规程适用，档案未载替代版本；T9的N代码与研究分层定义一致。唯一独立研究N层增幅2分、完成率94%，未达增幅5分门槛。C符合申请对象与用途，现行方案可按计划执行，无新增金额承诺。必需字段与匹配数据齐全；先前答复和建议无实质遗漏或矛盾，维持C。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3资格代码为N，S4为82到84且完成率94%，S5“档案只收录这一次研究”；按S1增幅至少五分才合格，故无合格证据应保留。S6支持现行方案按计划执行。",
+      "action": "C"
+    },
+    {
+      "response_id": "C04A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "规程适用本校本轮T9，未载替代版本。保留现行方案属于申请范围，具备实施条件，未设额外金额或审批门槛。名册资格代码N已归档；唯一独立研究N层增幅2分、完成率94%，未达5分门槛，合并成绩不可替代。必要材料齐全，满足无合格证据时保留现行方案的条件，不触发补件、试用或长期采用。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S1明确完整匹配数据但无合格证据则保留；S3的N与S4增2分使该条件满足，虽94%完成率达标也不足。S5排除多个独立研究，S6支持实施条件，S8不要求补件。",
+      "action": "C"
+    },
+    {
+      "response_id": "C04A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "①规程适用本校T9，名册N代码用于研究层匹配；②规程明确适用本轮，档案未载替代版本；③保留现行方案在申请及允许范围内，无新增采购承诺；④唯一独立研究N层增2分、完成率94%，未达5分门槛，依规保留现行方案；⑤必需字段和匹配数据完整，无需补件。复核维持C。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2与S3确定N匹配层，S4“八十二分”到“八十四分”，S5仅一次研究，S1门槛五分；因此完整五项复核中的核心链条成立。S6现行材料已备可支撑保留的执行范围。",
+      "action": "C"
+    },
+    {
+      "response_id": "C04A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "T9资格代码已明确为N。唯一独立研究R7的N层增幅为2分，完成率94%，未达到增幅至少5分的门槛；混合群体成绩不能替代匹配结果。匹配数据完整但无合格证据，应保留现行方案，不适用补件暂停、试用或长期采用。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3的N代码、S4增幅2分/完成率94%、S5独立研究只有一次与S1匹配门槛相接，充分支持C。合并成绩不能替代匹配是S1明文，材料完整符合S8直接处置。",
+      "action": "C"
+    },
+    {
+      "response_id": "C04A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "T9资格代码为N，唯一独立研究R7的N层平均增幅为2分，虽完成率94%，仍未达到至少5分的门槛。匹配数据完整且没有合格证据，按规程保留现行方案，无需暂停补件。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4给N层82→84及94%完成率，S3确认T9为N，S5限定一个独立研究；S1规定双门槛且无合格证据则保留。简短理由保留了决定性条件，未把完整数据误称缺档。",
+      "action": "C"
+    },
+    {
+      "response_id": "C05A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "A14各班须至少有18份有效确认。U1、U2已达标，U3计数未归档，须暂停判断并补取。现有材料不足以批准整批发放，也未证明有班级未达标，不能退回补齐；拆批发放则违反规则。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2每班二十人，S1九成含等号，故18份门槛；S4 U1=20、U2=18而“U3…计数页未归档”。S1/S8规定先补计数，不可批准或把未知当不达标，拆批亦被明禁。",
+      "action": "B"
+    },
+    {
+      "response_id": "C05A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核维持B。现卷规则适用于本校A14三班的有效确认及整批发放，未载替代版本，计数以本次截点为准。U1、U2达标，U3关键计数缺档，触发补取后判断规定。整批批准条件尚未证实，也无已知未达标班级触发退回；拆批明确禁止。备忘录不能用两班数据推定全批达标，亦不构成发放授权。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4限定“以本次截点为准”并缺U3，S2明确A14三班，S3有效计数可直接用；S1要求每班达九成而不是只看已归档班。引用直接支持暂停，备忘录的外推未被采用。",
+      "action": "B"
+    },
+    {
+      "response_id": "C05A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U1、U2分别达到100%和90%，但U3有效确认计数未归档，整批达标条件尚无法判断。S1、S8要求先暂停并补取关键计数，不能推定U3达标，也不能将缺失计数视为未达标。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4的20/18配S2各20得100%/90%，U3明确缺档；S1称“关键班级计数未归档，先补取计数判断”，S8同样区分空白与否定。两项已知达标不能补足未知。",
+      "action": "B"
+    },
+    {
+      "response_id": "C05A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "材料适用于A14清单内U1至U3的有效确认审核，档案未载替代版本。B符合S8的补取权限及范围。U1、U2分别达100%、90%，但U3计数缺失，无法判断整批达标，也不能认定未达标。备忘录据已知班级推定整批达标缺乏依据，依S1、S8保留B。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2限定U1至U3，S3界定有效确认，S4给两班数和U3缺档；S1与S8赋予此时暂停补取路径。100%及90%计算正确，未凭两班外推全批，引用各有范围/字段用途作用。",
+      "action": "B"
+    },
+    {
+      "response_id": "C05A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "本案适用A14内U1至U3的有效确认规则，U4及统计合计不能替代班级条件；档案未载替代版本或例外授权，不涉及金额审批。U1、U2达标，U3关键计数缺失，既不能批准整批，也不能认定未达标或拆分发放。先前回答完整一致，保留B，补取计数后决定；备忘录A缺乏依据。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2明示U4不在清单，S1称“整批合计比例只用于统计”并禁止拆批，S4缺U3。S3确认有效计数定义；S8要求补必需字段。无已知未达标的认定是基于本卷，不是给U3判达标。",
+      "action": "B"
+    },
+    {
+      "response_id": "C06A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "材料适用于本班本月的正式等级评价，字典未修订，未载替代版本。核准E类免到为8×5＝40人日，92%≤720÷(800－40)<96%，属于定向支持。对应日程、人员及预算已有安排，必需字段齐备，无须补件。保留D，登记并按名单安排有限度辅导。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4“八块，每块五个人日”得40，S5各块E可扣分母，S2计划800与S3实到720产生720/760；S1的92%至不足96%正是定向。S6人员预算和S8资料齐备支撑执行。",
+      "action": "D"
+    },
+    {
+      "response_id": "C06A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "核准免到为8×5＝40人日，应从分母扣除。评价出勤率为720÷(800－40)，高于92%且低于96%，属于定向支持，应登记并按名单安排有限度辅导。必需资料已齐备，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4八乘五为40，S1明确免到“不算实到也不留在分母”，S2/S3给800与720；720/760约94.7368%，与答案区间一致。S5支持可扣类别，S6支持对应辅导安排。",
+      "action": "D"
+    },
+    {
+      "response_id": "C06A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "核准免到为8×5＝40人日，均属可扣分母的E类。评价率为720÷(800－40)＝18/19，高于92%且低于96%，应登记定向支持，按名单安排有限度辅导。必需资料齐全，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S5“EM6 每块都是 E”支持分母扣除，S4换算40，S2/S3形成720/(800−40)=18/19；S1据未取整值判定向。S6是按名单辅导的执行准备，S8无需缺档暂停。",
+      "action": "D"
+    },
+    {
+      "response_id": "C06A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "制度与记录适用于本班本月等级评价，计划锁定、字典未修订，未见替代版本。核准E类免到8×5＝40人日，720÷760＝18/19，未取整值属定向区间。定向日程、人员和预算已备，所选行动未超对象及用途范围。必需资料齐备，原答与建议无影响决定的遗漏或矛盾，保留D。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2计划锁定、S5字典未修订、S4已核准40及S3实到720均与答复一致；S1下18/19处定向区间。S6确有日程、人员和预算安排；未把自称原答一致当成外部核验。",
+      "action": "D"
+    },
+    {
+      "response_id": "C06A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "所引制度与记录适用于本班本月正式评级；计划锁定、字典未修订，未载替代版本。已核准E类免到40人日，评价率720÷760＝18/19，满足≥92%且<96%的定向条件。对应日程、人员及预算已备，资料齐全，不触发补件暂停条件。维持D，登记后按名单实施有限度辅导。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4给核准块数，S5给E类别，S2与S3给分母基数/分子，按S1得到18/19并满足≥92%且<96%。S6覆盖人员预算而非额外批准，S8支持齐备后直接登记。",
+      "action": "D"
+    },
+    {
+      "response_id": "C07A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "V8唯一关联的I63已由有权审批员有效签署为E3，依S1免除二十四小时提前时限。身份已核验、陪同已到位，应签发限定路线凭单并全程陪同放行。资料齐备，A无补件依据；B违反凭单与陪同要求；D及备忘录忽略E3例外。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3只有I63对应V8，S4有权审批员签E3；S1第九条免二十四小时但仍要求凭单与陪同，S5身份完成且王老师已在门口。决定性例外及保留条件齐全，S8不需补件。",
+      "action": "C"
+    },
+    {
+      "response_id": "C07A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "V8唯一关联的I63已由有权审批员有效签署为E3，依S1免除二十四小时提前时限。身份核验完成、陪同已到位，应签发限定路线凭单并全程陪同放行。必需资料齐备，无须补件或延期；备忘录忽略了E3例外。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4明载“事件分类代码为 E3”，S2赋值班签署分类效力；S1例外优先且不免陪同，S5人员核验和陪同均到位。故C的限定路线放行理由完整，拒绝普通时限备忘录有据。",
+      "action": "C"
+    },
+    {
+      "response_id": "C07A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留C。制度覆盖本校、本次人员及分类用途，档案未载失效或替代版本。V8唯一关联I63，有权审批员签定E3，授权覆盖本次提前量豁免，不涉金额。身份已核验、陪同已到位，应签限定路线凭单并全程陪同放行。必需材料齐备，先前回答无实质遗漏或矛盾；备忘录忽略E3优先条款，D不成立。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3唯一关联、S4签署者具审批权并为E3，配S1提前量豁免和S5身份/陪同，支持C。所谓金额不涉是本卷无金额条件的范围陈述；不用于扩张例外。自评先前回答不可独立验证。",
+      "action": "C"
+    },
+    {
+      "response_id": "C07A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "制度适用于本校外来维修入校及事件分类，未载失效或替代版本。V8唯一关联I63，有权审批员签署E3，豁免覆盖本次预约提前时限，不涉及金额。身份核验完成、陪同到位，必需资料齐备，应核验记录后签发限定路线凭单并全程陪同放行。备忘录忽略E3优先条款，维持C。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1明确E3在预约提前量上优先，S2/S4给有权分类，S3将I63连到V8，S5表明凭单可立即办理且陪同到位。答案保留了核验、凭单、全程陪同，并非无条件放行。",
+      "action": "C"
+    },
+    {
+      "response_id": "C07A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留C。材料适用于本校V8维修入校，未载失效或替代版本。V8唯一关联I63，有权审批员已签定E3，触发提前时限豁免；身份核验完成、陪同到位，仍须签限定路线凭单并全程陪同。本案不涉及金额授权，必需资料齐备，无须补件。建议D忽略E3优先条款。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4的E3签定触发S1豁免，S3唯一事件避免借用他单；S5身份完成及指定陪同对应继续保留的条件。S8资料齐备即办结，故不需补件；所有列明引用都有决定或范围作用。",
+      "action": "C"
+    },
+    {
+      "response_id": "C08A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "周主任以W6受托人身份签署，授权清单明确覆盖L1、L2、L3，签署及开放时间均在有效期内，场地编号对应一致。三处安全核验均通过，必要资料齐全，应全部签发；无依据驳回、剔除L3或暂停补件。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4可签清单为“L1、L2、L3”且有效期覆盖周六，S5签署日有效并同意三处，S3连接签名到W6。S6三处均通过与S1规则共同支持全部发凭单，S8无缺件。",
+      "action": "C"
+    },
+    {
+      "response_id": "C08A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核维持C：制度适用于本校周末外部活动，申请对象、场地字段与开放用途相符。W6及签署均在有效期内，档案未载替代版本；授权覆盖L1、L2、L3，本次不收费。申请、台账和签署相互对应，三处安全核验均通过，必要材料齐全，应签发三处凭单。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2活动对象和地点、S3签名归属、S4三地授权、S5台账与有效签署、S6免费及安全通过逐一吻合。S1有效覆盖放行及S8齐备办结支撑C，不依靠委员会归口栏。",
+      "action": "C"
+    },
+    {
+      "response_id": "C08A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "本单签名关联W6，委托明确覆盖L1、L2、L3，签署处于有效期内且场地对应一致。三处安全核验均通过，必要字段齐全，应签发三处开放凭单，无须补件暂停。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3将签名关联W6，S4明列三个地点，S5签署处有效期且场地对应，S6全部核验通过；S1与S8给发凭单规则。短答省略非决定性的免费细节不构成支撑缺口。",
+      "action": "C"
+    },
+    {
+      "response_id": "C08A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留C。制度适用于本校周末外部活动；W6覆盖本周六，签署在有效期内，档案未见替代版本。签名关联W6，其授权对象和用途覆盖申请三处，编号与台账一致；本次不收费，三处安全核验均通过。有效签署及放行条件满足，无越界部分，必要字段齐全，不触发补件暂停，应签发全部三处凭单。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4写“授权有效期覆盖本周六”及三处清单，S5签署日也有效，S2申请用途相符，S6三处安全通过。答案无越界部分的结论由本卷授权范围推出，不套用别案两处委托。",
+      "action": "C"
+    },
+    {
+      "response_id": "C08A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留C。制度适用于本校周末外部活动；W6在签署日及本周六有效，档案无替代版本，授权覆盖L1、L2、L3及本次用途。签名归属、场地对应和三处安全通过均有原文支持，活动不收费，必要字段齐全。先前回答无影响决定的遗漏或矛盾，应签发三处凭单。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4、S5分别支持开放日和签署日有效及三个地点，S3支持受托身份，S2/S6支持用途、免费及安全。必要资料已实列，故C有完整链条；先前回答是否一致非本轮能认证的过程事实。",
+      "action": "C"
+    },
+    {
+      "response_id": "C09A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留A。Q26属本校实训设备采购，原办法授权未达八万元由设备处办理。E47于9月14日16:40确认受理，符合继续适用旧版的条件；整笔含税7.2万元未触发会签，且无禁购、重新受理或安全专项审批情形。必要字段齐全，无须暂停或撤销。修订后询价及尚未成交均不改变适用版本，备忘录建议B不成立。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4的E47“9 月 14 日 16:40”早于S2生效时点且无重受理，S1旧8万与S3整笔7.2万确定A。S5无专项组件且询价无受理属性，不能据新报价时间改规则。",
+      "action": "A"
+    },
+    {
+      "response_id": "C09A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核保留A。本校Q26整套实训设备及用途属于办法范围，7.2万元在项目预算内。E47于9月14日16:40确认受理，依衔接条款沿用已获批准的原8万元界线，设备处单部门办理权限覆盖整笔申请。修订后询价及尚未成交不改变版本，备忘录建议B不成立。无禁购或额外安全审批要求，必要字段齐全，无须补件或撤销。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S6预算十万元且7.2万已预留支持预算陈述；决定路径仍由S4确认事件、S2保留原版、S1八万元和S3金额决定。S5专项审批/询价信息的用途未被混同。",
+      "action": "A"
+    },
+    {
+      "response_id": "C09A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "逐项复核后保留A。制度适用于本校该笔实训设备采购，对象、用途及办理权限均覆盖。E47于9月14日16:40确认受理，应适用原八万元界线；整笔7.2万元且无禁购标记，可单部门办理。修订后询价及尚未成交不改变适用版本，备忘录B误判。必要字段齐全，先前回答无影响结论的遗漏或矛盾，无须补件或撤销。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3整套实训采购7.2万无禁购，S4确认于九月十四日，S2规定未成交不重受理，S1原界线八万；S5支持修订后询价这一背景。主链条足以支持A，不靠自称逐项复核成立。",
+      "action": "A"
+    },
+    {
+      "response_id": "C09A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "Q26的受理确认事件E47发生于9月14日16:40，早于修订生效时间，应继续适用原八万元界线。整笔含税金额七万二千元，未达会签标准且无禁购标记，应由设备处单部门办理。所需字段齐全，无须补件暂停；修订后询价及尚未成交均不改变适用版本。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4确认事件与时间，S2衔接条件及S1八万门槛结合S3金额使A成立。未引S5仍有S4“无权用询价时间覆盖受理确认时间”与S2未成交不重受理支持关键理由。",
+      "action": "A"
+    },
+    {
+      "response_id": "C09A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "Q26的受理确认事件E47发生于9月14日16:40，早于修订生效，应适用原八万元界线。整笔含税7.2万元，未达会签标准且无禁购标记，应由设备处单部门办理。询价时间和尚未成交不改变适用版本；必要字段齐全，无须补件暂停，也无撤销依据。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2按受理事件选版本，S4记录修订前E47，S3金额和无禁购标记落入S1旧版单部门区间。S1不以金额变化撤销、S8齐备直接处置支持所排除的暂停/撤销。",
+      "action": "A"
+    },
+    {
+      "response_id": "C10A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留D。制度适用于本校本次维修入校，档案未载失效或替代版本。唯一关联事件I63由有权审批员签为N1，不适用E3例外；本案不涉金额授权。V8仅提前四小时，未满足二十四小时要求，应另约合规时段。必要字段齐全，延期有明确依据，无须补件或追加审批。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4明载分类“N1”，S2 N1为普通维修，S3仅提前四小时；S1要求至少二十四小时，S6有可另约时段，S8材料齐全不补件。未把无附加入校禁止误读成时限豁免。",
+      "action": "D"
+    },
+    {
+      "response_id": "C10A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "有权审批员已将唯一对应事件I63签署为N1，不适用E3例外。预约仅提前四小时，未满足普通维修二十四小时要求，故不得按原时点入校，应另约满足时限的时段。所需分类证据已齐全，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3唯一I63与四小时、S4有权签为N1、S2分类效力及S1普通时限共同支持D。S6可另约时段使行动可执行，S8所需分类已在档不适用暂停。",
+      "action": "D"
+    },
+    {
+      "response_id": "C10A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留D。制度适用于本校本次维修，档案未示失效或替代版本，本案不涉及金额审批。唯一关联事件I63由有权审批员签署N1，不适用E3例外。预约仅提前四小时，身份及陪同齐备不豁免二十四小时时限。必要字段完整，无须补件；原答无影响结论的遗漏或矛盾，应另约合规时段。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4为N1而非E3，S1例外条件不成立，S3四小时不足二十四；S5虽身份陪同齐备但不提供分类权限。S6另约和S8齐备处置支撑D，先前无遗漏自述不另行确证。",
+      "action": "D"
+    },
+    {
+      "response_id": "C10A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "唯一对应事件I63已由有权审批员签署为N1，不适用E3例外，“紧急”标题不具分类效力。预约仅提前四小时，未满足二十四小时要求，应拒绝按原时点入校并另约合规时段。必要字段已齐全，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2明文标题仅供排序且不承担分类效力，S4的N1控制分类；S3四小时对照S1二十四小时必须另约。S6有合规备选时段，S8已有分类不再补取。",
+      "action": "D"
+    },
+    {
+      "response_id": "C10A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "现行材料适用于本校V8维修人员入校，未载失效或替代版本；本案不涉及金额授权。唯一对应事件I63经有权审批员签为N1，不满足E3例外条件。预约提前4小时，不足S1规定的24小时；身份及陪同条件不能豁免时限。必要字段齐全，无须补件，应另约符合普通时限的时段，保留D。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S1只对签为E3免时限，S4签为N1，S3为4小时；S5身份及陪同不改S2分类。S6另约安排有据，S8无缺字段。答复未错误地取消整个维修任务。",
+      "action": "D"
+    },
+    {
+      "response_id": "C11A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核保留B。S1适用W12整班，档案未载替代版本；S4确认吴老师出发前证书已到期，仅陈老师有效，不满足至少两人及每人至多15名学生。S2同意书不替代资格，S5按成人数计算不能支持C；A违反禁删减及最低人数要求。必要字段齐全，依S8应延期而非补件。先前答复无影响结论的遗漏或矛盾。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4写吴老师“已到期，续证尚未通过”，S3只有两成人无替补；S2三十学生与S1至少两持证/至多15人规则均不合。S5成人比率不能替资格；S1现场减员禁令、S8明确否定均被正确使用。",
+      "action": "B"
+    },
+    {
+      "response_id": "C11A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "维持B。现行规则适用于本校整班课程，档案无替代版本；同意书仅授权学生参加，不豁免带队资格，金额不涉本案。吴老师证书已到期，三十名学生仅有一名有效持证者，人数和比例均不达标；S5按成人数计算不足以支持出发。禁止现场删减学生，应整班延期。必要字段齐全，明确失效不属于记录缺失，不适用补件暂停。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2同意书不替代带队资格，S4只陈老师有效，S1要求至少两人及15人上限，S5以成人数计算15比1不能证明有效资格。证书明确失效不是S8缺档，整班延期有据。",
+      "action": "B"
+    },
+    {
+      "response_id": "C11A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留B。规则适用于W12整班，档案未载替代版本；吴老师证书在出发日前已到期，仅一名有效持证者，人数和比例均不达标。同意书只授权学生参与，S5按成人数计算不能证明资格合规。名单锁定且禁止现场删减；证书状态字段齐全，应推迟整班出发，无需补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4到期而非空白，S3无第三名带队者，S2名单锁定与30人使一名有效者不够；S1禁止现场删减且要求延期，S5成人计算不能消除缺资格，S8支持直接实体处置。",
+      "action": "B"
+    },
+    {
+      "response_id": "C11A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "吴老师证书已到期，现仅一名有效持证带队者，不满足至少两人及每人最多对应十五名学生的要求。S5按随队成人计算的比例不能证明合规。规则禁止现场删减学生，且证书状态已明确，不属于记录缺失，应推迟整班出发。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4证实吴老师过期，S3仅二成人，S5明确用“三十名学生与两名随队成人”计算，故虽未引S2仍有30人来源。S1两人/15人及禁止删减、S8否定证据支持整班延期。",
+      "action": "B"
+    },
+    {
+      "response_id": "C11A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "吴老师证书已到期，现有有效持证带队者仅陈老师一人，不满足至少两人及每人最多对应十五名学生的要求。规则禁止现场删减学生；证书状态已明确，属于条件不满足而非记录缺失，应推迟整班出发。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S3将两成人连到J21/J22，S4一有效一过期，S2三十学生，S1两项带队约束及禁止减员同时适用。S8区分不满足与缺失，答案给足延期理由而非只报选项。",
+      "action": "B"
+    },
+    {
+      "response_id": "C12A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "C7在B17作业窗口内连续不可用3小时10分钟，已触发应急手工暂记，恢复不改变该路径要求。须在恢复后二十四小时内回填核对并完成副本去重。恢复时间等必要字段齐全，无需补件暂停，也无依据取消合法申请。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3窗口八时起且C7为认证节点，S4 08:10到11:20无短暂可用共3小时10分；S1历史触发且恢复不撤销。S5要求保留去重、合法原申请完整；S8时间齐全无需暂停。",
+      "action": "B"
+    },
+    {
+      "response_id": "C12A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留B。制度适用于B17全部42份合法申请，未载替代版本；S1直接规定应急路径，本案不涉及金额审批。C7在作业窗口内08:10至11:20连续不可用3小时10分，恢复不撤销触发结果，须手工暂记并在恢复后24小时内回填，且保留去重责任。必要字段齐全，无需补件；备忘录据当前恢复选择A不符合S1。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3四十二份合法申请与C7映射、S4连续190分钟满足S1至少三小时。S1恢复后24小时回填和S2/S5去重责任均保留，且S8资料完整。金额无涉不被当作豁免业务义务。",
+      "action": "B"
+    },
+    {
+      "response_id": "C12A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "认证节点C7在本批作业窗口内从08:10至11:20连续不可用3小时10分钟，已触发应急路径，随后恢复不撤销该要求。应手工暂记，并在恢复后二十四小时内回填核对，同时履行副本去重修正责任。必要字段齐全，无需暂停补件。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4“08:10”与“11:20”同日且无短暂可用，S3八时启动本批，形成窗口内连续190分钟；S1规定即便恢复也暂记/回填。S5副本去重与S8齐备直接办结均被覆盖。",
+      "action": "B"
+    },
+    {
+      "response_id": "C12A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后维持B。规则适用于本校B17的42份合法申请及本轮模式判定，档案无替代版本或另行金额审批要求。C7在作业窗口内连续不可用3小时10分钟，触发应急，恢复不撤销。必要字段齐全，须手工暂记、恢复后24小时内回填核对并去重，保留合法申请。先前回答完整一致；备忘录A忽略历史中断触发规则。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1明确“即使节点随后恢复也须完成该路径”，S3/S4确定C7历史中断超过三小时；S2/S5不可取消合法申请且须去重，S8无缺件。答复把恢复与触发区分，支持完整B。",
+      "action": "B"
+    },
+    {
+      "response_id": "C12A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "材料适用于本校B17及认证节点C7，未载替代版本或额外审批前提，无金额事项。08:10至11:20连续中断3小时10分钟，触发应急路径，恢复不构成例外。B覆盖本批42份合法申请，须在恢复后24小时内回填并保留去重责任。必要字段齐全，无需补件。备忘录以恢复支持A不符S1，保留B。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3界定B17四十二份及C7，S4连续08:10—11:20，S1由此要求应急且恢复后24小时回填；S5保留去重。未引用S2但S5已明确修正责任，关键引用无缺口。",
+      "action": "B"
+    },
+    {
+      "response_id": "C13A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留D。规则适用于星芦学校A14清单内三班的有效确认，合计仅供统计；以本次截点为准，未见替代版本。本案不涉及金额审批，整批退回属于规定处置。U3有效确认17/20＝85%，未达90%，不得跨班抵补或拆批发放。必要字段齐全，无须暂停补取。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4 U3十七份、S2应二十，得到85%；S1每班需九成且不能抵补/拆分，S5合计只是统计。S3有效计数已核验，S8齐全应退回而非缺档暂停，理由足够。",
+      "action": "D"
+    },
+    {
+      "response_id": "C13A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "规则适用于A14当前截点的有效确认，U4不在范围内，档案未载替代版本。三班确认率依次为100%、90%、85%，U3未达标，班际不能抵补且整批不得拆分。退回补齐属于本轮处置范围，不涉及新增金额或批次授权。必要字段齐全，无须暂停补取；先前回答无影响决定的遗漏或矛盾，保留D。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2三班各20且U4在外，S4 20/18/17得到100/90/85%；S1恰90也达标但U3未达，S6不能现场拆出班级。S3有效记录可直接比率，S8完整字段应实体退回。",
+      "action": "D"
+    },
+    {
+      "response_id": "C13A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "每班须至少18份有效确认；U1有20份、U2有18份，均达标，U3仅17份（85%），未达标。计数已归档，无须暂停补取；班级间不得抵补，整批不得拆分，因此退回补齐U3确认材料，暂不发放本批物资。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S1九成包含恰值，S2二十人所以18份门槛；S4各20、18、17使U3缺一份。S1已知一班不达须退回，不能抵补/拆分；S8不是补取既有计数，答案完整。",
+      "action": "D"
+    },
+    {
+      "response_id": "C13A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留D。归档规则适用于A14，未载替代版本或额外审批要求。按当前截点，U1、U2、U3有效确认率分别为100%、90%、85%；U4不适用，无豁免对象。U3触发未达标退回条件；有效计数齐全，不适用补取暂停，且不得跨班抵补或拆批。D符合本轮整批处置范围，不涉及金额审批，证据充分。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2无豁免且U4不纳入，S3有效计数已核查，S4当前截点20/18/17；S1决定整批退回，S6再次禁止现场拆批。S8完整证据不暂停，未把退回视作新批次授权。",
+      "action": "D"
+    },
+    {
+      "response_id": "C13A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U3有效确认17/20＝85%，未达到90%门槛；U1、U2达标不能抵补。所需计数已归档，无须暂停补取，且批次不得拆分，因此退回补齐未达标班级的确认材料，暂不发放整批物资。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4 U3=17配S2每班20为85%，S1逐班九成、不可抵补及不可拆分决定整批暂不发。S8已有明确不达标记录，不能用补取暂停代替实体退回。",
+      "action": "D"
+    },
+    {
+      "response_id": "C14A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "材料适用于本校B17及认证节点监控用途，档案未载失效或替代版本；本案不涉及金额审批，S8规定覆盖补件暂停。C7恢复时间未归档，缺少判断连续中断是否满三小时的必要证据；重复行工单不能替代监控证据。保留C，补取恢复时间后再定模式，去重责任仍保留。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3认证节点为C7、S4“恢复时间字段尚未归档，无法读取”，缺S1连续三小时计算端点；S2/S5工单源于重复行不能替监控。S8要求补必需字段，去重义务依S5保留。",
+      "action": "C"
+    },
+    {
+      "response_id": "C14A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "C7恢复时间未归档，无法确认单次连续中断是否达到三小时，故A、B均缺少路径判定依据。重复行工单不能证明应急触发，打印站维护也不计入认证中断；合法申请不得取消，排除D。依S8应补取恢复时间后再决定，去重修正责任仍保留。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4恢复时点缺档，S3打印站P2与C7独立，S2/S5核对单由重复行触发；这些均不能证明S1应急条件。S2禁止取消合法申请，S8指向补取端点，理由覆盖完整C。",
+      "action": "C"
+    },
+    {
+      "response_id": "C14A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "复核后保留C。规则适用于B17认证节点C7及本轮模式判定，档案未载替代版本，本案不涉及金额审批。恢复时间未归档，无法判定连续中断是否满三小时；重复行工单不能证明应急触发。S8明确要求暂停并向原保管人补取必要字段，去重责任仍须保留。先前答复无实质遗漏或矛盾。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4无法读取恢复字段令S1持续三小时条件未知，S5工单“不读取认证节点不可用时长”，S2也区分触发记录。S8要求原保管人补字段，S5去重责任仍在；过程自评不作为真相依据。",
+      "action": "C"
+    },
+    {
+      "response_id": "C14A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "制度适用于B17及认证节点C7，档案未载替代版本，本案不涉金额审批。恢复时间未归档，无法核实连续中断至少三小时的触发条件；节点恢复也不免除已触发的应急路径。P2维护及重复行工单不能替代监控证据。符合S8必要字段缺失条件，应暂停模式判定，向原保管人补取恢复时间；去重责任及合法申请须保留。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4缺恢复时间，S3/S5排除P2维护和重复工单替代，S8必需字段缺失即暂停。关于“已触发的应急路径”是S1一般条件规则，不是在断言本批已经触发；后文仍明确待核实。",
+      "action": "C"
+    },
+    {
+      "response_id": "C14A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "认证节点C7的恢复时间未归档，无法判断本批连续中断是否达到三小时。重复行核对工单不能证明应急条件成立。依S8，应暂停工作模式判定，向原保管人补取恢复时间后再决定，去重修正责任仍须保留。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3认证C7与本批对应，S4恢复字段缺档，S1需要连续三小时而非工单标题，S5明确重复核对来源。S8直接要求补取必要字段，S5也直接保留去重，所引来源充分。",
+      "action": "C"
+    },
+    {
+      "response_id": "C15A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "规则覆盖本单学校、整班学生及带队资格，出发日证书效力明确，档案未见替代版本；不涉金额审批，同意书不能豁免资格要求。当前仅一名有效持证者，人数及比例均不合规，成人比例表不能证明合规。证据齐全，无需补件；禁止现场删减学生，整班延期符合规则及改期安排。先前决定完整一致，保留B。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4一证有效一证已到期，S3仅两成人；S2三十人及同意书不豁免资格，S1有效人数/比例不足应延期，S5成人比率无效。S6可改期与S8否定记录非缺档支撑B。",
+      "action": "B"
+    },
+    {
+      "response_id": "C15A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "当前仅陈老师为有效持证带队者，三十人整班既不满足至少两名有效持证者的要求，也超过每人十五人的上限。现场删减学生被禁止；吴老师证书失效已有明确记录，不适用补件暂停。因此应推迟整班出发，待带队条件具备后另行安排。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4 J21有效而J22过期、S3无替补，S2三十学生，所以一名有效者既不足S1两人底线也超15人上限；S1禁现场减员，S8已有否定记录无需再补，支持整班延期。",
+      "action": "B"
+    },
+    {
+      "response_id": "C15A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "规则适用于W12整班出发，未见替代版本。出发日仅陈老师证书有效，不满足至少两名有效持证者及每人至多十五名学生要求。同意书不豁免资格要求，现场减员被禁止。资格状态已明确，材料充分，不触发补件暂停；本案不涉及金额批准。整班延期符合规则，改期与备用课已有安排，保留B。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S1至少两持证者且每人最多15，S4仅陈有效，S2同意书不替代资格且整班30人；S6已有改期/备用课。S8资格状态明确直接延期，不把无金额条款当作新增豁免。",
+      "action": "B"
+    },
+    {
+      "response_id": "C15A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "规则适用于W12整班及带队资格核验；状态页明确出发日仅陈老师证书有效，档案未载替代版本。有效持证人数与学生比例均不达标，同意书不能替代资格，也不得现场删减学生。整班延期符合本单范围及改期安排，不涉及新增金额授权。必要字段齐全，吴老师到期是明确否定证据，不适用补件暂停，故保留B。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3两成人无额外替补，S4出发前吴证已到期，结合S2三十人及S1有效人数/比例规则支持延期。S6改期无不可退费用支持安排范围，S8明确否定非缺失，引用可追溯。",
+      "action": "B"
+    },
+    {
+      "response_id": "C15A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "吴老师证书已到期，当前仅一名有效持证带队者，既不满足至少两人的要求，也无法满足三十名学生的带队比例。证书状态已有明确记录，不适用补件暂停；规则禁止现场删减学生，故推迟整班本次出发，待带队条件具备后另行安排。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4吴证到期、陈证有效及S3仅两成人，配S2三十学生与S1最低两人/十五人上限，结论为整班延期。S1禁删减，S8已有完整状态不得改为补件暂停，短答已包含关键桥接。",
+      "action": "B"
+    },
+    {
+      "response_id": "C16A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留D。材料适用于本月本班，字典未换版；E类免到已核准，支持人员已排定、开支在年度预算内。免到8×5＝40人日，评价率720÷760的未舍入值达到92%且不足96%，应定向支持。备忘录误用排班展示率90%。必要字段齐全，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4八块每块五人日、S5核准E类，S2 800与S3 720给评价率720/760，S1据未舍入值属定向。S6人员预算有据；S2明确排班展示不能直接判等级，备忘录90%用错。",
+      "action": "D"
+    },
+    {
+      "response_id": "C16A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "对象、月份、字段用途及版本均适用；免到已核准，定向支持人员已安排、开支在预算内。E类免到8×5＝40人日，评价率720÷760≈94.74%，未舍入值达92%但不足96%。必要材料齐全，先前回答无影响结论的遗漏或矛盾，保留D。备忘录误用排班展示90%，不应选C或暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4/S5产生可扣40人日，S2/S3得720/760≈94.7368%；答复约94.74%正确且明确用未舍入值比较，符合S1。S6支持人员预算；对先前回答一致性的自述不作为独立证据。",
+      "action": "D"
+    },
+    {
+      "response_id": "C16A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "核准免到为8×5＝40人日，应评价人日为800－40＝760。720÷760达到92%但不足96%，应登记定向支持并安排有限度辅导，不适用常规或全面支持。看板90%不是等级判定字段；核准块数已归档，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2计划800、S3实到720、S4核准40、S5 E类可扣，按S1分母为760且比率在92%至不足96%。S2展示用途及S8计数已归档支持排除误用90%和补件暂停。",
+      "action": "D"
+    },
+    {
+      "response_id": "C16A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "核准免到为8×5＝40人日，应评价人日为800－40＝760。评价出勤率720÷760达到92%且不足96%，应登记定向支持并安排有限度辅导。看板90%仅为原始到校率；所需块数已归档，无须暂停补件。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4“八块，每块五个人日”换算40，S5核准类别与S1分母规则配S2/S3得720/760，区间判断正确。S3称看板为“原始到校率”，S8资料齐备使D可直接登记。",
+      "action": "D"
+    },
+    {
+      "response_id": "C16A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "保留D。材料适用于本月本班正式评价，代码字典未换版。已核准E类免到8×5＝40人日，评价率720÷760介于92%与96%之间，满足定向支持条件。方案人员及预算已覆盖，必需字段齐全，不触发补件暂停。看板90%仅用于排班，不能支持备忘录的C建议。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S5字典未换版且全块为E，S4核准8×5=40，S2/S3给800和720，S1下94.7368%确在定向区间。S6人员预算有安排，S2说明90%仅作排班，故反驳备忘录有来源。",
+      "action": "D"
+    }
+  ]
+}

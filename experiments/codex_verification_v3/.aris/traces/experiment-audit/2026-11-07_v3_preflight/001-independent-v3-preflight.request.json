@@ -1,0 +1,24 @@
+{
+  "call_number": 1,
+  "purpose": "independent-v3-preflight",
+  "timestamp": "2026-11-06T23:20:20.670095+00:00",
+  "tool": "spawn_agent",
+  "model": "inherited; not independently exposed",
+  "reasoning_effort": "inherited; not independently exposed",
+  "files_referenced": [
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/AGENTS.md",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/protocol/EXPERIMENT_PLAN.md",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/protocol/analysis_plan.json",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/protocol/runtime_identity.json",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/protocol/prompts.json",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/protocol/backend.json",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/harness/runner.py",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/harness/integrity.py",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/harness/PROVENANCE.json",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/analysis/evaluate.py",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/analysis/progress.py",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/tests/test_v3.py",
+    "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/audits/harness_tests.json"
+  ],
+  "prompt": "按experiment-audit技能作为新鲜独立完整性审计者。先核对host liekkas与canonical绝对root=/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3。直接读AGENTS.md、protocol/EXPERIMENT_PLAN.md,analysis_plan.json,runtime_identity.json,prompts.json,backend.json；harness/runner.py,integrity.py,PROVENANCE.json；analysis/evaluate.py,progress.py；tests/test_v3.py及audits/harness_tests.json。题库作者尚在构建，可先严格工具链预flight：冻结/runtime/whole-run inventory/目录锁/partial attempt及已有final不重抽/未知usage/sessionlifecycle/gate80全部完成与阈值/挑战origin作者草稿隔离/各family统计正确性。请重跑有意义离线mock并自主对抗probe，不准发真实CLI调用或改变原始/冻结文件，发现立即报告root；不要仅信作者测试。写audits/PREFLIGHT_REVIEW.md/json和完整.aris/traces/experiment-audit/2026-11-07_v3_preflight/。声明same-family/provisional。之后复用本agent做冻结前计划题库关联核验以及真正最终原始结果复算，不需现在写最终结果。报告路径/实际发现，不推测结果。"
+}

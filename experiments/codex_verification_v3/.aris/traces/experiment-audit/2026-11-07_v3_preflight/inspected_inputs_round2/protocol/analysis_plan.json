@@ -1,0 +1,65 @@
+{
+  "version": "v3-pilot-and-conditional-authored-drafts",
+  "evaluation_type": "simulation_only",
+  "set_before_subject_responses": true,
+  "model": "gpt-6-astra",
+  "effort": "ultra",
+  "max_workers": 12,
+  "p0_tasks": 80,
+  "p0_repeats": 1,
+  "challenge_tasks": 128,
+  "max_planned_tasks": 208,
+  "max_attempts_per_task": 2,
+  "primary_unit": "case_family",
+  "families_per_type": 4,
+  "development_only": true,
+  "heldout_families_executed": 0,
+  "gate": {
+    "require_all_p0_complete": true,
+    "types": [
+      "material",
+      "rule"
+    ],
+    "present_flawed_count_per_type": 16,
+    "min_errors": 4,
+    "max_errors": 8,
+    "min_error_families": 3,
+    "min_present_aligned_correct": 12,
+    "present_aligned_count_per_type": 16,
+    "min_missing_correct": 6,
+    "missing_count_per_type": 8,
+    "pass_action": "Stop this batch after80 and propose fresh structurally distinct holdout families. Never reuse selected natural errors for comparison.",
+    "valid_fail_action": "Execute all pre-authored128 challenge tasks, unchanged.",
+    "technical_failure_action": "Report indeterminate; never convert failure into a natural error or trigger challenge."
+  },
+  "challenge": {
+    "draft_source": "author constructed before any P0 response",
+    "states": [
+      "base",
+      "decisive_change"
+    ],
+    "conditions": [
+      "correct",
+      "error"
+    ],
+    "procedures": [
+      "P1",
+      "P3",
+      "P7",
+      "P8"
+    ],
+    "primary_contrast": "I78=(P7-P8)_rule-(P7-P8)_material on authored_error, family equal weights",
+    "secondary_contrasts": [
+      "I73",
+      "P3-P1"
+    ],
+    "outcomes": [
+      "final correct among erroneous drafts",
+      "damage among correct drafts"
+    ],
+    "never_pool_with_natural_errors": true
+  },
+  "failures": "Planned denominator retained; no-final technical retry only. Existing final never resampled.",
+  "inference": "Descriptive family means/ranges only; no CI/p-value, superiority/equivalence or human claim.",
+  "cost": "NA absent verified bill; subject usage only, preparation/review overhead unknown."
+}

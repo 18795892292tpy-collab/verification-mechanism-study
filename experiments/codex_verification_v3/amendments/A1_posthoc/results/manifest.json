@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-06T23:56:24.670604+00:00",
+  "analysis_label": "posthoc_exploratory",
+  "target_host": "liekkas",
+  "target_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "script_sha256": "2cfa38ad66ec9d412b7b8346e326d3d5d05f7453d7a3bf0f450bb06efdbea245",
+  "original_frozen_sha256": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "outputs_sha256": {
+    "input_sha256.json": "3e934df86e497376956e228badf05164093500854ec2f2c03598e7474f5f887e",
+    "item_scores.csv": "c82c9049c747e42f39fb1a3c88dfcf24e5186058db683ca510696f62fe307e93",
+    "policy.json": "efd914527275fcd55c4ca466152650ab4ad9457067095c670fbd40323fa823f0",
+    "rows.json": "d330391ecf56a33763b520939e000914cdfdcbaebe7e0bc9ac13ded2f8b041d9",
+    "summary.json": "9a0761cf948d68caccc35340e2ce756b033aa76272d519480fd1fe58ba372bb6",
+    "threshold_diagnostic.json": "87fd961d0f57babb36721ec4936dd5bc56f517e2f29a76a203461a394b3c82a7"
+  },
+  "original_inputs_unchanged": true,
+  "original_gate_overridden": false,
+  "new_model_calls": 0
+}

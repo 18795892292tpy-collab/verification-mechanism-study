@@ -1,0 +1,9 @@
+{
+  "audits/independent_final_v3.py": "62646d93845d891aaeb6b41c5409254c41715481308f62e79248076798b004fb",
+  "audits/independent_recompute.py": "da7e283d5d88abfc6807ea8081b102b4c1fba317f2747cbd90365e47c9bdd168",
+  "audits/FINAL_EXPERIMENT_AUDIT.json": "a89c58de31601354fc4af2f43fce99765b85ce6758acc08095e9b4d6792acf87",
+  "audits/FINAL_EXPERIMENT_AUDIT.md": "66c2ff935ab2d2dc9d838312222c975d554e4767c0c199caa21a910d8a1f33c0",
+  "audits/PUBLICATION_REVIEW.md": "7ebdff0f8f04f851048ac61677d0eb12b194ffa0189e85724e467f8406d38a07",
+  "audits/PUBLICATION_REVIEW.json": "321b381bf321dcf5152993ccffb13aac77cb73543d5acc384a6ef0bc79e16d79",
+  "audits/independent_publication_check.py": "227bfce3cb6a8ba8edaea11f8bf7de88d370bb4b0019d4a6c90f9f2b1822a88d"
+}

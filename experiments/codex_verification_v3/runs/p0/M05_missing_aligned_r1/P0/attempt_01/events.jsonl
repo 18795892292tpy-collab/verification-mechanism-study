@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b340-582d-7260-a433-c14c7eacf44e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S9\"],\"brief_justification\":\"三年维护费合计94575元，是否达到100000元会签门槛取决于必付部署费是否达到5425元。该唯一决定字段未归档且无法从其他材料推出，依S9须补取后再定签署路径。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18464,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":301,"reasoning_output_tokens":194}}

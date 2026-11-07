@@ -1,0 +1,20 @@
+{
+  "AGENTS.md": "9cb05afa92b95fdd46ffe912a6d73a48cb5da0e9b3e71c4e0c5cc9ffc1119861",
+  "protocol/EXPERIMENT_PLAN.md": "2f6a6d52452346613974eb7c16cdf18fac9ba20be353df697ccab50cccdbe5ee",
+  "protocol/analysis_plan.json": "966d841e42ae29a06fe221d9dd47be2597384125d3fb2f9116c38a512212543f",
+  "protocol/runtime_identity.json": "eb10c933f7d75bbb23e0b35ea89e5484a422a40afaf776f1409c0511f57afcc9",
+  "protocol/prompts.json": "8a175f0e50bc2454485755f3b46253988ffd99485c1cf3982fe53aebb3baaf01",
+  "protocol/backend.json": "b5cccb1b62e36963577a4f2291fd9ea710bc861904fa5524c08c8ac9a1f77e1b",
+  "harness/runner.py": "b27ef6a030cbcb0099af6a51817b835260d48754810a1db6566cd7a8313e34ce",
+  "harness/integrity.py": "6e81d18ba12883184d7ae06176e50269c7785a0c6c98679f796a9ccca8c7a5bf",
+  "harness/PROVENANCE.json": "ec51dc8938beda66545b2b5a17076bfa693a02f617ad23db8075792cf0f661b1",
+  "analysis/evaluate.py": "1acba9b4477f04951a94107c74c55de6d75e716b7922e36237b40dfc97a24768",
+  "analysis/progress.py": "e9a26a919432f8ebf022f78f85e4ece1eda9a08da95e45a9747c848f1b201687",
+  "tests/test_v3.py": "0335c7d380124a3e178f7c997acbd93dccac69fc0f26bb837e190b66f211c387",
+  "audits/harness_tests.json": "8d0635bf0426737943a40c59d60094ca16e734a39de201600fd83274626cb1e0",
+  "prompts/p0_items.json": "a191461d53d35b66da3b56b5481471cb9359f0ad368cf87debb304fb7b3eeba8",
+  "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+  "keys/p0_keys.json": "e93a9d8e1b6e161bfb834f8902be12adc0092a173696598c7d81687d931d6b94",
+  "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0",
+  "audits/independent_recompute.py": "da7e283d5d88abfc6807ea8081b102b4c1fba317f2747cbd90365e47c9bdd168"
+}

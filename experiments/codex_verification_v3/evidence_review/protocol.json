@@ -1,0 +1,45 @@
+{
+  "version": "v3-v2-evidence-audit-1",
+  "prepared_utc": "2026-11-06T23:07:42.579015+00:00",
+  "evaluation": "exploratory same-family semantic assessment; not a replacement for original action accuracy",
+  "scope": "80 saved V2 responses from16 paired item/repeat groups; 2 groups per8 family, all5 procedures. No new subject answer.",
+  "sampling_rule": "families sorted; for index i choose aligned state[i%5] and flawed state[(i+2)%5], states=[base,decisive_change,irrelevant,paraphrase,missing]; repeat=1+int(SHA256(item_id+fixed_seed),16)%2. All5 procedures retained. Anonymous case/answer order fixed pseudorandom seed2026110703.",
+  "sample_seed": "v3-evidence-20261107",
+  "reviewers": 2,
+  "blinding": "Hide procedure/family/state/advice labels, true key, aggregate result, original IDs; show original public dossier and exact parsed final. Public text can reveal experimental properties. Same model family cannot certify external validity.",
+  "rubric": {
+    "factual_error": [
+      "yes",
+      "no",
+      "uncertain"
+    ],
+    "decisive_support": [
+      "adequate",
+      "partial",
+      "unsupported",
+      "uncertain"
+    ],
+    "citation_support": [
+      "supported",
+      "partly_supported",
+      "unsupported",
+      "no_citations",
+      "uncertain"
+    ]
+  },
+  "definitions": {
+    "factual_error": "yes only for explicit factual assertion contradicted by dossier, not mere omitted detail; no means no identified explicit contradiction in inspected text, not certified full reasoning.",
+    "decisive_support": "adequate if visible brief reason identifies decisive fact and applicable rule sufficiently to justify chosen action; partial if compatible but omits necessary connecting condition; unsupported if given reason cannot justify action or relies on contradicted/unprovided decisive premise. Respect short-answer format; do not require exhaustive elimination or hidden thought.",
+    "citation_support": "supported if cited sources jointly support visible decisive rationale; partly_supported if only part is substantiated or added citations have no discernible role; unsupported if no cited source supports key reason. Check IDs against original dossier; quotation text must be accurate."
+  },
+  "required_row_fields": [
+    "response_id",
+    "factual_error",
+    "decisive_support",
+    "citation_support",
+    "answer_quote",
+    "source_ids",
+    "evidence_note"
+  ],
+  "analysis": "Report both raters separately and exact agreement; unresolved disagreements retained, no executor override. No hypothesis test or superiority claim; unit family, sample exploratory. New rubric is retrospective to V2, fixed before these semantic ratings. Reviewer work/usage separate from subject calls."
+}

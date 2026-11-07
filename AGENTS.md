@@ -4,6 +4,17 @@
 
 研究问题：生成式 AI 给学校行政决策提建议，建议引用了真实材料，但材料的适用对象、时间版本或授权范围并不支持这个决定。这时，第二轮"来源适用性核验"之所以有用，是因为它检查了能区分不同行动的证据，还是只是因为多算了一轮？
 
+## 2026-11-07：Codex v3 预试及额外探索
+
+研究者授权继续实验并上传，结果单独存放于 [`experiments/codex_verification_v3/`](experiments/codex_verification_v3/)，先读 `protocol/EXPERIMENT_PLAN.md`、`analysis/decision_gate.json`、`amendments/A1_posthoc/README.md`、`amendments/A1_posthoc/challenge/authorization.json`、`report/DEV_REPORT.md` 与 `audits/FINAL_EXPERIMENT_AUDIT.json`。本批单独报告，不合并 v1/v2/DeepSeek 数据。
+
+- 原 P0 计划80、实际80次 CLI 尝试；由于冻结策略不豁免三类 CLI 配置诊断，严格状态80个 `technical_failure`，门槛 `technical_block`、`challenge_allowed=false`。失败不等于80个内容决策错误。
+- 新增 A1 事后精确诊断例外与原始 final 的敏感性分析得到80/80行动正确；它不是原冻结门槛，也不证明隐藏上下文一致。原始输入、状态、gate与 final 均未改写。
+- 原门槛阻断后，另行登记并冻结32份作者预设草稿×4程序=128项事后探索；127完成、1项 stderr 技术失败，虽然该失败返回的 action 符合答案，主要分母仍按失败计0，不重抽。P1/P3/P7错误草稿16/16、P8 15/16；正确草稿未保留各0/16。错误草稿上的I78=+0.125完全由此技术失败产生，不作P7优势主张。草稿不是自然P0错误，两类结果不混合。
+- 被试 CLI 实际208次尝试（P0 80、额外挑战128），不包含编题/内部审核/协调开销；记录合计输入3,855,118、输出93,500 tokens，费用未核实为 NA。V2另取16组80回答经两名同家族内部评审，后设非概率样本，不能外推全部800或证明隐藏推理。
+- 原始重算及证据完整性 PASS、总体 WARN；同模型家族内部审核属于 provisional，不是独立教育行政专家效度验证。8个构造开发家族，每类型仅4个，没有真人或独立确认集，不做确认性优越性、等价性或现实成效结论。不要把固定草稿修复写成自然错误修复收益。
+- 不改原实验冻结文件、原始失败、有效final或gate，不因结果重采样。归档根目录的 `PUBLICATION_VERIFY.py` 验证归档证据字节，不代表在原主机重新执行实验。
+
 ## 2026-11-07：Codex v2 固定 800 任务批次
 
 研究者授权“收尾准备题库并且启动800次 做完后提交到GITHUB”，本批材料单独放在 [`experiments/codex_verification_v2/`](experiments/codex_verification_v2/)。先读其 `protocol/EXECUTION_AMENDMENT.md`、`protocol/analysis_plan.json`、`protocol/CONCURRENCY_AMENDMENT_2026-11-07.json` 和 `report/DEV_REPORT.md`。执行前固定预算修订优先于旧提案中的额外筛查和追加预算建议，也不沿用 v1 的天花板停止门槛。
@@ -25,7 +36,7 @@
 
 ## 先读这些
 
-1. `mechanism_study/report/dev_report.md`：已做实验的全部结果（第 1–11 节），每节按 原目标—方法—结果—解释—下一步 写。
+1. `mechanism_study/report/dev_report.md`：已做实验的全部结果（第 1–12 节），每节按 原目标—方法—结果—解释—下一步 写。
 2. `mechanism_study/README.md`：程序 P0–P6 的定义和运行方法。
 3. `mechanism_study/analysis/analysis_plan.md`：预先规定的分析（C1、C2、C3、NI1、NI2）。
 4. `.claude/skills/verification-case-builder/SKILL.md` 及其 `references/`：如何编写和检查案例家族（尤其 `hard_tier.md`）。
@@ -45,7 +56,7 @@ Python 3.12。下面所有命令都在 `mechanism_study/` 下运行。`.env` 不
 ## 研究者定下的规则（不要自行改变）
 
 - **只用 DeepSeek flash。** API 模型名 `deepseek-flash` 就是 DeepSeek-V4.1-Flash（2026-11-06 价格页标明版本为 DeepSeek-V4.1-Flash-1017）。不用本地模型，不换其他模型。分析计划里"3 个模型"的旧设计已由研究者改为只用 flash。
-  - **例外：** 2026-11-07 研究者授权在 Codex 环境中用 `gpt-6-astra / ultra` 做独立开发批次 `experiments/codex_verification_v1/` 和固定 800 任务批次 `experiments/codex_verification_v2/`。各批单独存放、单独报告，彼此及与 DeepSeek flash 数据均不合并，也不作为 flash 结论的依据；v2 的执行范围以上文及其冻结协议为准。
+  - **例外：** 2026-11-07 研究者授权在 Codex 环境中用 `gpt-6-astra / ultra` 做独立开发批次 `experiments/codex_verification_v1/`、固定 800 任务批次 `experiments/codex_verification_v2/` 及预试与事后探索批次 `experiments/codex_verification_v3/`。各批单独存放、单独报告，彼此及与 DeepSeek flash 数据均不合并，也不作为 flash 结论的依据；v2 的执行范围以上文及其冻结协议为准。
 - **两种条件，分文件夹存放、分开报告，绝不合并：**
   - 不推理（第 1–3 轮的全部数据）：`.env` 里 `LLM_MODEL=deepseek-chat`。服务器返回 deepseek-flash，不产生推理 token。温度 0.7，`--max-tokens 4000`（默认值）。
   - 推理（当前条件）：命令里加 `--model deepseek-flash --max-tokens 32000 --timeout 400`。推理强度用默认的 high。推理模式下温度参数被忽略。不要用 4,000 的上限：此前的推理探测中 P3 复核 80 次有 77 次被截断，结果无效。

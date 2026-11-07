@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b355-bae8-7de2-91db-9834e920b558"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S9\"],\"brief_justification\":\"保留A。规则适用于本案补正，档案未列替代版本，无金额审批或额外授权要求。N18登记为Z1，6月3日至7日暂停计时；2、8、9、10日共计4个工作日。补正于10日齐全送达，未超期限。必要字段均已给出，无需补取类别代码。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18592,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":539,"reasoning_output_tokens":399}}

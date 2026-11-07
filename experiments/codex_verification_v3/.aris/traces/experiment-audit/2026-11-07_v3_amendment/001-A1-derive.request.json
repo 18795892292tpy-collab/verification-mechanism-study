@@ -1,0 +1,6 @@
+{
+  "call_number": 1,
+  "purpose": "A1-derivation-independent-review",
+  "tool": "followup_task",
+  "prompt": "请先独立审核 A1 derive.py、tests及 results 输出并报告有无漏洞/数值一致；挑战执行器按你发现的缺陷由作者修复后再复审。不可把新探索阶段说成原门槛通过。"
+}

@@ -1,0 +1,10 @@
+{
+  "call_number": 2,
+  "purpose": "extra-C-exploratory-preflight",
+  "agent_id": "/root/v3_integrity_audit",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "ok",
+  "verdict": "PASS",
+  "real_model_calls": 0
+}

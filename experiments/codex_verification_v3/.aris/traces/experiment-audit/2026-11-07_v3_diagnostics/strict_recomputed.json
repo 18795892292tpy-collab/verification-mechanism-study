@@ -1,0 +1,396 @@
+{
+  "generated_at": "2026-11-06T23:51:34.594146+00:00",
+  "strict_status": "technical_block",
+  "frozen_hash": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "counts": {
+    "terminal_records": 80,
+    "started_attempts": 80,
+    "sealed_attempts": 80,
+    "strict_complete": 0,
+    "strict_technical_failure": 80,
+    "returncode_zero": 80,
+    "schema_valid_responses": 80,
+    "response_equals_final_event": 80,
+    "unique_sessions": 80,
+    "unrecognized_or_top_level_errors": 0,
+    "tool_events": 0,
+    "frozen_changed": 0,
+    "raw_hash_mismatches": 0,
+    "challenge_attempts": 0
+  },
+  "strict_stats": {
+    "planned_tasks": 80,
+    "complete_tasks": 0,
+    "terminal_tasks": 80,
+    "status_counts": {
+      "technical_failure": 80
+    },
+    "procedures": {
+      "P0": {
+        "planned": 80,
+        "correct": 0,
+        "accuracy": 0.0
+      }
+    },
+    "family_results": [
+      {
+        "family_id": "M05",
+        "type": "material",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "M06",
+        "type": "material",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "M07",
+        "type": "material",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "M08",
+        "type": "material",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "R05",
+        "type": "rule",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "R06",
+        "type": "rule",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "R07",
+        "type": "rule",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      },
+      {
+        "family_id": "R08",
+        "type": "rule",
+        "procedure": "P0",
+        "condition": "all",
+        "planned": 10,
+        "correct": 0,
+        "rate": 0.0
+      }
+    ],
+    "strata": [
+      {
+        "type": "material",
+        "state": "base",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "base",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "decisive_change",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "decisive_change",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "irrelevant",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "irrelevant",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "missing",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "missing",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "paraphrase",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "material",
+        "state": "paraphrase",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "base",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "base",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "decisive_change",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "decisive_change",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "irrelevant",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "irrelevant",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "missing",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "missing",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "paraphrase",
+        "advice": "aligned",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      {
+        "type": "rule",
+        "state": "paraphrase",
+        "advice": "flawed",
+        "planned": 4,
+        "correct": 0,
+        "accuracy": 0.0
+      }
+    ],
+    "attempts": 80,
+    "known_input_tokens": 1474842,
+    "sum_input_tokens": 1474842,
+    "input_tokens_missing_attempts": 0,
+    "known_output_tokens": 24171,
+    "sum_output_tokens": 24171,
+    "output_tokens_missing_attempts": 0,
+    "usage_missing_attempts": 0,
+    "difficulty_diagnostic": {
+      "material": {
+        "present_flawed_n": 16,
+        "present_flawed_correct": 0,
+        "natural_errors": 0,
+        "error_families": [],
+        "present_aligned_n": 16,
+        "present_aligned_correct": 0,
+        "missing_n": 8,
+        "missing_correct": 0
+      },
+      "rule": {
+        "present_flawed_n": 16,
+        "present_flawed_correct": 0,
+        "natural_errors": 0,
+        "error_families": [],
+        "present_aligned_n": 16,
+        "present_aligned_correct": 0,
+        "missing_n": 8,
+        "missing_correct": 0
+      }
+    }
+  },
+  "strict_gate_recomputed": {
+    "status": "technical_block",
+    "challenge_allowed": false,
+    "criteria_pass": {
+      "material": false,
+      "rule": false
+    }
+  },
+  "diagnostic_messages": [
+    {
+      "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+      "message_sha256": "d11f5b5f75f831ab76311c531db30d7e024621047b65bab3667546268f00c7e7",
+      "count": 80
+    },
+    {
+      "message": "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "message_sha256": "098e801ebc95c9c7312a945849442846324dcf639365a297313248993822711b",
+      "count": 80
+    },
+    {
+      "message": "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list.",
+      "message_sha256": "9d6376c7509e1139a90ce1d2b6d5cfb9b1de7ed15595f33dace0f6a9a351ffc3",
+      "count": 80
+    }
+  ],
+  "stderr_classes": {
+    "WARN codex_http_client::native_roots: encountered errors while loading native root certificates native_root_error_count=2": 80
+  },
+  "event_patterns": [
+    {
+      "sequence": [
+        "thread.started",
+        "item.completed:error",
+        "item.completed:error",
+        "turn.started",
+        "item.completed:error",
+        "item.completed:agent_message",
+        "turn.completed"
+      ],
+      "count": 80
+    }
+  ],
+  "prior_v2_samples": [
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/runs/dev/M03_missing_flawed_r1/P0/attempt_01/events.jsonl",
+      "sha256": "053d6b6e1dd78a23af5c6658a949352cc86c50954df431e1d8a454c4f0af7854",
+      "messages": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+      ]
+    },
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/runs/dev/M03_missing_flawed_r1/P1/attempt_01/events.jsonl",
+      "sha256": "b44e49636be91ddae195744b6161e76f7d09c6e442c13a60019f6c02b7154955",
+      "messages": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+      ]
+    },
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/runs/dev/M03_missing_flawed_r1/P7/attempt_01/events.jsonl",
+      "sha256": "c729d8acc88ea35d211acaca8b386e6b0497f78075cfdf15ddb6f28f7f7865c3",
+      "messages": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+      ]
+    },
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/runs/dev/M03_missing_flawed_r1/P3/attempt_01/events.jsonl",
+      "sha256": "96afd8569344d9ee10ba9272dd98b8355373ccbe53e993618e7fa19d41262655",
+      "messages": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+      ]
+    },
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2/runs/dev/M03_missing_flawed_r1/P8/attempt_01/events.jsonl",
+      "sha256": "6d19160eb7780ced30ca6071dd646621d80690957a5e59872e93a79d114ee192",
+      "messages": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+      ]
+    }
+  ],
+  "content_correctness_not_scored": true,
+  "real_model_calls": 0,
+  "reader": "audits/independent_recompute.py via runpy; no reviewed runner/evaluate import",
+  "reader_sha256": "da7e283d5d88abfc6807ea8081b102b4c1fba317f2747cbd90365e47c9bdd168",
+  "immutable_inputs_checked": 583
+}

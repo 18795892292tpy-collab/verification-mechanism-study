@@ -1,0 +1,562 @@
+[
+  {
+    "alias": "P001",
+    "phase": "p0",
+    "item_id": "M07_paraphrase_aligned"
+  },
+  {
+    "alias": "P002",
+    "phase": "p0",
+    "item_id": "R08_base_flawed"
+  },
+  {
+    "alias": "P003",
+    "phase": "p0",
+    "item_id": "M07_decisive_change_flawed"
+  },
+  {
+    "alias": "P004",
+    "phase": "p0",
+    "item_id": "M08_missing_flawed"
+  },
+  {
+    "alias": "P005",
+    "phase": "p0",
+    "item_id": "M06_paraphrase_aligned"
+  },
+  {
+    "alias": "P006",
+    "phase": "p0",
+    "item_id": "R07_base_flawed"
+  },
+  {
+    "alias": "P007",
+    "phase": "p0",
+    "item_id": "M07_decisive_change_aligned"
+  },
+  {
+    "alias": "P008",
+    "phase": "p0",
+    "item_id": "M05_missing_aligned"
+  },
+  {
+    "alias": "P009",
+    "phase": "p0",
+    "item_id": "M08_irrelevant_aligned"
+  },
+  {
+    "alias": "P010",
+    "phase": "p0",
+    "item_id": "R06_missing_aligned"
+  },
+  {
+    "alias": "P011",
+    "phase": "p0",
+    "item_id": "M07_irrelevant_aligned"
+  },
+  {
+    "alias": "P012",
+    "phase": "p0",
+    "item_id": "M08_paraphrase_flawed"
+  },
+  {
+    "alias": "P013",
+    "phase": "p0",
+    "item_id": "M05_paraphrase_flawed"
+  },
+  {
+    "alias": "P014",
+    "phase": "p0",
+    "item_id": "M05_paraphrase_aligned"
+  },
+  {
+    "alias": "P015",
+    "phase": "p0",
+    "item_id": "M08_base_flawed"
+  },
+  {
+    "alias": "P016",
+    "phase": "p0",
+    "item_id": "M07_base_flawed"
+  },
+  {
+    "alias": "P017",
+    "phase": "p0",
+    "item_id": "R05_decisive_change_aligned"
+  },
+  {
+    "alias": "P018",
+    "phase": "p0",
+    "item_id": "M08_decisive_change_flawed"
+  },
+  {
+    "alias": "P019",
+    "phase": "p0",
+    "item_id": "R06_base_aligned"
+  },
+  {
+    "alias": "P020",
+    "phase": "p0",
+    "item_id": "M05_base_aligned"
+  },
+  {
+    "alias": "P021",
+    "phase": "p0",
+    "item_id": "R05_irrelevant_flawed"
+  },
+  {
+    "alias": "P022",
+    "phase": "p0",
+    "item_id": "R06_irrelevant_flawed"
+  },
+  {
+    "alias": "P023",
+    "phase": "p0",
+    "item_id": "M07_missing_aligned"
+  },
+  {
+    "alias": "P024",
+    "phase": "p0",
+    "item_id": "R07_decisive_change_aligned"
+  },
+  {
+    "alias": "P025",
+    "phase": "p0",
+    "item_id": "R06_decisive_change_flawed"
+  },
+  {
+    "alias": "P026",
+    "phase": "p0",
+    "item_id": "R05_irrelevant_aligned"
+  },
+  {
+    "alias": "P027",
+    "phase": "p0",
+    "item_id": "M05_missing_flawed"
+  },
+  {
+    "alias": "P028",
+    "phase": "p0",
+    "item_id": "R08_paraphrase_flawed"
+  },
+  {
+    "alias": "P029",
+    "phase": "p0",
+    "item_id": "R07_base_aligned"
+  },
+  {
+    "alias": "P030",
+    "phase": "p0",
+    "item_id": "M05_irrelevant_flawed"
+  },
+  {
+    "alias": "P031",
+    "phase": "p0",
+    "item_id": "R05_missing_aligned"
+  },
+  {
+    "alias": "P032",
+    "phase": "p0",
+    "item_id": "R05_missing_flawed"
+  },
+  {
+    "alias": "P033",
+    "phase": "p0",
+    "item_id": "R07_irrelevant_flawed"
+  },
+  {
+    "alias": "P034",
+    "phase": "p0",
+    "item_id": "R06_base_flawed"
+  },
+  {
+    "alias": "P035",
+    "phase": "p0",
+    "item_id": "M08_decisive_change_aligned"
+  },
+  {
+    "alias": "P036",
+    "phase": "p0",
+    "item_id": "M06_paraphrase_flawed"
+  },
+  {
+    "alias": "P037",
+    "phase": "p0",
+    "item_id": "M06_base_flawed"
+  },
+  {
+    "alias": "P038",
+    "phase": "p0",
+    "item_id": "R05_base_aligned"
+  },
+  {
+    "alias": "P039",
+    "phase": "p0",
+    "item_id": "M06_missing_aligned"
+  },
+  {
+    "alias": "P040",
+    "phase": "p0",
+    "item_id": "R07_paraphrase_aligned"
+  },
+  {
+    "alias": "P041",
+    "phase": "p0",
+    "item_id": "M06_decisive_change_aligned"
+  },
+  {
+    "alias": "P042",
+    "phase": "p0",
+    "item_id": "R05_decisive_change_flawed"
+  },
+  {
+    "alias": "P043",
+    "phase": "p0",
+    "item_id": "M08_paraphrase_aligned"
+  },
+  {
+    "alias": "P044",
+    "phase": "p0",
+    "item_id": "M06_irrelevant_flawed"
+  },
+  {
+    "alias": "P045",
+    "phase": "p0",
+    "item_id": "R08_decisive_change_aligned"
+  },
+  {
+    "alias": "P046",
+    "phase": "p0",
+    "item_id": "M07_missing_flawed"
+  },
+  {
+    "alias": "P047",
+    "phase": "p0",
+    "item_id": "M05_decisive_change_flawed"
+  },
+  {
+    "alias": "P048",
+    "phase": "p0",
+    "item_id": "R05_paraphrase_flawed"
+  },
+  {
+    "alias": "P049",
+    "phase": "p0",
+    "item_id": "M06_base_aligned"
+  },
+  {
+    "alias": "P050",
+    "phase": "p0",
+    "item_id": "R08_irrelevant_aligned"
+  },
+  {
+    "alias": "P051",
+    "phase": "p0",
+    "item_id": "R05_paraphrase_aligned"
+  },
+  {
+    "alias": "P052",
+    "phase": "p0",
+    "item_id": "R08_base_aligned"
+  },
+  {
+    "alias": "P053",
+    "phase": "p0",
+    "item_id": "R08_paraphrase_aligned"
+  },
+  {
+    "alias": "P054",
+    "phase": "p0",
+    "item_id": "M05_base_flawed"
+  },
+  {
+    "alias": "P055",
+    "phase": "p0",
+    "item_id": "M07_base_aligned"
+  },
+  {
+    "alias": "P056",
+    "phase": "p0",
+    "item_id": "R06_decisive_change_aligned"
+  },
+  {
+    "alias": "P057",
+    "phase": "p0",
+    "item_id": "R08_missing_aligned"
+  },
+  {
+    "alias": "P058",
+    "phase": "p0",
+    "item_id": "R08_missing_flawed"
+  },
+  {
+    "alias": "P059",
+    "phase": "p0",
+    "item_id": "M05_irrelevant_aligned"
+  },
+  {
+    "alias": "P060",
+    "phase": "p0",
+    "item_id": "R07_irrelevant_aligned"
+  },
+  {
+    "alias": "P061",
+    "phase": "p0",
+    "item_id": "R08_decisive_change_flawed"
+  },
+  {
+    "alias": "P062",
+    "phase": "p0",
+    "item_id": "M06_missing_flawed"
+  },
+  {
+    "alias": "P063",
+    "phase": "p0",
+    "item_id": "M08_irrelevant_flawed"
+  },
+  {
+    "alias": "P064",
+    "phase": "p0",
+    "item_id": "M07_paraphrase_flawed"
+  },
+  {
+    "alias": "P065",
+    "phase": "p0",
+    "item_id": "R08_irrelevant_flawed"
+  },
+  {
+    "alias": "P066",
+    "phase": "p0",
+    "item_id": "R05_base_flawed"
+  },
+  {
+    "alias": "P067",
+    "phase": "p0",
+    "item_id": "M06_decisive_change_flawed"
+  },
+  {
+    "alias": "P068",
+    "phase": "p0",
+    "item_id": "M07_irrelevant_flawed"
+  },
+  {
+    "alias": "P069",
+    "phase": "p0",
+    "item_id": "M08_missing_aligned"
+  },
+  {
+    "alias": "P070",
+    "phase": "p0",
+    "item_id": "M05_decisive_change_aligned"
+  },
+  {
+    "alias": "P071",
+    "phase": "p0",
+    "item_id": "R07_paraphrase_flawed"
+  },
+  {
+    "alias": "P072",
+    "phase": "p0",
+    "item_id": "R06_paraphrase_aligned"
+  },
+  {
+    "alias": "P073",
+    "phase": "p0",
+    "item_id": "R06_paraphrase_flawed"
+  },
+  {
+    "alias": "P074",
+    "phase": "p0",
+    "item_id": "R07_decisive_change_flawed"
+  },
+  {
+    "alias": "P075",
+    "phase": "p0",
+    "item_id": "R06_irrelevant_aligned"
+  },
+  {
+    "alias": "P076",
+    "phase": "p0",
+    "item_id": "M06_irrelevant_aligned"
+  },
+  {
+    "alias": "P077",
+    "phase": "p0",
+    "item_id": "M08_base_aligned"
+  },
+  {
+    "alias": "P078",
+    "phase": "p0",
+    "item_id": "R07_missing_flawed"
+  },
+  {
+    "alias": "P079",
+    "phase": "p0",
+    "item_id": "R07_missing_aligned"
+  },
+  {
+    "alias": "P080",
+    "phase": "p0",
+    "item_id": "R06_missing_flawed"
+  },
+  {
+    "alias": "C001",
+    "phase": "challenge",
+    "item_id": "M07_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C002",
+    "phase": "challenge",
+    "item_id": "M08_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C003",
+    "phase": "challenge",
+    "item_id": "M07_decisive_change_draft_error"
+  },
+  {
+    "alias": "C004",
+    "phase": "challenge",
+    "item_id": "M05_base_draft_error"
+  },
+  {
+    "alias": "C005",
+    "phase": "challenge",
+    "item_id": "R05_base_draft_error"
+  },
+  {
+    "alias": "C006",
+    "phase": "challenge",
+    "item_id": "M06_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C007",
+    "phase": "challenge",
+    "item_id": "R05_decisive_change_draft_error"
+  },
+  {
+    "alias": "C008",
+    "phase": "challenge",
+    "item_id": "R07_base_draft_error"
+  },
+  {
+    "alias": "C009",
+    "phase": "challenge",
+    "item_id": "M05_base_draft_correct"
+  },
+  {
+    "alias": "C010",
+    "phase": "challenge",
+    "item_id": "M05_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C011",
+    "phase": "challenge",
+    "item_id": "R08_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C012",
+    "phase": "challenge",
+    "item_id": "M07_base_draft_error"
+  },
+  {
+    "alias": "C013",
+    "phase": "challenge",
+    "item_id": "M08_decisive_change_draft_error"
+  },
+  {
+    "alias": "C014",
+    "phase": "challenge",
+    "item_id": "R07_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C015",
+    "phase": "challenge",
+    "item_id": "R07_decisive_change_draft_error"
+  },
+  {
+    "alias": "C016",
+    "phase": "challenge",
+    "item_id": "R08_base_draft_error"
+  },
+  {
+    "alias": "C017",
+    "phase": "challenge",
+    "item_id": "M08_base_draft_correct"
+  },
+  {
+    "alias": "C018",
+    "phase": "challenge",
+    "item_id": "M06_base_draft_error"
+  },
+  {
+    "alias": "C019",
+    "phase": "challenge",
+    "item_id": "R06_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C020",
+    "phase": "challenge",
+    "item_id": "M08_base_draft_error"
+  },
+  {
+    "alias": "C021",
+    "phase": "challenge",
+    "item_id": "R06_decisive_change_draft_error"
+  },
+  {
+    "alias": "C022",
+    "phase": "challenge",
+    "item_id": "R06_base_draft_error"
+  },
+  {
+    "alias": "C023",
+    "phase": "challenge",
+    "item_id": "M06_decisive_change_draft_error"
+  },
+  {
+    "alias": "C024",
+    "phase": "challenge",
+    "item_id": "M07_base_draft_correct"
+  },
+  {
+    "alias": "C025",
+    "phase": "challenge",
+    "item_id": "R07_base_draft_correct"
+  },
+  {
+    "alias": "C026",
+    "phase": "challenge",
+    "item_id": "R05_decisive_change_draft_correct"
+  },
+  {
+    "alias": "C027",
+    "phase": "challenge",
+    "item_id": "R08_decisive_change_draft_error"
+  },
+  {
+    "alias": "C028",
+    "phase": "challenge",
+    "item_id": "R08_base_draft_correct"
+  },
+  {
+    "alias": "C029",
+    "phase": "challenge",
+    "item_id": "M05_decisive_change_draft_error"
+  },
+  {
+    "alias": "C030",
+    "phase": "challenge",
+    "item_id": "R06_base_draft_correct"
+  },
+  {
+    "alias": "C031",
+    "phase": "challenge",
+    "item_id": "R05_base_draft_correct"
+  },
+  {
+    "alias": "C032",
+    "phase": "challenge",
+    "item_id": "M06_base_draft_correct"
+  }
+]

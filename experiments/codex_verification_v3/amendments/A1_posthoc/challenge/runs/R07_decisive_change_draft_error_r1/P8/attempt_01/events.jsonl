@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b358-2b65-7821-8704-f4648b7633d9"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"D\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S9\"],\"brief_justification\":\"材料适用于本议项，无替代版本或额外授权要求，必要信息齐全。甲乙回避后有资格者5人，须4人有效到会；实际仅丙丁戊3人。己的P状态明确为观看录像，票据不能证明实时到会，草稿将其计入有误。虽有3票赞成，仍未达法定人数，应重新表决。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18638,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":474,"reasoning_output_tokens":328}}

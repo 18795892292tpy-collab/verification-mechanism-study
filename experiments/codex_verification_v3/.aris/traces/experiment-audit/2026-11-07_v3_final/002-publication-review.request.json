@@ -1,0 +1,16 @@
+{
+  "purpose": "independent final publication review",
+  "requested_by": "/root",
+  "scope": [
+    "report/DEV_REPORT.md",
+    "analysis/v3_report_summary.json",
+    "figures/v3_figure_manifest.json",
+    "figures/ PNG/SVG/PDF"
+  ],
+  "constraints": [
+    "no original/frozen writes",
+    "no model calls",
+    "actual image inspection",
+    "planned denominator and failure retained"
+  ]
+}

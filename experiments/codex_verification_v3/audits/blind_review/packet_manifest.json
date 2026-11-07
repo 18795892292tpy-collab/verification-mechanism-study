@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-06T23:27:18.447529+00:00",
+  "sources": {
+    "prompts/p0_items.json": "4120eca4a589a6e1ba9c75c0ef0e0f5f11ed11604d4195ddf35d65fb252dc708",
+    "keys/p0_keys.json": "390758276b72bb1bd0f823743fb1de06bd4848e11a43d7d149654d0454c0dadc",
+    "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+    "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0"
+  },
+  "p0": 80,
+  "challenge": 32,
+  "blinding": "No keys or conditions provided to reviewer; public texts and draft only."
+}

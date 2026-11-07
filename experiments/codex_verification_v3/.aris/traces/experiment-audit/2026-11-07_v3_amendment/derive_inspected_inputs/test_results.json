@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "test_count": 21,
+  "real_model_calls": 0,
+  "command": "python -B -m unittest discover -s amendments/A1_posthoc/tests -v",
+  "files_sha256": {
+    "derive.py": "2cfa38ad66ec9d412b7b8346e326d3d5d05f7453d7a3bf0f450bb06efdbea245",
+    "tests/test_derive.py": "d3a48c1e430e651274cde9f41c352ffc2e78d6a84efe542766557fe4c8bf2311",
+    "README.md": "3a11db0c1a5fad06ef5e01e04647198c0fc4e227a7691707da6dc5ee3a67efb5",
+    "test_output.txt": "58d73fd59779bb4be30e10163e794984fcd42486da845a88270d1472cb024210"
+  },
+  "scope": "Pure unit faults and read-only canonical80 derivation, unchanged original input manifest, strict original technical_block; original files and gate not written."
+}

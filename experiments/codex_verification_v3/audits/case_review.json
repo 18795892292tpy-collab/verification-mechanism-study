@@ -1,0 +1,21 @@
+{
+  "status": "passed_internal",
+  "review_independence": "same-family",
+  "external_expert": "pending",
+  "p0_count": 80,
+  "challenge_count": 32,
+  "revision_count": 4,
+  "mismatches": [],
+  "created_utc": "2026-11-06T23:40:56.004803+00:00",
+  "artifacts_sha256": {
+    "audits/blind_review/packet.json": "10ae600c497a65670c1ad891b86ab5ec7291bbe631c399616effe4eab3f49406",
+    "audits/blind_review/answers.json": "9d9f33db5c0042bbcfd404666714319a4f69062699e8e8f829effdaf27a962f1",
+    "audits/blind_review/revision_packet.json": "a7d6071ecf24f37b9007adbe5528db9b334bd8544766d8876572f833054d0716",
+    "audits/blind_review/revision_answers.json": "e45ae847f671b57dbac6c871617fad873e947ddd9ca5f42de099d6395978490a",
+    "audits/blind_review/private_mapping.json": "4e5bb6f971efdc0301534822769766bb824a004cb346820af842d738a04e7eb8",
+    "prompts/p0_items.json": "a191461d53d35b66da3b56b5481471cb9359f0ad368cf87debb304fb7b3eeba8",
+    "keys/p0_keys.json": "e93a9d8e1b6e161bfb834f8902be12adc0092a173696598c7d81687d931d6b94",
+    "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+    "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0"
+  }
+}

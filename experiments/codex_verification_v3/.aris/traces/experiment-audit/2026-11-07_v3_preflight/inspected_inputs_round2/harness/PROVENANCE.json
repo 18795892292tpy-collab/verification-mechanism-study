@@ -1,0 +1,10 @@
+{
+  "source_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "source_files": {
+    "harness/runner.py": "bf818b09bcb17f3b02983a7f71c4b4680ef6eef083392fca60132fac7e2be94a",
+    "harness/integrity.py": "00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/evaluate.py": "2290303e3e05ff1ba147f9872bae67eb2d87645f56e556de50c449beb73adc69"
+  },
+  "reused": "integrity.py copied then locally hardened; runner transport/record validation and evaluator inventory/usage reused locally; V2 neither imported nor modified",
+  "changes": "Separate80 P0 and conditional128 authored-draft tasks; global writer lock; runtime/freeze identity and fresh raw-backed gate; 12 concurrent from outset. Preflight F1-F5 fixes: cross-phase unfinished attempts audited; final output/event exact hashes must agree; error items prohibit successful completion; all existing attempts prechecked before sampling; lock O_NOFOLLOW and regular-file/single-link checks before mutation."
+}

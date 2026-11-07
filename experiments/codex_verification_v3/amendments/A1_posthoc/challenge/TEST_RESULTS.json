@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tests": 15,
+  "actual_cli_calls": 0,
+  "maximum_mock_workers": 12,
+  "mock_resume_new_calls": 0,
+  "driver_sha256": "9412da448003e6ff148b8c4c2a2873e9f961492347fe117c2a0d6c3bdb0d1fa8",
+  "test_sha256": "33ec7b26b2dd8918ac408c42fcef323a0e38e8b3f3d155a042f4e6f3468e331b",
+  "generated_utc": "2026-11-07T00:04:16.369456+00:00",
+  "mock_calls_main_scenario": 128,
+  "mock_calls_additional_duplicate_scenario": 1,
+  "mock_calls_total": 129
+}

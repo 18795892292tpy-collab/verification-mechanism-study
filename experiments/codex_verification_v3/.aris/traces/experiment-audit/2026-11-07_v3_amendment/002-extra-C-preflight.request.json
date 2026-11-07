@@ -1,0 +1,6 @@
+{
+  "call_number": 2,
+  "purpose": "extra-C-exploratory-preflight",
+  "tool": "followup_task",
+  "prompt": "请独立审查 amendments/A1_posthoc/challenge/driver.py、authorization.candidate.json和test/mock，尤其target host/path、原prompt/fixed32原文和schedule128字节绑定、锁、existing final不重抽、metadata真实来源、原gate technical_block保留、白名单、未知error与service breaker、未满足条件/修订篡改拒绝。只离线对抗probe并写新独立审核证据，不运行真实模型，不修改frozen/raw。后续同时审核v3_harness派生脚本。若通过请提供冻结启动具体命令。"
+}

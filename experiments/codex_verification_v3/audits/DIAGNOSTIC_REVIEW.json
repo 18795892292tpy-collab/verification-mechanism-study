@@ -1,0 +1,91 @@
+{
+  "audit_skill": "experiment-audit",
+  "stage": "strict-raw-diagnostic-review-and-extra-C-assessment",
+  "verdict": "PASS_FOR_RAW_PROVENANCE_WITH_ORIGINAL_SCIENTIFIC_GATE_BLOCKED",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-06T23:52:55.444822+00:00",
+  "canonical_host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "frozen_hash": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "counts": {
+    "terminal_records": 80,
+    "started_attempts": 80,
+    "sealed_attempts": 80,
+    "strict_complete": 0,
+    "strict_technical_failure": 80,
+    "returncode_zero": 80,
+    "schema_valid_responses": 80,
+    "response_equals_final_event": 80,
+    "unique_sessions": 80,
+    "unrecognized_or_top_level_errors": 0,
+    "tool_events": 0,
+    "frozen_changed": 0,
+    "raw_hash_mismatches": 0,
+    "challenge_attempts": 0
+  },
+  "strict_gate": {
+    "status": "technical_block",
+    "challenge_allowed": false,
+    "criteria_pass": {
+      "material": false,
+      "rule": false
+    }
+  },
+  "diagnostic_semantics": [
+    {
+      "class": "unstable_feature_warning",
+      "count": 80,
+      "interpretation": "Message explicitly labels enabled skip_host_skill_discovery as under-development and describes warning suppression. It is a configuration warning; the raw trace supplies successful completion evidence separately. It is not proof of harmless hidden behavior."
+    },
+    {
+      "class": "code_mode_disabled_fail_closed",
+      "count": 80,
+      "interpretation": "Matches the intentionally disabled code-mode host and describes fail-closed tool availability. No tool-call events occurred. It is not a failed subject answer or evidence of actual tool execution."
+    },
+    {
+      "class": "skills_context_budget_removal",
+      "count": 80,
+      "interpretation": "Reports removal of all skill descriptions and exclusion of144 additional skill descriptions. It concerns model-visible system context preparation. This is not transport failure, but exact hidden context isolation/equivalence cannot be inferred from the warning."
+    },
+    {
+      "class": "native_certificate_loading_warning",
+      "count": 80,
+      "interpretation": "stderr WARN reports two native root-certificate load errors, while all80 processes returned0 and turns completed. No connection/transport failure was observed; do not universally whitelist arbitrary certificate errors."
+    }
+  ],
+  "historical_support": {
+    "sample_size": 5,
+    "all_exact_three_diagnostics": true,
+    "scope": "Five read-only V2 raw event files; not a census or independent experiment."
+  },
+  "preflight_limitation": "The earlier strict error-item rejection and mock tests failed to model already available CLI configuration diagnostics. The implementation followed its frozen policy; changing that policy now is a post-freeze amendment, not a silent bug fix.",
+  "additional_C_assessment": {
+    "original_gate_must_remain": "technical_block; challenge_allowed=false under original frozen classification",
+    "additional_C_can_be_scientifically_described": true,
+    "additional_C_type": "Explicitly post-freeze extra exploratory fixed-draft experiment, not a valid original-gate-triggered phase",
+    "necessary_conditions": [
+      "Create additive, immutable amendment before the first C call; include rationale, time, exact warning exception definitions, budget128, model/effort/CLI identity, source frozen hash, source draft/item/key hashes, and all128 planned jobs.",
+      "Use a separate output directory and separate authorization record named as extra exploration. Do not create a counterfeit passing original decision_gate or overwrite any original frozen, raw, meta, record, or prompt artifact.",
+      "Execute all pre-authored32 draft conditions under P1/P3/P7/P8 unchanged; no selection, edit, resampling or expansion based on P0 content, preliminary C outcomes or desired differences.",
+      "Recognize only the exact3 observed configuration diagnostic objects in the expected event positions; unknown errors, raw mismatch, invalid lifecycle, nonzero return, missing final, schema failure and tool events keep their failure dispositions.",
+      "Record raw warning events and separately retain strict and diagnostic-adjusted status. Original final, output hash, prompt hash, usage and attempts are never rewritten.",
+      "Reuse fresh ephemeral contexts with original locked model/effort/CLI settings, max12 concurrent, max2 attempts only without any final; scan whole extra-run inventory before dispatch, stop on service failures, preserve in-flight calls.",
+      "Keep planned128 denominators, family means and paired drafts; label failure-based nonretention separately from observed wrong final actions, keep absent usage unknown.",
+      "Independently audit any new non-frozen executable implementation, raw inventories and final calculations; do not claim frozen original harness alone authorized the extra phase."
+    ],
+    "claim_limits": [
+      "The exact diagnostic exception is post hoc, even though diagnostics are identical across all80 and observed in historicalV2; do not call it preregistered.",
+      "Uniform warning rules plus unchanged pre-authored draft set reduce outcome selection risk, but do not erase the original gate deviation or guarantee that hidden CLI context was unaffected.",
+      "ExtraC supports descriptive conditional repair/nonretention of these authored drafts, not natural error rates, natural-error repair benefit, original-gate validity, superiority/equivalence or heldout confirmation.",
+      "Original strict80/80 technical-failure labels are conservative classification results, not evidence that80 content decisions were incorrect.",
+      "Any interpretation of P0 content after diagnostic adjustment must appear separately as posthoc exploration; strict original results remain visible."
+    ]
+  },
+  "content_correctness_scored": false,
+  "real_model_calls": 0,
+  "source_hash_manifest": ".aris/traces/experiment-audit/2026-11-07_v3_diagnostics/source_hash_manifest.json",
+  "strict_recompute": ".aris/traces/experiment-audit/2026-11-07_v3_diagnostics/strict_recomputed.json",
+  "raw_examples": ".aris/traces/experiment-audit/2026-11-07_v3_diagnostics/raw_examples.json",
+  "next_review": "Non-frozen A1 derivation script pending independent review; no model execution authorized by this report itself."
+}

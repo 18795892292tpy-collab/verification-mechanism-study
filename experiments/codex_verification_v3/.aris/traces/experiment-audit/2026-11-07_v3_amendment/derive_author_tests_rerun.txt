@@ -1,0 +1,26 @@
+test_canonical_readonly_derivation_preserves_every_original_input (test_derive.PolicyTests.test_canonical_readonly_derivation_preserves_every_original_input) ... ok
+test_duplicate_session_rejected (test_derive.PolicyTests.test_duplicate_session_rejected) ... ok
+test_exact_observed_diagnostics_accepted (test_derive.PolicyTests.test_exact_observed_diagnostics_accepted) ... ok
+test_final_conflict_and_empty_output_are_rejected (test_derive.PolicyTests.test_final_conflict_and_empty_output_are_rejected) ... ok
+test_invalid_schema_is_not_repaired (test_derive.PolicyTests.test_invalid_schema_is_not_repaired) ... ok
+test_known_diagnostic_object_extra_field_not_accepted (test_derive.PolicyTests.test_known_diagnostic_object_extra_field_not_accepted) ... ok
+test_known_error_message_suffix_not_accepted (test_derive.PolicyTests.test_known_error_message_suffix_not_accepted) ... ok
+test_lifecycle_missing_or_double_turn_rejected (test_derive.PolicyTests.test_lifecycle_missing_or_double_turn_rejected) ... ok
+test_missing_or_duplicate_known_error_not_accepted (test_derive.PolicyTests.test_missing_or_duplicate_known_error_not_accepted) ... ok
+test_missing_usage_stays_unknown (test_derive.PolicyTests.test_missing_usage_stays_unknown) ... ok
+test_raw_byte_hash_conflict_is_not_hidden_by_text_normalization (test_derive.PolicyTests.test_raw_byte_hash_conflict_is_not_hidden_by_text_normalization) ... ok
+test_raw_change_detected_on_explicit_offline_fixture (test_derive.PolicyTests.test_raw_change_detected_on_explicit_offline_fixture) ... ok
+test_readonly_lock_refuses_active_writer_without_mutation (test_derive.PolicyTests.test_readonly_lock_refuses_active_writer_without_mutation) ... ok
+test_readonly_lock_refuses_link_and_preserves_target (test_derive.PolicyTests.test_readonly_lock_refuses_link_and_preserves_target) ... ok
+test_third_warning_before_turn_is_not_observed_signature (test_derive.PolicyTests.test_third_warning_before_turn_is_not_observed_signature) ... ok
+test_top_error_unknown_event_and_tool_are_rejected (test_derive.PolicyTests.test_top_error_unknown_event_and_tool_are_rejected) ... ok
+test_unknown_error_added_is_not_waived (test_derive.PolicyTests.test_unknown_error_added_is_not_waived) ... ok
+test_zero_exit_does_not_override_stderr_or_metadata_failure (test_derive.PolicyTests.test_zero_exit_does_not_override_stderr_or_metadata_failure) ... ok
+test_error_coverage_and_control_floors_both_required (test_derive.ThresholdTests.test_error_coverage_and_control_floors_both_required) ... ok
+test_rejected_rows_do_not_become_natural_errors_and_force_block (test_derive.ThresholdTests.test_rejected_rows_do_not_become_natural_errors_and_force_block) ... ok
+test_threshold_pass_still_has_no_execution_authorization (test_derive.ThresholdTests.test_threshold_pass_still_has_no_execution_authorization) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.528s
+
+OK

@@ -1,0 +1,151 @@
+{
+  "source_sha256": "33b4b956d6087c201f232741af1b2789379341f942ed8b9644959c6235cab5e6",
+  "real_model_calls": 0,
+  "results": [
+    {
+      "probe": "actual_candidate_and_baseline_binding",
+      "passed": true,
+      "observed": {
+        "jobs": 128,
+        "posthoc_exploratory": true,
+        "strict_original_gate_override": false
+      }
+    },
+    {
+      "probe": "all_128_prompts_exact_original_drafts",
+      "passed": true,
+      "observed": {
+        "checked": 128
+      }
+    },
+    {
+      "probe": "lifecycle_embedded_tool",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "unexpected item in lifecycle event"
+      }
+    },
+    {
+      "probe": "unknown_top_error_payload",
+      "passed": false,
+      "observed": {
+        "status": "complete",
+        "parsed": {
+          "action": "A",
+          "cited_sources": [
+            "S1"
+          ],
+          "brief_justification": "依规则",
+          "confidence": 4
+        },
+        "thread_id": "ff318ea0340f459fbc9bb7b0a2984c1e",
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        },
+        "errors": [
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+        ],
+        "problem": null
+      }
+    },
+    {
+      "probe": "diagnostic_extra_field",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "invalid diagnostic item"
+      }
+    },
+    {
+      "probe": "final_and_diagnostic_swap",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "invalid diagnostic item"
+      }
+    },
+    {
+      "probe": "extra_top_error",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "unexpected event sequence"
+      }
+    },
+    {
+      "probe": "boolean_returncode_rejected",
+      "passed": false,
+      "observed": {
+        "status": "complete",
+        "parsed": {
+          "action": "A",
+          "cited_sources": [
+            "S1"
+          ],
+          "brief_justification": "依规则",
+          "confidence": 4
+        },
+        "thread_id": "d04ba11d7dd14b4496e219b100d5b515",
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        },
+        "errors": [
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+        ],
+        "problem": null
+      }
+    },
+    {
+      "probe": "existing_final_no_resample",
+      "passed": true,
+      "observed": {
+        "calls_including_resume": 1
+      }
+    },
+    {
+      "probe": "response_presence_cannot_escape_hash_coverage",
+      "passed": false,
+      "observed": {
+        "exception": null
+      }
+    },
+    {
+      "probe": "runtime_empty_symlink_rejected_before_call",
+      "passed": false,
+      "observed": {
+        "calls": 1,
+        "exception": null
+      }
+    },
+    {
+      "probe": "wrong_host_rejected",
+      "passed": true,
+      "observed": {
+        "exception": "RuntimeError('Requires canonical V3 original root and host')"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b355-27da-7691-bbc9-6aca9d24ff95"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S9\"],\"brief_justification\":\"制度适用于本议项的成员、状态字段及表决用途，未列替代版本；本案不涉及金额，S9明确无额外权限限制且资料齐备。甲乙回避后分母为5，法定到会须4人；己为V码，故有效到会4人，3票赞成超过有资格成员半数。草稿分母错误，应改为登记通过，无须补档。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18601,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":631,"reasoning_output_tokens":484}}

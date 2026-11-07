@@ -1,0 +1,17 @@
+{
+  "verified_at_utc": "2026-11-06T23:39:35.624553+00:00",
+  "host": "liekkas",
+  "packet_sha256": "a7d6071ecf24f37b9007adbe5528db9b334bd8544766d8876572f833054d0716",
+  "answers_sha256": "e45ae847f671b57dbac6c871617fad873e947ddd9ca5f42de099d6395978490a",
+  "count": 4,
+  "unique_count": 4,
+  "uncertain_count": 0,
+  "decisions": {
+    "P031": "D",
+    "P032": "D",
+    "P072": "B",
+    "P073": "B"
+  },
+  "all_checks_passed": true,
+  "original_review_outputs_overwritten": false
+}

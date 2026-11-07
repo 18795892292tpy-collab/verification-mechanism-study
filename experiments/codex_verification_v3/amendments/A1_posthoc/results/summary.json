@@ -1,0 +1,101 @@
+{
+  "analysis_label": "posthoc_exploratory",
+  "original_frozen_sha256": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "planned_p0": 80,
+  "terminal_p0": 80,
+  "actual_cli_attempts": 80,
+  "original_status_counts": {
+    "technical_failure": 80
+  },
+  "original_complete": 0,
+  "original_gate_status": "technical_block",
+  "original_challenge_allowed": false,
+  "original_gate_file_exists": true,
+  "original_failure_policy_correct": 0,
+  "original_failure_policy_accuracy": 0.0,
+  "original_accuracy_interpretation": "Execution-policy failures; not evidence that 80 model decisions were substantively incorrect.",
+  "derived_transport_accepted": 80,
+  "derived_correct": 80,
+  "derived_accuracy_planned_denominator": 1.0,
+  "unique_sessions": 80,
+  "family_results": [
+    {
+      "family_id": "M05",
+      "error_type": "material",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "M06",
+      "error_type": "material",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "M07",
+      "error_type": "material",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "M08",
+      "error_type": "material",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "R05",
+      "error_type": "rule",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "R06",
+      "error_type": "rule",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "R07",
+      "error_type": "rule",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    {
+      "family_id": "R08",
+      "error_type": "rule",
+      "planned": 10,
+      "accepted": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    }
+  ],
+  "resources": {
+    "actual_attempts": 80,
+    "known_input_tokens": 1474842,
+    "sum_input_tokens": 1474842,
+    "input_tokens_missing_attempts": 0,
+    "known_output_tokens": 24171,
+    "sum_output_tokens": 24171,
+    "output_tokens_missing_attempts": 0
+  },
+  "total_seconds_sum_over_concurrent_calls": 1376.7755319466814,
+  "verified_billed_cost": null,
+  "inference": "Constructed development families, 4/type. Descriptive only; no p-values, humans, external experts, or heldout claims.",
+  "challenge_invoked": false,
+  "new_model_calls_by_this_script": 0
+}

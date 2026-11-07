@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b357-06a3-7442-a8c4-53a2f2875d52"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"B\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S7\",\"S9\"],\"brief_justification\":\"本案接收方和用途获准，但用途许可不等于内容审查通过。B61的唯一摘要为7f31a8d4，匹配有权审核组签署的“未通过”记录，且无其他适用记录，须退回重审、本次不外发。同名不能替代摘要匹配；必要资料齐全，不触发补取条件。原草稿应改为B。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18627,"cached_input_tokens":18432,"cache_write_input_tokens":0,"output_tokens":492,"reasoning_output_tokens":345}}

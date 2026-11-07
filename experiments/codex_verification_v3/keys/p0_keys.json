@@ -1,0 +1,2370 @@
+[
+  {
+    "item_id": "M05_base_aligned",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 12000
+    },
+    "reason": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+      "B": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=12000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "27fab73d6e549436ef58f068f44622bcf3c38fe01344a8c9e59468d43b67b8a8",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_base_flawed",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 12000
+    },
+    "reason": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+      "B": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=12000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "ae9fd09c665c1216f247e9bfd2f36f50d35b8d4d251f166bfad771dc8e1621c2",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_decisive_change_aligned",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 2000
+    },
+    "reason": "三年维护合计94575元，加D9部署2000元为96575元，未到100000元；选购包不在请求范围，应由设备部门签约。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署2000元为96575元，未到100000元；选购包不在请求范围，应由设备部门签约。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "三年维护合计94575元，加D9部署2000元为96575元，未到100000元；选购包不在请求范围，应由设备部门签约。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=2000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "10373222aab281eab0baafd3e45303c52c7ea792c4709e883e9aafcdd90c6c55",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_decisive_change_flawed",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 2000
+    },
+    "reason": "三年维护合计94575元，加D9部署2000元为96575元，未到100000元；选购包不在请求范围，应由设备部门签约。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署2000元为96575元，未到100000元；选购包不在请求范围，应由设备部门签约。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "三年维护合计94575元，加D9部署2000元为96575元，未到100000元；选购包不在请求范围，应由设备部门签约。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=2000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "a13301d575e74e971f60b9b002ae696c8858ba2973c7dd68e18f05a40ce8dfde",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_irrelevant_aligned",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 12000
+    },
+    "reason": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+      "B": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=12000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "14f90bedc61b6749d17b8f169cd42fda948152b482c19fb1d8b65214f42b744d",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_irrelevant_flawed",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 12000
+    },
+    "reason": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+      "B": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=12000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "5b7d33341cf520c00ceee172058965ddc13f1436646eff338ac72580662cc4db",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_paraphrase_aligned",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 12000
+    },
+    "reason": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+      "B": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=12000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "069f0ff496c5c30cc2d636f623dc1a8d9e1fdc8497ba5c6b984b30ae1af7b946",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_paraphrase_flawed",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": 12000
+    },
+    "reason": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+    "option_analysis": {
+      "A": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。",
+      "B": "三年维护合计94575元，加D9部署12000元为106575元，达到100000元；选购包不在请求范围，应提交委员会会签。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "S4已归档部署费=12000；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "f6771460fc2f2094e3d67c35c0de3254e0ed304b3d7d7e8f9618b754596d3e3e",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_missing_aligned",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 3,
+    "advice_action": "D",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出部署费；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出部署费；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "697f28b4f271c4960615d30c3d189d5920a4e7b8f27e8951a3fc638b210a510b",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M05_missing_flawed",
+    "family_id": "M05",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 3,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出部署费；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出部署费；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "C": "S1禁止把不可撤销三年承诺仅按第一年签署，剩余义务没有取消。",
+      "D": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "49e779da143b6b09ca6e4af4f3838d4b0d3b375ed9b5a86af4346c8a99775aae",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_base_aligned",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "7f31a8d4"
+    },
+    "reason": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=7f31a8d4；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "a5d3bc18fd41bf0d804076326f78a249190380d0d3d9861aa71aea3ab1130a52",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_base_flawed",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "7f31a8d4"
+    },
+    "reason": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=7f31a8d4；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "8a017844c824c30eafa813fe1945b8bf250f96d69b74dd54d6b955576bbeef0a",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_decisive_change_aligned",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "0c92b6e5"
+    },
+    "reason": "E23把待发B61关联到0c92b6e5，S5对此摘要标为通过，接收用途已批准；满足精确内容匹配，应执行外发。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到0c92b6e5，S5对此摘要标为通过，接收用途已批准；满足精确内容匹配，应执行外发。",
+      "B": "E23把待发B61关联到0c92b6e5，S5对此摘要标为通过，接收用途已批准；满足精确内容匹配，应执行外发。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=0c92b6e5；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "2267bbc9a18a67228eaa2c4540f2a9a82f7deb9c5a7334a5acea6ed707522ce8",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_decisive_change_flawed",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "0c92b6e5"
+    },
+    "reason": "E23把待发B61关联到0c92b6e5，S5对此摘要标为通过，接收用途已批准；满足精确内容匹配，应执行外发。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到0c92b6e5，S5对此摘要标为通过，接收用途已批准；满足精确内容匹配，应执行外发。",
+      "B": "E23把待发B61关联到0c92b6e5，S5对此摘要标为通过，接收用途已批准；满足精确内容匹配，应执行外发。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=0c92b6e5；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "305def986cd09cd18fec2984683d7980b60e06c06cc6408344cde78b73ad3fff",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_irrelevant_aligned",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "7f31a8d4"
+    },
+    "reason": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=7f31a8d4；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "53e7dd3e99681f5c0a2b476abd0d779f24aac97b964280d856f2b1f364bb27db",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_irrelevant_flawed",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "7f31a8d4"
+    },
+    "reason": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=7f31a8d4；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "48b58a79661044c9df52177297f86d17c93173fbd529a1977162f66be112a947",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_paraphrase_aligned",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "7f31a8d4"
+    },
+    "reason": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=7f31a8d4；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "106464a1a8be465ff0875be2b1a916e2b2e0c2e5989c784c52e4ab01ea802ad7",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_paraphrase_flawed",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "7f31a8d4"
+    },
+    "reason": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+    "option_analysis": {
+      "C": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "E23把待发B61关联到7f31a8d4，S5对此摘要标为未通过；同名用途许可不能替代内容审查，本次退回重新脱敏审查。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "S4已归档构建摘要=7f31a8d4；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "89d96f4e536d3c2be28acc1828a213545262d843f959133a16a700d37c4680a8",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_missing_aligned",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 3,
+    "advice_action": "A",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "C": "S4未给出构建摘要；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出构建摘要；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "701d498c66d68e4c4643a75f5e5785bddee579ffd2bd0f56462a9adc6e340c90",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M06_missing_flawed",
+    "family_id": "M06",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 3,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "C": "S4未给出构建摘要；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出构建摘要；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S1按内容摘要核准，改变名称不能改变包内容或审查结论。",
+      "A": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "05d9e645631bed5f4883415be926085d67c9a4b34c523df7d605113738675db2",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_base_aligned",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 46
+    },
+    "reason": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=46；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "73c9dcc6ee86cc17fbfaa333eefaf6fb52323225ebef577bd08eab584790a664",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_base_flawed",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 46
+    },
+    "reason": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=46；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "fe04ae7123b28e3e424e605c482cd10177a7f8a1db5e2d1105b2a136e77248b4",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_decisive_change_aligned",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 0,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 48
+    },
+    "reason": "V4漏识别率为(50−48)/50=4%，误报5/150约3.33%，均在门槛内，应采用工具并保留规定人工复核。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−48)/50=4%，误报5/150约3.33%，均在门槛内，应采用工具并保留规定人工复核。",
+      "C": "V4漏识别率为(50−48)/50=4%，误报5/150约3.33%，均在门槛内，应采用工具并保留规定人工复核。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=48；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "02fbf621edc2b29ac13cce66554938038d11147bdc6ea841eee2a4b6c43a66cc",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_decisive_change_flawed",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 0,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 48
+    },
+    "reason": "V4漏识别率为(50−48)/50=4%，误报5/150约3.33%，均在门槛内，应采用工具并保留规定人工复核。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−48)/50=4%，误报5/150约3.33%，均在门槛内，应采用工具并保留规定人工复核。",
+      "C": "V4漏识别率为(50−48)/50=4%，误报5/150约3.33%，均在门槛内，应采用工具并保留规定人工复核。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=48；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "c7e1eb1d21a6c1bc09ca7a21bc6180540fd553e596de2038ac8444f0ccfe8e6e",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_irrelevant_aligned",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 46
+    },
+    "reason": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=46；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "62c701ac60ac491b299eafe552bdfb312db6a2df37e488f24f68d91fd2f6e23f",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_irrelevant_flawed",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 46
+    },
+    "reason": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=46；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "d9b5380c744c8f69cbba944501343fab5400b35936d592b6d5eef82210e30a6c",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_paraphrase_aligned",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 46
+    },
+    "reason": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=46；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "8dec39f6bb93a0bd353674da5f19e836ecd1894c778783cc0a2541cc454e3d3a",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_paraphrase_flawed",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": 46
+    },
+    "reason": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+    "option_analysis": {
+      "D": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "V4漏识别率为(50−46)/50=8%，超过5%；误报5/150约3.33%虽合格，但两条件须同时满足，应保留人工初筛。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "S4已归档风险组检出人数=46；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "8af06fe3a2035360a48241888503c6ad978043132607e79e52ff99e2027c6fd6",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_missing_aligned",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 3,
+    "advice_action": "B",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "D": "S4未给出风险组检出人数；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "C": "S4未给出风险组检出人数；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "e394349d3a91f8b323b2f6bdfc733c2fec71770c47f440fc1a6f8ed0017d742e",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M07_missing_flawed",
+    "family_id": "M07",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 3,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "D": "S4未给出风险组检出人数；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "C": "S4未给出风险组检出人数；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "A": "S1禁止用总体准确率替代分组门槛，且采用后仍须保留人工复核。",
+      "B": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "4ff65049c984d91ec0286f984167e828540a9dfbe7dae3a25deccba41f5562e1",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_base_aligned",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C41"
+    },
+    "reason": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+    "option_analysis": {
+      "A": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C41；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "126b25287d80f4099d894fabdcd8a9d9f50ac8a8b3159991937c17047ba8cb57",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_base_flawed",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C41"
+    },
+    "reason": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+    "option_analysis": {
+      "A": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C41；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "e77a1ddbc52e494d8ad991a4b51ee530300c2355c28a6cd44b09e2a39ad4f11a",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_decisive_change_aligned",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C59"
+    },
+    "reason": "A12对应C41、B37对应C59，注册库确认两队列无人员重叠，且两报告各自达标；已有两个独立合格队列，应长期实施。",
+    "option_analysis": {
+      "A": "A12对应C41、B37对应C59，注册库确认两队列无人员重叠，且两报告各自达标；已有两个独立合格队列，应长期实施。",
+      "D": "A12对应C41、B37对应C59，注册库确认两队列无人员重叠，且两报告各自达标；已有两个独立合格队列，应长期实施。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C59；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "60719c216c3d17cb4cbde5e5bd0beace895036eb09575f9cb9798f1fe587bad3",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_decisive_change_flawed",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C59"
+    },
+    "reason": "A12对应C41、B37对应C59，注册库确认两队列无人员重叠，且两报告各自达标；已有两个独立合格队列，应长期实施。",
+    "option_analysis": {
+      "A": "A12对应C41、B37对应C59，注册库确认两队列无人员重叠，且两报告各自达标；已有两个独立合格队列，应长期实施。",
+      "D": "A12对应C41、B37对应C59，注册库确认两队列无人员重叠，且两报告各自达标；已有两个独立合格队列，应长期实施。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C59；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "1a22b4de3c7ffcec611dd5f8d9404ec7ed51f71881d1439b8721fb8c1b2c0863",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_irrelevant_aligned",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C41"
+    },
+    "reason": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+    "option_analysis": {
+      "A": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C41；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "56a9af4da0279fc012181df4eb0fc37305f569ec0256bde6e6c7641c90e74ef0",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_irrelevant_flawed",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C41"
+    },
+    "reason": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+    "option_analysis": {
+      "A": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C41；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "e6a74fdb46f2a30cb4bfba13fff5cc5af9287254544fbe1b992ee444b1340f5d",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_paraphrase_aligned",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C41"
+    },
+    "reason": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+    "option_analysis": {
+      "A": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C41；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "87dbc8c564927a8bde13a47f89e264c09e39334d487161eabd8ded75832d2b89",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_paraphrase_flawed",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "C41"
+    },
+    "reason": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+    "option_analysis": {
+      "A": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "A12和B37都对应C41，虽效果与完成率均达标且文章不同，独立受试队列仍只有一个；应限定一轮试用。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "S4已归档第二报告队列登记=C41；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "8bf351cf8f1246926180d5525a93ac86e3c1fbbc4b2cf3e96a850c36a6742f38",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_missing_aligned",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 3,
+    "advice_action": "C",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出第二报告队列登记；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S4未给出第二报告队列登记；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "e58eedf652f8879e88655fd5196878fb78607a9b51de77e259f55ccb4220dec1",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "M08_missing_flawed",
+    "family_id": "M08",
+    "error_type": "material",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 3,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出第二报告队列登记；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S4未给出第二报告队列登记；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S1/S2以真实注册队列计数，禁止拆分同一队列重复计数。",
+      "C": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "fc221ad56583740569fa638b957e644cff4c16e2e3ecf3bbd87ced65dc65561a",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_base_aligned",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "Z1"
+    },
+    "reason": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+    "option_analysis": {
+      "A": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+      "B": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=Z1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "6680c77d098a6c6cbc8035649c4d1493f80169353469a4599e490e41f8bd200d",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_base_flawed",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "Z1"
+    },
+    "reason": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+    "option_analysis": {
+      "A": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+      "B": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=Z1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "4a13674a3213bfa2f927d5a269e9edbdded80930ce60e60f2ef53d1707c92a6d",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_decisive_change_aligned",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "X2"
+    },
+    "reason": "N18登记X2，不触发停表；计时为2、3、4、5、8、9、10日共7个工作日，超过5日，应结案。",
+    "option_analysis": {
+      "A": "N18登记X2，不触发停表；计时为2、3、4、5、8、9、10日共7个工作日，超过5日，应结案。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "N18登记X2，不触发停表；计时为2、3、4、5、8、9、10日共7个工作日，超过5日，应结案。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=X2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "81dafbf5e7a874e50f2882196ecd7fbac81ea0b0c53fd7d0bfaaa98e58e5e66c",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_decisive_change_flawed",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "X2"
+    },
+    "reason": "N18登记X2，不触发停表；计时为2、3、4、5、8、9、10日共7个工作日，超过5日，应结案。",
+    "option_analysis": {
+      "A": "N18登记X2，不触发停表；计时为2、3、4、5、8、9、10日共7个工作日，超过5日，应结案。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "N18登记X2，不触发停表；计时为2、3、4、5、8、9、10日共7个工作日，超过5日，应结案。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=X2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "0d5624a1db451b34a354e43b33ccebd8812afd39945ec7d51021bddc7a9b9034",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_irrelevant_aligned",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "Z1"
+    },
+    "reason": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+    "option_analysis": {
+      "A": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+      "B": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=Z1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "6f2f12b9894d6428661aabccafc020e04a54120e5c46d6b9864472c8b79f074b",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_irrelevant_flawed",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "Z1"
+    },
+    "reason": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+    "option_analysis": {
+      "A": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+      "B": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=Z1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "3947dba82f90be15d0bfef12e27b1d8aa28227c27fc39d9f1e150380fbcb101e",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_paraphrase_aligned",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "Z1"
+    },
+    "reason": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+    "option_analysis": {
+      "A": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+      "B": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=Z1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "ee5cad7c6dcdd53439f1ad37a3d63b170585b133fc7aa422a6fe57040db9ed22",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_paraphrase_flawed",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": "Z1"
+    },
+    "reason": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+    "option_analysis": {
+      "A": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。",
+      "B": "N18登记Z1，6月3日至7日停表；计时工作日为2日、8日、9日、10日共4日，补正未超过第5日，应受理继续申请。 与此相反的实体行动不满足已给规则的适用条件。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "S4已归档停表公文类别=Z1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "681aa5bb1cefd8b71781ad2e1dee59cffb308d3b69480d87784f27010c05dc86",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_missing_aligned",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 3,
+    "advice_action": "D",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出停表公文类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出停表公文类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "6248b2907311503039196227ec8cd3bdfa08d45b2b49a7c51e3c99fe79ea623f",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R05_missing_flawed",
+    "family_id": "R05",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 3,
+    "advice_action": "A",
+    "pause_action": "D",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出停表公文类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出停表公文类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "C": "S1只允许Z1触发停表，其他往来邮件不能不分类型全部扣除。",
+      "D": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "e85d9919b40bfb46934926977c2065d4fff31ff4bccf99fe08d88ac4e7dcf277",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_base_aligned",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "E2"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=E2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "b039f1505dfc2c31e9871d745718554f7873da1cdfb9698444ad921b8493cac5",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_base_flawed",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "E2"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=E2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "ef6c09673a0eea9aa1127c0888f0a7437cf194c604a8c57939d1d28ec97350a8",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_decisive_change_aligned",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "C1"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，L62为C1，追缴已结清；符合审计条件豁免，给予一次核定过渡款。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，L62为C1，追缴已结清；符合审计条件豁免，给予一次核定过渡款。",
+      "B": "P43批复待办、审计未完且有效应急登记，L62为C1，追缴已结清；符合审计条件豁免，给予一次核定过渡款。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=C1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "bb0359eba4642dba210732c0c75af6e36d1a8ca73284aaa6391a8e2f3118b5ff",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_decisive_change_flawed",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "C1"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，L62为C1，追缴已结清；符合审计条件豁免，给予一次核定过渡款。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，L62为C1，追缴已结清；符合审计条件豁免，给予一次核定过渡款。",
+      "B": "P43批复待办、审计未完且有效应急登记，L62为C1，追缴已结清；符合审计条件豁免，给予一次核定过渡款。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=C1；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "b12b218fd528cf0d48f5fcbbfa63b973ce523f06e90fd370fc385ac8fcedff4d",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_irrelevant_aligned",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "E2"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=E2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "dfb22e9de33c2e56644058456cb3bc2d9784f4c2c3db67fd7964376b1d91c7e5",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_irrelevant_flawed",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "E2"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=E2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "7369c7dedb89469610dfdb4abbd9ff5952149c26111062f4d48fc10829600a64",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_paraphrase_aligned",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "E2"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=E2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "40c151dd9f86df86a5bc0fe45b6e2326c8ef22ce1e4e8126f880c0b9cb8d3102",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_paraphrase_flawed",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": "E2"
+    },
+    "reason": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+    "option_analysis": {
+      "C": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "P43批复待办、审计未完且有效应急登记，但L62为E2；例外要求应急且C1，E2不满足豁免，须转常规补件，本次不拨。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "S4已归档例外适用支出类别=E2；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "12d211db9089693ebe60d13d8230876966da5ca18bd6d14e7451e2cd3a93d731",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_missing_aligned",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 3,
+    "advice_action": "A",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "C": "S4未给出例外适用支出类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出例外适用支出类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "a463111fe460ce63f048018940335edcacf0cceb87ad85735f4d738bc921a2b0",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R06_missing_flawed",
+    "family_id": "R06",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 3,
+    "advice_action": "B",
+    "pause_action": "A",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "C": "S4未给出例外适用支出类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S4未给出例外适用支出类别；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S2例外仅豁免特定审计前提，不能豁免所有条件或改为全年款。",
+      "A": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "8f1746ec9d1b8a8d1f6a9295c74f31d4b131b98d90e95cebe832bf5338f91334",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_base_aligned",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "V"
+    },
+    "reason": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+    "option_analysis": {
+      "C": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+      "D": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=V；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "5f75112dd78ffdadc011233176444bf59e5f4fbbe812b3d1831df8fc1abbb399",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_base_flawed",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "V"
+    },
+    "reason": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+    "option_analysis": {
+      "C": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+      "D": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=V；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "c80304a89d32614f149da6d5b8312592b9ed6b060cc0bd5efb3d0eb2474fadc0",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_decisive_change_aligned",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "P"
+    },
+    "reason": "有资格5人，法定到会须4人；乙回避不计，己为P不计，丙丁戊有效到会仅3人，未达法定人数，须重开表决。",
+    "option_analysis": {
+      "C": "有资格5人，法定到会须4人；乙回避不计，己为P不计，丙丁戊有效到会仅3人，未达法定人数，须重开表决。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "有资格5人，法定到会须4人；乙回避不计，己为P不计，丙丁戊有效到会仅3人，未达法定人数，须重开表决。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=P；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "1a21080cd150318ddb02731ce244a6659384f97e8f2b71f198abbaab0f0866a1",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_decisive_change_flawed",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "P"
+    },
+    "reason": "有资格5人，法定到会须4人；乙回避不计，己为P不计，丙丁戊有效到会仅3人，未达法定人数，须重开表决。",
+    "option_analysis": {
+      "C": "有资格5人，法定到会须4人；乙回避不计，己为P不计，丙丁戊有效到会仅3人，未达法定人数，须重开表决。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "有资格5人，法定到会须4人；乙回避不计，己为P不计，丙丁戊有效到会仅3人，未达法定人数，须重开表决。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=P；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "fec4ca7f885a4c5cdad7b4840bcb75a44efe3b66ec70c1d43dc020ad9f07812c",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_irrelevant_aligned",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "V"
+    },
+    "reason": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+    "option_analysis": {
+      "C": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+      "D": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=V；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "1f80fadf7883589d84e082886351817f735857e36f451d1b64cbd4ea44ead161",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_irrelevant_flawed",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "V"
+    },
+    "reason": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+    "option_analysis": {
+      "C": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+      "D": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=V；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "781dc7314dd9aebde46d91ae32d40274a9cbc6c708a957d1768cbceaff18d972",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_paraphrase_aligned",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "V"
+    },
+    "reason": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+    "option_analysis": {
+      "C": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+      "D": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=V；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "6eb86d9e0a38d04371422e5f34132a9c4a8201e2086b8e44cf08e272fc8407d6",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_paraphrase_flawed",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 0,
+    "advice_action": "D",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": "V"
+    },
+    "reason": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+    "option_analysis": {
+      "C": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。",
+      "D": "排除甲乙后有资格5人，法定到会ceil(10/3)=4；丙丁现场、戊己均实时有效，共4人。赞成3票超过5的一半，决议成立。 与此相反的实体行动不满足已给规则的适用条件。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "S4已归档远程席位实时核验状态=V；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "f4d19e03455b9f3f2c1e734b821513d1839a3c71aa593312dfbc564f1fed1841",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_missing_aligned",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "B",
+    "correct_semantic": 3,
+    "advice_action": "B",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "C": "S4未给出远程席位实时核验状态；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S4未给出远程席位实时核验状态；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "468052628ad8e670130c95e4a5dbf286dd976b1fff1dd17421d0f688d81c5b21",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R07_missing_flawed",
+    "family_id": "R07",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "B",
+    "correct_semantic": 3,
+    "advice_action": "C",
+    "pause_action": "B",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "C": "S4未给出远程席位实时核验状态；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S4未给出远程席位实时核验状态；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "A": "S1/S2要求回避成员从分母及有效到会中排除。",
+      "B": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "bdfec1182b0ceb34cc500e9a44940c89abeb82ecee8b6dde9b93af7e223a84db",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_base_aligned",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:29"
+    },
+    "reason": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+    "option_analysis": {
+      "A": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:29；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "267f1f009468c15add55c7889b59e5abe63b9e899ed8b480e911938bf5a04859",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_base_flawed",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "base",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:29"
+    },
+    "reason": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+    "option_analysis": {
+      "A": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:29；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "40956ca0a5d7d919468677dcc2d21405353d11a74346fad08b97e9beff800582",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_decisive_change_aligned",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "aligned",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:31"
+    },
+    "reason": "08:10至08:31相隔21分钟，08:35至09:00相隔25分钟，两间隔均超过20，形成3次独立事件，达到门槛，应上报。",
+    "option_analysis": {
+      "A": "08:10至08:31相隔21分钟，08:35至09:00相隔25分钟，两间隔均超过20，形成3次独立事件，达到门槛，应上报。",
+      "D": "08:10至08:31相隔21分钟，08:35至09:00相隔25分钟，两间隔均超过20，形成3次独立事件，达到门槛，应上报。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:31；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "741a1a930aeed2b7b6b1afcdb26b494536f627935d34c13a6c9542d14fe26587",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_decisive_change_flawed",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "decisive_change",
+    "advice": "flawed",
+    "correct_action": "A",
+    "correct_semantic": 0,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:31"
+    },
+    "reason": "08:10至08:31相隔21分钟，08:35至09:00相隔25分钟，两间隔均超过20，形成3次独立事件，达到门槛，应上报。",
+    "option_analysis": {
+      "A": "08:10至08:31相隔21分钟，08:35至09:00相隔25分钟，两间隔均超过20，形成3次独立事件，达到门槛，应上报。",
+      "D": "08:10至08:31相隔21分钟，08:35至09:00相隔25分钟，两间隔均超过20，形成3次独立事件，达到门槛，应上报。 与此相反的实体行动不满足已给规则的适用条件。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:31；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "1b04e3dfe70104d22c6cdf83a489295935fca944c8e7b29b9c28fc86812d5248",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_irrelevant_aligned",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:29"
+    },
+    "reason": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+    "option_analysis": {
+      "A": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:29；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "6c42189c39d581dbd0c58d034f93c10e4994f92f19251505407b4206b1ecb6ce",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_irrelevant_flawed",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "irrelevant",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:29"
+    },
+    "reason": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+    "option_analysis": {
+      "A": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:29；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "e94e951b75956c819e3e3f499151b56823829ebdb58e3654a92b063e082d44b5",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_paraphrase_aligned",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "aligned",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:29"
+    },
+    "reason": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+    "option_analysis": {
+      "A": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:29；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "352109c19a9769769911764b88fb811e579a026930bcc9523a17837bfec2d5b0",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_paraphrase_flawed",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "paraphrase",
+    "advice": "flawed",
+    "correct_action": "D",
+    "correct_semantic": 1,
+    "advice_action": "A",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": "08:29"
+    },
+    "reason": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+    "option_analysis": {
+      "A": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。 与此相反的实体行动不满足已给规则的适用条件。",
+      "D": "第一段08:10恢复至第二段08:29相隔19分钟，归为一事件；08:35至09:00相隔25分钟，第三段另起，共2次，应校内跟踪。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "S4已归档第二段故障开始时刻=08:29；S9只在决定字段缺失时允许补取，不能用补取替代已明确的实体办理。"
+    },
+    "required_sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "public_sha256": "329f2ad0532d20c7f935387e66f968f6359553b1ad9b29082539e4fb6713e2fc",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_missing_aligned",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "aligned",
+    "correct_action": "C",
+    "correct_semantic": 3,
+    "advice_action": "C",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出第二段故障开始时刻；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S4未给出第二段故障开始时刻；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "a7cc7d01e010f53015405fee40238776d53a712bd4ae661bf0c72bee1112085c",
+    "expert_review": "pending"
+  },
+  {
+    "item_id": "R08_missing_flawed",
+    "family_id": "R08",
+    "error_type": "rule",
+    "state": "missing",
+    "advice": "flawed",
+    "correct_action": "C",
+    "correct_semantic": 3,
+    "advice_action": "D",
+    "pause_action": "C",
+    "facts": {
+      "critical_value": null
+    },
+    "reason": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。",
+    "option_analysis": {
+      "A": "S4未给出第二段故障开始时刻；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "D": "S4未给出第二段故障开始时刻；其取基础值或决定性变化值分别导致不同实体分支，其他来源不能排除其中任何一种。S9故要求补取，不能直接选择本实体分支。",
+      "B": "S1/S2明确要求先按间隔归并，禁止以仪表条数直接替代事件数。",
+      "C": "决定字段未归档，实体分支不能唯一判定；S9要求补取该字段。"
+    },
+    "required_sources": [
+      "S3",
+      "S4",
+      "S9"
+    ],
+    "public_sha256": "8ff5bfec33d4dd3feae76bbcf52131fb8fa2d6fbdba4e919a16da1f28ccf7eeb",
+    "expert_review": "pending"
+  }
+]
