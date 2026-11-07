@@ -1,0 +1,13 @@
+{
+  "call_number": 1,
+  "purpose": "independent-v3-preflight",
+  "timestamp": "2026-11-06T23:21:38.305947+00:00",
+  "agent_id": "/root/v3_integrity_audit",
+  "model": "inherited Codex; exact backend not exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "ok",
+  "verdict": "FAIL",
+  "real_model_calls": 0
+}

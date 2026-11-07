@@ -1,0 +1,33 @@
+{
+  "target_host": "liekkas",
+  "target_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "inputs": [
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/evidence_review/protocol.json",
+      "sha256": "8db6328dac7209b3ebb18a4ec60a8bc9e3539ee132477bfb6c41d0cd0f7b1d74"
+    },
+    {
+      "path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3/evidence_review/blind_packet.json",
+      "sha256": "ecf6ab623aaf23709499cb43cb29fb4c2b87d3dd9e9c86a4c70a5eac8b71b5b8"
+    }
+  ],
+  "read_batches": [
+    "protocol and target verification",
+    "initial packet inspection (output truncated; complete cases subsequently read)",
+    "C03-C04",
+    "C05-C06",
+    "C07-C08",
+    "C09-C10",
+    "C11-C12",
+    "C13-C14",
+    "C15-C16",
+    "C01-C02 complete reread"
+  ],
+  "validated_rows": 80,
+  "all_quotes_exact_substrings": true,
+  "all_response_ids_unique_and_complete": true,
+  "rating_generation": "80 individually authored explicit categorical rows; no default label and no automatic scoring",
+  "provider_request_id": null,
+  "provider_usage": null,
+  "trace_limitation": "The subagent interface does not expose raw provider request IDs/token usage. This directory preserves the full task, both full input documents, and full authored response; it does not fabricate missing provider telemetry."
+}

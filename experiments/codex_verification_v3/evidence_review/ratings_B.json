@@ -1,0 +1,1292 @@
+{
+  "reviewer_id": "B",
+  "reviewer_class": "same-family/provisional",
+  "reviewer_requested": "gpt-6-astra/ultra",
+  "reviewer_actual": "inherited runtime agent; exact model identifier and reasoning setting not independently verifiable from allowed evidence",
+  "reviewer_external_expert": false,
+  "protocol_version": "v3-v2-evidence-audit-1",
+  "reviewed_utc": "2026-11-06T23:20:10.458049+00:00",
+  "target_host": "liekkas",
+  "target_path": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "source_ids_semantics": "Each row preserves the answer cited_sources; evidence_note identifies decisive dossier passages.",
+  "method": "Direct independent semantic inspection of each public dossier and each of its five answers; explicit row judgments authored individually; no majority vote, no key/private mapping, no other reviewer, no CLI model. Software only assembled already-authored rows and checked schema, coverage, and exact quote substrings.",
+  "uncertainty_policy": "uncertain retained as available category; factual_error=no means no explicit dossier contradiction identified, not verified hidden reasoning. No uncertain row was required after inspection; unobservable prior-answer completeness claims are not certified.",
+  "ratings": [
+    {
+      "response_id": "C01A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "授权仅覆盖L1、L2",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4明列“可签场地为 L1、L2”，S3将签名连接W6；S1限制受托范围并要求分项放行，S2、S5证明独立场地，S6证明安全通过，故B理由完整。"
+    },
+    {
+      "response_id": "C01A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "场地独立且安全合格，应签发L1、L2凭单并剔除L3",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4授权只有L1、L2；S1禁止以委员会权限扩张委托，S2、S5与S6分别支持独立及安全。S4附件已载，S8不支持补件。关于先前答复的自述不验证。"
+    },
+    {
+      "response_id": "C01A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "学期决议也不能替代本场签署",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3明确“每场活动仍需单独签署”，S4仅列L1、L2；S1、S2、S5、S6共同支持按独立合格场地放行B，S8支持资料全时直接处置。"
+    },
+    {
+      "response_id": "C01A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "L3签署无效",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4规定清单外签署无先行效力且只列L1、L2；S3、S5确定本次实际签署，S1要求分项放行，S2与S6满足独立、安全条件。对L3的结论是规则推论，没有冲突。"
+    },
+    {
+      "response_id": "C01A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "L3越权签署无先行效力或追认安排",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4原文“清单外签署不享有先行效力”且无事后追认；S3排除委员会集体签署，S2、S5、S6支持独立安全及免费，S1和S8支持B。"
+    },
+    {
+      "response_id": "C02A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "E47确认受理时间为9月14日16:40",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4给出该时间且无重新受理，S2以9月15日为新版本界线；S1旧门槛8万元，S3为7.2万元无禁购，S5无专项审批组件，S8支持直接走A。"
+    },
+    {
+      "response_id": "C02A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "含税总额七万二千元且无禁购标记，应走设备处单部门路径",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S3提供金额及禁购状态，S4提供9月14日16:40受理，S2要求沿用受理时版本，S1旧门槛8万元。因此A获支持；S4还明确询价不能覆盖受理时间。"
+    },
+    {
+      "response_id": "C02A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "适用经校务会议批准的原八万元界线",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1确认两版批准与8万元旧界线，S2、S4锁定修订前受理，S3金额7.2万元，S5解释询价及专项审批情况。可见核心链充分，先前一致性自述未核验。"
+    },
+    {
+      "response_id": "C02A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "早于修订生效，继续适用八万元界线",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4的9月14日16:40早于S2的9月15日零时；S1旧版单部门条件与S3含税7.2万元、无禁购相合，S8允许完整字段直接办结。"
+    },
+    {
+      "response_id": "C02A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "依衔接条款继续适用获校务会议批准的旧版8万元界线",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2、S4决定旧版，S1、S3支持A，S5支持无专项审批组件；S6仅“预留待执行”无合同支付，配合S8归档不生成审批，支持预算不能替代审批。"
+    },
+    {
+      "response_id": "C03A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "T9资格代码未归档，课程名称不能代填",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3明确资格代码未随名册归档且名称沿用宣传材料；S1要求匹配层，S8缺必要字段先补取。S4、S5确认为同一研究，S6预算准备不能提供代码，A理由充分。"
+    },
+    {
+      "response_id": "C03A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "N层增幅2分、E层7分；合并结果不能替代匹配结果",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4的84−82=2、91−84=7与答复一致，S1拒绝混合替代；S3缺代码，S8要求向保管人补取；S5仅一独立研究，S6预算安排亦有支持。"
+    },
+    {
+      "response_id": "C03A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "资格代码未归档，无法匹配N/E层",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2定义N/E、S3缺字段、S1必须匹配，因此A有必要事实和规则；S4、S5支持同研究及合并不能代匹配，S6支持预算说法。未把过程自述当作已核验历史。"
+    },
+    {
+      "response_id": "C03A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "依S1和S8，应暂停方案选择，向人事室补取资格代码后再决定",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S8"
+      ],
+      "evidence_note": "S3明载代码未归档及人事室负责；S1明确未找到代码先补全，S8要求原保管人补字段。这三个引文足以支持暂停，不要求为非决定性N/E名称另列来源。"
+    },
+    {
+      "response_id": "C03A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "T9资格代码未归档，无法确定应匹配哪个研究层",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S8"
+      ],
+      "evidence_note": "S3证实缺失及保管部门，S1要求匹配且禁止混合成绩替代；S8规定必要字段缺失暂停整笔事项。短理由已足以支持A。"
+    },
+    {
+      "response_id": "C04A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "唯一独立研究N层增幅2分、完成率94%，未达增幅5分门槛",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3为N；S4给出82到84及94%，S5仅一次独立研究，S1要求至少5分。S2、S6支持现行方案可用及实施条件，S8支持完整数据下直接C。"
+    },
+    {
+      "response_id": "C04A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "满足无合格证据时保留现行方案的条件",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3资格N已知，S4增幅2、完成94%，S5无其他独立复现；S1要求双门槛且无合格证据保留，S2与S6支持可继续现行方案，S8排除缺件暂停。"
+    },
+    {
+      "response_id": "C04A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "唯一独立研究N层增2分、完成率94%，未达5分门槛，依规保留现行方案",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2、S3确定N层匹配，S4为2分及94%，S5仅一研究，S1明确无合格证据保留现行；S6现行材料已备，S8资料全直接处置。无矛盾断言。"
+    },
+    {
+      "response_id": "C04A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "匹配数据完整但无合格证据，应保留现行方案",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3确定N，S4的84−82低于S1的5分门槛，S5排除其他研究；S1规定无合格证据保留，S8不把否定结果视为缺字段，C链条完整。"
+    },
+    {
+      "response_id": "C04A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "虽完成率94%，仍未达到至少5分的门槛",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4同时提供94%与2分；S1要求增幅和完成率共同达标，S3、S5支持匹配N及仅一研究。因此已知不合格应C，S8无需补件。"
+    },
+    {
+      "response_id": "C05A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U1、U2已达标，U3计数未归档，须暂停判断并补取",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2每班20人、S1门槛90%即18份；S4有20、18及U3缺数。S1禁止拆分并区分已知不达标和缺数，S8补字段，足以支持B及所述排除理由。"
+    },
+    {
+      "response_id": "C05A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U1、U2达标，U3关键计数缺档，触发补取后判断规定",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4当前截点20、18及U3缺页，S2分母20；S3有效计数已核验，S1逐班门槛、禁拆及缺数先补取，S8不允许顾问代填，B获直接支持。"
+    },
+    {
+      "response_id": "C05A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U1、U2分别达到100%和90%，但U3有效确认计数未归档",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2与S4计算20/20、18/20准确；S1明确关键计数未归档先补取，不能预认定两种结果，S8同样要求暂停，完整支持B。"
+    },
+    {
+      "response_id": "C05A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U3计数缺失，无法判断整批达标，也不能认定未达标",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4确实无U3计数，S1须每班达90%并规定缺数先补取；S2、S3确定三班范围和有效计数口径，S8规定补取而非推测，理由充分。"
+    },
+    {
+      "response_id": "C05A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U1、U2达标，U3关键计数缺失",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2排除U4，S1禁止合计抵补和拆分，S3、S4支持已知有效计数及U3缺失，S8补取规则足以推出B。关于先前回答一致的自述不纳入已验证证据。"
+    },
+    {
+      "response_id": "C06A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "92%≤720÷(800－40)<96%，属于定向支持",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2计划800、S3实到720、S4八块各五人日、S5全E可扣除，所得18/19约94.7368%在S1定向区间；S6实施准备与S8齐备直接办结均相符。"
+    },
+    {
+      "response_id": "C06A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "核准免到为8×5＝40人日，应从分母扣除",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4八块五人日、S5为可扣E类，S1规定仅扣分母；S2、S3给出800与720，720/760在92%至96%间。S6支持辅导安排，S8支持无需补件。"
+    },
+    {
+      "response_id": "C06A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "评价率为720÷(800－40)＝18/19",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2至S5支持每个计算输入且单位为人日，约分为18/19正确；S1将该未取整比率分到定向，S6与S8支持执行D而非暂停。"
+    },
+    {
+      "response_id": "C06A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "核准E类免到8×5＝40人日，720÷760＝18/19",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4、S5确认核准E类及数量，S2锁定800、S3实到720，S1定向边界匹配。S6确有日程人员预算，S8材料全应办结；先前回答的自述不另行验证。"
+    },
+    {
+      "response_id": "C06A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "满足≥92%且<96%的定向条件",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S1正是此区间；S2、S3、S4、S5共同支持720/(800−8×5)=18/19，S6证实准备，S8无缺件触发。计算、制度与D相连充分。"
+    },
+    {
+      "response_id": "C07A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "V8唯一关联的I63已由有权审批员有效签署为E3",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3唯一关联I63、S4有权签署E3，S2定义例外资格，S1免提前量但保留凭单陪同，S5证实身份及陪同，S8字段全。C及各项排除均有支持。"
+    },
+    {
+      "response_id": "C07A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "身份核验完成、陪同已到位，应签发限定路线凭单并全程陪同放行",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S5明确身份完成及王老师到位；S1规定E3满足此条件须凭单陪同，S3、S4确定关联和E3，S2确立签署效力，S8不需补件，C充分。"
+    },
+    {
+      "response_id": "C07A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "有权审批员签定E3，授权覆盖本次提前量豁免",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4为有效E3、S3连接V8，S1明确优先免提前量，S2说明由审批员确定；S5仍需凭单陪同且条件具备，S8支持办结。未核验其关于先前答复的过程断言。"
+    },
+    {
+      "response_id": "C07A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "应核验记录后签发限定路线凭单并全程陪同放行",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1的E3路线与C一致，S2、S3、S4建立唯一有效签署为E3，S5身份和陪同已备，S8无缺字段。所谓不涉及金额不与档案冲突。"
+    },
+    {
+      "response_id": "C07A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "触发提前时限豁免；身份核验完成、陪同到位，仍须签限定路线凭单并全程陪同",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1明确只免提前量，S4 E3有权签署、S3连接本次，S5核验及陪同到位；S2、S8分别支持分类效力和直接处置。没有将例外扩张成自由入校。"
+    },
+    {
+      "response_id": "C08A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "授权清单明确覆盖L1、L2、L3",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4明列三地及本周六有效，S3连接签名W6，S5签署有效期内、编号相符，S6三处安全通过，S1有效签署覆盖放行和S8齐备处置充分支持C。"
+    },
+    {
+      "response_id": "C08A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "申请、台账和签署相互对应，三处安全核验均通过",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2列三处申请，S3至S5对应委托与签署及编号，S4授权全覆盖，S6通过且不收费；S1放行规则及S8完整资料要求支持全部签发。"
+    },
+    {
+      "response_id": "C08A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "委托明确覆盖L1、L2、L3，签署处于有效期内且场地对应一致",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4范围与S5日期台账完全相合，S3将签名连至W6；S6安全通过，S1允许有效覆盖放行，S8无需补件。简短理由必要链已完整。"
+    },
+    {
+      "response_id": "C08A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "有效签署及放行条件满足，无越界部分",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2申请三地，S3至S5说明W6授予三地并完成当期签署，S6安全及费用条件，S1依据有效范围签发，S8不触发补件。因此C无越界说法有据。"
+    },
+    {
+      "response_id": "C08A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "W6在签署日及本周六有效",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4明确覆盖本周六，S5签署日在有效期内，S4范围含三地，S2、S3、S5对应申请签名台账，S6安全及不收费，S1与S8支持C。先前答复自述未核验。"
+    },
+    {
+      "response_id": "C09A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "整笔含税7.2万元未触发会签",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3含税7.2万元、S4于9月14日受理且无重新受理、S2沿用旧版、S1门槛8万元；S5无安全专项审批，S8完整字段办结，故A完整且备忘录B不获此链支持。"
+    },
+    {
+      "response_id": "C09A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "E47于9月14日16:40确认受理，依衔接条款沿用已获批准的原8万元界线",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4时间、S2版本衔接、S1批准及旧门槛，配S3金额7.2万元推出A；S6预算10万元预留7.2万元支持预算说法，S5解释询价，S8无需补件。"
+    },
+    {
+      "response_id": "C09A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "修订后询价及尚未成交不改变适用版本",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2明确未成交不重受理，S4受理9月14日且询价不可覆盖，S5修订后询价；S1旧8万元及S3整笔7.2万元、无禁购支撑A。历史答复的自述未核验。"
+    },
+    {
+      "response_id": "C09A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "应继续适用原八万元界线",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2新版本从9月15日生效，S4正式E47于9月14日16:40，S1旧界线8万元；S3金额7.2万元无禁购，S4询价不覆盖确认，S8字段齐全，A充分。"
+    },
+    {
+      "response_id": "C09A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "询价时间和尚未成交不改变适用版本",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4禁止询价覆盖受理时间，S2规定未成交仍依原受理版本；S1、S3、S4联合支持旧8万元下7.2万元单部门路径，S8没有补件理由，撤销也无依据。"
+    },
+    {
+      "response_id": "C10A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "唯一关联事件I63由有权审批员签为N1，不适用E3例外",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3唯一事件且仅四小时，S4签N1，S2定义普通维修，S1要求24小时；S6备有合规另约时段，S8已知否定不补件，完整支持D。"
+    },
+    {
+      "response_id": "C10A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "预约仅提前四小时，未满足普通维修二十四小时要求",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3四小时、S4有权签N1、S2明确普通分类，S1普通须24小时；S6可另约、S8资料全不补件，因此D的事实及规则皆具备。"
+    },
+    {
+      "response_id": "C10A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "身份及陪同齐备不豁免二十四小时时限",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S5身份陪同就绪，但S1仅E3豁免提前量，S4是N1、S3仅四小时，S2不能靠标题改码。S6支持另约、S8直接延期，未将准备情况误作豁免。"
+    },
+    {
+      "response_id": "C10A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "“紧急”标题不具分类效力",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2明确标题只供派单排序，S3标题与四小时、S4签N1，S1要求普通24小时，S6另约可行、S8分类已齐全；D得到充分支持。"
+    },
+    {
+      "response_id": "C10A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "预约提前4小时，不足S1规定的24小时",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3给4小时、S4有效N1、S2为普通维修，S1门槛24小时；S5已备身份陪同不改变分类，S6另约时段、S8直接办结均支持D。"
+    },
+    {
+      "response_id": "C11A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "吴老师出发前证书已到期，仅陈老师有效",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4明确吴到期续证未通过而陈有效，S3只有二成人无替补，S2三十人，S1要求至少二有效且每人≤15；S5成人比不能代有效比，S8明确状态非缺失，B充分。"
+    },
+    {
+      "response_id": "C11A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "三十名学生仅有一名有效持证者，人数和比例均不达标",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2三十学生、S3两成人无替补、S4仅陈有效，S1至少二人且≤15/人；S5表未读证书不能覆盖S4，S8不把否定当空白，B而非补件有据。"
+    },
+    {
+      "response_id": "C11A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "名单锁定且禁止现场删减；证书状态字段齐全，应推迟整班出发",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2名单锁定，S1禁止删减且条件未满足延期，S4吴证到期明确、S3无替补，S5仅按成人数计算，S8排除缺件路径。人数及比例结论无冲突。"
+    },
+    {
+      "response_id": "C11A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "现仅一名有效持证带队者，不满足至少两人及每人最多对应十五名学生的要求",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3、S4确定仅陈有效，S5明确三十学生且成人比未筛证书，S1要求两人及15人上限、禁止删减，S8已有否定证据应实体延期，C不获支持。"
+    },
+    {
+      "response_id": "C11A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "证书状态已明确，属于条件不满足而非记录缺失",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4明确到期未续，S3无替补、S2三十人，S1有效带队至少二及比例上限且禁止删减；S8明确否定不同缺失，足以支持B。"
+    },
+    {
+      "response_id": "C12A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "C7在B17作业窗口内连续不可用3小时10分钟",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3八时启动且C7为认证节点，S4 08:10到11:20无间断，时长正确；S1历史触发不因恢复撤销且24小时回填，S5保留去重及合法原件，S8资料全，B充分。"
+    },
+    {
+      "response_id": "C12A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "恢复不撤销触发结果，须手工暂记并在恢复后24小时内回填",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1明确此规则，S3、S4提供同一C7批次连续3小时10分；S2、S5支持去重和保留合法42申请，S8不需补字段。B未以恢复偷换历史条件。"
+    },
+    {
+      "response_id": "C12A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "从08:10至11:20连续不可用3小时10分钟",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4两端点与无短暂可用支持连续时长，S3作业8时且节点C7，S1阈值至少3小时已触发并须恢复后回填；S5去重仍保留，S8齐备，B理由充分。"
+    },
+    {
+      "response_id": "C12A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "须手工暂记、恢复后24小时内回填核对并去重，保留合法申请",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S1给暂记及回填路径，S3、S4认证中断超过3小时，S2、S5禁止因重复取消且要求去重，S8已有完整字段。对先前答复的自述未另行核验。"
+    },
+    {
+      "response_id": "C12A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "08:10至11:20连续中断3小时10分钟，触发应急路径，恢复不构成例外",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4端点及连续性，S3认证节点和作业窗口，S1历史触发规则充分决定B；S3、S5分别支持42合法申请与去重责任，S8无需补件。"
+    },
+    {
+      "response_id": "C13A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U3有效确认17/20＝85%，未达90%",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2每班20，S4 U3为17，S3计数已核验，S1逐班90%门槛、不得抵补拆分，S5合计只统计；S8已有数值应按未达标退回D。"
+    },
+    {
+      "response_id": "C13A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "三班确认率依次为100%、90%、85%，U3未达标",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2三班各20并排除U4，S4数为20、18、17，计算无误；S3计数有效、S1退回及禁拆，S6补件窗口可重报，S8字段全，D充分。"
+    },
+    {
+      "response_id": "C13A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U3仅17份（85%），未达标",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S4记录17、S2分母20，S1门槛90%即18份；S1还禁止抵补和拆批，S8完整计数不暂停补取，D清晰覆盖整批处理。"
+    },
+    {
+      "response_id": "C13A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U3触发未达标退回条件；有效计数齐全",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4三数齐备，S2三班各20且无豁免、U4不适用，S3有效计数可直接使用；S1按85%退回并禁拆，S6重报整批与S8直接业务处置支撑D。"
+    },
+    {
+      "response_id": "C13A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "U1、U2达标不能抵补",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2、S4可得U3 17/20=85%，S1要求每班90%且不能抵补或拆分，已知不达标退回；S8字段齐备不补取。引用足以支撑D。"
+    },
+    {
+      "response_id": "C14A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "C7恢复时间未归档，缺少判断连续中断是否满三小时的必要证据",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S3确定节点C7，S4恢复字段未归档，S1阈值需要连续时长；S2、S5说明重复工单源自校验非时长，S8必要字段缺失先补取，C充分。"
+    },
+    {
+      "response_id": "C14A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "重复行工单不能证明应急触发，打印站维护也不计入认证中断",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S5工单不读中断时长，S3 C7与P2独立、S4不含打印维护且缺恢复时间，S1无法判时长；S2合法申请不得取消，S8暂停补字段支撑C。"
+    },
+    {
+      "response_id": "C14A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "恢复时间未归档，无法判定连续中断是否满三小时",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4缺恢复字段、S1需至少3小时、S3认证C7与批次对应；S2、S5工单非应急证据且仍去重，S8向原保管人补字段。先前一致性自述未核验，核心理由充分。"
+    },
+    {
+      "response_id": "C14A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "符合S8必要字段缺失条件，应暂停模式判定，向原保管人补取恢复时间",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S4明载恢复字段缺失，S1三小时阈值需时长，S3打印站独立，S2、S5工单来源与合法申请保留；S8暂停适用。关于恢复不撤销是S1规则陈述，未断言本批已满足触发。"
+    },
+    {
+      "response_id": "C14A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "重复行核对工单不能证明应急条件成立",
+      "source_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S5工单不读取认证不可用时长，S3、S4界定C7及缺恢复字段，S1三小时触发无法核定；S8补字段、S5保留去重责任，C理由完整。"
+    },
+    {
+      "response_id": "C15A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "当前仅一名有效持证者，人数及比例均不合规",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S3只有陈吴且无替补、S4陈有效吴过期，S2三十人，S1至少二有效且每人15；S5成人比例不筛资格，S6可改期，S8已知否定非缺失。未核验先前决定自述。"
+    },
+    {
+      "response_id": "C15A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "三十人整班既不满足至少两名有效持证者的要求，也超过每人十五人的上限",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S2三十人，S3、S4只有陈为有效持证，S1人数及比例要求与禁止删减，S8明确过期非记录缺失；B延期理由充分。"
+    },
+    {
+      "response_id": "C15A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "出发日仅陈老师证书有效",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4证书状态、S3仅二成人无替补，S2三十人及同意书用途，S1人数比例与禁止减员决定延期；S6改期及备用课已备，S8无需补件，B支持完整。"
+    },
+    {
+      "response_id": "C15A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "吴老师到期是明确否定证据，不适用补件暂停",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S4到期续证未通过，S8区分否定与空白；S1至少二持证且禁减员，S2、S3三十人仅二成人，S6允许改约并无不可退费用，故B获规则及事实支持。"
+    },
+    {
+      "response_id": "C15A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "既不满足至少两人的要求，也无法满足三十名学生的带队比例",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "evidence_note": "S1要求至少二有效且≤15学生/人，S2三十人、S3无替补、S4吴已过期仅陈有效；S8状态明确不补件，S1禁止减员并要求推迟，B充分。"
+    },
+    {
+      "response_id": "C16A1",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "评价率720÷760的未舍入值达到92%且不足96%",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2计划800、S3实到720、S4八块五人日、S5 E可扣，720/760约94.7368%在S1定向区间；S6人员预算、S8字段全均支持D，90%仅排班展示。"
+    },
+    {
+      "response_id": "C16A2",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "评价率720÷760≈94.74%，未舍入值达92%但不足96%",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S2至S5支持760分母和720分子，约值准确；答案明确按未舍入值比界线，符合S1不以取整比较。S6安排及S8无需补件亦有据，未核验先前一致性自述。"
+    },
+    {
+      "response_id": "C16A3",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "应评价人日为800－40＝760",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2计划800、S4八乘五=40、S5核准E只扣分母，S3实际720，S1定向区间正确；S2、S3说明90%排班用途，S8现有块数无需补件，D充分。"
+    },
+    {
+      "response_id": "C16A4",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "评价出勤率720÷760达到92%且不足96%",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S8"
+      ],
+      "evidence_note": "S2、S3、S4、S5给出800、720、40及可扣类别，S1明确此区间定向；S3看板90%原始率不作等级，S8块数在档直接处置，D无冲突。"
+    },
+    {
+      "response_id": "C16A5",
+      "factual_error": "no",
+      "decisive_support": "adequate",
+      "citation_support": "supported",
+      "answer_quote": "评价率720÷760介于92%与96%之间，满足定向支持条件",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "evidence_note": "S1界线，S2计划、S3实到、S4免到数量及S5 E类别共同支持18/19比率；S6人员预算覆盖，S8不补件，S2、S3排班率用途使备忘录C无此支持。"
+    }
+  ]
+}

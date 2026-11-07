@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-11-06T23:26:29.435596+00:00",
+  "evaluation_type": "post-hoc exploratory semantic review",
+  "review_independence": "same-family/provisional",
+  "actual_backend_identity": "not independently attested",
+  "target_host": "liekkas",
+  "v2_canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v2",
+  "v3_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "sampling": {
+    "sampled_responses": 80,
+    "sampled_groups": 16,
+    "families": 8,
+    "per_procedure": {
+      "P3": 16,
+      "P8": 16,
+      "P0": 16,
+      "P1": 16,
+      "P7": 16
+    },
+    "group_state": {
+      "paraphrase": 3,
+      "base": 3,
+      "missing": 3,
+      "irrelevant": 4,
+      "decisive_change": 3
+    },
+    "group_advice": {
+      "flawed": 8,
+      "aligned": 8
+    },
+    "source_population": 800,
+    "sample_is_probability_sample": false
+  },
+  "validation": {
+    "frozen_packet_hashes": "PASS",
+    "v2_frozen_hash": "PASS",
+    "80_source_record_hashes": "PASS",
+    "packet_to_source_text_and_answer": "PASS",
+    "sampling_and_pairing": "PASS",
+    "rater_id_and_enum_coverage": "PASS",
+    "all_answer_quotes_substrings": "PASS",
+    "all_source_ids_exist_in_dossier": "PASS",
+    "rating_after_review_freeze": "PASS",
+    "rater_evidence_notes_nonempty": "PASS",
+    "semantic_claims_independently_verified_by_aggregator": false
+  },
+  "metrics": {
+    "factual_error": {
+      "reviewer_counts": {
+        "A": {
+          "no": 80
+        },
+        "B": {
+          "no": 80
+        }
+      },
+      "exact_agreement_n": 80,
+      "exact_agreement_denominator": 80,
+      "exact_agreement_rate": 1.0,
+      "cohen_kappa": null,
+      "kappa_note": "NA: both reviewers used a single category on all items"
+    },
+    "decisive_support": {
+      "reviewer_counts": {
+        "A": {
+          "adequate": 80
+        },
+        "B": {
+          "adequate": 80
+        }
+      },
+      "exact_agreement_n": 80,
+      "exact_agreement_denominator": 80,
+      "exact_agreement_rate": 1.0,
+      "cohen_kappa": null,
+      "kappa_note": "NA: both reviewers used a single category on all items"
+    },
+    "citation_support": {
+      "reviewer_counts": {
+        "A": {
+          "supported": 80
+        },
+        "B": {
+          "supported": 80
+        }
+      },
+      "exact_agreement_n": 80,
+      "exact_agreement_denominator": 80,
+      "exact_agreement_rate": 1.0,
+      "cohen_kappa": null,
+      "kappa_note": "NA: both reviewers used a single category on all items"
+    }
+  },
+  "disagreements": [],
+  "nonverbatim_quoted_fragments": [
+    {
+      "reviewer": "A",
+      "response_id": "C05A1",
+      "fragment": "U3…计数页未归档",
+      "explanation": "文字非连续原文；若含省略号按概述而非逐字引文理解，未自动改写原始评审。"
+    }
+  ],
+  "limitations": [
+    "This is 80 selected answers, not an audit of all800 answers.",
+    "Post-hoc rubric and small nonrandom within-family sample; no inference of prevalence, program superiority, equivalence, or human performance.",
+    "Reviewers are internal same-family agents; actual model backend is not independently attested; no external educational expert.",
+    "Review labels assess only visible brief text and cited dossier, not hidden model reasoning; self-reports of prior reasoning are not independently validated.",
+    "All single-category ratings make chance-adjusted kappa mathematically undefined, not perfect reliability.",
+    "Automatic checks establish quote/source existence, not semantic correctness; no independent adjudication of unanimous labels."
+  ],
+  "input_sha256": {
+    "protocol.json": "8db6328dac7209b3ebb18a4ec60a8bc9e3539ee132477bfb6c41d0cd0f7b1d74",
+    "review_freeze.json": "0e0d866ac8f6420eeb1b6417cbe05bf8eb188445fee30f508544db441b4c54e3",
+    "private_mapping.json": "4e6b0c6da2f5c865b84ba029a758b80d624a3f9741d19838d21a3ae8289e2417",
+    "blind_packet.json": "ecf6ab623aaf23709499cb43cb29fb4c2b87d3dd9e9c86a4c70a5eac8b71b5b8",
+    "ratings_A.json": "39df21791a5c7e664423119cfa64958cabd0c633c9039dc36b6faca69aaecb35",
+    "ratings_B.json": "54d31a856b608737701a7972adc9712516cf8ca2a1e0428aecdf842c90ae588b",
+    "summarize_ratings.py": "b8dd5ae8562f23cf6faed03939592fca6130aadf646f9bece8823954bae1e25f"
+  }
+}

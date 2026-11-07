@@ -1,0 +1,32 @@
+{
+  "phase": "pre_subject_freeze_correction",
+  "changed_items": [
+    "R05_missing_aligned",
+    "R05_missing_flawed",
+    "R06_paraphrase_aligned",
+    "R06_paraphrase_flawed"
+  ],
+  "changes": {
+    "R06_paraphrase": "S1审计已完成改为已通过，备忘录须急改回应急",
+    "R05_missing": "S4缺页字段名停表公文类别改为中性N18公文类别"
+  },
+  "all_other_p0_items_unchanged": true,
+  "p0_key_semantics_unchanged": true,
+  "challenge_inputs_and_keys_byte_identical": true,
+  "before_sha256": {
+    "cases/build_cases.py": "f40dd17b071e8d7b2293ddaa5679cd1cef94de90323b94daa9272863073213fe",
+    "prompts/p0_items.json": "4120eca4a589a6e1ba9c75c0ef0e0f5f11ed11604d4195ddf35d65fb252dc708",
+    "keys/p0_keys.json": "390758276b72bb1bd0f823743fb1de06bd4848e11a43d7d149654d0454c0dadc",
+    "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+    "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0"
+  },
+  "after_sha256": {
+    "cases/build_cases.py": "cef67fc224e8aa648ed9eb4cb12056c381c5b32b8bd9945f4460585b3ba4c901",
+    "prompts/p0_items.json": "a191461d53d35b66da3b56b5481471cb9359f0ad368cf87debb304fb7b3eeba8",
+    "keys/p0_keys.json": "e93a9d8e1b6e161bfb834f8902be12adc0092a173696598c7d81687d931d6b94",
+    "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+    "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0",
+    "cases/validation.json": "8ec0f678c9f7b3eb8db4c4862e5eb86d779c4f5ac0c879a3e4e584be6d160d35"
+  },
+  "required_next_step": "Blind reviewer rechecks exactly four revised public items before freeze."
+}

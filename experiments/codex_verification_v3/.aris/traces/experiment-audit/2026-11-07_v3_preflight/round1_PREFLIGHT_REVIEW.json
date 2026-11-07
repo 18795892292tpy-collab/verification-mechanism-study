@@ -1,0 +1,205 @@
+{
+  "audit_skill": "experiment-audit",
+  "stage": "preflight-round1-toolchain-only",
+  "verdict": "FAIL",
+  "reason_code": "offline_integrity_probes_failed",
+  "summary": "作者33个离线测试全部通过，但独立11项probe有5项不通过；当前工具链预审不能放行。没有真实模型调用或最终结果判断。",
+  "audited_input_hashes": {
+    "AGENTS.md": "9cb05afa92b95fdd46ffe912a6d73a48cb5da0e9b3e71c4e0c5cc9ffc1119861",
+    "protocol/EXPERIMENT_PLAN.md": "2f6a6d52452346613974eb7c16cdf18fac9ba20be353df697ccab50cccdbe5ee",
+    "protocol/analysis_plan.json": "966d841e42ae29a06fe221d9dd47be2597384125d3fb2f9116c38a512212543f",
+    "protocol/runtime_identity.json": "eb10c933f7d75bbb23e0b35ea89e5484a422a40afaf776f1409c0511f57afcc9",
+    "protocol/prompts.json": "8a175f0e50bc2454485755f3b46253988ffd99485c1cf3982fe53aebb3baaf01",
+    "protocol/backend.json": "7976c4375cd93f095fa29e2864f59af966e0006d64ee2ca06b72bb0bfc3858ff",
+    "harness/runner.py": "c57b024fb60d9a7642b046f104c7be5c56c0ca9793501d4c4955448f3a0e721a",
+    "harness/integrity.py": "00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/PROVENANCE.json": "1a865516f7b9a7e47370219b041d1d48bf54054492e3cd8b01152fe4cdbc3370",
+    "analysis/evaluate.py": "df1241fae7287e08cd9572f0c36ffcc18496a29e6d0ec4370e506e4aee742e42",
+    "analysis/progress.py": "e9a26a919432f8ebf022f78f85e4ece1eda9a08da95e45a9747c848f1b201687",
+    "tests/test_v3.py": "ffba9724758757face81c7a9aedc3c545223627b2ba0e88f0a0036c5b810cf68",
+    "audits/harness_tests.json": "88e0d4459a579858255c405db2e402268cf5a32dc509f9478e3f99c821c46712"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_v3_preflight/",
+  "agent_id": "/root/v3_integrity_audit",
+  "verdict_id": "v3-preflight-round1",
+  "executor_model": "inherited Codex; exact backend not exposed",
+  "executor_family": "openai",
+  "reviewer_model": "inherited Codex; exact backend not exposed",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "inherited; exact setting not exposed",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-06T23:21:38.305947+00:00",
+  "date": "2026-11-07",
+  "overall_verdict": "fail",
+  "integrity_status": "fail",
+  "real_model_calls": 0,
+  "canonical_host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "checks": {
+    "gt_provenance": {
+      "status": "warn",
+      "details": "计划明确作者预设虚构制度真值、simulation_only；本轮题库仍构建，实际真值与草稿关联尚未审完。",
+      "evidence": [
+        "protocol/EXPERIMENT_PLAN.md:10",
+        "harness/runner.py:149"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "直接correct/计划分母；family对比先每族两draft平均再每类型四族平均。独立六个contrast/condition复算一致；不存在以模型输出max/mean归一化。",
+      "evidence": [
+        "analysis/evaluate.py:112",
+        "analysis/evaluate.py:151",
+        "analysis/evaluate.py:159"
+      ]
+    },
+    "result_existence": {
+      "status": "warn",
+      "details": "预审时canonical根目录无frozen.json、raw record、attempt marker；没有被试结果可复算。此为预审，不支持任何结果或方法差异主张。"
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "active runner只导入复用integrity.py的DirectoryLock与_write_once；其余legacy helper未用于V3评分，没有声称那些函数产出V3结果。评分、gate、usage函数均被实际mock路径或独立probe调用。",
+      "evidence": [
+        "harness/runner.py:9",
+        "analysis/evaluate.py:257"
+      ]
+    },
+    "scope": {
+      "status": "pass",
+      "details": "计划把8家族列为开发材料，每类型仅4族，不作p值/确认性/真人/专家/留出验证主张。",
+      "evidence": [
+        "protocol/EXPERIMENT_PLAN.md:36",
+        "protocol/EXPERIMENT_PLAN.md:38"
+      ]
+    },
+    "eval_type": "simulation_only",
+    "freeze_and_runtime": {
+      "status": "pass",
+      "details": "已有测试验证source/runtime/schedule变更拒绝；本机runtime identity确实覆盖319346888字节原生codex二进制以及wrapper/package hashes。正式freeze仍待执行。"
+    },
+    "whole_run_and_resume": {
+      "status": "fail",
+      "findings": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "lifecycle_and_final_consistency": {
+      "status": "fail",
+      "findings": [
+        "F2",
+        "F3"
+      ]
+    },
+    "usage_unknown": {
+      "status": "pass",
+      "details": "缺失usage不补零，已知subtotals保留；独立混合完整/缺失两attempt probe确认。"
+    },
+    "gate": {
+      "status": "warn",
+      "details": "10个科学门槛/技术阻断边界均正确；全局完整性漏洞F1-F3修复前不能接受门槛。"
+    },
+    "authored_origin": {
+      "status": "pass",
+      "details": "固定草稿由challenge phase单独提供；origin/hash记录存在；32个mock prompt未含item_id/draft_condition。实际题库语义核验待后续。"
+    }
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "high",
+      "status": "open",
+      "title": "跨阶段未封存尝试未计入门槛完整性",
+      "evidence": [
+        "analysis/evaluate.py:174",
+        "analysis/evaluate.py:188",
+        "analysis/evaluate.py:212",
+        "analysis/evaluate.py:218",
+        "analysis/evaluate.py:224"
+      ],
+      "probe": "cross_phase_unsealed_attempt_blocks_gate",
+      "details": "另一phase只有attempt_started.json与response.json而没有record.json时，collect_phase跳过该任务；80个P0完成后仍得到passed_integrity=true、challenge_allowed=true，虽然inventory记录81个attempt目录。应全局验证所有phase已有attempt，早期challenge痕迹必须拒绝门槛。"
+    },
+    {
+      "id": "F2",
+      "severity": "high",
+      "status": "open",
+      "title": "响应文件与最终事件冲突被计为完成",
+      "evidence": [
+        "harness/runner.py:280",
+        "harness/runner.py:331",
+        "harness/runner.py:339"
+      ],
+      "probe": "output_vs_final_event_consistency",
+      "details": "mock response.json为A而最后item.completed/agent_message为B，输出仍是complete/A。两份原始结果应有一致性约束；冲突须保留并判为协议/完整性失败，不得重抽。"
+    },
+    {
+      "id": "F3",
+      "severity": "medium",
+      "status": "open",
+      "title": "错误item和成功turn并存仍计为完成",
+      "evidence": [
+        "harness/runner.py:244",
+        "harness/runner.py:246",
+        "harness/runner.py:279",
+        "harness/runner.py:345"
+      ],
+      "probe": "error_item_success_classification",
+      "details": "包含item.completed/type=error（fatal response transport failed）的记录，若returncode=0且turn.completed，则service_block早返回，classify_final忽略error_items，判complete。需明确错误事件政策并使含未解释错误记录不能满足无技术失败门槛。"
+    },
+    {
+      "id": "F4",
+      "severity": "high",
+      "status": "open",
+      "title": "后序partial final不能阻止新抽样",
+      "evidence": [
+        "harness/runner.py:380",
+        "harness/runner.py:398",
+        "harness/runner.py:406",
+        "harness/runner.py:444"
+      ],
+      "probe": "later_partial_final_blocks_any_new_attempt",
+      "details": "只预放attempt_02/attempt_started.json和response.json，attempt_01不存在。response_task执行新的attempt_01并返回，实际mock调用1次，未先拒绝旧final。应在任何新调用前核对全部attempt目录连续性及partial/final，避免遗漏后序已有答案。"
+    },
+    {
+      "id": "F5",
+      "severity": "medium",
+      "status": "open",
+      "title": "目录锁追随符号链接并覆盖其目标",
+      "evidence": [
+        "harness/integrity.py:111",
+        "harness/integrity.py:121",
+        "harness/runner.py:465",
+        "harness/runner.py:466"
+      ],
+      "probe": "directory_lock_symlink_refused_without_mutation",
+      "details": "临时目录中将.integrity.lock链接至sentinel文件，DirectoryLock成功进入并ftruncate目标。runner先获取锁后inventory，无法在写入前拒绝。应O_NOFOLLOW打开并确认regular file，确保全局锁路径不改变别的目标。"
+    }
+  ],
+  "verification": {
+    "author_tests_passed": 33,
+    "independent_probes": 11,
+    "independent_probes_passed": 6,
+    "gate_boundary_subcases": 10,
+    "family_contrast_subcases": 6
+  },
+  "pending": [
+    "修复并独立重跑F1-F5",
+    "实际题库/协议/真值/草稿关联审查",
+    "冻结后所有输入哈希核验",
+    "最终原始结果及门槛独立复算"
+  ],
+  "claims": [
+    {
+      "id": "scientific_results",
+      "impact": "unsupported: no real subject results exist at preflight"
+    },
+    {
+      "id": "simulation_development_only",
+      "impact": "supported protocol classification"
+    }
+  ]
+}

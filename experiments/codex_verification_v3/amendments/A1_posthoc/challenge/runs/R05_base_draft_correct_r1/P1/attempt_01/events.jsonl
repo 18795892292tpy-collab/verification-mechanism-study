@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b355-3a87-7e02-95aa-b698e65c5c05"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"A\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S6\",\"S9\"],\"brief_justification\":\"N18登记为Z1，6月3日至7日暂停计时；计时工作日为6月2日、8日、9日、10日。补正材料于第4个计时工作日齐全送达，未超期，应受理继续。类别已知，无需补取，也无依据扣除所有邮件日期。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18519,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":350,"reasoning_output_tokens":224}}

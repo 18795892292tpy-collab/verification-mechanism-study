@@ -1,0 +1,10 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "tests": 33,
+  "elapsed_s_reported": 10.464,
+  "all_passed": true,
+  "all_subject_subprocesses_mocked": true,
+  "source_hashes_match_harness_tests_json": true,
+  "note": "Independent rerun observed directly; no model execution. Full author test output is separately preserved in audits/harness_test_output.txt."
+}

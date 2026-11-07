@@ -1,0 +1,8 @@
+{
+  "changed_drafts": 32,
+  "only_change": "append S7 to cited_sources in every correct/error draft",
+  "unchanged_p0_sha256": "4120eca4a589a6e1ba9c75c0ef0e0f5f11ed11604d4195ddf35d65fb252dc708",
+  "same_citation_count_correct_error": 6,
+  "all_other_public_and_draft_fields_unchanged": true,
+  "no_subject_calls": true
+}

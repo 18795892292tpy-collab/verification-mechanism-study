@@ -1,0 +1,7 @@
+{
+  "call_number": 1,
+  "purpose": "final-independent-raw-review",
+  "timestamp": "2026-11-07T00:16:39.675542+00:00",
+  "tool": "followup_task",
+  "prompt": "额外C session28172已 exit75，128任务终态，127complete、1 technical_or_protocol_failure。请运行独立最终审计，逐条核对raw/strict/prompt/session/usage、planned denominator及该项失败证据，输出你此前预备的最终审计JSON与中文报告，避免把该项重新采样或悄悄当complete。报告图正在生成，稍后再复核。将实际 JSON 路径/结构发 publication_prep。"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "created_utc": "2026-11-06T23:15:37.413357+00:00",
+  "test_count": 33,
+  "command": "python -m unittest discover -s tests -v",
+  "real_model_calls": 0,
+  "test_output": "audits/harness_test_output.txt",
+  "sha256": {
+    "harness/runner.py": "c57b024fb60d9a7642b046f104c7be5c56c0ca9793501d4c4955448f3a0e721a",
+    "harness/integrity.py": "00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+    "harness/PROVENANCE.json": "1a865516f7b9a7e47370219b041d1d48bf54054492e3cd8b01152fe4cdbc3370",
+    "analysis/evaluate.py": "df1241fae7287e08cd9572f0c36ffcc18496a29e6d0ec4370e506e4aee742e42",
+    "analysis/progress.py": "e9a26a919432f8ebf022f78f85e4ece1eda9a08da95e45a9747c848f1b201687",
+    "tests/test_v3.py": "ffba9724758757face81c7a9aedc3c545223627b2ba0e88f0a0036c5b810cf68"
+  },
+  "tested": "Transport/final no-resampling; interrupted/paused attempts; raw/prompt/event tamper; missing usage; lifecycle; global writer lock; source/runtime/plan identity; unknown/symlink artifacts;80P0/128challenge mock full resume; authored-draft origin; raw-backed gate recomputation/tamper and P0->gate->challenge chronology; gate SHA pin; both-type gates; actual mock thread peak12. Internal deterministic tests, independent review pending. Nonzero P3-P1 fixture checks treatment selection, two drafts/family and equal four-family denominators."
+}

@@ -1,0 +1,26 @@
+{
+  "response_count": 80,
+  "unique_response_ids": 80,
+  "all_required_fields_present": true,
+  "enum_validation": true,
+  "answer_quotes_exact": true,
+  "citation_ids_match_original": true,
+  "cited_ids_exist_in_each_dossier": true,
+  "authorized_inputs_unchanged": true,
+  "manual_judgment_count": 80,
+  "counts": {
+    "factual_error": {
+      "no": 80
+    },
+    "decisive_support": {
+      "adequate": 80
+    },
+    "citation_support": {
+      "supported": 80
+    }
+  },
+  "output_sha256": {
+    "ratings_A.json": "39df21791a5c7e664423119cfa64958cabd0c633c9039dc36b6faca69aaecb35",
+    "REVIEW_A.md": "4d892f517f76f3a3cdd01fb653bbf5eda14a820a5ff1a9b04c4b300e2e77286c"
+  }
+}

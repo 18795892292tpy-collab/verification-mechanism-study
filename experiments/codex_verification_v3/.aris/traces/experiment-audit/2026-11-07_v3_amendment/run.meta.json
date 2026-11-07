@@ -1,0 +1,8 @@
+{
+  "skill": "experiment-audit",
+  "run_id": "2026-11-07_v3_amendment",
+  "project_dir": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "executor_family": "openai"
+}

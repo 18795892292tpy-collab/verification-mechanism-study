@@ -1,0 +1,800 @@
+{
+  "kind": "explicit_posthoc_challenge",
+  "prior_strict_gate_outcome": "technical_block",
+  "original_gate_challenge_allowed": false,
+  "phase": "independent_authored_draft_exploration",
+  "first_origin": "authored_fixed_draft",
+  "max_planned_tasks": 128,
+  "max_workers": 12,
+  "posthoc_exploratory": true,
+  "user_authorization_context": "用户要求开始预试及完成后上传；先前说明预先写定的条件性128挑战。此项为原技术阻断之后的另行记录执行偏离。",
+  "original_frozen_sha256": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "original_gate_sha256": "ee5bdaa2bd78f0f47287e57856169c0b66bfee3af72a12cc1ae0276969aa1941",
+  "challenge_items_sha256": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+  "challenge_keys_sha256": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0",
+  "posthoc_analysis_path": "amendments/A1_posthoc/results/threshold_diagnostic.json",
+  "posthoc_analysis_sha256": "87fd961d0f57babb36721ec4936dd5bc56f517e2f29a76a203461a394b3c82a7",
+  "posthoc_gate_result": "development_gate_failed",
+  "diagnostic_allowlist": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+    "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."
+  ],
+  "jobs": [
+    {
+      "group_id": "R07_base_draft_correct_r1",
+      "item_id": "R07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R06_base_draft_correct_r1",
+      "item_id": "R06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M07_base_draft_error_r1",
+      "item_id": "M07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_error_r1",
+      "item_id": "M07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_error_r1",
+      "item_id": "R05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_correct_r1",
+      "item_id": "R06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M07_base_draft_error_r1",
+      "item_id": "M07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R06_base_draft_error_r1",
+      "item_id": "R06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_correct_r1",
+      "item_id": "R07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_error_r1",
+      "item_id": "M07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R06_base_draft_correct_r1",
+      "item_id": "R06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_error_r1",
+      "item_id": "R08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M07_base_draft_correct_r1",
+      "item_id": "M07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M08_base_draft_error_r1",
+      "item_id": "M08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_correct_r1",
+      "item_id": "M07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M06_base_draft_error_r1",
+      "item_id": "M06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_error_r1",
+      "item_id": "M06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_correct_r1",
+      "item_id": "R06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_correct_r1",
+      "item_id": "M08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M07_base_draft_correct_r1",
+      "item_id": "M07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R07_base_draft_error_r1",
+      "item_id": "R07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_error_r1",
+      "item_id": "M08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M07_base_draft_correct_r1",
+      "item_id": "M07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R05_base_draft_correct_r1",
+      "item_id": "R05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R07_base_draft_correct_r1",
+      "item_id": "R07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_base_draft_error_r1",
+      "item_id": "M05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_error_r1",
+      "item_id": "M05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_correct_r1",
+      "item_id": "M05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R05_base_draft_correct_r1",
+      "item_id": "R05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R07_base_draft_correct_r1",
+      "item_id": "R07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M08_base_draft_error_r1",
+      "item_id": "M08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_error_r1",
+      "item_id": "R05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M06_base_draft_correct_r1",
+      "item_id": "M06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_error_r1",
+      "item_id": "M05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_correct_r1",
+      "item_id": "R05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_error_r1",
+      "item_id": "R06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R08_base_draft_correct_r1",
+      "item_id": "R08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R05_base_draft_error_r1",
+      "item_id": "R05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R05_base_draft_correct_r1",
+      "item_id": "R05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R07_base_draft_error_r1",
+      "item_id": "R07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R05_base_draft_error_r1",
+      "item_id": "R05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_correct_r1",
+      "item_id": "R07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R07_base_draft_correct_r1",
+      "item_id": "R07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_error_r1",
+      "item_id": "R08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_correct_r1",
+      "item_id": "M05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_correct_r1",
+      "item_id": "M06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M05_base_draft_correct_r1",
+      "item_id": "M05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_error_r1",
+      "item_id": "R05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M05_base_draft_error_r1",
+      "item_id": "M05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R08_base_draft_correct_r1",
+      "item_id": "R08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_base_draft_correct_r1",
+      "item_id": "M05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_base_draft_correct_r1",
+      "item_id": "M05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_error_r1",
+      "item_id": "M05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_error_r1",
+      "item_id": "R08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_error_r1",
+      "item_id": "R06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R05_base_draft_error_r1",
+      "item_id": "R05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_error_r1",
+      "item_id": "M06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R08_base_draft_error_r1",
+      "item_id": "R08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R06_base_draft_error_r1",
+      "item_id": "R06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_base_draft_correct_r1",
+      "item_id": "R08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R05_base_draft_correct_r1",
+      "item_id": "R05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_correct_r1",
+      "item_id": "M07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M08_base_draft_correct_r1",
+      "item_id": "M08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M08_base_draft_correct_r1",
+      "item_id": "M08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_correct_r1",
+      "item_id": "M08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M06_base_draft_correct_r1",
+      "item_id": "M06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R06_base_draft_error_r1",
+      "item_id": "R06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_error_r1",
+      "item_id": "M06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_correct_r1",
+      "item_id": "R06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M08_base_draft_correct_r1",
+      "item_id": "M08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_correct_r1",
+      "item_id": "R05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_error_r1",
+      "item_id": "M06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M06_base_draft_correct_r1",
+      "item_id": "M06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_base_draft_error_r1",
+      "item_id": "M05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_correct_r1",
+      "item_id": "M05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_correct_r1",
+      "item_id": "M07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_error_r1",
+      "item_id": "R06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R05_base_draft_error_r1",
+      "item_id": "R05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R06_base_draft_error_r1",
+      "item_id": "R06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R08_base_draft_error_r1",
+      "item_id": "R08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M06_base_draft_error_r1",
+      "item_id": "M06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_error_r1",
+      "item_id": "M08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R06_base_draft_correct_r1",
+      "item_id": "R06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_error_r1",
+      "item_id": "M07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_error_r1",
+      "item_id": "R07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_correct_r1",
+      "item_id": "R07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_correct_r1",
+      "item_id": "R08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_correct_r1",
+      "item_id": "M08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_correct_r1",
+      "item_id": "R05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R07_base_draft_error_r1",
+      "item_id": "R07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M07_base_draft_correct_r1",
+      "item_id": "M07_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_error_r1",
+      "item_id": "R06_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_base_draft_error_r1",
+      "item_id": "R08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_correct_r1",
+      "item_id": "M06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_correct_r1",
+      "item_id": "M05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R06_decisive_change_draft_correct_r1",
+      "item_id": "R06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M08_base_draft_error_r1",
+      "item_id": "M08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_correct_r1",
+      "item_id": "R08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_correct_r1",
+      "item_id": "R05_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R08_base_draft_error_r1",
+      "item_id": "R08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M08_base_draft_correct_r1",
+      "item_id": "M08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_correct_r1",
+      "item_id": "R08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_error_r1",
+      "item_id": "R07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_error_r1",
+      "item_id": "R07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R07_base_draft_error_r1",
+      "item_id": "R07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M07_base_draft_error_r1",
+      "item_id": "M07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "R06_base_draft_correct_r1",
+      "item_id": "R06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_correct_r1",
+      "item_id": "M07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M06_base_draft_error_r1",
+      "item_id": "M06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_correct_r1",
+      "item_id": "R07_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_correct_r1",
+      "item_id": "R08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_correct_r1",
+      "item_id": "M06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_error_r1",
+      "item_id": "M08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M06_decisive_change_draft_correct_r1",
+      "item_id": "M06_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_decisive_change_draft_error_r1",
+      "item_id": "M05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "R08_base_draft_correct_r1",
+      "item_id": "R08_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P1"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_correct_r1",
+      "item_id": "M08_decisive_change_draft_correct",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R07_decisive_change_draft_error_r1",
+      "item_id": "R07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M05_base_draft_correct_r1",
+      "item_id": "M05_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M06_base_draft_error_r1",
+      "item_id": "M06_base_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "R08_decisive_change_draft_error_r1",
+      "item_id": "R08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M08_base_draft_error_r1",
+      "item_id": "M08_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M06_base_draft_correct_r1",
+      "item_id": "M06_base_draft_correct",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "R05_decisive_change_draft_error_r1",
+      "item_id": "R05_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    },
+    {
+      "group_id": "M07_base_draft_error_r1",
+      "item_id": "M07_base_draft_error",
+      "repeat": 1,
+      "procedure": "P3"
+    },
+    {
+      "group_id": "M08_decisive_change_draft_error_r1",
+      "item_id": "M08_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M05_base_draft_error_r1",
+      "item_id": "M05_base_draft_error",
+      "repeat": 1,
+      "procedure": "P7"
+    },
+    {
+      "group_id": "M07_decisive_change_draft_error_r1",
+      "item_id": "M07_decisive_change_draft_error",
+      "repeat": 1,
+      "procedure": "P8"
+    }
+  ],
+  "limitations": "Strict original gate remains technical_block; this separate phase is posthoc exploratory and estimates only fixed-author-draft conditional correction, not natural error rate; no pooling with P0 or v2.",
+  "posthoc_summary_sha256": "9a0761cf948d68caccc35340e2ce756b033aa76272d519480fd1fe58ba372bb6",
+  "posthoc_manifest_sha256": "25a8eb00b3c5aebcf2c5bc5b5d59f331a3ce66eacd5eeb99ade3619a9caa4352",
+  "posthoc_input_manifest_sha256": "3e934df86e497376956e228badf05164093500854ec2f2c03598e7474f5f887e",
+  "effective_max_attempts": 1,
+  "original_max_attempts": 2,
+  "retry_policy": "Conservative stop after first attempt; no automatic retry; preserve all returned finals."
+}

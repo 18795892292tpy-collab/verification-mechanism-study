@@ -1,0 +1,15 @@
+{
+  "AGENTS.md": "9cb05afa92b95fdd46ffe912a6d73a48cb5da0e9b3e71c4e0c5cc9ffc1119861",
+  "protocol/EXPERIMENT_PLAN.md": "2f6a6d52452346613974eb7c16cdf18fac9ba20be353df697ccab50cccdbe5ee",
+  "protocol/analysis_plan.json": "966d841e42ae29a06fe221d9dd47be2597384125d3fb2f9116c38a512212543f",
+  "protocol/runtime_identity.json": "eb10c933f7d75bbb23e0b35ea89e5484a422a40afaf776f1409c0511f57afcc9",
+  "protocol/prompts.json": "8a175f0e50bc2454485755f3b46253988ffd99485c1cf3982fe53aebb3baaf01",
+  "protocol/backend.json": "7976c4375cd93f095fa29e2864f59af966e0006d64ee2ca06b72bb0bfc3858ff",
+  "harness/runner.py": "c57b024fb60d9a7642b046f104c7be5c56c0ca9793501d4c4955448f3a0e721a",
+  "harness/integrity.py": "00e7fea9f872cc7c53119e1f676a98d73f86dd20953de243a3659a236f6b1b54",
+  "harness/PROVENANCE.json": "1a865516f7b9a7e47370219b041d1d48bf54054492e3cd8b01152fe4cdbc3370",
+  "analysis/evaluate.py": "df1241fae7287e08cd9572f0c36ffcc18496a29e6d0ec4370e506e4aee742e42",
+  "analysis/progress.py": "e9a26a919432f8ebf022f78f85e4ece1eda9a08da95e45a9747c848f1b201687",
+  "tests/test_v3.py": "ffba9724758757face81c7a9aedc3c545223627b2ba0e88f0a0036c5b810cf68",
+  "audits/harness_tests.json": "88e0d4459a579858255c405db2e402268cf5a32dc509f9478e3f99c821c46712"
+}

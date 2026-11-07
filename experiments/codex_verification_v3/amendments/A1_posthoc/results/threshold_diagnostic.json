@@ -1,0 +1,44 @@
+{
+  "analysis_label": "posthoc_exploratory",
+  "NOT_A_RUN_GATE": true,
+  "automatic_execution_authorized": false,
+  "original_frozen_status": "technical_block",
+  "original_challenge_allowed": false,
+  "derived_transport_accepted_all_80": true,
+  "hypothetical_threshold_status": "development_gate_failed",
+  "criteria": {
+    "material": {
+      "observed": {
+        "present_flawed_n": 16,
+        "natural_errors": 0,
+        "error_families": [],
+        "present_aligned_n": 16,
+        "present_aligned_correct": 16,
+        "missing_n": 8,
+        "missing_correct": 8
+      },
+      "natural_error_window": false,
+      "error_family_coverage": false,
+      "aligned_accuracy_floor": true,
+      "missing_accuracy_floor": true,
+      "expected_denominators": true
+    },
+    "rule": {
+      "observed": {
+        "present_flawed_n": 16,
+        "natural_errors": 0,
+        "error_families": [],
+        "present_aligned_n": 16,
+        "present_aligned_correct": 16,
+        "missing_n": 8,
+        "missing_correct": 8
+      },
+      "natural_error_window": false,
+      "error_family_coverage": false,
+      "aligned_accuracy_floor": true,
+      "missing_accuracy_floor": true,
+      "expected_denominators": true
+    }
+  },
+  "limitation": "Post-hoc sensitivity diagnostic only. Original frozen gate remains blocked. Any added challenge requires a separately registered exploration and independent review; no P0 response may be resampled."
+}

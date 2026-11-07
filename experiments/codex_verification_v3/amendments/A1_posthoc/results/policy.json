@@ -1,0 +1,32 @@
+{
+  "analysis_label": "posthoc_exploratory",
+  "diagnostic_allowlist": [
+    {
+      "id": "item_0",
+      "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml.",
+      "type": "error"
+    },
+    {
+      "id": "item_1",
+      "message": "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "type": "error"
+    },
+    {
+      "id": "item_2",
+      "message": "Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list.",
+      "type": "error"
+    }
+  ],
+  "required_event_pattern": [
+    "thread.started",
+    "item.completed/error",
+    "item.completed/error",
+    "turn.started",
+    "item.completed/error",
+    "item.completed/agent_message",
+    "turn.completed"
+  ],
+  "stderr_policy": "Retain and hash all stderr; ERROR/FATAL level words reject. Existing native-roots certificate warnings are WARN, not waived error items.",
+  "exceptions_are_posthoc": true,
+  "original_gate_overridden": false
+}

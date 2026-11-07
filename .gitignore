@@ -48,3 +48,8 @@ venv/
 !/experiments/codex_verification_v2/
 !/experiments/codex_verification_v2/figures/*.pdf
 /experiments/codex_verification_v2/**/.integrity.lock
+
+# Authorized separate V3 pilot and posthoc exploration archive.
+!/experiments/codex_verification_v3/
+!/experiments/codex_verification_v3/figures/*.pdf
+/experiments/codex_verification_v3/**/.integrity.lock

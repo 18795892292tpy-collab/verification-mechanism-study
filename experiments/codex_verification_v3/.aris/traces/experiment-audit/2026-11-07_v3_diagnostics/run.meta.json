@@ -1,0 +1,11 @@
+{
+  "skill": "experiment-audit",
+  "run_id": "2026-11-07_v3_diagnostics",
+  "started_at": "2026-11-06T23:52:55.444822+00:00",
+  "executor": "codex",
+  "executor_family": "openai",
+  "reviewer_agent_id": "/root/v3_integrity_audit",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "project_dir": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3"
+}

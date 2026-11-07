@@ -1,0 +1,42 @@
+{
+  "audit_skill": "experiment-audit",
+  "stage": "publication_review",
+  "verdict": "PASS",
+  "overall_experiment_verdict": "WARN",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reviewed_at": "2026-11-07T00:21:06.110138+00:00",
+  "target_host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "numeric_check": {
+    "status": "PASS",
+    "raw_source_files_rechecked": 1368,
+    "publication_input_hashes_checked": 14,
+    "publication_raw_hashes_checked": 768,
+    "publication_outputs_checked": 8,
+    "total_unique_files_stable": 1384,
+    "rows_compared": 128,
+    "family_cells_compared": 64,
+    "contrasts_compared": 6,
+    "failures_retained": 1,
+    "real_model_calls": 0
+  },
+  "visual_review": {
+    "method": "actual PNG rendering inspected through view_image; generator inspected; SVG/PDF byte hashes validated",
+    "files": [
+      "figures/fig1_strict_vs_a1.png",
+      "figures/fig2_authored_challenge.png"
+    ],
+    "findings": [
+      "Both figures legible, no clipped labels; zero baseline and planned denominators explicit.",
+      "Figure 1 distinguishes original strict complete 0/80 from post-hoc acceptance/correct action 80/80.",
+      "Figure 2 retains 1 failed P8 error task: P1/P3/P7 16/16, P8 15/16; correct drafts 16/16 each.",
+      "Report explicitly states original gate blocked, posthoc exploration, and technical-failure origin of I78=.125; no superiority/equivalence claim."
+    ],
+    "blocking_issues": []
+  },
+  "semantic_review_scope": "V2 evidence-review agreement numbers and caveats checked against SUMMARY.json; not a new independent semantic rerating of 80 V2 answers.",
+  "files_stable_after_review": true,
+  "reproducible_check": "python -B audits/independent_publication_check.py",
+  "real_model_calls": 0
+}

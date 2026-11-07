@@ -1,0 +1,12 @@
+{
+  "call_number": 1,
+  "purpose": "final-independent-raw-review",
+  "timestamp": "2026-11-07T00:16:39.675542+00:00",
+  "agent_id": "/root/v3_integrity_audit",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "status": "ok",
+  "verdict": "WARN",
+  "integrity_status": "pass",
+  "real_model_calls": 0
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "p0",
+  "frozen_hash": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "run_inventory": {
+    "observed_paths": 807,
+    "observed_record_files": 80,
+    "observed_attempt_directories": 80,
+    "observed_started_attempt_files": 80,
+    "observed_sealed_attempt_files": 80,
+    "unplanned_artifacts": []
+  },
+  "unsealed_attempts": [],
+  "unusual_item_types": [],
+  "lifecycle_errors": [],
+  "record_errors": [],
+  "final_source_conflicts": [],
+  "duplicate_session_ids": []
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-07T00:23:31.690155+00:00",
+  "source_host": "liekkas",
+  "source_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "manifest_sha256": "3b513c79cf76e1986b4f409a39715408ff6726a0887ab5ed02eb568fc04ee720",
+  "verifier_sha256": "aba2a287eba4c629c8814cb614d30db6f288ad4b5c6a53aabff0eb611ee5014f",
+  "source_files": 1578,
+  "audit_source_path": "audits/FINAL_EXPERIMENT_AUDIT.json",
+  "audit_sha256": "a89c58de31601354fc4af2f43fce99765b85ce6758acc08095e9b4d6792acf87",
+  "original_gate": "technical_block",
+  "additional_challenge": "separately authorized posthoc exploration, not original gate pass",
+  "excluded": "runtime lock files, __pycache__, runtime_empty, .pyc/.tmp/.zip; symlinks fail closed",
+  "verification": "ZIP CRC and every payload SHA-256; canonical source stable during snapshot"
+}

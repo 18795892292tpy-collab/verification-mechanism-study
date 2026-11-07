@@ -1,0 +1,16 @@
+{
+  "group_id": "M08_decisive_change_aligned_r1",
+  "item_id": "M08_decisive_change_aligned",
+  "procedure": "P0",
+  "repeat": 1,
+  "phase": "p0",
+  "frozen_hash": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "first_sha256": null,
+  "first_origin": null,
+  "gate_sha256": null,
+  "attempt": 1,
+  "started_utc": "2026-11-06T23:45:03.683497+00:00",
+  "prompt_sha256": "35e8ddfda56fd2039a4040491874294a6b3f17f3d74b09177a30f2439d28feb2",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

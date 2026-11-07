@@ -1,0 +1,273 @@
+{
+  "audit_skill": "experiment-audit",
+  "stage": "final-pretrial-preflight-round3",
+  "verdict": "PASS",
+  "reason_code": "toolchain_and_revised_review_binding_passed",
+  "summary": "最终预试前PASS，无已知阻断。工具链/协议与round2已测试版本相同；原盲审80+32及4个修订题的复审与当前题库逐字绑定，全部行动及草稿标签匹配当前keys。尚未冻结，尚无subject attempt。",
+  "audited_input_hashes": {
+    "AGENTS.md": "9cb05afa92b95fdd46ffe912a6d73a48cb5da0e9b3e71c4e0c5cc9ffc1119861",
+    "protocol/EXPERIMENT_PLAN.md": "2f6a6d52452346613974eb7c16cdf18fac9ba20be353df697ccab50cccdbe5ee",
+    "protocol/analysis_plan.json": "966d841e42ae29a06fe221d9dd47be2597384125d3fb2f9116c38a512212543f",
+    "protocol/runtime_identity.json": "eb10c933f7d75bbb23e0b35ea89e5484a422a40afaf776f1409c0511f57afcc9",
+    "protocol/prompts.json": "8a175f0e50bc2454485755f3b46253988ffd99485c1cf3982fe53aebb3baaf01",
+    "protocol/backend.json": "b5cccb1b62e36963577a4f2291fd9ea710bc861904fa5524c08c8ac9a1f77e1b",
+    "harness/runner.py": "b27ef6a030cbcb0099af6a51817b835260d48754810a1db6566cd7a8313e34ce",
+    "harness/integrity.py": "6e81d18ba12883184d7ae06176e50269c7785a0c6c98679f796a9ccca8c7a5bf",
+    "harness/PROVENANCE.json": "ec51dc8938beda66545b2b5a17076bfa693a02f617ad23db8075792cf0f661b1",
+    "analysis/evaluate.py": "1acba9b4477f04951a94107c74c55de6d75e716b7922e36237b40dfc97a24768",
+    "analysis/progress.py": "e9a26a919432f8ebf022f78f85e4ece1eda9a08da95e45a9747c848f1b201687",
+    "tests/test_v3.py": "0335c7d380124a3e178f7c997acbd93dccac69fc0f26bb837e190b66f211c387",
+    "audits/harness_tests.json": "8d0635bf0426737943a40c59d60094ca16e734a39de201600fd83274626cb1e0",
+    "prompts/p0_items.json": "a191461d53d35b66da3b56b5481471cb9359f0ad368cf87debb304fb7b3eeba8",
+    "prompts/challenge_items.json": "4a6010a3678b5e78b0c2f78cf052a0379eca3fe68b4ccac3a695988b1775fc57",
+    "keys/p0_keys.json": "e93a9d8e1b6e161bfb834f8902be12adc0092a173696598c7d81687d931d6b94",
+    "keys/challenge_keys.json": "3060690e3e5a0f4575269863e1c0a98d43d402fc1036592d57f9e728f0567ce0",
+    "audits/independent_recompute.py": "da7e283d5d88abfc6807ea8081b102b4c1fba317f2747cbd90365e47c9bdd168",
+    "audits/blind_review/answers.json": "9d9f33db5c0042bbcfd404666714319a4f69062699e8e8f829effdaf27a962f1",
+    "audits/blind_review/revision_answers.json": "e45ae847f671b57dbac6c871617fad873e947ddd9ca5f42de099d6395978490a",
+    "audits/blind_review/private_mapping.json": "4e5bb6f971efdc0301534822769766bb824a004cb346820af842d738a04e7eb8",
+    "audits/blind_review/packet.json": "10ae600c497a65670c1ad891b86ab5ec7291bbe631c399616effe4eab3f49406",
+    "audits/case_review.json": "38a368b63ec840992529e6e018313979949411c39c09bfe815bd617f8d88d53c",
+    "cases/blind_revision_R05_R06.json": "d757d8142f20151e3a7576cbc75017b7a0df20ee80a38983c813e5a540ead9f3",
+    "audits/blind_review/packet_manifest.json": "76afd0d79b67ab953cb583eac552ae6c741295f3f51028a2cbe17a22a772351f",
+    "audits/blind_review/revision_packet.json": "a7d6071ecf24f37b9007adbe5528db9b334bd8544766d8876572f833054d0716"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-07_v3_preflight/",
+  "agent_id": "/root/v3_integrity_audit",
+  "verdict_id": "v3-pretrial-preflight-round3",
+  "executor_model": "inherited Codex; exact backend not exposed",
+  "executor_family": "openai",
+  "reviewer_model": "inherited Codex; exact backend not exposed",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "inherited; exact setting not exposed",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-06T23:43:02.829708+00:00",
+  "date": "2026-11-07",
+  "overall_verdict": "pass",
+  "integrity_status": "pass",
+  "real_model_calls": 0,
+  "canonical_host": "liekkas",
+  "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "作者预先构造simulation_only规则；原80P0/32draft匿名审核逐字对应保留的原输入，4个修订P0逐字对应revision_packet/revision_answers；当前全部解答/唯一性及草稿正误/单错标记与keys一致。审核仅same-family/provisional，外部专家仍pending。"
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "直接correct/计划分母；family对比先每族两draft平均再每类型四族平均。独立六个contrast/condition复算一致；不存在以模型输出max/mean归一化。",
+      "evidence": [
+        "analysis/evaluate.py:112",
+        "analysis/evaluate.py:151",
+        "analysis/evaluate.py:159"
+      ]
+    },
+    "result_existence": {
+      "status": "warn",
+      "details": "预审时canonical根目录无frozen.json、raw record、attempt marker；没有被试结果可复算。此为预审，不支持任何结果或方法差异主张。"
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "active runner只导入复用integrity.py的DirectoryLock与_write_once；其余legacy helper未用于V3评分，没有声称那些函数产出V3结果。评分、gate、usage函数均被实际mock路径或独立probe调用。",
+      "evidence": [
+        "harness/runner.py:9",
+        "analysis/evaluate.py:257"
+      ]
+    },
+    "scope": {
+      "status": "pass",
+      "details": "计划把8家族列为开发材料，每类型仅4族，不作p值/确认性/真人/专家/留出验证主张。",
+      "evidence": [
+        "protocol/EXPERIMENT_PLAN.md:36",
+        "protocol/EXPERIMENT_PLAN.md:38"
+      ]
+    },
+    "eval_type": "simulation_only",
+    "freeze_and_runtime": {
+      "status": "pass",
+      "details": "已有测试验证source/runtime/schedule变更拒绝；本机runtime identity确实覆盖319346888字节原生codex二进制以及wrapper/package hashes。正式freeze仍待执行。"
+    },
+    "whole_run_and_resume": {
+      "status": "pass",
+      "details": "全phase尝试均检查；任何后序partial在新调用前拒绝；目录锁拒绝symlink/special/hardlink并保护目标。合法sealed final支持零调用恢复。"
+    },
+    "lifecycle_and_final_consistency": {
+      "status": "pass",
+      "details": "最终事件与response按原文SHA一致性校验，冲突计protocol_failure；error item不能complete。8项新增探针均通过。"
+    },
+    "usage_unknown": {
+      "status": "pass",
+      "details": "缺失usage不补零，已知subtotals保留；独立混合完整/缺失两attempt probe确认。"
+    },
+    "gate": {
+      "status": "pass",
+      "details": "科学阈值10边界均正确；新增80个mock原始记录同时命中两类型4错误/3族/12aligned/6missing边界时，gate PASS且challenge零调用被阻止。"
+    },
+    "authored_origin": {
+      "status": "pass",
+      "details": "实际32draft私有key显式preauthored_fixed_challenge_not_natural_P0；runner记录authored_fixed_draft并与P0独立phase。32mock提示不暴露condition/ID，独立key/draft SHA匹配。"
+    }
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "high",
+      "status": "resolved_in_round2",
+      "title": "跨阶段未封存尝试未计入门槛完整性",
+      "evidence": [
+        "analysis/evaluate.py:174",
+        "analysis/evaluate.py:188",
+        "analysis/evaluate.py:212",
+        "analysis/evaluate.py:218",
+        "analysis/evaluate.py:224"
+      ],
+      "probe": "cross_phase_unsealed_attempt_blocks_gate",
+      "details": "另一phase只有attempt_started.json与response.json而没有record.json时，collect_phase跳过该任务；80个P0完成后仍得到passed_integrity=true、challenge_allowed=true，虽然inventory记录81个attempt目录。应全局验证所有phase已有attempt，早期challenge痕迹必须拒绝门槛。",
+      "resolution_evidence": "adversarial_results_round2.json + additional_results_round2.json"
+    },
+    {
+      "id": "F2",
+      "severity": "high",
+      "status": "resolved_in_round2",
+      "title": "响应文件与最终事件冲突被计为完成",
+      "evidence": [
+        "harness/runner.py:280",
+        "harness/runner.py:331",
+        "harness/runner.py:339"
+      ],
+      "probe": "output_vs_final_event_consistency",
+      "details": "mock response.json为A而最后item.completed/agent_message为B，输出仍是complete/A。两份原始结果应有一致性约束；冲突须保留并判为协议/完整性失败，不得重抽。",
+      "resolution_evidence": "adversarial_results_round2.json + additional_results_round2.json",
+      "round1_evidence_correction": "原F2探针使用字符串替换嵌套JSON，转义导致事件答案实际未变；round1声称动态已证实不准确。原报告和脚本完整保留。round2新增CORRECTED_response_A_final_event_B明确观察response=A、event=B，修复后正确判protocol_failure且恢复总调用仅1。F2的静态缺失检查判断成立，但原动态证据撤回。"
+    },
+    {
+      "id": "F3",
+      "severity": "medium",
+      "status": "resolved_in_round2",
+      "title": "错误item和成功turn并存仍计为完成",
+      "evidence": [
+        "harness/runner.py:244",
+        "harness/runner.py:246",
+        "harness/runner.py:279",
+        "harness/runner.py:345"
+      ],
+      "probe": "error_item_success_classification",
+      "details": "包含item.completed/type=error（fatal response transport failed）的记录，若returncode=0且turn.completed，则service_block早返回，classify_final忽略error_items，判complete。需明确错误事件政策并使含未解释错误记录不能满足无技术失败门槛。",
+      "resolution_evidence": "adversarial_results_round2.json + additional_results_round2.json"
+    },
+    {
+      "id": "F4",
+      "severity": "high",
+      "status": "resolved_in_round2",
+      "title": "后序partial final不能阻止新抽样",
+      "evidence": [
+        "harness/runner.py:380",
+        "harness/runner.py:398",
+        "harness/runner.py:406",
+        "harness/runner.py:444"
+      ],
+      "probe": "later_partial_final_blocks_any_new_attempt",
+      "details": "只预放attempt_02/attempt_started.json和response.json，attempt_01不存在。response_task执行新的attempt_01并返回，实际mock调用1次，未先拒绝旧final。应在任何新调用前核对全部attempt目录连续性及partial/final，避免遗漏后序已有答案。",
+      "resolution_evidence": "adversarial_results_round2.json + additional_results_round2.json"
+    },
+    {
+      "id": "F5",
+      "severity": "medium",
+      "status": "resolved_in_round2",
+      "title": "目录锁追随符号链接并覆盖其目标",
+      "evidence": [
+        "harness/integrity.py:111",
+        "harness/integrity.py:121",
+        "harness/runner.py:465",
+        "harness/runner.py:466"
+      ],
+      "probe": "directory_lock_symlink_refused_without_mutation",
+      "details": "临时目录中将.integrity.lock链接至sentinel文件，DirectoryLock成功进入并ftruncate目标。runner先获取锁后inventory，无法在写入前拒绝。应O_NOFOLLOW打开并确认regular file，确保全局锁路径不改变别的目标。",
+      "resolution_evidence": "adversarial_results_round2.json + additional_results_round2.json"
+    }
+  ],
+  "verification": {
+    "author_tests_passed": 47,
+    "original_probes_valid": 10,
+    "original_valid_probes_passed": 10,
+    "original_probe_invalid": 1,
+    "new_probes_passed": 8,
+    "gate_boundary_subcases": 10,
+    "family_contrast_subcases": 6,
+    "actual_p0_structural_checks": 80,
+    "actual_draft_structural_checks": 32
+  },
+  "pending": [
+    "由root正式freeze并核验manifest",
+    "运行结束后独立原始结果复算"
+  ],
+  "claims": [
+    {
+      "id": "scientific_results",
+      "impact": "unsupported: no real subject results exist at preflight"
+    },
+    {
+      "id": "simulation_development_only",
+      "impact": "supported protocol classification"
+    }
+  ],
+  "correction": "原F2探针使用字符串替换嵌套JSON，转义导致事件答案实际未变；round1声称动态已证实不准确。原报告和脚本完整保留。round2新增CORRECTED_response_A_final_event_B明确观察response=A、event=B，修复后正确判protocol_failure且恢复总调用仅1。F2的静态缺失检查判断成立，但原动态证据撤回。",
+  "prepared_final_recompute": {
+    "path": "audits/independent_recompute.py",
+    "sha256": "da7e283d5d88abfc6807ea8081b102b4c1fba317f2747cbd90365e47c9bdd168",
+    "imports_runner_or_evaluate": false,
+    "standard_library_only": true,
+    "self_test_passed": true,
+    "real_model_calls": 0,
+    "executed_against_final_data": false,
+    "output_when_explicitly_run": "audits/independent_final/recomputed.json"
+  },
+  "binding_results": ".aris/traces/experiment-audit/2026-11-07_v3_preflight/binding_results_round3.json",
+  "final_pretrial_binding": {
+    "passed": true,
+    "canonical_host": "liekkas",
+    "canonical_root": "/home/grf/Desktop/Codex_Verification_Experiment_2026-11-07/codex_verification_v3",
+    "review_independence": "same-family",
+    "acceptance_status": "provisional",
+    "real_model_calls": 0,
+    "case_review_artifact_hashes_valid": true,
+    "blind_original_sources_match_preserved_pre_revision_files": true,
+    "changed_p0_items": [
+      "R05_missing_aligned",
+      "R05_missing_flawed",
+      "R06_paraphrase_aligned",
+      "R06_paraphrase_flawed"
+    ],
+    "changed_p0_semantic_keys": 0,
+    "challenge_inputs_unchanged": true,
+    "bound_reviewed_p0": 80,
+    "bound_reviewed_challenge": 32,
+    "revision_rechecked": 4,
+    "all_actions_match_current_keys": true,
+    "all_p0_unique": true,
+    "all_challenge_correctness_and_single_error_labels_match": true,
+    "toolchain_and_protocol_hashes_unchanged_since_round2": [
+      "protocol/EXPERIMENT_PLAN.md",
+      "protocol/analysis_plan.json",
+      "protocol/runtime_identity.json",
+      "protocol/prompts.json",
+      "protocol/backend.json",
+      "harness/runner.py",
+      "harness/integrity.py",
+      "harness/PROVENANCE.json",
+      "analysis/evaluate.py",
+      "analysis/progress.py",
+      "tests/test_v3.py"
+    ],
+    "subject_attempts_before_freeze": 0,
+    "frozen_exists_at_check": false,
+    "manual_revised_case_reasoning": {
+      "P031": "D:登记类别未知。Z1停表则计4日；X2不停表计7日；S9要求补字段。",
+      "P032": "D:与P031正式档案相同；错误备忘录不能填补登记代码。",
+      "P072": "B:审计未完且类别E2，不满足应急且C1的有限豁免；字段已知不能补证。",
+      "P073": "B:与P072正式档案相同；应急登记不能单独豁免C1条件。"
+    },
+    "case_review_sha256": "38a368b63ec840992529e6e018313979949411c39c09bfe815bd617f8d88d53c"
+  }
+}

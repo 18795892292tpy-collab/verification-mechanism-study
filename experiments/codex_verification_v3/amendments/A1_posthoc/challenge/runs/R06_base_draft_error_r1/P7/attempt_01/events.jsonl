@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b356-f84c-7e83-9e8d-08ef488b1adf"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"B\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\",\"S6\",\"S7\",\"S9\"],\"brief_justification\":\"本案适用所给制度，未有替代版本，必要材料齐全。批复待办、追缴已清、EM7有效，但审计未完成；L62明确为E2，不满足C1例外条件。应急登记无权扩张例外，教学衔接说明不能改类，核定金额不创设资格。故将C改为B，转常规补件，本次不拨过渡款；已知类别无需补取。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18639,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":408,"reasoning_output_tokens":246}}

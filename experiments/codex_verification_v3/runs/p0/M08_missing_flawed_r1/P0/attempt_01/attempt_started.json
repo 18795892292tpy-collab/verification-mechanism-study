@@ -1,0 +1,16 @@
+{
+  "group_id": "M08_missing_flawed_r1",
+  "item_id": "M08_missing_flawed",
+  "procedure": "P0",
+  "repeat": 1,
+  "phase": "p0",
+  "frozen_hash": "bef848323484f7490f2ac5bbaf1eb67ca55af45745f22f74352c15dac8139887",
+  "first_sha256": null,
+  "first_origin": null,
+  "gate_sha256": null,
+  "attempt": 1,
+  "started_utc": "2026-11-06T23:44:58.080527+00:00",
+  "prompt_sha256": "3360b39017efee16883c4aeadca686c056972dc34bcb459df38c5da93598dfb8",
+  "model_requested": "gpt-6-astra",
+  "effort_requested": "ultra"
+}

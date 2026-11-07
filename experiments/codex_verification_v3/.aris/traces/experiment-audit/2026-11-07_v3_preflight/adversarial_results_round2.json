@@ -1,0 +1,128 @@
+{
+  "real_model_calls": 0,
+  "fixtures": "temporary offline roots; canonical source imported read-only",
+  "probes": [
+    {
+      "probe": "cross_phase_unsealed_attempt_blocks_gate",
+      "observed": {
+        "integrity": false,
+        "challenge_allowed": false,
+        "unsealed": [
+          "runs/challenge/R07_base_correct_r1/P3/attempt_01"
+        ],
+        "inventory_attempt_dirs": 81
+      },
+      "expected": "integrity false / challenge disallowed",
+      "passed": true
+    },
+    {
+      "probe": "output_vs_final_event_consistency",
+      "observed": {
+        "status": "complete",
+        "parsed": {
+          "action": "A",
+          "cited_sources": [
+            "S1"
+          ],
+          "brief_justification": "依据制度",
+          "confidence": 3
+        },
+        "calls_including_resume": 1
+      },
+      "expected": "reject conflicting completed message and response file",
+      "passed": false
+    },
+    {
+      "probe": "error_item_success_classification",
+      "observed": {
+        "status": "technical_failure",
+        "errors": [
+          {
+            "type": "error",
+            "message": "fatal response transport failed"
+          }
+        ],
+        "calls_including_resume": 1
+      },
+      "expected": "explicit failure or documented accepted-error semantics",
+      "passed": true
+    },
+    {
+      "probe": "event_final_without_output_not_resampled",
+      "observed": {
+        "status": "technical_failure",
+        "raw_final": "{\"action\": \"A\", \"cited_sources\": [\"S1\"], \"brief_justification\": \"依据制度\", \"confidence\": 3}",
+        "calls_including_resume": 1
+      },
+      "expected": "technical_failure and exactly one call",
+      "passed": true
+    },
+    {
+      "probe": "process_failure_with_final_not_resampled",
+      "observed": {
+        "status": "technical_failure",
+        "calls_including_resume": 1
+      },
+      "expected": "technical_failure and exactly one call",
+      "passed": true
+    },
+    {
+      "probe": "later_partial_final_blocks_any_new_attempt",
+      "observed": {
+        "calls": 0,
+        "exception": "RuntimeError('Noncontiguous or invalid existing attempt directories')"
+      },
+      "expected": "zero calls before integrity failure",
+      "passed": true
+    },
+    {
+      "probe": "directory_lock_symlink_refused_without_mutation",
+      "observed": {
+        "target_preserved": true,
+        "exception": "OSError(40, 'Too many levels of symbolic links')"
+      },
+      "expected": "symlink refused; target sentinel retained",
+      "passed": true
+    },
+    {
+      "probe": "gate_threshold_boundaries_and_technical_block",
+      "observed": {
+        "cases": 10,
+        "all_correct": true
+      },
+      "expected": "all ten boundary cases",
+      "passed": true
+    },
+    {
+      "probe": "partial_usage_keeps_known_subtotal_and_unknown_total",
+      "observed": {
+        "sum_input_tokens": null,
+        "sum_output_tokens": 10,
+        "known_input_tokens": 5,
+        "known_output_tokens": 10,
+        "input_usage_missing_attempts": 1,
+        "output_usage_missing_attempts": 0,
+        "usage_missing_attempts": 1
+      },
+      "expected": "input total None, known input5, output total10",
+      "passed": true
+    },
+    {
+      "probe": "independent_family_contrast_recomputation",
+      "observed": {
+        "comparisons": 6,
+        "all_agree": true
+      },
+      "expected": "all six condition/contrast combinations exact",
+      "passed": true
+    },
+    {
+      "probe": "challenge_private_labels_not_in_prompt",
+      "observed": {
+        "checked": 32
+      },
+      "expected": "32 prompts omit ID and private condition labels",
+      "passed": true
+    }
+  ]
+}

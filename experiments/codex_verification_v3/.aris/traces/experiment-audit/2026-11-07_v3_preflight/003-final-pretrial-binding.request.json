@@ -1,0 +1,7 @@
+{
+  "call_number": 3,
+  "purpose": "final-pretrial-revision-binding",
+  "timestamp": "2026-11-06T23:43:02.829708+00:00",
+  "tool": "followup_task",
+  "prompt": "冻结前题库进行了有限修订，80+32匿名审和4题复审完成，root汇总 audits/case_review.json。请快速独立核验新的prompts/keys hashes、原审与revision绑定/决策正确性，以及当前工具链及protocol，核验无阻断后发最终预试前PASS。勿修改被冻结的题库、harness或记录。"
+}

@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a1b340-daa8-7a53-bd86-81280f659738"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /home/grf/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 144 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"action\":\"C\",\"cited_sources\":[\"S1\",\"S2\",\"S3\",\"S4\",\"S5\"],\"brief_justification\":\"甲乙回避后，有资格成员为5人，法定到会人数为4人。丙丁现场签到，戊及代码V的己均通过实时核验，有效到会共4人；3票赞成严格超过有资格成员的一半，故决议成立并登记通过。\",\"confidence\":5}"}}
+{"type":"turn.completed","usage":{"input_tokens":18428,"cached_input_tokens":16256,"cache_write_input_tokens":0,"output_tokens":295,"reasoning_output_tokens":181}}

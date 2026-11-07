@@ -1,0 +1,162 @@
+{
+  "source_sha256": "9412da448003e6ff148b8c4c2a2873e9f961492347fe117c2a0d6c3bdb0d1fa8",
+  "real_model_calls": 0,
+  "results": [
+    {
+      "probe": "actual_candidate_and_baseline_binding",
+      "passed": true,
+      "observed": {
+        "jobs": 128,
+        "posthoc_exploratory": true,
+        "strict_original_gate_override": false
+      }
+    },
+    {
+      "probe": "all_128_prompts_exact_original_drafts",
+      "passed": true,
+      "observed": {
+        "checked": 128
+      }
+    },
+    {
+      "probe": "lifecycle_embedded_tool",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "unexpected top-level event payload"
+      }
+    },
+    {
+      "probe": "unknown_top_error_payload",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "unexpected top-level event payload"
+      }
+    },
+    {
+      "probe": "diagnostic_extra_field",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "invalid diagnostic item"
+      }
+    },
+    {
+      "probe": "final_and_diagnostic_swap",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "invalid diagnostic item"
+      }
+    },
+    {
+      "probe": "extra_top_error",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "unexpected event sequence"
+      }
+    },
+    {
+      "probe": "boolean_returncode_rejected",
+      "passed": true,
+      "observed": {
+        "status": "technical_or_protocol_failure",
+        "parsed": null,
+        "thread_id": null,
+        "usage": null,
+        "errors": [],
+        "problem": "invalid return code type"
+      }
+    },
+    {
+      "probe": "existing_final_no_resample",
+      "passed": true,
+      "observed": {
+        "calls_including_resume": 1
+      }
+    },
+    {
+      "probe": "response_presence_cannot_escape_hash_coverage",
+      "passed": true,
+      "observed": {
+        "exception": "RuntimeError('Response existence differs from sealed metadata')"
+      }
+    },
+    {
+      "probe": "runtime_empty_symlink_rejected_before_call",
+      "passed": true,
+      "observed": {
+        "calls": 0,
+        "exception": "RuntimeError('Unsafe runtime directory symlink')"
+      }
+    },
+    {
+      "probe": "wrong_host_rejected",
+      "passed": true,
+      "observed": {
+        "exception": "RuntimeError('Requires canonical V3 original root and host')"
+      }
+    },
+    {
+      "probe": "candidate_wrong_job_inventory",
+      "passed": true,
+      "observed": {
+        "exception": "RuntimeError('Authorized job list or diagnostic scope differs')"
+      }
+    },
+    {
+      "probe": "derived_not_all80_accepted",
+      "passed": true,
+      "observed": {
+        "exception": "RuntimeError('Derived analysis content does not prove the declared exploratory gate')"
+      }
+    },
+    {
+      "probe": "derived_gate_pass_cannot_authorize_this_extra_stage",
+      "passed": true,
+      "observed": {
+        "exception": "RuntimeError('Derived analysis content does not prove the declared exploratory gate')"
+      }
+    },
+    {
+      "probe": "service_breaker_and_failed_resume_no_sampling",
+      "passed": true,
+      "observed": {
+        "first_invocation_calls": 12,
+        "total_calls_after_resume": 12,
+        "first_error": "SystemExit(75)",
+        "resume_error": "RuntimeError('Prior failure requires manual audit; no dispatch')"
+      }
+    },
+    {
+      "probe": "late_unsealed_final_blocks_all_dispatch",
+      "passed": true,
+      "observed": {
+        "calls": 0,
+        "error": "RuntimeError('Unsealed task exists; manual audit required: /tmp/tmpj3nlxyxu/runs/M07_decisive_change_draft_error_r1/P8')"
+      }
+    }
+  ]
+}

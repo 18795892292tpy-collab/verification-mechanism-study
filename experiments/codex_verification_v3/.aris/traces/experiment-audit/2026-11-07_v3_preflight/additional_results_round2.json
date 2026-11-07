@@ -1,0 +1,101 @@
+{
+  "real_model_calls": 0,
+  "original_probe_correction": "Original F2 text substitution did not change nested escaped JSON. This script constructs A/B sources explicitly; original evidence retained unchanged.",
+  "probes": [
+    {
+      "probe": "CORRECTED_response_A_final_event_B",
+      "passed": true,
+      "observed": {
+        "status": "protocol_failure",
+        "actual_event_action": "B",
+        "actual_response_action": "A",
+        "calls_with_resume": 1
+      }
+    },
+    {
+      "probe": "earlier_agent_message_does_not_override_final",
+      "passed": true,
+      "observed": {
+        "status": "complete",
+        "calls_with_resume": 1
+      }
+    },
+    {
+      "probe": "empty_output_conflicting_with_nonempty_message",
+      "passed": true,
+      "observed": {
+        "status": "protocol_failure",
+        "calls_with_resume": 1
+      }
+    },
+    {
+      "probe": "late_scheduled_partial_blocks_whole_dispatch",
+      "passed": true,
+      "observed": {
+        "calls": 0,
+        "error": "RuntimeError('Noncontiguous or invalid existing attempt directories')"
+      }
+    },
+    {
+      "probe": "raw_backed_gate_all_lower_boundaries",
+      "passed": true,
+      "observed": {
+        "status": "eligible_for_independent_holdout",
+        "diagnostic": {
+          "material": {
+            "present_flawed_n": 16,
+            "present_flawed_correct": 12,
+            "natural_errors": 4,
+            "error_families": [
+              "M05",
+              "M06",
+              "M07"
+            ],
+            "present_aligned_n": 16,
+            "present_aligned_correct": 12,
+            "missing_n": 8,
+            "missing_correct": 6
+          },
+          "rule": {
+            "present_flawed_n": 16,
+            "present_flawed_correct": 12,
+            "natural_errors": 4,
+            "error_families": [
+              "R05",
+              "R06",
+              "R07"
+            ],
+            "present_aligned_n": 16,
+            "present_aligned_correct": 12,
+            "missing_n": 8,
+            "missing_correct": 6
+          }
+        }
+      }
+    },
+    {
+      "probe": "raw_gate_PASS_blocks_challenge_zero_calls",
+      "passed": true,
+      "observed": {
+        "calls": 0,
+        "error": "RuntimeError('Challenge not allowed by frozen natural-error gate')"
+      }
+    },
+    {
+      "probe": "sealed_challenge_final_recovers_without_resampling",
+      "passed": true,
+      "observed": {
+        "calls": 0,
+        "restored": true
+      }
+    },
+    {
+      "probe": "cross_phase_duplicate_sessions_rejected",
+      "passed": true,
+      "observed": {
+        "integrity": false,
+        "duplicates": 1
+      }
+    }
+  ]
+}
