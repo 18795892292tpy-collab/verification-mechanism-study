@@ -1,0 +1,692 @@
+{
+ "nonreasoning": {
+  "standard_family_errors": {
+   "F01": {
+    "errors": 0,
+    "n": 8
+   },
+   "F02": {
+    "errors": 0,
+    "n": 8
+   },
+   "F03": {
+    "errors": 2,
+    "n": 8
+   },
+   "F04": {
+    "errors": 0,
+    "n": 8
+   },
+   "F05": {
+    "errors": 0,
+    "n": 8
+   },
+   "F06": {
+    "errors": 0,
+    "n": 8
+   },
+   "F07": {
+    "errors": 0,
+    "n": 8
+   },
+   "F08": {
+    "errors": 0,
+    "n": 8
+   }
+  },
+  "standard_clustering": {
+   "rho": 1.0,
+   "mean_error": 0.03125,
+   "items": {
+    "dev_strong|F01|base": [
+     0,
+     2
+    ],
+    "dev_strong|F01|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F01|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F01|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F02|base": [
+     0,
+     2
+    ],
+    "dev_strong|F02|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F02|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F02|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F03|base": [
+     0,
+     2
+    ],
+    "dev_strong|F03|decisive_change": [
+     2,
+     2
+    ],
+    "dev_strong|F03|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F03|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F04|base": [
+     0,
+     2
+    ],
+    "dev_strong|F04|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F04|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F04|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F05|base": [
+     0,
+     2
+    ],
+    "dev_strong|F05|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F05|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F05|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F06|base": [
+     0,
+     2
+    ],
+    "dev_strong|F06|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F06|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F06|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F07|base": [
+     0,
+     2
+    ],
+    "dev_strong|F07|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F07|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F07|paraphrase": [
+     0,
+     2
+    ],
+    "dev_strong|F08|base": [
+     0,
+     2
+    ],
+    "dev_strong|F08|decisive_change": [
+     0,
+     2
+    ],
+    "dev_strong|F08|irrelevant_change": [
+     0,
+     2
+    ],
+    "dev_strong|F08|paraphrase": [
+     0,
+     2
+    ]
+   }
+  },
+  "standard_overturn_pause": {
+   "P0": {
+    "aligned_overturn": [
+     1,
+     64
+    ],
+    "missing_escalated": [
+     30,
+     32
+    ]
+   },
+   "P1": {
+    "aligned_overturn": [
+     3,
+     64
+    ],
+    "missing_escalated": [
+     29,
+     32
+    ]
+   },
+   "P2": {
+    "aligned_overturn": [
+     3,
+     64
+    ],
+    "missing_escalated": [
+     28,
+     32
+    ]
+   },
+   "P3": {
+    "aligned_overturn": [
+     3,
+     64
+    ],
+    "missing_escalated": [
+     29,
+     32
+    ]
+   },
+   "P4": {
+    "aligned_overturn": [
+     1,
+     64
+    ],
+    "missing_escalated": [
+     29,
+     32
+    ]
+   }
+  },
+  "standard_branching": {
+   "P1": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 27
+   },
+   "P2": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 27
+   },
+   "P3": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 27
+   },
+   "P4": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 27
+   },
+   "P5": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 27
+   },
+   "P6": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 27
+   }
+  },
+  "hard_family_errors": {
+   "H01": {
+    "errors": 0,
+    "n": 8
+   },
+   "H02": {
+    "errors": 0,
+    "n": 8
+   },
+   "H03": {
+    "errors": 1,
+    "n": 8
+   },
+   "H04": {
+    "errors": 3,
+    "n": 8
+   },
+   "H05": {
+    "errors": 0,
+    "n": 8
+   },
+   "H06": {
+    "errors": 0,
+    "n": 8
+   },
+   "H07": {
+    "errors": 0,
+    "n": 8
+   },
+   "H08": {
+    "errors": 0,
+    "n": 8
+   },
+   "H09": {
+    "errors": 0,
+    "n": 8
+   },
+   "H10": {
+    "errors": 0,
+    "n": 8
+   },
+   "H11": {
+    "errors": 1,
+    "n": 8
+   },
+   "H12": {
+    "errors": 0,
+    "n": 8
+   }
+  },
+  "h04_family_errors": {
+   "H04": {
+    "errors": 13,
+    "n": 64
+   }
+  },
+  "h04_clustering": {
+   "rho": 0.0707070707070707,
+   "mean_error": 0.203125,
+   "items": {
+    "dev_hard_H04_branching|H04|base": [
+     2,
+     8
+    ],
+    "dev_hard_H04_branching|H04|decisive_change": [
+     0,
+     8
+    ],
+    "dev_hard_H04_branching|H04|irrelevant_change": [
+     3,
+     8
+    ],
+    "dev_hard_H04_branching|H04|paraphrase": [
+     1,
+     8
+    ],
+    "dev_r3_H04_branching|H04|base": [
+     1,
+     8
+    ],
+    "dev_r3_H04_branching|H04|decisive_change": [
+     0,
+     8
+    ],
+    "dev_r3_H04_branching|H04|irrelevant_change": [
+     4,
+     8
+    ],
+    "dev_r3_H04_branching|H04|paraphrase": [
+     2,
+     8
+    ]
+   }
+  },
+  "h04_branching_flawed": {
+   "P1": {
+    "repaired": 8,
+    "first_wrong": 13,
+    "damaged": 0,
+    "first_right": 51
+   },
+   "P2": {
+    "repaired": 1,
+    "first_wrong": 13,
+    "damaged": 0,
+    "first_right": 51
+   },
+   "P3": {
+    "repaired": 1,
+    "first_wrong": 13,
+    "damaged": 0,
+    "first_right": 51
+   },
+   "P4": {
+    "repaired": 2,
+    "first_wrong": 13,
+    "damaged": 0,
+    "first_right": 51
+   },
+   "P5": {
+    "repaired": 1,
+    "first_wrong": 7,
+    "damaged": 0,
+    "first_right": 25
+   },
+   "P6": {
+    "repaired": 2,
+    "first_wrong": 7,
+    "damaged": 0,
+    "first_right": 25
+   }
+  },
+  "h04_branching_all": {
+   "P1": {
+    "repaired": 12,
+    "first_wrong": 20,
+    "damaged": 0,
+    "first_right": 108
+   },
+   "P2": {
+    "repaired": 1,
+    "first_wrong": 20,
+    "damaged": 0,
+    "first_right": 108
+   },
+   "P3": {
+    "repaired": 2,
+    "first_wrong": 20,
+    "damaged": 0,
+    "first_right": 108
+   },
+   "P4": {
+    "repaired": 6,
+    "first_wrong": 20,
+    "damaged": 0,
+    "first_right": 108
+   },
+   "P5": {
+    "repaired": 1,
+    "first_wrong": 10,
+    "damaged": 0,
+    "first_right": 54
+   },
+   "P6": {
+    "repaired": 4,
+    "first_wrong": 10,
+    "damaged": 0,
+    "first_right": 54
+   }
+  },
+  "h04_overturn_pause": {
+   "P0": {
+    "aligned_overturn": [
+     7,
+     64
+    ],
+    "missing_escalated": [
+     32,
+     32
+    ]
+   },
+   "P1": {
+    "aligned_overturn": [
+     3,
+     64
+    ],
+    "missing_escalated": [
+     32,
+     32
+    ]
+   },
+   "P2": {
+    "aligned_overturn": [
+     7,
+     64
+    ],
+    "missing_escalated": [
+     32,
+     32
+    ]
+   },
+   "P3": {
+    "aligned_overturn": [
+     6,
+     64
+    ],
+    "missing_escalated": [
+     32,
+     32
+    ]
+   },
+   "P4": {
+    "aligned_overturn": [
+     3,
+     64
+    ],
+    "missing_escalated": [
+     32,
+     32
+    ]
+   },
+   "P5": {
+    "aligned_overturn": [
+     3,
+     32
+    ],
+    "missing_escalated": [
+     16,
+     16
+    ]
+   },
+   "P6": {
+    "aligned_overturn": [
+     1,
+     32
+    ],
+    "missing_escalated": [
+     16,
+     16
+    ]
+   }
+  }
+ },
+ "reasoning": {
+  "family_errors": {
+   "F01": {
+    "errors": 0,
+    "n": 2
+   },
+   "F02": {
+    "errors": 0,
+    "n": 3
+   },
+   "F03": {
+    "errors": 0,
+    "n": 3
+   },
+   "F04": {
+    "errors": 0,
+    "n": 2
+   },
+   "F05": {
+    "errors": 0,
+    "n": 1
+   },
+   "F06": {
+    "errors": 0,
+    "n": 3
+   },
+   "F07": {
+    "errors": 0,
+    "n": 3
+   },
+   "F08": {
+    "errors": 0,
+    "n": 3
+   },
+   "H01": {
+    "errors": 0,
+    "n": 2
+   },
+   "H02": {
+    "errors": 0,
+    "n": 1
+   },
+   "H03": {
+    "errors": 0,
+    "n": 1
+   },
+   "H05": {
+    "errors": 0,
+    "n": 1
+   },
+   "H06": {
+    "errors": 0,
+    "n": 1
+   },
+   "H07": {
+    "errors": 0,
+    "n": 3
+   },
+   "H09": {
+    "errors": 0,
+    "n": 3
+   },
+   "H10": {
+    "errors": 0,
+    "n": 2
+   },
+   "H12": {
+    "errors": 0,
+    "n": 2
+   }
+  },
+  "branching": {
+   "P1": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 68
+   },
+   "P2": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 68
+   },
+   "P3": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 68
+   },
+   "P4": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 68
+   },
+   "P5": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 68
+   },
+   "P6": {
+    "repaired": 0,
+    "first_wrong": 0,
+    "damaged": 0,
+    "first_right": 68
+   }
+  },
+  "overturn_pause": {
+   "P0": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     19,
+     20
+    ]
+   },
+   "P1": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     19,
+     20
+    ]
+   },
+   "P2": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     19,
+     20
+    ]
+   },
+   "P3": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     19,
+     20
+    ]
+   },
+   "P4": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     19,
+     20
+    ]
+   },
+   "P5": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     19,
+     20
+    ]
+   },
+   "P6": {
+    "aligned_overturn": [
+     0,
+     32
+    ],
+    "missing_escalated": [
+     20,
+     20
+    ]
+   }
+  },
+  "h04_p0_family_errors": {
+   "H04": {
+    "errors": 0,
+    "n": 32
+   }
+  }
+ }
+}

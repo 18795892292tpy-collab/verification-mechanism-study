@@ -36,7 +36,7 @@
 
 ## 先读这些
 
-1. `mechanism_study/report/dev_report.md`：已做实验的全部结果（第 1–12 节），每节按 原目标—方法—结果—解释—下一步 写。
+1. `mechanism_study/report/dev_report.md`：已做实验的全部结果（第 1–13 节），每节按 原目标—方法—结果—解释—下一步 写。
 2. `mechanism_study/README.md`：程序 P0–P6 的定义和运行方法。
 3. `mechanism_study/analysis/analysis_plan.md`：预先规定的分析（C1、C2、C3、NI1、NI2）。
 4. `.claude/skills/verification-case-builder/SKILL.md` 及其 `references/`：如何编写和检查案例家族（尤其 `hard_tier.md`）。
